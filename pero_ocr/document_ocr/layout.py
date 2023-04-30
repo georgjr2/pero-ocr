@@ -46,6 +46,9 @@ class TextLine(object):
         self.logit_coords = logit_coords
         self.transcription_confidence = transcription_confidence
 
+    def __repr__(self) -> str:
+        return "\r\n[{}] {}".format(self.id, self.transcription)
+
     def get_dense_logits(self, zero_logit_value=-80):
         dense_logits = self.logits.toarray()
         dense_logits[dense_logits == 0] = zero_logit_value
@@ -62,6 +65,15 @@ class RegionLayout(object):
         self.polygon = polygon  # bounding polygon
         self.lines = []
         self.transcription = None
+
+    def __repr__(self) -> str:
+        return "\r\nRegionLayout(id={}, polygon_count={}, lines={})".format(self.id, len(self.polygon), self.lines)
+    
+    def get_region_transcription(self) -> str:
+        joined_lines = []
+        for line in self.lines:
+            joined_lines.append(line.transcription)
+        return ' '.join(joined_lines)
 
     def to_page_xml(self, page_element, validate_id=False):
         region_element = ET.SubElement(page_element, "TextRegion")
@@ -136,6 +148,9 @@ class PageLayout(object):
         self.regions = []  # list of RegionLayout objects
         if file is not None:
             self.from_pagexml(file)
+
+    def __repr__(self) -> str:
+        return "PageLayout(id={}, page_size={}, regions={})".format(self.id, self.page_size, self.regions)
 
     def from_pagexml_string(self, pagexml_string):
         self.from_pagexml(BytesIO(pagexml_string))

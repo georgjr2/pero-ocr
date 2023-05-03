@@ -10,18 +10,24 @@ from pero_ocr.document_ocr.layout import PageLayout
 import os
 import sys
 import matplotlib.pyplot as plt
+import regions
 from shapely.geometry import Polygon
+import yaml
 
-login = "3482488a15f00a9aad6021001c1ad921"
+# Set year, test number and page you want to check. DisplayPage starts at index 1
 
-question1 = [(122,390), (2430,357), (2430, 580), (122, 658), (122,390)]
-answer1 = [(120, 1639), (2436, 1576), (2434, 647), (120, 680), (120, 1639)]
+year = '2022'
+test = '1'
+displayPage = 1
 
-question2 = [(31, 1650), (2360, 1580), (2360, 1965), (80, 2022), (31, 1650)]
-answer2 = [(42, 2075), (2405, 2011), (2400, 3315), (45, 3290), (42, 2075)]
+#################################################################################
 
-polygons = [question1, answer1, question2, answer2]
 color = ['red', 'green', 'black', 'orange']
+
+currentPageNum = 0
+currentPerson = 0
+saveCurrentPage = False
+pagesRegions = {}
 
 # argv1 = folder with xmls
 # argv2 = folder with hashed logins
@@ -36,30 +42,73 @@ class Person:
 
 persons = []
 
-def getPageRegions(file):
-    layout = PageLayout(file=file)
-    
+def on_press(event):
+    global currentPageNum
+    global currentPerson
+    global saveCurrentPage
+    if event.key == 'n':
+        saveCurrentPage = True
+        plt.close(event.canvas.figure)
+        currentPerson += 1  
+    if event.key == '1':
+        currentPageNum = 0
+        plt.close(event.canvas.figure)
+    if event.key == '2':
+        currentPageNum = 1
+        plt.close(event.canvas.figure)
+    if event.key == '3':
+        currentPageNum = 2
+        plt.close(event.canvas.figure)
+    if event.key == '4':
+        currentPageNum = 3
+        plt.close(event.canvas.figure)
+    if event.key == '5':
+        currentPageNum = 4
+        plt.close(event.canvas.figure)
+    if event.key == '6':
+        currentPageNum = 5
+        plt.close(event.canvas.figure)
+    if event.key == '7':
+        currentPageNum = 6
+        plt.close(event.canvas.figure)
+
+def getPageRegions(layout):
+    separatedRegions = [[], [], [], []]
     for region in layout.regions:
         max = 0
         index = 0
-        for i in range(0, len(polygons)):
-            p = Polygon(polygons[i])
+        for i in range(0, len(regions.template[currentPageNum])):
+            p = Polygon(regions.template[currentPageNum][i])
             q = Polygon(region.polygon)
             area = p.intersection(q).area
             if area > max:
                 max = area
                 index = i
         if max > 0:
+            separatedRegions[index].append(region.id)
             polygonColor = color[index]
         else: 
             polygonColor = 'yellow'
         xs, ys = zip(*region.polygon)
         plt.plot(xs,ys, color=polygonColor) 
         plt.text(xs[0], ys[0], region.get_region_transcription())
-
-        #print(region.get_region_transcription())
-        
     plt.show() 
+    return separatedRegions
+
+def writeRegions(separatedRegions, fileId, personId):
+    if fileId not in pagesRegions:
+        pagesRegions[fileId] = {
+            'year' : year,
+            'test' : test,
+            'login' : personId,
+            'questions': {},
+            'answers': {}
+        }
+    pagesRegions[fileId]['questions'][currentPageNum * 2] = separatedRegions[0]
+    pagesRegions[fileId]['questions'][currentPageNum * 2 + 1]= separatedRegions[2]
+    pagesRegions[fileId]['answers'][currentPageNum * 2] = separatedRegions[1]
+    pagesRegions[fileId]['answers'][currentPageNum * 2 + 1] = separatedRegions[3]
+    yaml.dump(pagesRegions, yamlfile, default_flow_style=False)
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
@@ -68,6 +117,16 @@ if __name__ == '__main__':
     print(sys.argv)
     folder = sys.argv[1]
     fileAnn = sys.argv[2]
+
+    yamlOutputName = year + '_' +test + '.yaml'
+
+    #load existing yaml
+    try:
+        with open(yamlOutputName,'r') as yamlfile:
+            pagesRegions = yaml.safe_load(yamlfile)
+    except:
+        pagesRegions = {}
+
     with open(fileAnn) as f:
         #find login in file
         for line in f:
@@ -80,7 +139,26 @@ if __name__ == '__main__':
                     break
             if found == False:
                 persons.append(Person(lineSplit[1], lineSplit[0]))
-                #getPageRegions(line)
-    for file in os.listdir(folder):
-        if persons[0].examHashs[0] in file:
-            getPageRegions(folder + file)
+
+    while currentPerson < len(persons):
+        findPerson = False
+        fileId = ''
+        personId = ''
+        for file in os.listdir(folder):
+            if persons[currentPerson].examHashs[displayPage - 1] in file:
+                findPerson = True
+                fig, ax = plt.subplots()
+                fig.canvas.mpl_connect('key_press_event', on_press)
+                layout = PageLayout(file=folder + file)
+                separatedRegions = getPageRegions(layout)
+                fileId = file
+                personId = persons[currentPerson - 1].id 
+                break
+
+        if saveCurrentPage:
+            with open(yamlOutputName,'w') as yamlfile:
+                writeRegions(separatedRegions, fileId, personId)
+            saveCurrentPage = False
+
+        if not findPerson:
+            currentPerson += 1

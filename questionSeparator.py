@@ -6,9 +6,19 @@
 #         plt.text(xs[0], ys[0], region.get_region_transcription())
 #     plt.show() 
 
+
+### USAGE ###
+# python3 questionSeparator.py <folder with xmls > <folder with hashed logins (ann/)>
+
+
+# EXAMPLE:
+# python3 questionSeparator.py pero.page_xml.transformer_medium.removed/ ann/
+
 from pero_ocr.document_ocr.layout import PageLayout
 import os
 import sys
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import regions
 from shapely.geometry import Polygon
@@ -19,8 +29,9 @@ import yaml
 # Set year, test number and page you want to check. DisplayPage starts at index 1
 
 year = '2022'
+group = 'B'
 test = '1'
-displayPage = 1
+displayPage = 2
 
 #################################################################################
 
@@ -115,15 +126,30 @@ def writeRegions(separatedRegions, fileId, personId):
     pagesRegions[fileId]['answers'][currentPageNum * 2 + 1] = separatedRegions[3]
     yaml.dump(pagesRegions, yamlfile, default_flow_style=False)
 
+def personIsFromAnotherGroup(personId, group):
+    fileName = "body-{}_{}.txt.uniform.anon".format(year, test)
+    filePath = os.path.join(sys.argv[2], fileName)
+    with open(filePath) as f:
+        for line in f:
+            lineSplit = line.split()
+            if lineSplit[0] == personId:
+                if lineSplit[1][0] != group:
+                    # print("Person {} is from another group".format(personId))
+                    return True
+                else:
+                    # print("Person {} is from this group".format(personId))
+                    return False
+
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("Usage: python3 xmlParser.py <file>")
         sys.exit(1)
     print(sys.argv)
     folder = sys.argv[1]
-    fileAnn = sys.argv[2]
+    fileAnnName = "{}_{}.page-login.hashed".format(year, test)
+    fileAnn = os.path.join(sys.argv[2], fileAnnName)
 
-    yamlOutputName = year + '_' +test + '.yaml'
+    yamlOutputName = year + '_' + test + '.yaml'
 
     #load existing yaml
     try:
@@ -137,6 +163,8 @@ if __name__ == '__main__':
         for line in f:
             lineSplit = line.split()
             found = False
+            if personIsFromAnotherGroup(lineSplit[1], group):
+                continue
             for person in persons:
                 if person.id == lineSplit[1]:
                     person.examHashs.append(lineSplit[0])
@@ -154,7 +182,7 @@ if __name__ == '__main__':
                 findPerson = True
                 fig, ax = plt.subplots()
                 fig.canvas.mpl_connect('key_press_event', on_press)
-                layout = PageLayout(file=folder + file)
+                layout = PageLayout(file=os.path.join(folder, file))
                 separatedRegions = getPageRegions(layout)
                 fileId = file
                 personId = persons[currentPerson - 1].id 

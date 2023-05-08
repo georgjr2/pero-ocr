@@ -12,6 +12,8 @@ import sys
 import matplotlib.pyplot as plt
 import regions
 from shapely.geometry import Polygon
+from shapely.affinity import translate
+from shapely import Point
 import yaml
 
 # Set year, test number and page you want to check. DisplayPage starts at index 1
@@ -28,6 +30,8 @@ currentPageNum = 0
 currentPerson = 0
 saveCurrentPage = False
 pagesRegions = {}
+
+transformationMatrix = [0, 0]
 
 # argv1 = folder with xmls
 # argv2 = folder with hashed logins
@@ -48,29 +52,27 @@ def on_press(event):
     global saveCurrentPage
     if event.key == 'n':
         saveCurrentPage = True
-        plt.close(event.canvas.figure)
-        currentPerson += 1  
+        currentPerson += 1
+        transformationMatrix[1] = 0
     if event.key == '1':
         currentPageNum = 0
-        plt.close(event.canvas.figure)
     if event.key == '2':
         currentPageNum = 1
-        plt.close(event.canvas.figure)
     if event.key == '3':
         currentPageNum = 2
-        plt.close(event.canvas.figure)
     if event.key == '4':
         currentPageNum = 3
-        plt.close(event.canvas.figure)
     if event.key == '5':
         currentPageNum = 4
-        plt.close(event.canvas.figure)
     if event.key == '6':
         currentPageNum = 5
-        plt.close(event.canvas.figure)
     if event.key == '7':
         currentPageNum = 6
-        plt.close(event.canvas.figure)
+    if event.key == "up":
+        transformationMatrix[1] = transformationMatrix[1] + 100
+    if event.key == "down":
+        transformationMatrix[1] = transformationMatrix[1] - 100
+    plt.close(event.canvas.figure)
 
 def getPageRegions(layout):
     separatedRegions = [[], [], [], []]
@@ -79,6 +81,9 @@ def getPageRegions(layout):
         index = 0
         for i in range(0, len(regions.template[currentPageNum])):
             p = Polygon(regions.template[currentPageNum][i])
+            p = translate(p, xoff=transformationMatrix[0], yoff=transformationMatrix[1])
+            x, y = p.exterior.xy
+            plt.plot(x, y, color='grey')
             q = Polygon(region.polygon)
             area = p.intersection(q).area
             if area > max:

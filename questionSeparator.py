@@ -31,13 +31,13 @@ import yaml
 year = '2022'
 group = 'B'
 test = '1'
-displayPage = 2
+displayPage = 7
 
 #################################################################################
 
 color = ['red', 'green', 'black', 'orange']
 
-currentPageNum = 0
+currentPageNum = displayPage - 1
 currentPerson = 0
 saveCurrentPage = False
 pagesRegions = {}
@@ -65,6 +65,9 @@ def on_press(event):
         saveCurrentPage = True
         currentPerson += 1
         transformationMatrix[1] = 0
+    if event.key == "m":
+        currentPerson += 1
+        saveCurrentPage = False
     if event.key == '1':
         currentPageNum = 0
     if event.key == '2':
@@ -80,9 +83,9 @@ def on_press(event):
     if event.key == '7':
         currentPageNum = 6
     if event.key == "up":
-        transformationMatrix[1] = transformationMatrix[1] + 100
+        transformationMatrix[1] = transformationMatrix[1] + 19
     if event.key == "down":
-        transformationMatrix[1] = transformationMatrix[1] - 100
+        transformationMatrix[1] = transformationMatrix[1] - 19
     plt.close(event.canvas.figure)
 
 def getPageRegions(layout):
@@ -96,7 +99,11 @@ def getPageRegions(layout):
             x, y = p.exterior.xy
             plt.plot(x, y, color='grey')
             q = Polygon(region.polygon)
-            area = p.intersection(q).area
+            try:
+                area = p.intersection(q).area
+            except Exception as e:
+                print(e)
+                return None
             if area > max:
                 max = area
                 index = i
@@ -149,7 +156,7 @@ if __name__ == '__main__':
     fileAnnName = "{}_{}.page-login.hashed".format(year, test)
     fileAnn = os.path.join(sys.argv[2], fileAnnName)
 
-    yamlOutputName = year + '_' + test + '.yaml'
+    yamlOutputName = year + '_' + test + '_' + str(currentPageNum + 1) + '.yaml'
 
     #load existing yaml
     try:
@@ -184,8 +191,12 @@ if __name__ == '__main__':
                 fig.canvas.mpl_connect('key_press_event', on_press)
                 layout = PageLayout(file=os.path.join(folder, file))
                 separatedRegions = getPageRegions(layout)
+                if separatedRegions == None:
+                    currentPerson += 1
+                    break
                 fileId = file
                 personId = persons[currentPerson - 1].id 
+                print(currentPerson + 1, '/', len(persons))
                 break
 
         if saveCurrentPage:

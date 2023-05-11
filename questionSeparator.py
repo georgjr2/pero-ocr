@@ -29,9 +29,9 @@ import yaml
 # Set year, test number and page you want to check. DisplayPage starts at index 1
 
 year = '2022'
-group = 'A'
+group = 'B'
 test = '2'
-displayPage = 1
+displayPage = 7
 
 #################################################################################
 
@@ -170,8 +170,8 @@ if __name__ == '__main__':
         for line in f:
             lineSplit = line.split()
             found = False
-            if personIsFromAnotherGroup(lineSplit[1], group):
-                continue
+            # if personIsFromAnotherGroup(lineSplit[1], group):
+            #     continue
             for person in persons:
                 if person.id == lineSplit[1]:
                     person.examHashs.append(lineSplit[0])

@@ -20,7 +20,7 @@ import sys
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-import regions
+import regionsA_2022_2 as regions
 from shapely.geometry import Polygon
 from shapely.affinity import translate
 from shapely import Point
@@ -29,9 +29,9 @@ import yaml
 # Set year, test number and page you want to check. DisplayPage starts at index 1
 
 year = '2022'
-group = 'B'
-test = '1'
-displayPage = 7
+group = 'A'
+test = '2'
+displayPage = 1
 
 #################################################################################
 
@@ -185,6 +185,9 @@ if __name__ == '__main__':
         fileId = ''
         personId = ''
         for file in os.listdir(folder):
+            if len(persons[currentPerson].examHashs) < displayPage:
+                currentPerson += 1
+                continue
             if persons[currentPerson].examHashs[displayPage - 1] in file:
                 findPerson = True
                 fig, ax = plt.subplots()

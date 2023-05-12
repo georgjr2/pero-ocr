@@ -15,6 +15,10 @@ def getTranscriptionPointPair(page):
         return
     res = []
     for idx in iter(page["answers"]):
+        if page["questions"][idx] == "":
+            continue
+        if page["answers"][idx] == "":
+            page["points"][idx] = "0"
         x = {"questionNum": idx+1, "promptRaw":  page["answers"][idx], "completion": page["points"][idx], "login": page["login"], "year": page["year"], "test": page["test"], "questionTextRaw": page["questions"][idx]}
         res.append(x)
     return res

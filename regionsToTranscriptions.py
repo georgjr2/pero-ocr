@@ -93,7 +93,7 @@ if __name__ == '__main__':
         Merge(yamlData, newDict)
         yamlData = newDict
         yamlOutputName = folder + 'transcripted.yaml'
-    print(yamlData)
+    # print(yamlData)
     with open(yamlOutputName,'w') as yamlfile:
         yaml.dump(yamlData, yamlfile, default_flow_style=False, allow_unicode=True)
     print("Done")

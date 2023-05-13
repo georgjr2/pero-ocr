@@ -42,6 +42,24 @@ def compareMSE(data):
     return mseValues
 
 
+def getTestScoreMSE(data):
+
+    trueTestScores = []
+    predictionTestScores = []
+
+    for login in data:
+        trueScore = 0
+        predictionScore = 0
+        for questionNum in range(1, 15):
+            if questionNum in data[login]:
+                trueScore += float(data[login][questionNum]['truth'])
+                predictionScore += data[login][questionNum]['pred']
+        #print("truth: ", trueScore)
+        #print("prediction:  ", predictionScore)
+        trueTestScores.append(trueScore)
+        predictionTestScores.append(predictionScore)
+    return mean_squared_error(trueTestScores, predictionTestScores)
+            
 def plotTestPoints(data, ax):
     xArr = []
     yArr = []
@@ -84,27 +102,44 @@ if __name__ == '__main__':
     mseVals4 = compareMSE(data4)
 
     X = [1,2,3,4,5,6,7,8,9,10,11,12,13, 14]
-    figure, axis = plt.subplots(2,2)
+    figure, axis = plt.subplots(3,2)
 
 
     axis[0, 0].plot(X, mseVals1,'--bo',color='blue')
     axis[0, 0].set_title("2022-1-B-openAI")
     
-    # For Cosine Function
+    #
     axis[0, 1].plot(X, mseVals2,'--bo',color='blue')
     axis[0, 1].set_title("2022-1-B-bert")
     
-    # For Tangent Function
+    # 
     axis[1, 0].plot(X, mseVals3,'--bo',color='blue')
     axis[1, 0].set_title("2022-1-A-babbage")
     
-    # For Tanh Function
+    # 
     axis[1, 1].plot(X, mseVals4 ,'--bo',color='blue')
     axis[1, 1].set_title("to posledne")
 
+    """
     print(calcTotalMseError(data1))
     print(calcTotalMseError(data2))
     print(calcTotalMseError(data3))
     print(calcTotalMseError(data4))
+    """
+    testMse1 = getTestScoreMSE(data1)
+    testMse2 = getTestScoreMSE(data2)
+    testMse3 = getTestScoreMSE(data3)
+    testMse4 = getTestScoreMSE(data4)
 
+    wholeTestMSE = []
+    wholeTestMSE.append(testMse1)
+    wholeTestMSE.append(testMse2)
+    wholeTestMSE.append(testMse3)
+    wholeTestMSE.append(testMse4)
+
+    Xnew = ['test1', 'test2','test3','test4']
+    #MSE whole test
+    axis[2, 0].plot(Xnew, wholeTestMSE ,'o',color='blue')
+    axis[2, 0].set_title("MSE for the whole test")
+    
     plt.show()

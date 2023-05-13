@@ -15,7 +15,7 @@ def getRandomOtherThen(questionNum, data):
             res.append(item)
     return res
 
-def parseItem(question, answer, completion, questionNum):
+def parseItem(question, answer, completion):
     answer = answer.strip(";")
     question = question.strip(";")
     prompt = "For question: " + question + " , grade answer (from 0 to 4): " + answer
@@ -28,10 +28,10 @@ if __name__ == "__main__":
         if item["completion"] == "???":
             continue
         item["completion"] = str(int(float(item["completion"])))
-        final.append(parseItem(item["questionTextRaw"], item["promptRaw"], item["completion"], item["questionNum"]))
+        final.append(parseItem(item["questionTextRaw"], item["promptRaw"], item["completion"]))
         others = getRandomOtherThen(item["questionNum"], data)
         for other in others:
-            final.append(parseItem(item["questionTextRaw"], other["promptRaw"], "0", item["questionNum"]))
+            final.append(parseItem(item["questionTextRaw"], other["promptRaw"], "0"))
     with open("trainingDataOPENAI.json", 'w', encoding='utf8') as f:
         json.dump(final, f, ensure_ascii=False)
     print("Done")

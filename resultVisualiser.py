@@ -1,6 +1,7 @@
 import yaml
 import sys
 import os
+import re
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
@@ -108,26 +109,36 @@ if __name__ == '__main__':
 
 
     axis[0, 0].plot(X, mseVals1,'--bo',color='blue')
-    axis[0, 0].set_title("Test 1 -- {} MSE".format(sys.argv[1]))
+    axisTitle  = os.path.basename(sys.argv[1])
+    axisTitle = axisTitle.split('.yaml')[0]
+    axis[0, 0].set_title("Test 1 -- {} MSE".format(axisTitle))
     axis[0, 0].set_ylim(1,6)
     
     #
     axis[0, 1].plot(X, mseVals2,'--bo',color='blue')
-    axis[0, 1].set_title("Test 2 -- {} MSE".format(sys.argv[2]))
+    axisTitle  = os.path.basename(sys.argv[2])
+    axisTitle = axisTitle.split('.yaml')[0]
+    axis[0, 1].set_title("Test 2 -- {} MSE".format(axisTitle))
     axis[0, 1].set_ylim(1,6)
     
     # 
     axis[1, 0].plot(X, mseVals3,'--bo',color='blue')
-    axis[1, 0].set_title("Test 3 -- {} MSE".format(sys.argv[3]))
+    axisTitle  = os.path.basename(sys.argv[3])
+    axisTitle = axisTitle.split('.yaml')[0]
+    axis[1, 0].set_title("Test 3 -- {} MSE".format(axisTitle))
     axis[1, 0].set_ylim(1,6)
     
     # 
     axis[1, 1].plot(X, mseVals4 ,'--bo',color='blue')
-    axis[1, 1].set_title("Test 4 -- {} MSE".format(sys.argv[4]))
+    axisTitle  = os.path.basename(sys.argv[4])
+    axisTitle = axisTitle.split('.yaml')[0]
+    axis[1, 1].set_title("Test 4 -- {} MSE".format(axisTitle))
     axis[1, 1].set_ylim(1,6)
 
     axis[2, 1].plot(X, mseVals5 ,'--bo',color='blue')
-    axis[2, 1].set_title("Test 5 -- {} MSE".format(sys.argv[5]))
+    axisTitle  = os.path.basename(sys.argv[5])
+    axisTitle = axisTitle.split('.yaml')[0]
+    axis[2, 1].set_title("Test 5 -- {} MSE".format(axisTitle))
     axis[2, 1].set_ylim(1,6)
 
     """

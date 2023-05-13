@@ -1,0 +1,2304 @@
+0adb677b374a6fe1f51ca0084710d05e:
+  4:
+    pred: 4
+    text: '*;D,;2;3;5;6;s;3;8;S;9;s;10;Š;C XII;+;D D, 3;IX;Or: 3x2 = 3 Q: X32X1;�
+      at x3 xX1, tak počeme - podľahkého propaganito;upraviť D3 a D1'
+    truth: 4
+  8:
+    pred: 0
+    text: P(NAKAZENY) = 0,2 P(ZDRAVÍ) = 1 - P(NAKAZENÍ = 0,8 P(POZ|I NAKAZENÍ) = 0,9
+      P(ZDRAVÍ / POZ) = 0,1;P(X|= PEP|x|y) P(x|4) = P(X|Y). P(4) = P|4|X) � P(X) P(F|X)
+      - APLX) P(X|Y) =;P(4);P(POZITIVNA) = ???;P(NEGINALIZENT) = 0,1 PINAKAZENÍ POZD
+      = 0, 9;P(POZITIVNÍ) =;P(POZI NAKAR). P(NAKAZY;P(X|Y) = PLYIH).;P(4);PL+;L (PE);P(X|M.
+      P(4) = p(4|X). P(X) / IPEXIM) P(C|X) = P(YX). PLX);P(NAKAZIPOZ);P(X|4);P(POZITIVNÍ)
+      =;0,9. 0,2;0,9
+    truth: 4
+  10:
+    pred: 1
+    text: acyklický, orientovaný graf;neúroy
+    truth: 4
+  11:
+    pred: 0
+    text: to;jednotlivých;XI;X.;konvolučných jadrec;učitelně parametre;x2 x3;moh ac
+      .x;=počet parametrů;žila vyšla počet ; zugsfürste erst nicht am Ende dahin an
+      Heraus genommen werden wird u. erst noch nicht anders das Eine verspachen verschien
+      verseit deien versen Berseichen ven versen den veren zu zu zu zu zich zich zu
+      zu zu zu zu der zu ver zu der zu der der Ba jádra jádra lampion;počet konvoluční
+    truth: 4
+  13:
+    pred: 2
+    text: 1. dostane vektor vstyčení slova 2. vygeneruje najpravd podobně 1. slovo
+      w2 za vstupného vektora 3. geneze další strá nasledují � podľa pravdepodobnosti
+      predchádzajúcich slov generuje dobře nejpravdepodobnějšie skoro p (w2/w1)...
+      p(w3/ w2, was)... Ev(max/w3, wz, wa )... preto například CHAT-67-6 genuje skoro
+      za slovou, pretože pravdepodoboť nového slova je podměnená pravdepodobnotou
+      joint pravdepodobnosti všechých předchádzajících vygenerovaných slov
+    truth: 4
+1101bdc0b19ca8bc615b343a37e69620:
+  1:
+    pred: 3
+    text: N;od 0 popud pokud xpokud odlepí;pravději po;zdivit;ABX
+    truth: 4
+  3:
+    pred: 2
+    text: greaty search - a* (problem, 0, h) - a* (problem, 0, 0);DFS
+    truth: 2
+14104d6befbe6fa59edb9c12efc1fde3:
+  3:
+    pred: 2
+    text: 'greedy search: g = g h=D DFS: g = 0 - počet hĺbky h = 0'
+    truth: 2
+  4:
+    pred: 4
+    text: 1;3;8;XI.;82;X;X;1;X;X;X;x;X;x;x;Starosta:;3x2 = X3 X3 L3X2;P1 4,53 D2 =
+      {1, 2, 3, 4, 5, 6, 7, 8, 10} D3 + 1, 23;1;3 87 3
+    truth: 1
+  8:
+    pred: 4
+    text: P(nakoze P(Poz inak) = 0,9 P(zdy|poz) = 0,1 � P(nákl. pož) - 1 (zd. lož);0,92;p(nak)
+      POZI;99;92;P(pozitivny) = 20%;20%;P(pozinak) =;(nakl. poz) p(Pož);p(nak) P(pozinak).
+      p(nak) = P(nak) Poz). P(POZ)
+    truth: 4
+  13:
+    pred: 1
+    text: V dekodéri je na začiatku vety START, pričom sa sieť snaží predikovať prvé
+      slovo. V dalšom kroku sa jej odhalí prvé slovo vety, na základe kterého V dalšom
+      kroku už bude mať k dispozicii kontext sa snaží doplnit dalšie slovo. dvoch
+      slov na základe kterých bude doplňať dalšie... p(w1)... p(w2 (w1) p(w3) w1,
+      co2)... (Peon|w1, w2, w3, ...)
+    truth: 3
+  14:
+    pred: 2
+    text: Ale bude agent dostávať odmenu iba pri splnění úlohy, tak "nebude mať pochopenie“
+      prečo presne robil nejaké akcie, ale iba informáciu. že tieho akce vedú k odmeně;Ale
+      bude dostávať agent odmenu priebežne tak bude lepšie chápať výz akcii“. Odmena
+      však nesmil byť moc velká.;Referoval sám k body movement reinforcement learningu.
+      Ale chceme agenta (35 postavu) naučiť chodiť, tak mu dáme väčšiu odmenu, ak
+      bude chodiť dopredu namiesto dozadu pri jednotlivých body movementoch.
+    truth: 4
+1470d08ba3cc205b74780668fd31047f:
+  1:
+    pred: 1
+    text: DB;ABX
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;G 50 Můžeme vynechat 2uzly.;e
+    truth: 4
+  7:
+    pred: 2
+    text: jsou trenovací data. parabola je výsledek polynomiální regrese druhého řádu.
+      Model generalizuje protože se jedná o data s podaným rozložením pokud by jsme
+      zvednuli rád napríliž velkou hodnotu může se stát, že bude regrese přetrénovaná
+      a na nová data nebude odpovídat správně
+    truth: 3
+  12:
+    pred: 1
+    text: 01 - 71 03 - 412 73
+    truth: 3
+16c6668cb781a439cd65dd36354b9847:
+  7:
+    pred: 4
+    text: D1;p = flx/= wo + writt + w2;-> model generalizuje, lebo ná dostatek dát
+      a daná funkcia je neprehlídka presne trenovacíni dátani � aby negeneralizoval,
+      tak by sa muselo zmenšit počet dát, alebo zvýšit stupeň polynózu, teda model
+      by dokonale fungoval na trenovacích dátach, no na nových by refungoval správu
+    truth: 1
+  8:
+    pred: 4
+    text: p(rozkazný) = 0,2 p (pozitivny) (nakazaný) =0, 9 p (rakuzý /pozitivy) =0,9
+      P(pozitivy) =? p(rakurej / pozitivy) = 0,9 . p(pozitivy) = 0,9;pozitivy / nakerý).
+      P(nakazuj) P(pozitivy) 0,2;p(pozitivy/nakazený). P(nakazuj) => p(pozitivy) =
+      prakazený (pozitivní) Je 20 % pravdepodobnosť, že text více pozitivek.;p (zdravý/pozitivy)
+      = 0,1 a P(nakazý|pozitivy) = 1-P(zdravý/pocitím)
+    truth: 4
+2999da745d9319388937680319e94ef8:
+  1:
+    pred: 2
+    text: 'A;Nejprve provedeme 3krát po sobě akti A, tím se vždy dostaneme do stavu
+      2: 132 32 1325 2 42 541 + z 32 ze stavu 2 potom může- me přejít do stavu O pomocí
+      sekvence. Celková posloupnost je tedy (Aj Aj A; A; B; X), bez ohledu na počáteční
+      stav.'
+    truth: 4
+  4:
+    pred: 4
+    text: '3x2 x3: D2 = {1, 2, 3}; 83 = 64, 5, 6, 7, 8; 9i 10} X3K XI: DA = §53; D3
+      = E43 3x2 x 3: D2 = {13; D3 = E43 X3. XI: D1 = §53: = 53.;D1 = {53; D2 = {1
+      1}; D3 } 4}.'
+    truth: 4
+  7:
+    pred: 4
+    text: K=8;KART.;přesně;Rozložení Řešení se snaží nálezt spojitou funkci, kterou
+      aproximuje diskretních bodů v rovině Generalizuje díky tomu, že je omezený na
+      druhý řád (K=2) aby, takže musí aproximo Při extremě vysokém řádu by prostě
+      udělal nějakou šílenou vhodku, která sice přesně protne všechny body, ale bude
+      nám naprosto k ničemu
+    truth: 4
+  14:
+    pred: 3
+    text: U odměny pouze při splnění úlohy se muže stát, že bude odměňování příliš
+      řídké a agent se nikdy nenaučí (příliš moho možností (kroků, nikdy nevybere
+      zcela správně -> nikdy nebude odměněn). Při příliš častém dílčím odměňování
+      si naopak může zapamatovat méně efektivní cestu k cíli (stále je za ni odměněn,
+      tak nehledá optimálnější řešení.)
+    truth: 4
+2a75e5d12870ce9323a75192fef31a49:
+  3:
+    pred: 2
+    text: '- preedy search = A* problem, 0, 4) - DFS = AX (problem, 8, 0)'
+    truth: 2
+  4:
+    pred: 3
+    text: D1 = {1, 2, 3, 4, 5} D2 = {1, 2, 3, 4, 5, 6, 7, 8, 10} D3 = {1, 2, 3, 4,
+      5, 6, 7, 8, 10};D1 = {2, 3, 4, 5} D2 = {1, 2, 3} D3 = {1, 2, 4};D1 = {5} D2
+      = {1, 42;D
+    truth: 4
+  6:
+    pred: 2
+    text: '- peneratívny modeluje rozdelenie hustoty pravdepodobnosti pre jednotlivé
+      triedy a je schopný povedať s akou pravdepodobnosťou dáta patria do danej triedy
+      - diskriminativní van ich "naturdo" rozděluje a je schopný povedať rovno že
+      do anej triedy dá to patrí sorerativny je napríklad Gausovská klasifikátor -
+      rozpoznávání s nutné rozumové - dokáže určiť pravděpodobnosti jednotlivých tried
+      liškriminativny môže buť napríklad ineárna regresi citlivý na pretrénovanie
+      nearest-nějšho do besedy'
+    truth: 1
+  7:
+    pred: 2
+    text: '- data - polu normálna regresiu model generalizuje pretože správne odhadol
+      frend dát. Ah Bude taký to trend dalej pokračovat tak s návastom dát sa tunnela
+      zmení len minimálně;negeneralizoval by ak by bola warkova pretrénovaní čo by
+      model sa na obrázku prejavilo napríklad presným spojením jednotlivých dát. Toto
+      správanie je ne žaradáce protože je velmi nepravdepodobné že v budúcnosti prídu
+      presne rovnaké dáta. Chceme docieliť aby sa model (generalizoval teda aby správne
+      klasifikoval aj dáta ktoré ešte neviděl petrénovanie je možné vyviešiť znížením
+      polunomu ale to zvýšením počtu da'
+    truth: 3
+  9:
+    pred: 2
+    text: Strousal NATIVOU AI deep learning shallow learning ja že podobný;- vodotiha
+      - počítačové vidence - strojové učenie - Neurónové siete v posilované učenie
+    truth: 4
+  10:
+    pred: 1
+    text: Musí se jednat;O ORIENTOVANÝ a ACYkLICKÝ svat;u Dobré se sešlo x3= max(w|x10)
+      x2 = max(w|x, 0);zlý príklad ba bol;EDIOSOSEJ-TOALE
+    truth: 4
+  12:
+    pred: 1
+    text: en (F, I2);VSTAD;po;KART.
+    truth: 2
+  13:
+    pred: 2
+    text: výstupné sekvencie sa generují na základe pravdepodobnosti že jednotlivé
+      slová/znaky (tokeny) za sebou nasledujú na vstup dostane dehoder encoded vstupný
+      text, kterému určí wo, nasledujúce slová sa budú odvíjať od predchádzajúceho
+      výstupu a pravdepodobnost; že slová za sebou nasledujú. P(wo) P(w|lus) P(w2|w|w|wo)...
+      P(w|lús nahé slova v rozlišních jazykoch ba mali mať od sebevrovnanú euklidovskú
+      vzdialenosť šňoro
+    truth: 3
+  14:
+    pred: 3
+    text: Není to vhodné pretože ak by bola úloha náročná tak ja extrémne dlhú dobu
+      nic nedostal -> nevedel tu sa věst nevedel by, či to čo vodí je dobré alebo
+      zlé;prípade, že tu dostával odmeny aj počas vykonávania danej úlohy, ideálne,
+      čím bližšie k cieľu, tým väčšiu odměny, tak to sa rýchlo vedel naučiť správný
+      i smer čo má ako vobíť aby doslahol cieľ. - tento prístup ale môže spůsobiť
+      že agent nepresným úplne všethy stavy ktoré sa môžu javiť ako zbytečné ale za
+      nimi sa shrána efektivnej šie viešenie
+    truth: 4
+2fcfde5bdeca3406910a9f82585f5a99:
+  10:
+    pred: 1
+    text: jednoduché derivovatelné operácie konečný - první obsahovať reálne nie celé
+      číslo;.;od
+    truth: 2
+  11:
+    pred: 0
+    text: váhy filtru/kernelov.;funkci = počet parametrov vtika a šířka filtru počet
+      kanálov
+    truth: 3
+  14:
+    pred: 3
+    text: nie závisí od problému (úlohy). Keby sme dávali;Priebežme et sa blíží tak
+      nakonice ty sa zo stavu, kde sa blíží mohol naraziť na stav nelysa fi komu co
+      nedostane a to by nehol byť problém.
+    truth: 2
+339df3958e8b2954a8f4aa1cf116a8cf:
+  1:
+    pred: 1
+    text: DA AABX;OB
+    truth: 4
+356429a76a6d6231da81cd661d45a184:
+  1:
+    pred: 1
+    text: DB;ABXBX
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;neprohledáváme;Uspoříme maximálně 2 uzly
+    truth: 4
+  6:
+    pred: 3
+    text: Generativní - používá Bayesův vzorec, musíme proto znát funkci hustoty pravděpodobnosti
+      - tu počítáme při trénování klasifikátoru Výhodu - teoreticky lze generovat
+      data klasifikátorem, známe pravděpodobnost příslušnosti. Nevýhoda - hodně parametrů
+      k trénování Diskriminativní - trénujeme rovnou pravděpodobnostní model, že daný
+      vstup patří do které třídy. Výhody - méně parametrů k trénování, jednodušší
+      modely Nevýhody -
+    truth: 1
+3a3284a0871ed9e4bef8d9913724f16b:
+  4:
+    pred: 2
+    text: DK D42;Díky;2 - 3 4 5 6 7 8 9 10 x x x X 0 x x x x x x X X x x x x x x x
+      x x X D1 = {5}, Dz = 13, D3=
+    truth: 4
+  9:
+    pred: 2
+    text: '- hlboké učenie (deep learning) posilované učenie (reinformament learning)
+      - shallow learning - KNN (convolution neural networks);- strojové učenie - supervised
+      learning - unsupervised learning - semi-superined learning;- expertní systémy'
+    truth: 3
+  11:
+    pred: 1
+    text: počet kanálov vstupu počet kanálov výstupu
+    truth: 2
+  14:
+    pred: 3
+    text: Može aj ako sa blíží k splneniu úlohy. Môže to pomoď nasmerovať agenta k
+      splněním celej úlohy, která môže byť dlhá a zložitá na dostahnutie (vyhraj celá
+      hra) a jeho odmena može byť, že porazil jedného supera z viacerých, čo mu môže
+      dopomoď k výhre. Problémy to spôsobí ak to není vhodná situacia, kedy by mal
+      dostať odmenu, čo nemusí znamenať, že povede k cůli Porazil 1 súpera � porazí
+      dalšího súpera v tej častej hre neznamená že ta hra vyhrá.
+    truth: 4
+3a3d21d3d346f65e160c3859d0a79dc3:
+  1:
+    pred: 4
+    text: 'X;190: X 2�0: Bx 3s0: AX 400: x;AXXEX;dosiahne ciel z ľubovoľné počiatočního
+      stavu'
+    truth: 4
+  4:
+    pred: 4
+    text: 1;z;3;„;s;6;7;8;9;10;X1;X;x;x;x;x;xD1 = {1, 2, 3, 4, 5};x2;Š;x;x;x;x;>;3X2
+      s X3 x3 LX1;D1 = {2, 3, 4, 5} D2 = {1, 2, ..., 9, 10} D3 = {1, 2, 3, 4}
+    truth: 4
+  5:
+    pred: 3
+    text: 'N;nálne rozloženie;P.;N(x|M, 6;2 71.;STRED. HODN.: M = 1/4 % X x n;VARIABILITA:
+      0? = 1/5 En (xXm);Klasifikátor je popísaný střednou hodn.;a variabilitou.;11
+      IR číslom.;Každý parameter je reprezentovaný Parametre na dátach odhadneme pomocou
+      optimalizácie odhadu maximálnej Pravdepodobnosti. Novo prídený vzor bude patriť
+      pravdepodobnostnému modelu niektorej z tried (k niektorému bude nejblížšíe).;fun.'
+    truth: 1
+  8:
+    pred: 0
+    text: P(nakazení) = 0,2;plnenakazení) =0, 8 p(+ |nakazení) =0, 9 p(- (nahazení)
+      =0, 1 (1-0, 9) P(nenakazení|t) = 0, 1 P(naharení|t) = 0,9;(1-0, 2);P(+) = 2.;P(A|B)
+      =;P(PIA) . P(A);P(B);P(P;P(B|A). P(B|A);P(A|B);P(+);P(t) nakazení . plna;p (nak.
+      1 +);=> P(t) =;0,9 .0,2;0,9;2
+    truth: 4
+  12:
+    pred: 1
+    text: O.;02 = 1/2
+    truth: 3
+  13:
+    pred: 3
+    text: TI P(wn|Wh / who - ..., wi?) P(w2, w2, ..., w. akt. slovo predchádzajúce
+      slová eta rozdělená na slová Autoregresné Seg2 Seg generujú výstupné vety slovo
+      po slove. závisí na všetkých predchádzajúcích Každé nové slovo;slovách.;Honza;šel;(ven);-
+      slovo;je;input;sequence onza went outside to;25;...;START HONZA;na celom minulom
+      vstupe
+    truth: 4
+  14:
+    pred: 3
+    text: V prípade tažších vůbec nesplní a neučil sa - tam progress.;problémov, kde
+      by;hrozilo, že agent úlohu;tým by nebol nikdy odnenený a je vhodné odmenovať
+      aj za priebežný;Môžu nastať problémy - ak by priebežná odmena mala hodnotu 1)
+      a odmena za splnenie tiež len 1) mohol by si agent nájsť cyklickú sekvencia
+      akcií, které by viedli k odmenám, ale nie k celkovému splněníu úlohy.
+    truth: 4
+3c47f8987e710f7b4cb3fddd88b90692:
+  8:
+    pred: 4
+    text: P(Y) =;P14.;PIXI4;,;PIS P(P|S) SI2 ... 9;0,9;P(S|P)
+    truth: 4
+  9:
+    pred: 0
+    text: '- strapové učení neuronové síť'
+    truth: 2
+  12:
+    pred: 0
+    text: 2.;12;12
+    truth: 4
+  13:
+    pred: 1
+    text: P(MúX) mai Následující slovo je generováno na základě pravděpodobnosti jak
+      i jak předchůdců;p(wa) p(w2 Iwa) PIW2 IW2 W.
+    truth: 3
+40e971aa0d0f94173372792184d7c18b:
+  4:
+    pred: 2
+    text: D1 D2 P3;X;*;x;+;Y x;t X XI;X 7;X. x;x;+ x;x;* x;x;x;x;x;+;r;X;X;X;x3 x
+      1 433 X1);42;D1= 65;�;41
+    truth: 4
+  7:
+    pred: 2
+    text: Cena;punkce druhého řádu, co se nenalizuje generalizuje, protože dobře zabecňuje
+      trénovací Satastely naučilo se uhránou funkci, která data sobře vystihuje. Není
+      přetrénovaná;roztahu (47);Aby negeneralizovala správně, tak by např. chtěla
+      procházet přesně trénovacími daty příklad model, který by neschovalizoval:;vír
+    truth: 3
+  10:
+    pred: 1
+    text: měl by být orientovaný acyklický sraz.
+    truth: 2
+43986b8b6ebee0468cbde54d39668894:
+  1:
+    pred: 1
+    text: Bstate = 1. akcia Bstate => k 2. akcia Bstate;Ty;cia a ake;postupnost akci
+      A
+    truth: 4
+  3:
+    pred: 3
+    text: 'RAD;světové české války proběhat idea: vzly v principu frontě chceme vkladat
+      "opačnou" poradí, pomocou znenachystan řešeně: prodáme, póvodní h= h funkciu„
+      -> greedy search neberie v petaz vražení cestu. eturno'
+    truth: 1
+  4:
+    pred: 4
+    text: 10;* X;x *;3X3;D1 = 5 3 D2 D3 = {2;3x LX;3tít
+    truth: 4
+  9:
+    pred: 1
+    text: učenie s učitelem učenie bez učitele posilované učenie semi-supervised learning
+    truth: 1
+  10:
+    pred: 1
+    text: '- musí byt acyklický;corie novu pallivy útory po obou letor'
+    truth: 3
+  12:
+    pred: 0
+    text: (F z 2);vztahy na
+    truth: 4
+  14:
+    pred: 3
+    text: Je vhodné aby dostával odnem ku př. -> letos náš ciel je aby plnil úlohu,
+      nie sa přiblížiť. ak by bol odmeněný průběžně jinak by to mohlo spôsobit problémy
+      ako například, že by začal preferovat určité akce, čo by mohlo vše ve všeobecnosti
+      nesť k horším výsledkom.
+    truth: 2
+43d4fa03bc9f11129af3e68ceb8890dd:
+  1:
+    pred: 1
+    text: 'Posloupnost akcí: A BX ABX'
+    truth: 4
+  3:
+    pred: 2
+    text: '65: (problem, 0, h) DFS: (Problem, 0, 0);0 = func 1) � return 03'
+    truth: 2
+  4:
+    pred: 4
+    text: 1;2;3;";6;6;7;8;a;10;XI;J;v;X;X;X;X;X;X3;X;D1 = § 53 D2 = {13 P3 = 54
+    truth: 4
+  6:
+    pred: 1
+    text: 'P(c|x) generativní model: — učíme se P(x|C) a P(c) a pomocí;-;"Baesova"
+      vzorce počítáme gaušovský klasifikátor;diskriminativní model: se učí;- Lineární
+      / Polynomiální regrese;P(c|x) přímo;generativní: * Potřebuje méně dat než diskriminativní
+      - Pomalejší než diskriminativní + modulární diskriminativní : + rychlejší než
+      generativní — Snadno se přetrénuje - potřebuje více dat'
+    truth: 0
+  8:
+    pred: 4
+    text: PAMĚT a;P(Nak) . P(PozINa6);P(Nakl Poz);P(poz);0,9 =;22 0,9;X 0,9x = 0,2
+      . 0,9 0,2 . 0;x;0,9;P(Pozitivní) = 0,2;X = 0,2
+    truth: 4
+  9:
+    pred: 1
+    text: '- učení s učitelem;- učení bez učitele — Posilované učení;- Semi-supervised
+      - learning'
+    truth: 1
+  10:
+    pred: 1
+    text: '- acyklický;- orientovaný;- strana poměru'
+    truth: 4
+  13:
+    pred: 3
+    text: od decoderu dostane reprezentaci vstup (vektor vstupní větž);První buňka
+      dostane tento vstve a token "Start" a vrátí nespravděpodobnější 1. slovo (w1).
+      Toto slovo a Stav buňky se vředá další bunce a ta vrátí neopravděpodob. 2. slovo
+      (vrz) (na základě svých stupů) Stav této buřty a 2. slovo se předá další bunce.
+      Toto se provadí dokud bouřka;nevrátí token "End";není - SNÍŽE;Start“
+    truth: 3
+45c6ae61bc1ecb52540c701d0158b3c4:
+  2:
+    pred: 2
+    text: MAX;MIN;D Dokážeme ušetřit prohledávanie 2 uzlov;O;C
+    truth: 4
+  3:
+    pred: 1
+    text: 'aby simulovala greedy search a depth-first search (DFS)?;Greedy search:
+      q : return 0; k = h = (ako funkciu g prodán fun. které musí O);DFS: k: return
+      0; g: return - len (parth); Kde len procia dlžku už uraženej asty (kolika uzlou
+      sam už predtým navštívil) path � cesta pro daný uzel (pravdepod. by šla opěť
+      o funkci která vracía akci (prodlouž daného uzlu) 6 akce s kterými sme sa do
+      daného uzlu dostali;Ak je dovolená záporná cena'
+    truth: 4
+  4:
+    pred: 4
+    text: 2;Výsledek;X2 X;x X;IX X;x X;X;x;5;X;x;X;X;X;X;X X;X X x2x � KART. 2, 3,
+      43 3. X2 LX3 � X2 613 � 32x3 a x36243 X, CX1 � Y, X, E= 53;X;X;XIX;X;X;v;D1=;13
+      D3 = {43;D2 = {2
+    truth: 4
+  6:
+    pred: 3
+    text: 'Bugerůvky model;Livární logistická regrese;Generativní potrebujú radiet
+      / prípadu naučit funkci hustoty pravdepodobnosť a apriírne triedy a teď ich
+      majú tak sa už vetrénují ale priamo odhadují aposteriímí pravd. Model trénovaný
+      diskr. nepotřebuje funkci hustoty pravdep., on citerativne zlepšuje svoj odhad
+      rozhodovacej hranice medzi triedami, teda učia sa už priamo aposteriórní pravdy.
+      výhody: stačí inu novej dát aby sa správne naučili Gen. � nevýhody: potřebujeme
+      správne odhadnát (namodelovat fun. hustoty pravd. nové odtrhlé dáta měší klasifikátor
+      po Disk � výhody: na vize dátach bývajú pracujšic, nové odlahlé dáta majú malý
+      vliv na správnosť klasifikátoru'
+    truth: 4
+  7:
+    pred: 3
+    text: Nakreslil svou dátu, které odpovídají zašumenej časti kvadratickej funkcie,
+      a regresní prianka, která správne odhaduje nezašramenné díla To, že generalizuje
+      je spokojené tým, že máme vhodne nastavený stupeň pobyvan a learning rute a
+      aj počet iterácií učení Aby negeneralizoval, tak stačí dat nevhodný learning
+      zato, alebo napríklad nastavit příliš vysoký stupeň polynomu alebo trénovať
+      model příliš dlho (pretrénovanie)
+    truth: 3
+  11:
+    pred: 1
+    text: konvolučné jádrá � jejich hodnoty;tel;teda;a, b, c, ...;- (počet vstupných
+      kanálov) x (výšku konvolučného jadra) * (šírka konvolučného jadra) * počet konvolučných
+      jadier) alebo počet výstupných kanálov
+    truth: 4
+49370e21cf26e14fd95bad47c4c64feb:
+  1:
+    pred: 1
+    text: 3;AABX
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;D;8;úspora 2 uzly
+    truth: 4
+  3:
+    pred: 2
+    text: 'aby simulovala greedy;parc;depth-first search (DFS)?;greedy search - g:
+      return 0 aneb;a*(problem, 0, h);4.;DFS - (aX|problem, g, O) by simulovala BFS;-
+      není možné;heuristika [4] musí vracet nižší hodnoty pro levé usly a výšší pro
+      pravé � (problem, fy, h-upravená)'
+    truth: 3
+  10:
+    pred: 1
+    text: p(nula);u -;- musí být orientované acyklické
+    truth: 4
+  11:
+    pred: 3
+    text: číslo);pan, počet - parametrů =;bias, váhy kernelu;Počet kanálů vstupu šířka
+      - ker 1. netu výška - Kernel počet - AI trůlkemezů);Pokračování stav (neosov
+      to mínusy,
+    truth: 4
+  12:
+    pred: 0
+    text: 0;O;E
+    truth: 2
+  13:
+    pred: 2
+    text: Tyto modely se snaží odhadnout pravděpodobnost slova ve věte na základě
+      posloupnosti předešlých slov. Pravděpodobnost druhého slova na základě prvního
+      slova. Tedy počítají pravděpodobnosti ve formátu:;START HOM
+    truth: 3
+495ef79db86e9a0196ac1c8f89e61f67:
+  1:
+    pred: 1
+    text: X-;A -> B - X
+    truth: 4
+  3:
+    pred: 2
+    text: greedy:;a*;a, o r;problém;DFS
+    truth: 2
+4c12e29eaddc50e059d6ea3575524431:
+  1:
+    pred: 0
+    text: 'A p. KANTAOX;STAV 2: AMAN STAVY: XAABA StAV 3: xAADABA;xAHABX;Po'
+    truth: 4
+  3:
+    pred: 2
+    text: Greet DFS �;at (problem, 0, h) u* (problem, 0, last-visited);+;last - visita
+      nejlépe vyhodnocuje posledně - x KART. vložený úkol do seznamu oper.
+    truth: 2
+  4:
+    pred: 4
+    text: 2;3;4;5;6;7;8;a;10;XI X2 X3 Výsledek � x1= 93,453 x2 21, 3, 4, 5, 4, 7,
+      8, 103 x3 = 91,23;X.;x;X.;X.;*;*;*;* X
+    truth: 1
+  7:
+    pred: 4
+    text: dobrá severalizace;M.A t generalizuje protože máme dostatek trénovacích
+      dát jako naši reversi druhého slupince. A tiež prel. že pre nevo příchozí data
+      b) z naší funkce z kterej jsme generovali bude modelovať správne. Negeneralizoval
+      by ale by sme mali málo trénovací dát alebo ale by funkcia generujúca data byla
+      zležitější ako polyním 2. třídu.;špatná severalizace
+    truth: 4
+5053112ed2eb6e04292b5773a3faaebe:
+  1:
+    pred: 0
+    text: XAXSXBX
+    truth: 4
+  6:
+    pred: 2
+    text: Generativní model se snaží nemodelovat rozložení dat. Tedy snažíme se zjistit
+      libelibost a opromí pravděpodobnost a z nich pomocí Bayesova vzorce vypočítat
+      posteriorní pravděpodobnost Výhoda je, že se méně přetrénováva, můžeme z rozložení
+      generovat nová neviděná data, nepotřebuje tolik dat. Nevýhodou je, že je zložitější
+      a rozložená v některých případech nemusí být přívítaná jako např. Gauss Např.
+      Gaussův CAN, Diskriminativní model napije vstup rovnou na výstupy, tedy snaží
+      se odhadnout přímo posteriorní pravděpodobnost. Výhoda je, že je jednodušší,
+      rychlejší Nevýhody jsou, že se snáze přetrénuje, potřebujeme více dat, Např.
+      Logisticka his regrese (klasifikátor), pohynoucího regrese, lin. regre
+    truth: 3
+  9:
+    pred: 0
+    text: Učení s učitelem Učení bez učitele Posilové učení
+    truth: 1
+  10:
+    pred: 1
+    text: acyklický, vrstvený, žádné vazby v rámci vrstvy,;vztah;( 8;nebo
+    truth: 2
+  11:
+    pred: 1
+    text: karnel;počet kanálů na vstupu x velikost kernelu *velikost herala *počet
+      výstupních kanálů (jedné strany);(+ ještě bias po celý hemal)
+    truth: 4
+  12:
+    pred: 0
+    text: '01'
+    truth: 3
+527d06b610e162f0535cc5616c255c12:
+  2:
+    pred: 4
+    text: MAX;MIN;O;3;10
+    truth: 4
+  3:
+    pred: 2
+    text: 'Greater seath in g;DES;xybl;blbec;K;- 0 - 0 - 0,6 - 0 -1-1 -1;,;- 0CQ-10
+      Pletí-li;di;- 27;65: g = return 0, h = return hX DPS: g = return - gt, h = return
+      o;P2'
+    truth: 4
+  10:
+    pred: 0
+    text: nesmí obsahovat cykly musí definovat dílčí funkce;+
+    truth: 3
+5461d6183a165604c103a4923fcab04c:
+  7:
+    pred: 2
+    text: Příklad trén. dát pre regresný problém:;Príklad riešenia:;Naprostená krivka
+      je polynóm 2. rádu v tvare y = wo + w1x + 14, X. Polynomiálna regresia je špeciálny
+      typ lineárnej regres kotvy x čím vytvárajú protože sa pridávajú bázy do tejto
+      rovnice polynóm z tejto rovnice. Nemám Model generalizuje, tebe nepřechádza
+      každým vzorkom a tým by správne klasifikoval aj na nových nevidených dátach
+      Aby model negeneralizoval, musela by to byť polynomiálna regresia vyšších např.
+      lyžno + 4, x + W. X + IV , 27 kg *;bídy;ro (napr. k
+    truth: 1
+  9:
+    pred: 1
+    text: prehľadávanie stavového priestoru strojové učenie neurónové siete
+    truth: 3
+  10:
+    pred: 1
+    text: 'výstupem musí byť vektor pravdepodobností;o;výstup: vektor'
+    truth: 1
+  11:
+    pred: 4
+    text: 'kernel vrstvy;2 počet parametrov: tento výška - kemel vrsty x širka - tenel
+      vrstvy x počet vstupných kanálov x počet výstupných kanálov'
+    truth: 4
+55153f3976b813a5a04f49ae4dce8ac9:
+  1:
+    pred: 4
+    text: XAXBI;PLÁN AKCÍ;JE pOSLOVNOST EX, A, X, X, XI.
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;úspora z UZLY 68 POKU ZMĚNILI POŘADÍ PROCHÁZENÍ (STŘED PRVNÍ, BYCHO
+      NA MAXIMÁLNÍ úROVNÍ POUZE - sTAČILO BI PÉRUSPOŘÁDAT VĚTVA;c;x;ÚSPORA BUZLY
+    truth: 4
+  3:
+    pred: 3
+    text: reedv search a denth-first search (DFS)?;aby si;PRO GS g(N) = o;KDE A (x)
+      je HeURESTINA FUNKCE GS SCHODNÁ S M(x) SRO DES g(x) = д) A|Y) = 0 a (procesem,
+      oj, o);a (nosem, o, k);a h(x) = hax)
+    truth: 4
+  4:
+    pred: 1
+    text: D;53 12,33 51.
+    truth: 2
+  6:
+    pred: 0
+    text: GENERATIVNÍ MODEL SE UČÍ PRAVDĚPODOBNOSTI NĚJAKÉ vlastnosti (např červenost)
+      a přes ní pat trpení Říká kam věc s těmito vlastnostmi patří. PROToŽP VÍ ROZložeNÍ
+      PRAVDĚPODOBNOSTI JE SCHOPEN I ODHALIT ANOMÁLII (BONIS- KTERÝ PLINE Z ARCHITEKTURY)
+      PŘÍKLaD KLASIFIKÁTORU JE NAPŘ GAUSSOVSKÉ KLASIFIKÁTOR. PŮKRMINATIVNÍ MODEL SE
+      SNAŽÍ POUŽIT NAUČIT ZDA ODŘÍKT S VLASTNOSTÍ JE TÍM HLEDANÝ NeBo NE NEZNÁ TAK
+      rozložení pravděpodobnosti a tím pasem nepozná ani ANOMALII - KLASIFIKÁTOR MAPŘ.
+      LOGiSTICKÁ REGRESE Již máme málo rat na učení jsou lepší generativní které nemají
+      tendencí
+    truth: 1
+  8:
+    pred: 4
+    text: (A) P(A);P(A|B);(6;Požár;ZPRAV;P(P|;1040 -;Nemocný;Nemocný pozitivní) -
+      P(pozitivní informací) p(nemocný);P(POZITIVNÍ) =;(pozitivní nemocný) p(nemocný);P(POZiTIVNÍ);p(Nemocný/pozitivní;0,9
+      .0,2;0,9;20
+    truth: 4
+  9:
+    pred: 3
+    text: '- STRONGAI - Silná UMĚLÁ INTRUIGENCE KTERÁ se zvládne přeučit na lidovolný
+      úrov bez nutnosti změny aRCHiTEKTURY (NEEXISTUJE - TROT zatím) - NARROW AI úlevná.
+      Umělá inteligence specializující SP NA JEDEN KONKRÉTNÍ úKOL VZOUČASTNOSTI EXISTUJE.
+      - VÝHLEDÁVAČE - ROZPOZNÁVÁNÍ OBĚRŮ NA OBRÁZKU - doporučování obsAHu autonomní
+      řizení, chatboti - PŘEKLADAČE JAZYKŮ, AUDIO NA TEXT A'
+    truth: 2
+  12:
+    pred: 4
+    text: 24;0,-75,3 � EFIT23
+    truth: 3
+  13:
+    pred: 3
+    text: Slovo Slovo slovo ANOT;nejdříve ENKODER zahoduje;o Kontextový vzor LSSMEN
+      V PRVNÍ ČÁSTI POSTAVE NA VSTUP SPECIÁLNÍ STARÉ gimbol a vyberveruje první slovo
+      toto Slovo jde OPŘE NA JEHO VSTUP A VÝGERMERU SR DALŠÍ SLOVO Takto pokračujeme
+      pokud nevÝGERNeROSE CSTOPY gÉMOL POTŘ SKONČÍME BŘADY CELÉHO TOMUTO pROCESU JE
+      PRODÁVÁN JAK KONFECTOVÝ VEKTOR TA POJEDNÁ VYGENEROVANÉ SLOVO. MODELUJE PRAVDĚPODOBNOST
+      SLOV(A) V ZÁVISLOSTI NA KONTRKTU A PŘEDCHÁZEJÍCÍM SLOVĚ P(SLOVA) = KONTRX A
+      POSLOVALI;VÝZNAM VĚTY DO „KONTRXTOVÉHO vRATORU“ A tento vektor Je předá dekodéru,
+      které
+    truth: 3
+  14:
+    pred: 2
+    text: Není to vhodné, protože to způsoby Možná že agent ani tuto odměnu nenajde.
+      a není možné se pak zlepšovat, protože ani nevíme jaké z Agrentů byl Lepší (VARIAKY
+      iNSTRUKCÍ) TÉMĚŘ TO ODPOVÍDAT náhodnému prohledávání protože nelze úplně zaručit
+      že se to agent kdy NAUČÍ
+    truth: 3
+554f1cfee56cf20c2f51a5331933eb85:
+  4:
+    pred: 4
+    text: XI;XI 3;1;p;p 7 7;p. 1 B;A 4 4;5;5 x;6;6;A P;8;8;&;9;26;st;Konzistencia
+      hrán zaistencí pre X1=5 X x3=4
+    truth: 4
+  14:
+    pred: 2
+    text: Je vhodné aby agent dostal odmenu aj prebežne - teď sa blíži riešeniu. Stavy
+      vedúce ku riešeniu by mali potom byť prioritnejšíe - dosiatureme lepšie možné
+      výsledky
+    truth: 3
+55c36c77f5b1db93efa809d68b0c3ff3:
+  1:
+    pred: 2
+    text: 'Do;1: A, A, A, B, B, x'
+    truth: 4
+  2:
+    pred: 2
+    text: MAX;MIN;1;nejvíce lze uvařit 2 uzly;1
+    truth: 4
+  10:
+    pred: 1
+    text: W,;14. Stoletínský 2-0 - VI
+    truth: 1
+56ffb625c1d50b61aa838947499f8ea9:
+  1:
+    pred: 1
+    text: ABX;B
+    truth: 4
+  2:
+    pred: 1
+    text: MAX;MIN;� odvežeme vyznačené z uzly
+    truth: 4
+  3:
+    pred: 4
+    text: 'Greedy: glubso; hulaht;DFS: h(n) so; g(n) = kdo k sa bude znizovat s každým
+      nevštíveným vrcholem � teda počítatelný vrchol bude model g(o) = 0; pri prohľadzení
+      potromkov budeme jednotlivým potomkem přirodovat -1, -2, -3, ..., tým potom
+      AI rozbalí posledního potomka, jeho potomkom přivádíme hodnoty J: - e--l-1,
+      -l-2; ..., čím dovielme, že AX začne prohlídávat posledního potomka. Teda potrebujeme
+      udržiarť globálne sedm číslo k a postupne ho zmenšovať.;es;� průzbah # vhodnoty
+      vztah své hodnoty'
+    truth: 4
+  4:
+    pred: 4
+    text: De = § 5;D2 = {13;DI = § 47
+    truth: 4
+  5:
+    pred: 4
+    text: '(Varlua) couldate) - 3 třídy � 3 gausovky. 2D data � XN N (Pi2); N = (x1|22);
+      2= (coulearlie) varlat);- V gasmorka obsah. 6 parametrov, avšak cov (X1, X2)
+      = cov (12, XX), proto stačí len 5 parametrov. params: 3.6 = 18 irsp 3. 5 = 15
+      (ak berieme v úvahu symetru COU). p= ZDŠ: E = 1/4 CŘI-PI (KART = VIII) (predpokladáme
+      stlucové Odhadneme žeh pomocou MLE vektory) N(x|M) [e) P(c) P(x|c) . p(c) p(c|x)
+      =;P(x);Ta Z PCON N XINCI E2);� Výpočet pravdy. třídy nového vzoru.;Jednotlivé
+      parametre odhodujeme z dát pu každá trieda zvlášť'
+    truth: 4
+  6:
+    pred: 2
+    text: -> gen. model využíva p(x|c) k výpočtu p(cla) � diskrim. model priamo modeluje
+      p(c|x);(Gaussovský klasifikátor) (hogistická regresia);resp. pri tréningu gen.
+      modelu odhadujeme perametre p(x|cin), kdyžto Pri diskriminativních modelech
+      odhadujeme parametre p(c|x, r).;Výhody/nevýhody � Ak máme málo dát (2 pozitivne,
+      2 negativnosti, Gausss klasifikátor môže dávať horšie Výsledky protože jednotlivé
+      gaussovky budí mať veľký rozptyl. V tomto případu log. regresia fungovat budu.
+      Taktiež ak máme jediný bod v jednej triede, tak nemôžeme použít genss klasifikátor,
+      protože by 0 h = 0.
+    truth: 4
+  7:
+    pred: 1
+    text: 3;tečky si data, že je polynomý model 2. rádu. Log. reg. 2. rádu se bo +
+      B1x + B2x? akcí že dáta vieme celkem presně modelovať parabolog, model bude
+      vhodné generalizovat .;Negeneralizoval by, ale by naše dáta boli generované
+      processor vyššího rádu (nepr x ), případne ak by dáta boli periedické (sin)
+      Protože pol. regressa 2. rádu nic je periodická fu.
+    truth: 4
+  8:
+    pred: 3
+    text: PCHITI POT.;POM;�;P(T);P(T|N) PCHI;P(N|T);is;0,2;N... nahozený T... pozitivny
+      test
+    truth: 4
+  10:
+    pred: 1
+    text: � orientovaný � acyklický � Huzol je buď tensor, alebo funkcion -;6 III;octnit;1
+    truth: 4
+  11:
+    pred: 1
+    text: � Váhy Kernelov Nah Ki, kz si dimenzie kerek, I ... počet informálov, D...
+      počet filtrov vo vrstve � parametrov vrstvy = K1-22. I. D (+D ak uvažujeme bias).
+    truth: 4
+  13:
+    pred: 2
+    text: p(hereinzoninu) = p(verz);TI P(vilmo - nevím);vstupnej Najshór vygenerujeme
+      eubedding vety, který dáme na vstup hiddem state. Následne začneme generovat
+      1. slovo (na vstupe je (Starý), ne výstupe bude 1. slovo Potom pokračujeme tak,
+      že na vstup v zase t +1 dáme vygenerované slovo v čase t. Postupně generujeme
+      slová, až dobrým model nevygeneruje ESKOPM.
+    truth: 3
+590c21c83ef826040fbb869666b99554:
+  2:
+    pred: 1
+    text: MAX;MIN;66;nebudou se prohledávat (může v nich být cokoliv
+    truth: 4
+  5:
+    pred: 3
+    text: Pro grassovský klasifikátor musíme odhadnout gaussovo rozložení pro každou
+      sadu stat. popsáno je z hodnot terasianční maticí. Takové rozložení střední
+      hodnotou a stále musíme odhadnout prievní pravděpodobnosti. Budeme tedy mít
+      vektor střední hodnoty = zásluh + kov. matici = 2-2 = 2 = 2 čísla + pravděpodobnost
+      = 1 číslo = 7 čísel pro každou třída, tedy 7-3 = 21 čísel. Parametry spočítáme
+      pomocí maximalizace funkce rozložení psti za pomoci parciálních derivací. Pak
+      pomocí Bggesovu vzorečku spočítáme pravděpodobnost příslušnosti do dané třídy
+      a vybereme najvětší.
+    truth: 3
+  7:
+    pred: 2
+    text: Zakreslil jsem body, tak aby tvořili konvexní transport, takže se dá namodelovat
+      modelem polynem. regrese 2. řádu. Dost je hodně s odchytkou ve více směrech,
+      proto dobře generaliza Pokud by bylo málo dat, model by mohl fungovat špatně.
+    truth: 3
+  10:
+    pred: 1
+    text: Musí to být Noriendovaný graf zloobsahovat;vykly.;nějaká vrstva neuronů,
+      která je na konci povolnému nelineární
+    truth: 4
+  11:
+    pred: 2
+    text: konvoluční matice počet vstupních parametrů x počet výstupních a výstav
+      konvoluční matice z šířku k ní
+    truth: 4
+  13:
+    pred: 3
+    text: Věty jsou rozsekané na jednotlivé regmenty (slova). Na vstup první krabičky
+      se dá první pleve, na vstup druhé první 2 slova, na vstup třetí 3 slova atd.
+      Model se tím učí jaká pravděpodobnost, že další slovo může být v sekvenci. Používá
+      se rekurenční WN.
+    truth: 3
+  14:
+    pred: 2
+    text: Pro složité problémy je to vhodné, protože pokud by dostal odměnu jen za
+      dosažení cíle, tak by ho v zásadě nikdy nedosáhl, protože do té doby by šlo
+      o náhodné procházky
+    truth: 3
+5b664b32ef0f72ca651874d45d93b7db:
+  3:
+    pred: 3
+    text: 'Greedy Search: a* (problem, o i Dept4-FIrs Scarch: a* (problem, 0, 0);f(x)
+      = h(x) g (x|=0 g(x) =0 h(x) = 0'
+    truth: 2
+  4:
+    pred: 4
+    text: D1 = {2, DIFIM, 53 2 = {1, diferentifikace 4, 4, 10} 3 titul, ab;D;3x2x3
+      x3 LXI;D1 = {5 B D2 = {13 D3 = {4 }
+    truth: 4
+  6:
+    pred: 3
+    text: Generativní;Snažím se naučit P(x|c) a P(c);a posteriorní pravděpodobnost
+      p(c|x) spočítám z Bayesova vzorce modeluji funkci rozložení hodnoty. pravděpodobnosti
+      příkladem může být aussovský klasifikátor je náchylnější k přetrénování (overfitting)
+      - nepotřebují takové množství dat;- narozdíl od generativních modelů se tyto
+      modely učí odhadovat posteriorní pravděpodobnost p(c|x) přímo příkladem diskriminativního
+      modelu může být logistická regrese potřebujeme více dat efektivnější
+    truth: 4
+  13:
+    pred: 1
+    text: 'Honza;jako by;Honza šel;na jahody;Exempláře;18 8b START HONZA Šel na jahody;Autoregresivní
+      faktorizace;pravděpodobnost celé věty je součinem podmíněných pravděpodobnosti.
+      Lze vyjádřit jako: P(w2, w2, w2, ... un) = P(w) P(w2|w2) P(w3|w2, w1)... Autoregresivní
+      Sey2sen 1) Nejprve nastavím prefix (poslední známé slovo) -> zpočátku prefix
+      START 2) Na základě vstupní sekvence a předchozího skrytého stavu počítám pravděpodobnost
+      toho, jaké slovo bude nejpravděpodobněji další 3) Celé to opakuji při překladu
+      se ještě na konci nastavuje přízvuk STOP. 14. Je při posilovaném učení vhodné,
+      aby agent dostal odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak
+      se blíží splnění úlohy? Proč? Může to naopak způsobit nějaké problémy?'
+    truth: 4
+5eab670eb5ce6ebf722e191d7114c8c9:
+  1:
+    pred: 0
+    text: A;B, B, x, B, X
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;o;O
+    truth: 4
+  6:
+    pred: 2
+    text: generativní - modeluje rozložení (hustoty p.) pro data pro všechny třídy
+      zvlášt a podle Bayesova vzorce dopočítává p (c|x) - př. gaussovský klasifikátor;diskriminativní
+      - počítá p(c|x) přímo - př. logistická regrese;generativní potřebuje více výpočetní
+      síly regresivní jde přímo x p (c|x))). vřínovacích nadruhou stranu nepotřebuje
+      tolik vstupních dat
+    truth: 3
+  9:
+    pred: 1
+    text: klasifikace (rozpoznávání pastevníků) generování obsahu (obrázky, videa,
+      Deepfake etc.) řízení chování (autonomní roboti p auta, chatboti...)
+    truth: 3
+  10:
+    pred: 1
+    text: musí být lineární acyklický;Gemax;změněné činy
+    truth: 3
+  12:
+    pred: 0
+    text: 2. pluk;So i
+    truth: 2
+  13:
+    pred: 1
+    text: 'pozor;součin;modelují P(w|w: _ p... w6) pro X u v sekvenci'
+    truth: 1
+6f5ac7c2b9cfe572c3654ff47bd016cb:
+  1:
+    pred: 4
+    text: A;xAXAX;A;Po
+    truth: 4
+  2:
+    pred: 4
+    text: MAX Z;ca;MIN;16;O
+    truth: 4
+  5:
+    pred: 3
+    text: Mu -;Potřebujeme popsat 3 gausovské rozdělení Popis jednoho jenž [1 ā] a
+      c = [2ík] u- rektor udávající střední hodnotu o - matice udávající trav rozložení
+      (symetrická) � 1=10 3. (2+4) = 18 reálných čísel pro reprezentaci (stačilo by
+      i 15 (symetrie)), Odhadneme je z trénovacích dat metedou maximální věrohodnosti.
+      Aha tak ještě bych si měl pamatovat další s čísla pro apriorní pravděpodobno
+      Takže 21 a 18 bez symetrie.;VŘEŠEK EVAD čítá se pozor;vana;Pro nově příchozí
+      data vypočítám p(x|x) x2 = X2) pro všechna rozdělení a výsledky vynásobím apriorní
+      pravděpodobností. Získal jsem z pravděpodobnosti.
+    truth: 3
+  6:
+    pred: 2
+    text: generativní model - modeluje rozložení trénovacích dat p(X|C) a apriorní
+      pravděpodobnost p(i) - ze kterých následně odvodí pravděpodobnos posteriorní
+      p(C|X) potřebujeme předpoklad rozdělení stačí méně dat (nepřetrénuje se (tolik));diskriminativní
+      - rovnou odhaduje pravděpodobnost třídy P(C|X) - - nenechá se moc ovlivnit ontliery
+      které jsou vzdálené od hranice - snadno se přetvěruje na málo datech (lepší
+      mít více dat)
+    truth: 2
+772bee97261975d8ac3d623892156933:
+  2:
+    pred: 2
+    text: MAX;MIN;58 Maximálne za ušetrí prehladávanie 2 unlov
+    truth: 4
+  6:
+    pred: 2
+    text: Generativny model počíta pravdepodobnosť P(X|Y) a apriornú pravd. P(Y) a
+      n nich, na náklade Bayesovej vety, odvodňuje P(Y|X) Napr. K-nearest neighbors;Diskriminativny
+      model počíta pravdepodobnosť P(Y|X) Napr. logistická regresia al, clustering
+    truth: 1
+  8:
+    pred: 4
+    text: (nak) = 0,2;p(wdzaw);p(pozitivat) = 0,9 p(zdrav) por) = 0,1;p (negl nak)
+      p (nakl por) = 0,9 nak p(pon|p).;nak p(roz) -;p(poz) (norm/nobl). p(nabo) 0,9
+      . 0,2;p(non) =;,2;p(nak|par);0,9;p(por) = 20%
+    truth: 4
+  10:
+    pred: 1
+    text: '- acyklický - orientovaný;O'
+    truth: 4
+  11:
+    pred: 4
+    text: Počet = m x n x d x j m,n - rozmerz konv. jadra d - počet kanálov na vstupe
+      = počet kanálov jadra j - počet konv. jadier v jednej vrstve
+    truth: 4
+7f5b23849aa9f99628ec8fd57bd68a15:
+  1:
+    pred: 1
+    text: A, x, A, X);PB
+    truth: 4
+  5:
+    pred: 4
+    text: Pro každou třídu rozdělení bude potřeba vypočítat takže celkově 3x4 = 12
+      parametrů M, Ma, Br, B2, Tyto parametry je možné odhadnout pomocí metody maximální
+      věrohodnosti. Potom na základě vypočítaných parametrů vypočítáme posteriorní
+      pravděpodobnost příslušnosti k každé třídě a vybereme maximální. p(Catel Mai,
+      M2, 2, Bři, 6ž, 2)
+    truth: 1
+  8:
+    pred: 0
+    text: P(nak.) = 0, 2 p (poslnak) =0,9 = P (negl nak) =0,1 (henak / pos) = 0,1
+      = p (nak) pos) =0,9 P(pos) = p(poslnak) . p (hak) p(nak (pos);0,9 . 0,2;0,9;=0,2
+    truth: 4
+  11:
+    pred: 0
+    text: učitelnými konvolučního;parametry konvoluční vrstvy jsou hodnoty jádra.
+    truth: 1
+825b1ce7fb0e1b7007e1df994a9c2f05:
+  1:
+    pred: 2
+    text: 1471 77 KART. 1917 STŘEDA. VE FRAUE KCE DE NE SE SE SE SEŠE STINICH STICH
+      POH;von;AXAX BXBX;B;AXLAX)
+    truth: 4
+  8:
+    pred: 4
+    text: S - sick, H-healthy, P-positive, N - negative P(s) = 0,2;P(s) = 10,9;P(P)
+      =?;P(H|P) = 0,1 P(S|P) = 0,9 = 1-P(H|P);P(P) =;(PIS) . P(s);P(S|P);.;A 0, 2;=0,2;20%
+    truth: 4
+  10:
+    pred: 1
+    text: acyklický, directed (musí nať udaný smer);ŠOFTIAX
+    truth: 3
+  11:
+    pred: 0
+    text: filtry konvolúcie;počet = k . k. , s počet koní do velkostatku filtra;velkosť
+      vrstvy
+    truth: 4
+837032a3c2d8c387024651eb631ff039:
+  1:
+    pred: 0
+    text: 3x;(B);DS - from every state
+    truth: 1
+  6:
+    pred: 3
+    text: Generativní model se učí jak data byla „vygenerovaná“, učí se rozložení
+      dat. V podstatě učí se joint probability P (x, y), x jsou data a y jsou lubels.
+      Tento přístup potřebuje víc paramet na modelování rozložení dat, ale dá se jej
+      aplikovat v případě když nemáme moc dat. Příkladem je gaussovský klasifikátor
+      Aktualně mají horší vysledky než disk. přístupy když máme dostatek. Diskriminativní
+      modely modelují pravděpodobnost P(y|x), takž je nezajíma jak data byla vygenerována,
+      hledají jenom rozhodovací hranici. Potřebují víc labeled tat pro trénování ale
+      darají SOTA vystedky. Příkladem je logistická regrese nebo neural networks.
+      Tyto modely využívají své parametry efekti;(ale všechno se může změnit ).
+    truth: 4
+  7:
+    pred: 3
+    text: 1X2;každý bod je sample z trénovac;a sady;K=2);Nakreslený model generalizuje
+      protože jsem schvalně nakreslil rozležení dat, které se dá regresí 2. řadu namodelovat.
+      Kdybych nakreslil tečky (samply) ve tvaru f-cí cos nebo sin nebo nějakou nelinearní
+      fci tak by regrese (K=2) nestačila, nastal by underfitting. PÍPÍM PÍSMI = PODLEJDY;0.
+      9. 0. 2 =
+    truth: 4
+  9:
+    pred: 2
+    text: Artificial General Intelegence - něco o čem nevíme nic a chceme toho dosahnou
+      (napodoba lidskému intelektu). Má knowledge, může se učit během celého životního
+      cyklus;AI, který se používá pro konkrétní tasky. Když umí obličije tak sotva
+      může dělat něco jiného než ten tak na který byl natrenovan. Může dosáhnout a
+      obejít lidskou performance ale jen v konkrétním tasku.;třarization NLP (Natural
+      Language Processing) enchancement ASR (Automatic speech Recognition) recognition
+      recognition - detection cv (computer vision) traching nějaký data modelling
+      se taky dá považovat za AI
+    truth: 4
+  10:
+    pred: 1
+    text: Musí být derivovatelný aby se dalo aplikovat back propagation;studium [L|stmat|xw)
+      = z;E
+    truth: 1
+  13:
+    pred: 4
+    text: h = Encoder (x) bos = "LISTARTS" (bude to nějaké číslo, ne string) output
+      = tm = bos. bos for t in outpat out = Decoder (tmp, k) tmp=out output + = rout
+      (string concat, v našem příp.;odpo;je spis trenován toto jelikož máme y, při
+      generování všechno bude jednoduš V GOSTE STARÝ; tmp=bos k = Encoder (x) while
+      true out = Decoder (tmp, h) tmp-out output. append (out) it (out = = CENDY)
+      break Podstatná čast decodování v seg2 sey je to že decoder potřebuje output
+      z minulého kroka a celou vstupní sekvenci P(gi/yi-a, gi-z... gosx);it (tmy =
+      = LENDY) bréak;* v kódu závislost na všech předešlých last step outputech je
+      implicitní, použilá se jen
+    truth: 3
+8ce0af8bc8320da3cdad209461ad5f7c:
+  3:
+    pred: 2
+    text: 'DFS:;DES;cena cesty uročenej je v každem uzle rovnakú hibšie uzly majú
+      nižšiu cenu do cieťa (rozbalí sa vzol a nasledujúce vzly mojí prednosť � ide
+      sa do hľbky) 66;Greety Scarch: - S - vroucí cenu cesty -h - odhad ceny je vo
+      H uzloch rovnozuj'
+    truth: 0
+  4:
+    pred: 2
+    text: D1;3;9;10;D;3;výsledek:;D1 = §53 D2 = {13 Os = k 4
+    truth: 4
+8f89c29a449586071735da9d9be70bb9:
+  6:
+    pred: 1
+    text: 'diskriminativní: dokáže na základě nějaké fce (signoide/ nepř.) rovnou
+      určit příslušnost do nějaké třídy; logistický klasifikátor využíván velice často
+      kvůli rychlosti výpočtu Onepotřebuje tolik dat - loss: cross entropy'
+    truth: 1
+9107b38aa824dfbf43dc6389416d5d1e:
+  5:
+    pred: 1
+    text: 'Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které
+      je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými
+      čísly jsou všechny tyto parametry reprezentovány? Jak tyto parametry na datech
+      odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově
+      příchozi vzor patří do jedné, druhé či třetí třídy?;parametry: vstupní data,
+      typ rozložení (Gaussovo), odhad parametrů rozložení N(X parametry mají podobu
+      nitic (vstupní data, ve 2D např. dvojice), a parametry N a 62/kovorianční matice
+      jsou obecné radice (soupeř M= parametr u střední hodnoty je n - rozměry vektor
+      a 02 je obecně n-rozměrná matice. kolika čísly? Vstupní data je sama počtu hodnot
+      v níticích (pčet hodů x dimenze), r je n čísel veltoru, cov matice je mx n čísel
+      odhad provádíme pomocí metody maximální věrohodnosti, pro normální rozložení
+      dle vzorců pro r a o2 (např. 4 = 1/2 X x m) � poté namodelujeme funkci rozložení
+      hustoty pravděpodobnosti a přes Bayesovo pravidlo spočítáme pravděpodobnosti
+      všech (v tomto případě 3) tříd a dle nejvyšší hodnoty dato zařadíme do dané
+      třídy'
+    truth: 1
+  6:
+    pred: 3
+    text: '- generativní model - odhadne parametry rozložení, modeluje funkci hustoty
+      rozložení pravděpodobnosti + pomocí spočítaných priorů spočítá Bagesovým pravidlem
+      pravděpodobnos třídy (tedy chceme P(y|x), které spočítáme z P(x) a P(x|y) -
+      příklad k nemocnici k nejbližších sousedů diskriminativní - odhadují přímo pravděpodobnost
+      P(y|x) - snaží se majovat y na x - příklad: logistická regrese - výhodné když
+      máme málo dat, ale nevýhodné protože nemůžeme generovat nové vzorky nové vzor
+      - výhody x nevýhody generativních - pokud známe parametry rozložení, můžeme
+      generovat a klasifikovat je, nevýhodou je potřeba hodně dat'
+    truth: 1
+  9:
+    pred: 2
+    text: přípravy;Nadutila;- supervised learning - učení s učitelem - unsupervised
+      learning - učení bez učitele - semi-supervised learning - reinforcement learning
+      - seff-viset learning)
+    truth: 1
+  10:
+    pred: 2
+    text: '- musí být acyklický;� nesmí záviset na později spočítaných hodnotách -
+      důležité, aby šlo následně použít chain- rale ke spočítání bach - propagation'
+    truth: 3
+  13:
+    pred: 2
+    text: generují novou sekvenci v závislosti na původní slovo po slově, tak, že
+      výstupní slovo dám na vstup (tímto je řešen jakýsi dalšího slova, podle kterého
+      je nové slovo vybráno kontext v sekvenci místo překladu 1:1 po slovech)
+    truth: 2
+916f1b2e1dead796dd18343b179494dc:
+  3:
+    pred: 4
+    text: 'Greedy search: a(problem, 0, h) � greaty search ignoruje g, sústredí sa
+      len na neuristiku;Depth-first seatch: s výššie poskytnutými informaciami nedokážeme
+      funkciu a princitiť, aby simulovala DFS. A používa v o svojej inflementácii
+      prioritnú frontu. princip Elf�A Exack), pokerne desiabant implementacem DFS.
+      Teda do fronty se najprv ukládajú úzly s vysokou hodnotou, v každej dalšej úrovni
+      DFS používa stavy � nedá se'
+    truth: 4
+  5:
+    pred: 4
+    text: 'Gaussovský klasifikátor pri ZD vstupných dátach je popísaný vektorom;ux;ktorý
+      navorí o středních hodnotách jednotlivých třed;Parametre môžeme zjistit pomocou
+      logistickej;*iY) ktorá na hl. diagonále obsahuje o rozptyly v daných dimenziach
+      a ostatně prvky hovoria závislosti medzi dimenziami (je symetrická). Pre natrénovanie
+      takéhoto klasifikátora potřebujeme při 12 reálne čísla: puxury) a k 3 reálne
+      čísla: 5x, Ty, Sxy) pre každá trieda na generovanie jej pravdep. rozdelenia.
+      Potřebujeme 3) = 15 reálných čísel 2 počet pře použijeme tried regresie, namiesto
+      log. signoridy;pří- a maticou Q;teda;soft-max/náme už 3 trioly namiesto evo;4
+      = SOFT - MAX (X TV|+ b) � Trénujeme vektor váh ú a bias ý vektor X= XII => 2D
+      dáta;vstu'
+    truth: 1
+  7:
+    pred: 2
+    text: k =2 =2 = 4 = Wo + W1 + N2 X => výsledkem parabola;bude;- trénovacie dáta
+      M kedže je rád pokynómu rovný 2. Model bude parabala. Nedochádza k over-fittingu
+      a model vyzerá, že bude správne klasifikovať aj nové dáta = model generalizuje
+      Model by negeneralizoval, ale by sme použili nejaký obrovský polynóm. Na 2.
+      obrázku např. máme rovnou dáta, ale model je přetrénován a novým dátum už neprinadzuje
+      správne hodnoty (za předpokladu, že dáta naozej vznikajú podľa parabály z 1.
+      obrázku,
+    truth: 2
+  9:
+    pred: 2
+    text: '- - machine learning - speech recognition - neural networks (deep shallow
+      learning) - computer vision - language models - agentní systémy - rozhodovacie
+      systémy'
+    truth: 4
+  10:
+    pred: 2
+    text: Musí to byť orientovaný a acyklický graf;S - pri učení je treba počítať
+      gradienty jedným prechodom od konce na začintok (používa sa chain rule, čiastkové
+      gradienty sa medzi sebou násobia) -> je treba, aby graf nemal cykly (acyklický,
+      a, aby sa dalo isť od koberca na začatek (orientovaný);W2 - minc-
+    truth: 4
+  12:
+    pred: 1
+    text: In
+    truth: 2
+  14:
+    pred: 2
+    text: Niekedy je velmi těžké doslabnuť cieľ. Agent AU by sa odmena dávala len,
+      agent by sa k nej vóbec nemusel za dobiahnutie dostať (alebo by to trvalo velmi
+      dílo). Aleto je častokrát lepšie dávať odmeny aj za stavy, ktoré sa blížia cielu
+      (nie len za cieľ) Odmenu však môže byť tažké stanoviť pre dané stavy, ale by
+      bola stanovená zle; môže to agenta "oklamat“ a ten sa potom bude učiť nesprávne
+      veci.
+    truth: 4
+93f74ef23a742aa725be9a7edf20c3d0:
+  1:
+    pred: 1
+    text: 'DA;BxBX;Ake: B-X-B-X;DB'
+    truth: 4
+  2:
+    pred: 1
+    text: MAX;MIN;59;O;D
+    truth: 4
+  3:
+    pred: 2
+    text: '65 to. 9=0, h-h DFS: g = len (death), h = o (neboru o)'
+    truth: 2
+  4:
+    pred: 4
+    text: 1 2 3 4 5 6 7 8;9;10;XI X2 z;XXXXXX XXXxx x x x x x XXX XXX xxxx xxxxx XXXX;D3;=
+      253, D2 = {1, 2, 4, 9, 10}, D3 = {1, 2}
+    truth: 0
+  12:
+    pred: 1
+    text: oMnozím, 12)
+    truth: 3
+  13:
+    pred: 3
+    text: P(w2 (w2 - 1, wo?) = II P(w2-1, w2-2. ..., nos);pseudokád:;poreg. dele.
+      segr to-segra na základě předchozích vygenerovaných slov se snaží vygeverovat
+      slova další;vygeneruj první slovo na zaklada vstupu; for (generuj in delkavoty)
+      podívej se na predchozí slova a vygeneruj pravděpodobnosti, vyber nejpravdepodobnější
+      slovo,?
+    truth: 4
+  14:
+    pred: 2
+    text: '- je vhodné agentovi dávat odměny průběžně, aby věděl jakým směrem postupovat
+      respektive, jak se mu daří, protože v RL ohodnocujeme až řešení, ale nevíme,
+      jak se k němu dostat'
+    truth: 2
+94474f32d4666fa6a215c2f3c304d86e:
+  1:
+    pred: 2
+    text: OB;vo = (A, A, B, X)
+    truth: 4
+  7:
+    pred: 3
+    text: 'třénovací data:;body - (x|x);řešení: váhy waw, a w3 pro f(x) = wo + w1
+      x + w2 x 2;V regresním problému je cílem predikovat spojité hodnoty závislé
+      promění (v grafu x) pomocí hodnot nezávislých proměných (zde x). V tomto případě
+      je cílem určit koeficienty w6, w1 w2 pro kvadratickou funkci (dáno stupněm polynomu
+      2). Model zdřejmě generalizuje, neboť není příliš vázán na podobu trénovacích
+      dat (over-fitting) a byl by patrně schopen správně predikovat i další hodnoty
+      pro body vygenerované se stejného rozdělení jako trénovací data. NE generalizace
+      by se poznala tak, že by s model snažil příliž procházet body z trénovací sady
+      o spoléhce tak přehnaně na jejich rozprostření'
+    truth: 3
+  8:
+    pred: 4
+    text: P(nakažený) = 0,2 P(pozitivní) nakažený -0,9 P(zdravý / pozitivní) = 0,
+      1 => p(nakažený/pozitivní) = 0, 9 P(pozitivní) = ?;P(pozitivní) P(pozitivní)
+      = P(pozitivní|nakažený) - p(nakažený);P(nakažený/pozitivní):;si nakažený (pozitivní);P(pozitivní)
+      nakažený . P(nakažený;P(positivní) =;012
+    truth: 4
+  10:
+    pred: 0
+    text: u;o
+    truth: 4
+  11:
+    pred: 2
+    text: prvky konvolučního jádra;počet p = w h - c;p ... počet parametrů w... šířka
+      konvolučního jádra h... výška konvolučního jádra c. k. počet kanálů vstupního
+      signálu b .. počet konvolučních jader ve vrstvě
+    truth: 4
+  14:
+    pred: 4
+    text: V určitých situacích to může být vhodné, aby dostal odměnu i průběžně, pokud
+      je dosažení splnění velmi obtížné a agent by se neměl jak učit dostatečně rychle.
+      Obecně je ale lepší, pokud agent dostane odměnu až na splnění. Jinak totiž agentovi
+      vnucujeme určitý způsob řešení, který chceme aby vykonal. Je tedy otázka, jestli
+      je toto tlačení do určitého způsobu řešení náš záměr neboť přicházíme o možnost,
+      že agent objeví nějaké nečekané a originální (notemoiálně nejneprší) řešení
+    truth: 4
+946210e51441cdd5d807f3a7d958f9f9:
+  5:
+    pred: 2
+    text: apriorní Parametry - likelihood funkce p(X|C) pravděpodobnost třídy p(c)
+      - pro každou třídu dat p(c) = poměr trénovacích dat ze tříd, pro každou třídu
+      1 hodnotu likelihood - potřebujeme parametry normálního rozdělení - ve + J tedy
+      20 vektor pu = ø] a kovarianční matice < pro každou třídu 6 reálných čísel or
+      Celkem celkem x likelihood param = 3 + 3 b = 27 N = 2 = 2. 2. 2. 2014 - aN /
+      A - vysádření z max. likelihvod MALXICI;PICIFIE;(x|c) . p(c);S POLICIDLY
+    truth: 4
+  6:
+    pred: 2
+    text: generativní - trénujeme rozdělení pravděpodobnosti jednotlivých tříd, P(c|X)
+      vyjádříme s využitím bayesova vzorce - např. gaussovský klasifikátor diskriminativně
+      - trénujeme přímo P(C|X) - např. logistická regrese;generativní funguje lépe
+      s méně daty, ale plýtváme parametry diskriminativní - lepší s hodně daty, ale
+      má tendence se přetrénovat na málo datech
+    truth: 4
+  12:
+    pred: 2
+    text: OSTATE;01- 51 O4-T1, T2, I3, L4
+    truth: 3
+94c11b6d613717c655f2df563c47e9dc:
+  2:
+    pred: 4
+    text: MAX;3;Š;- úspora = 2 udy;MÍN;je to jedno, nebudou prohledány (min už je
+      menší než max z vyšší úrovně)
+    truth: 4
+  5:
+    pred: 0
+    text: 4 (co - nahoře možná ne) odhadném metodou maximální věrohodnosti Pro vzor
+      spočteme hustoty všech rozdělení (ve vzorovém datu) a řekneme, že vzor patří
+      do třídy s nejvyšší hustotou.;=2
+    truth: 1
+  7:
+    pred: 4
+    text: tečky - trénovací data Z křivka = naučený model Generalizuje proto, že prochází
+      daty rozumně. Negeneralizoval by tehdy, kdyby bodů (dat) x bylo málo a naučený
+      polynom by protínal data přesně, ale velmi divoce (tzn. měl vysoké kaeficienty
+      vah). To se stává, když uvažujeme polynom vysokého řádu (a máme málo dat).;,
+      negeneralizuje
+    truth: 4
+  8:
+    pred: 4
+    text: p (nakažený) = p (n) =0,2 p(pozitivní) = p(= ? píp/n) =0,9 p(příp) = 09;p(pípín)
+      p(p(n) = pln|p) 0,90,02 p(p) - platn) pln);plním
+    truth: 4
+  11:
+    pred: 1
+    text: váhy v jádřech parametrů = (velikost jádra x) - (velikost jádra - y) - (počet
+      výstupních hanáků
+    truth: 3
+  12:
+    pred: 0
+    text: 01;D;E
+    truth: 4
+9959b39950406bc66827b12959f783aa:
+  3:
+    pred: 3
+    text: 'Pro greedy search: ax(problem, nula, hx) * jednicha (x) ... fce, co vrací
+      EM � return 1.) x nula (x)... fce, co vrací O Fretuan 0; DFS: ax (problem, nula,
+      jednická;Hlavní myšlenka: needg se arch obecně jde přímo za cílem nehledě na
+      aktuální cenu (jako pacient obecit objeckého centra za hebatem) a hledá nejrychlejší
+      cestu DFS také nezajímá aktuální pozice, ale prostě jde pořád dopředu, dokud
+      nenarazí ho zdi (na dno) 4. Máme OSP úlohu s proměnnými XI, X2, X3 a odpovídajíc
+      D3 = fl, 2, ..., 9, 107. Proveďte inferenci tak, abyste zajistili konzistenci
+      hr- X3 XI.'
+    truth: 2
+  4:
+    pred: 4
+    text: 12 3456 7 8 9 10;senom komentář;23/XXIX 1x x x x x;D2 xxxxx XXXx;DA XXXIX
+      x x x x XXX;Výstupem je D, = § 55 2513 D3 = {4} (Jediným řešením CPP je tato;xxx
+      x1 x1 je menší než 6. -> X3 musí být menší než 5 Ahoj 3x2 x 2 x ? největší x
+      je 4 a tudíž největší x je 1 (z 2 bytu byl 64 4, což neplatí). Současně x 3.
+      Současně x x3 � x 14;kombinace domín
+    truth: 4
+  5:
+    pred: 4
+    text: 'Co chceme: umět vypočítat P(třída;*;P(x);P(x| třída) - odhadujeme parametry
+      normálního dvourozměrného rozdělení - je - střední hodnota (1 reálné č. - kovarianční
+      matice 2x2 (4) - u a E odhadujeme metodou P(třída) - Počet dat dané třídy Počet
+      všech dat "TPravděpodobnost výskytu třídy Výpočet - dosadí se do vzorce vyšetřované
+      dato, výstupem pravděpodo- bnosti daného data pro 3 různé třídy.;Ohled diskribace;1)
+      - Pro 3 třídy pak 15 reálných čísel reálná čísla) maximální věrohodnosti Tři
+      třídy, 3 reálná čísla;Priorní prav. zvolené třídy Součet přes všechna P(x) třída);u
+      E'
+    truth: 3
+  8:
+    pred: 4
+    text: P(náh (poz);P(poz)ňati P(mak;P(nak) = 0,2 P(pokl. |nah) = 0,9 P(náh (poz)
+      = 0, 7 P(poz) - ? P(náh) = 0,8) (pozitivní) P(nak) / poz) =0, 9;p(poz);P(pozice
+      = P(pozitivník) Pinak 944-9);P(nak) poz);P(pozinah) = P(nah / poz) - P(poz)
+      P(nak) P(pan Inak) - Plnok) 0,9. 0,2 P(poz) P(nak (poz) P(poz) = 20 %;0,9;0,2
+    truth: 4
+9b33f3eaa48336d891ace3b901cdf7b7:
+  1:
+    pred: 3
+    text: 'v alam;čo wydím;Triesene: BX 3X;DB;x;B8X'
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;S podpokladám, že se prehladávají uzly sláva doprava
+    truth: 4
+  3:
+    pred: 3
+    text: guedy;gl;DFY;return 0;;Knihy poděkování subvence evangel.;klik;retum learnistika;;eu:;return
+      0;;9;();retun - current - pakh trouelled;;f(A) = hl);květen;docielime to, že
+      nasledujú im expedicovým rozhon bude prý potomok
+    truth: 4
+  5:
+    pred: 4
+    text: 8;lido dva parametre charakterizujú jedna třída. Keď máme tri triedy tak
+      máme trojicu týden dvacet parametrov.;d;kovariační matica;pr- priemer/stred/uniestnenie
+      dvojrozmezného gaussovského rozloženia v 2 d přestore, 2 neděle čísla E- kommandí
+      metica, a- udáva ako velmi je reloženie "rozťalové" v ose x d - -;v ose;XIC
+      2 Dic 8 = EXTINGENT;10;c - izdex brindy No - počet dát danej tviedy;p(x|c) =
+      16 m = 12) = ve F. 2;Ak-ristérye);b = C - korelácia vedzi atributmi x a y čím
+      bližšía k +1 čím bližším k -1;ak sú rosí o;Pomoc týchto parametrov vieme modelovať
+      rozloženie resp. rozdelenie pravdepodobnosti. teď chceme avezť do ktorej briedy
+      dané dato patří, tak vypočítame pravdepodobosť jeho výskytu podle funkcie rozdelena
+      pravdepodobosti pre každá z bied, a priudíme ho třeba, pre ktorú je táto prodepodobot
+      největšía.
+    truth: 3
+  11:
+    pred: 3
+    text: paranetre filtrov konvolučnej vrsty;všecky porozebrané vzty;počet parametrov
+      jedné vzty NAXXIC avšak pozor, porazila v konábrah filtra sa rovných, proto
+      je tento počet;NAXY;C - počet kazílov vstupu N - před filtrov vrsty X, Y - roznesy
+      filtra;PUT;v každej;vstve môže byť až N filtrov. každý filter musí mať romaklý
+      počet kanálov ako vstup. Mali by měl všetky filtre roncké roznosy.;učitelné
+      paraztu;vyty
+    truth: 4
+  13:
+    pred: 3
+    text: '- je to rekvientná sídľ - vstupem na začátku je lokem STAPT, rekurentná
+      vrstva na základe tohto tokem a encodingu vstupujících rekorskej vygevuje prý
+      výstupný token a vnitrý stav. Tielo se dajú na vztap vrstvy a té vygeneruje
+      další tohen. Toto;se opakuje až potým nie je výstupným tokemom END.;Kój;arr
+      = LI state = encode (guery) loku = START wtile tokem! = END: mancheta, dokola
+      state, token = RL (state, token) arr. appud (token);arc = výstupný text;RL =
+      Recurrent Lager'
+    truth: 3
+  14:
+    pred: 3
+    text: me to rání od tazku. Ak nu však dávame odmeru priebežne (hned po vykonaní
+      správnej akce) tak vie lepšie asociovať danú odmenu s danou akciou. Ak na dána
+      odmena len na konci, tak nevie která konkrétna akcia bola v konkrétnom stave
+      tá nejvhodnějšia. To že na déme odmezu hned môže vieď ku problému podobnému
+      "instant gratification", kedy bude stále vykonávať daná akcia za účelem odmey
+      a nebude objavovať nové postuposti stavov/akčí, případne v danou stave určitezne
+      napríklad AI která pozerala televizi v bludisku.
+    truth: 3
+9f14e4b60aa060a04813f144a2533dea:
+  1:
+    pred: 1
+    text: a;A, A, B, X nebo B, B, B, X, X, X (A, A, A) ať už je počáteční stav jakýkoliv,
+      agent skončí ve stavu 2
+    truth: 4
+  6:
+    pred: 2
+    text: generativní - modelujeme rozložení podle vstupních dat (Gauss diskniminativní
+      - nemodelujeme rozložení, pouze odhadujeme předél mezi třídami (logistická regrese)
+      lehce se přetrénují vyžadují méně trénovacích dat
+    truth: 1
+  7:
+    pred: 4
+    text: 'lin. regrese;polynom. regrese;Model generalizuje, protože aproximuje funkci
+      (závislost) mezi x a y. Není dokonale přizpůsoben vstupním datům (není přeučený).
+      V takovém případě by přesně kopínacíl trénovací data a negeneralizoval by Pokud
+      bychom zvýšili řád polynomu mohli by vegme vypadat takto:'
+    truth: 2
+  10:
+    pred: 1
+    text: acyklický.;složen z nelimánních matematických operací;o;- ouk
+    truth: 2
+  12:
+    pred: 2
+    text: 01 = f(11) O4 = f(11, 12, 13, 14);S
+    truth: 3
+  14:
+    pred: 3
+    text: Průběžná odměna může algoritmus lépe navést k celkovému řešení Může způsobit,
+      že algoritmus ignoruje celkové řešení a soustředí se pouze na získávání dílčích
+      odměn.
+    truth: 4
+9fae5964355733843daa9b7668b03bed:
+  1:
+    pred: 1
+    text: 'Po vykonání každé akce Zkontrolujeme, jestli jsme nedosáhli cíle. Následující
+      posloupnost akcí nás vždy dostane do dílového stavu: A, X, A, X;DB;AX AX'
+    truth: 4
+  9:
+    pred: 2
+    text: 'Umělá inteligence se využívá v různých oborech: matematika, statistika,
+      medicína, ekonomie, impormatika;„Strojové učení'
+    truth: 1
+  10:
+    pred: 1
+    text: Grac musí být;acyklický;a orientovaný;deterministický);smysl funkce;vstup;výstup
+    truth: 4
+  13:
+    pred: 3
+    text: Tyto modely generují výstup na základě pravděpodobnosti výstavby slov v
+      dané větě (vedle sebe) - Modely využívají podmíněnou (posteriorní) pravděpodobnost
+      (Jaká je pravděpodobnost daného slova, když před ním bylo toto slovo?“)
+    truth: 2
+a59e81da1b3adf890fe6c32a90507d3c:
+  1:
+    pred: 3
+    text: DA A, A, A, B, x;troch sekvencia ? A vždy redie na dostav, kedy je agent
+      v stave 2, následne stačí pridať sehrencin z 2 do 0;existuje aj iné nešenice,
+      napr. B, B, AX vytvořené podobným konceptem;P;OD
+    truth: 4
+  4:
+    pred: 4
+    text: D1;D2;C /;/ / /;/;/;/ o;/;An;7 4 / /;8;* / /;q;*;/;10;XII.;/;D1 = {53, D2
+      = {13, D1} = 243
+    truth: 4
+  5:
+    pred: 4
+    text: '1;M;z reálne čísla;= (a) Mo pre jednu triedu = Teda 3x pre celý klasifikátor.
+      (ke 41.2,33: x, y, a, b, a do eR);4 reálné čísla;2 = 12+4). 3 = 18 reálných
+      čísel odhad: napr. pomocou metódy maximálnej vierohodnosti Ak máme tri 2D gausovky,
+      neme určiť pravdepodobnosť príslušnosti 20 bodu do každého z rozložení, z čeho
+      určíme, do akého rozložení bod s nejvyššou pravdepodobnostou patrí. Tam je zatriedený.'
+    truth: 2
+a95f81531d5247f5a1082ca2f27c10ce:
+  1:
+    pred: 3
+    text: Provede-li agent posloupnost akcí ABXABX, tak nezávisle na počátečním stavu
+      dosáhne cíle, tj. bude ve stavu 0.
+    truth: 4
+  3:
+    pred: 4
+    text: 'Greaty search bere v potaz jen odhad ceny do cíle a ignoruje cenu uražené
+      cesty, tedy: 65 = a * problem, 0, hX;#S bere jen cenu cesty: BFS = aX (problem,
+      g+, 0);DFS se chce znořovat hlouběji) než vyzkoušet alternativní cesta. Můžem
+      tedy jako neuristiku pro x použít právě onu cenu uražené cesty: DFS = at (problem,
+      0, g+'
+    truth: 2
+  4:
+    pred: 2
+    text: k;£5;6;19 77 Druhý pokus X3 (Kl => N3 = 3, 1, 2, 3, 43, x71 3x2ʒ x3 => 42ť1;Str;D1
+      = {2, 3, 4, 5} D2 = {23, 40} D3 = {1, 2, 3, 4};FeeR;6;x1 S 1, 29 49 + 10) 3
+      = 95 = 12;14 StŘEDA;D1x/2 D2 2/3/4 6 2/9 10 D31 2 3
+    truth: 3
+  5:
+    pred: 3
+    text: 'Odhad ú provedeme jako průměr dat, zvlášť pro každý rozměr, tj. průměr
+      z x - ových hodnot a y-ových hodnot! ú = (x, η). Samozřejmě bereme pouze data
+      patřící do dané třídy. O vypočtení (odh. klasicky, ale s využitím př. Pro třídu
+      pak máme 2D normální rozložení N (ú, jez), které využijeme pro výpočet pravděpodobnosti
+      náležitosti k třídě.;Každá třída má svoji ZD gausovku s parametry u - střed
+      a p2-rozptyl. Tyto parametry jsou dvourozměrné, tj. dvojice: u = (myny), P(P2,
+      Py). Jsou to tedy tři 2D parametry, tj. 6 reálných čísel.;Vzorec pro ZD z hlavy
+      nedám...'
+    truth: 0
+  8:
+    pred: 4
+    text: P(BLA) P(A);P(nakažený) = 0,2 P(poz/nak) = 0,9 P(zdravý / poz) = 0,1 8 (poz)
+      = 2;P(P|B);(poz) =;P(pozlnak) P(nak);P(nak|poz);0 (roz) = 98.012;P(A|B);P(nak/poz)
+      = 1-P(zdravý/pos) P(nakleož) 0, 9;99;P(poz) = 0,2;Test bude pozitivní s pravděpodobností
+      20%.
+    truth: 4
+  11:
+    pred: 2
+    text: '2 slova: váhy ketnelu více slov: koeficianté váhy konvolučního filtru -
+      jádra;počet parametrů: rozměry x kanály;= II r. Vizi=;pro obrázek (ZD): šířka
+      x výška * počet kanálů např. 3 pro RGB;x k;kde riz je i tý rozumě konvolučního
+      jádra k z počet kanálů'
+    truth: 3
+  12:
+    pred: 4
+    text: 0.;P1, +2)
+    truth: 3
+ae04cdd739eceeae85fda0bd00049cd7:
+  1:
+    pred: 2
+    text: 'provedu 3 krát akci A a zručeně budu ve stavu 2 potom provedu sekvenci
+      akcí vedoucí ze stavu 2 do PB stavu X, např. nejkratší: BX tedy: AAABX (podobně
+      BBAX)'
+    truth: 4
+afe81d7a80453838440677e5234cabd3:
+  1:
+    pred: 0
+    text: A;pomrzla ale;SXXABA;D3
+    truth: 1
+  4:
+    pred: 4
+    text: '1-3X2 LX2 � 63 x37 #2 2-X3 cX1 EX XI 7x3;= 21,213,453 D2 = {1, 2, 3} B3
+      - {1, 2, 3, 4} 2 II D, FL 2, 3, 4, 53 2 D2 = {13 1 D3 - III D1 = §53 2 D2 =
+      {13 D3 = 593;1;výsledek;D1 = {53 D2 = {13 D3 = 543'
+    truth: 4
+  9:
+    pred: 1
+    text: Neuronové sítě L deep learning stallowlearning
+    truth: 2
+  13:
+    pred: 2
+    text: na vstup NN vložím větu a dostanu pravděpodobno, ktere se s největší pravdepodobností
+      vyskytne na výstupu jako 1. Toto slovo vezmu jako vstup NN a ta mi vrátí slovo,
+      které bude nejpravděpodobněji další. Tento postup opakují do konce.;pravdopodobnostní
+      funkce
+    truth: 3
+  14:
+    pred: 3
+    text: Je vhodné oceňovaní i průběžně, například za vzdálenost od cíle. Pro zjištení
+      optimální cesty, případně pro vyhnutí se negativním ohodnocením Oceňovaní dokáže
+      urychlit učení agenta
+    truth: 3
+b6d73a834ec5aad1c8b3b05ccf9b43c0:
+  1:
+    pred: 2
+    text: vyhovíme akci v postupnosti A a|B -> A -> B -> x
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;2000 500
+    truth: 4
+  3:
+    pred: 2
+    text: 'grady - smrch: w(problem, 0, R) DFS: a (problem, 9;o)'
+    truth: 2
+  4:
+    pred: 2
+    text: 'xx1: D1 = E223, 453 D3 = 21, 43 D2 = 21. 108 FALKERY: D2 = 813 D2 = 848
+      D1 = 853 x1: 455 v x 3. 12 4 V;D1 = 853 D2 = § 13 b3 = 543'
+    truth: 4
+  10:
+    pred: 0
+    text: Reliv;+;DAL ROW OE
+    truth: 4
+bf4039f02a2e6a6e0a4ebb98806aaf90:
+  4:
+    pred: 4
+    text: 1;2;s;10;D,;X;x;X;D2;D3;X;x X;x;X;r X;X x;X x;X X;X x;x;D1 = 82 83;5);13
+      343
+    truth: 4
+  6:
+    pred: 1
+    text: '- diskriminativy model - logistická regresia - generativy nodel - linearna
+      regresia;- generativy model sa snaží odhadnuť pravdepodobnostné rozdělenie a
+      na základě nebo klasifikovať. Používa apriuri. P(X|C) a P(C) vodí P(C|X). -
+      diskriminativny na snaži na priamo prirodiť datu triedu P(C|X) generativy nepotřebuje
+      toliko dát ale je meněj úspešny. Diskrimativy potřebuje vive dát a je prosnejší.'
+    truth: 1
+  9:
+    pred: 2
+    text: Nurrew AI - rózne nástroje - spanafilter slavek engine autonome auta prepis
+      reči text to speech prehľadoč
+    truth: 2
+  10:
+    pred: 0
+    text: (x2-w+ b)
+    truth: 4
+  13:
+    pred: 1
+    text: předchádzajúcimi slovani P(w|P(w2| ) = P(wa). P(w2|w2) ... P(wn) was...
+      wann) Vstup je posunutý o 1 slovo pri generovaní aby model ten neprepisoval
+      slova.;Pravdepodobnosť slová vo vete závisí a je podmienená
+    truth: 3
+bf6d0974fd70a67fada3fb1b1f9d63d2:
+  12:
+    pred: 2
+    text: 01;In I2
+    truth: 4
+  14:
+    pred: 2
+    text: gen;Oba dva přístupy mohou být vhodné, nicméně pokud dostává odměny i průběžně
+      může se stát, že se agent naučí pouze předdebinovanou posloupnost kroků a v
+      takovém Případě nebylo potřeba jej vytvářet. Takže je důležité to nepředmat
+      s odměnami v průběhu trénování. Vhodné to může být například k rychlejšímu učení
+      agenta, nebo k nasměrování ho správným směrem.
+    truth: 4
+c7262a745405372830d5c0a21157e71d:
+  1:
+    pred: 3
+    text: X;PB;1. 3x provést akci 2. 1x provést A 3. IX provést X;B;3x provedení Q-
+      odkradkoliv dojde do do stavu 3, poté A � dojde 4, potom x A pojde do 0
+    truth: 4
+  3:
+    pred: 2
+    text: greedy sedrd:;g=0, h=h*;DES igeo, neo
+    truth: 2
+  5:
+    pred: 3
+    text: 'parametry.;střední hodnota všech 3 tříd;stř. hodnota jsou véátná čísla
+      v rozptyl i rozžil je 1 číslo, stř. hodnota druhé.;Odhad - Maximum Likelihood
+      = arg max p(x|c) w|? 8, 4, 7, kde z Eskew Jak je využijeme — umožní nám odhadnout
+      gaussovské rozložení, ze kterého data pochází parametry: střední hodnota cvektor
+      z čísel pro 20 sp kovarianční matice - matice h čísel (rozptyl pro obě osy a
+      „skew“ který říká závislost hodnot v dimenzích) toto parametr je nutné odhadnout
+      pro každou třídu.'
+    truth: 2
+  6:
+    pred: 3
+    text: diskriminativní - logistická regrese;generativní - gaussovský klasifikátor;PŘSLY;přístupy
+      se liší v tom, že generativní klas. modeluje hustotu rozložení pravděpodobnosti,
+      ze které pak počítá pravděpodobnost, zatímco diskriminativní modeluje pouze
+      podmíněnou pravděpodobnost, která nás zajímá. /než hady Výhody - generativní
+      nepotřebuje tolik k natrénováni ale počíta i zbytečné informace k celé rozložení
+      hustoty - diskr. potřebuje více dat ajinak je náchylný k přetrénování), ale
+      poté je efektivnější.
+    truth: 2
+  11:
+    pred: 1
+    text: 'hodnoty konvolučních jader.;počet =;Výpočet počtu: (výška - jádra * šířka
+      - jádra * počet - banálů) x počet - jader'
+    truth: 4
+c9c4060106249fda11a3043c33e8d8a2:
+  1:
+    pred: 1
+    text: 6;XAXA
+    truth: 4
+  2:
+    pred: 4
+    text: 'MAX;MIN;O;nepřehladáva;Max úspora: 2 uzly Hráč (super) vyberá mininezáleží
+      aké ohodnotenie majú poslední dva uzly, keď ten prvý má 1, a to je menšie, než
+      3, a 3> hráč nad faku maximalizuje, teda určitě pôjde fakt, kt. vedie k zisku
+      5.'
+    truth: 4
+  6:
+    pred: 2
+    text: Generativny model gaussovský klasifikátor;Diskriminativny model lineárna
+      regresia;-> výpočetne náročnejší výhodnější je vtedy, ale máme nějaké info /
+      tušíme aké majú data rozloženie / hustotu počíta najsbór pravd. p(x|c) a p(c)
+      a tak použije poe výpočet p(c|x) pomocou Bayesovho vzorca;· hladá deliacu hranicu
+      medzi tředami dát � stačí mu menej dát;� odhaduje pravdepodobnosť p(c|x) priamo
+    truth: 1
+  8:
+    pred: 4
+    text: Zborovský;P(nakazený) = 0,8;P(zdravý pozitivny) =0,1;P(pozitivny (nakazený)
+      =0, 9;P(pozitivny) = ?;Odvodíme si zvyšné prov. tun zadanin P(A) - P(B) P(zdravý)
+      = 1 - P(nakazený) = 0,8 P(negativny) nakazený) = 1 (pozitivny nakazený) =0,1
+      P(obecné pozitivny) = 1 - p(zdravý/pozitivny) = 0,9 Pladový provisorní problémy
+      Plán P(nakazený logitivný) = P(pozitivný nakazený) P(nakazený);P(pozinak) P(nakaz)
+      P(pozitivny) P(nak / pozit) 0,55 . 0,2 0,9;P(pozitivny)
+    truth: 4
+  13:
+    pred: 1
+    text: Rozdelujú veku na tokeny (slová) a snažia sa predikovať aké slovo bude následovat.
+      Na začátku je token START a na konci toheu OND. ARE, You řou,;START bYToU AKCE
+      YOŮ
+    truth: 3
+caa43cc5a94bfc67bf4e1bc08953c835:
+  1:
+    pred: 0
+    text: So;BBAB
+    truth: 2
+  4:
+    pred: 4
+    text: X;X2;1;X;2;3;4;5;X;6 X X;7;X;X;8;X;X;9;x;x;10;X;x;E2,3,4,53 k 1, 2, ...,
+      9, 103 = k 1, 2, 3, 43
+    truth: 4
+  7:
+    pred: 2
+    text: K = 2, teda modelem je parabola. Model generalizuje, protože pohynom 2.
+      rádu dobre popisuje "tvar" dát. Kdyby sme změnili stupeň na vyšší, tak by sa
+      model pravdepodobně potřeboval alebo keby sme mali iné dáta, kterých tvar sa
+      nedá aproximovať polynomom 2. ráda.
+    truth: 4
+  9:
+    pred: 1
+    text: Strojové učenie a neurónové sieťe.
+    truth: 2
+  10:
+    pred: 1
+    text: Acyklický;graf;NORD1;WORD2;KORDJ;START;KORPM;KOROZ
+    truth: 3
+  11:
+    pred: 1
+    text: hodnoty vo "filtrech“ - kernel/jadro;počet vstupných kanálov - šírka jadra
+      - výška jadra - počet výstupných kanál.
+    truth: 4
+  14:
+    pred: 2
+    text: Ano. vhodné mu dať odmenu ať pri splnení úlohy;Takto dovolíme agentovi experimentovat
+      a tým sa učí nové;Keby ho odmeníme po každom kroku, tak sa nič nové nenaučí.
+    truth: 1
+cd3566ec8a54afb4c8f0ad4f22b7a48e:
+  6:
+    pred: 2
+    text: funkcie hustoty pravdepodobnosti generativní - ide a zistenie rozdelenia
+      pravděpodobnost;- napr. gaussovský klasifikátor - nevhodné pre velké úlohy;diskriminativní
+      - ideo zavadenie do triedy, nie pravdepodobnosti (aj bed napr. log. regrese
+      pravděpodobnosti vracia) - nape. logistická regrese
+    truth: 1
+  10:
+    pred: 1
+    text: '- graf vrstiev architektury siete musí byť acyklický, orientovaný;O;6;-'
+    truth: 4
+  13:
+    pred: 1
+    text: plus, w2, w3 ..., was) = p(w|l p w2 ) p (w3) w2, w1)...;p(wh/wna, was in...);=
+      Пр(wп|w<, wпаз+ ла);- generovanie slova vždy závisí na všetkých predošlých -
+      v prvou kroku je na vstupu len encodeí vstupná veta a takem START - každé dalšie
+      slovo potom závisí na prodošlých
+    truth: 3
+ce1e0e61482d8d323c9af9f6dddd0a6b:
+  1:
+    pred: 1
+    text: opakování posloup. akcí ABX až do dosažení cíle;OB
+    truth: 1
+  6:
+    pred: 2
+    text: 'diskriminativně tr. m.: soustředím se rovnou na odhadnutí P(class/observo
+      např. ometody maximální věrohodnosti např. logistická regrese'
+    truth: 1
+cefd5c86a5a731b024525b6a26663cc8:
+  1:
+    pred: 4
+    text: 'BS= 20, 1, 2, 3, 43 35, = 8 � 1, 2, 45 l 352 = 81,23 /14 � BSŽ = 223/3
+      � = 213 IX � 3 BSP = 903;A ->;x;posloupnost akcí: A, A, A, B, X, X, X'
+    truth: 4
+  3:
+    pred: 2
+    text: 'greedy search:;g=0;h = h*;min;DFS: g = g h=0'
+    truth: 4
+  4:
+    pred: 1
+    text: X1 x 345 12 123 56 78 910 3 12 3;D1 = {2, 3, 4, 5} D2 = {1, 2, 4, 5, 6,
+      7, 8, 10} D3 = {1, 2, 3, 4}
+    truth: 4
+  11:
+    pred: 1
+    text: konvoluční jádra;počet vstupních - kanálů x počet - jeder x (hrana-jádra)
+    truth: 4
+  14:
+    pred: 2
+    text: Ano, je to vhodné, jelikož by se jinak mohlo stát, že kdyby bylo obtížné
+      odměnu najít, tak ji agent nikdy nenalezne a nic se nenaučí.
+    truth: 3
+d5505c6e738d0a635e0ca6d2d07340a8:
+  1:
+    pred: 0
+    text: PB;alčí Postuposť x [A, x, A, x]
+    truth: 4
+  6:
+    pred: 2
+    text: Generativy model - pohrbujeme odhadníď pravdepodobnosť pre jednotlivé priedy
+      a rovnev ohladnúť pravdepodobnosť p(x|c) - následne přeme použiť Rogenovlý vrouc
+      pre výpočet pořadovny pravdepodobnúti p(c|x) - lineárna regusia;difriminativy
+      model - odhadujeme priamo pravdepodobnosť p (c|x) z dostupných dát a ich „tvrzební;-
+      napr. logistická regarda
+    truth: 1
+  14:
+    pred: 2
+    text: Existuje problém, aby agent na svoj hrch vôbec dostal nejakú odmenu. V takove
+      prípade môže učenie uviaznuť na mútvom hode. Rovnalo, led odmena príde po veľmi
+      dhhom čase agent si nemusí byť idý kov, které akcie túto odmenu drzal. Preho
+      je vhodné dávať odmeny aj na vhodné za cieľu približovanie a správamie Moře
+      ustať problém, kedy je agent odmeňovaný kompromise, které priamo nevedne k cieľu
+      (napr. agent je odmeňovaný za dosiukutie nonej obrovsky � agent rozehnutý na
+      pareraní TV). (vídenie) Preto je nutné vhodne zvolit, za akci mimo čela agent
+      řeka admenu.
+    truth: 4
+d7aab42d4569ee5a25f14e40629baac8:
+  10:
+    pred: 1
+    text: nedoceněnou;x1. stol;- musí moc vstupy - musí muť váhy — musí mít binsy
+      - musí mať výstupy - objektivní funkce (loss function) - anotované dátata (data
+      - burget);urby;viz;0;+
+    truth: 2
+  12:
+    pred: 3
+    text: O;O, závisí nad Oo a I, Oe závisí nad O, a I2
+    truth: 2
+  14:
+    pred: 2
+    text: je vhodné aby dostal priebežne odmenu;Tebo sa učí že postupuje správným
+      smerom. do cielu;propro závodávt kde dostane odmenu na základe prejdenej szdialenosti
+      nie len či ukončil závod;g;može sa stať že sa poevší na zlý parameter [ (napr.
+      bude pokračovat aj potom čo závod skončil) tebo prejde väcšiu vzdialenosť
+    truth: 4
+d93e16d9eedd00e09bdea8e2562b9e78:
+  2:
+    pred: 4
+    text: B= 0;MAX;8;1919;129;10;MIN;Nebudou prohledávat
+    truth: 4
+  8:
+    pred: 0
+    text: p(nakažený) = 0,2;(nakažený / pozitivní) = 0, 9 pozitivní nenakažený (není
+      zde) pocitení =0,1, p(pozitivní l nakažený) =0,9;pomoc P(pozitivní) = ?;(pozitivní)
+      natožení;(nakažený / pozitivní) = plankární lipl p(pozitivní) = p(pozitivní)
+      = 03;nakažený) planitivní linie);p(nakažený / pozitivní);p(pozitivní);0,9;0,2
+    truth: 4
+  9:
+    pred: 1
+    text: Strojové učení Neuronové sítě Prohledávání stavového prostoru Gnozeologie
+      AI (protože kdo by se nebál singularity)
+    truth: 4
+da6d7974b094aff71a711f08f4b890d0:
+  4:
+    pred: 3
+    text: D;1;IX;2;3;u;5;6;1918;10 bylo to Na;Bronz Ullm;P2 p;X;LIDKY 3x2773;*;X;x;x
+      D1 = 22, ..., 53 p2 = 21 ... 10 3 p3 = 21 1/3;Š;x;x;X
+    truth: 1
+  13:
+    pred: 3
+    text: vstupní text se zovoduje se do torenu. � vznikní kontextní věktor Pak procházím
+      slovo po slovu a počítám p-ost 50 me slovo patří na dané místo. P(toren) � vy
+      Vyberu slovo s největší p-osti, davom ho na výstup a sílam do kontextu pro další
+      slovo. P-ost nastetujícího slov a počítam s ohledem na předmozi slova p(woren)
+    truth: 4
+de9177b9575ef89d4b2f4e2c3a9d3cb0:
+  9:
+    pred: 3
+    text: '- počítačové vidence (rozpoznávanie obrazu) - rozpoznávanie řeči - generovanie
+      textu (jazykové modely) - generovanie obrázka - preklad textu'
+    truth: 2
+  10:
+    pred: 0
+    text: nemůže byť v nich cyklus;w,
+    truth: 2
+  11:
+    pred: 0
+    text: '- filtre (kundy);výška * šírka * 9'
+    truth: 2
+  14:
+    pred: 2
+    text: taký, že nejlepší výsledek může ležať při velmi zlých výsledkech a pri přizbožných
+      odmenách tam chcieť íšť nebude.;Ak dám průběžné odmeny, tak natrénujem rychlejšie.
+      Problém může nastat
+    truth: 4
+e3d02a7e3b33f83005dc53baa3b1f72e:
+  4:
+    pred: 1
+    text: XI;X2;1;X;Ihr;2;3;5;6;X;7;X;8;X;X;10;X;x1 E 33, 953 x2 c k 1,239,516,73,103
+      x3 c q 123,93;3;x;X;x;x;X;x
+    truth: 4
+  5:
+    pred: 4
+    text: Kolko reálných čísel? - 6, 18 - 6 na 1 triedu, máme 3 triedy Ano odhadneme?
+      - Môžeme použiť maximálny něcohodý odhad, kde hlídáme parametre O O = arguae
+      M p(x|c) x a, 0) kde X n sú dáta danej kriedy;II=;- studná hodnota < = 2^° }
+      = smezodatná odchýlka;* 3, leto tie má potřebné pre 1 třídu;Tieto parametre
+      vieme dosadiť do vzorcu a vypočítať pravdepodobnosť pse, že dato patří do každej
+      třídy. Uvidíme, že patří do třídy, kde má najvyššin pravdepodobnosť.
+    truth: 2
+  6:
+    pred: 2
+    text: generativny model - modelujeme fakticky hustoty pre každú tředu -> vela
+      počítania pri klasifikácii - napr. gaussovský klasifikátor;model trénovaný diskriminativne
+      - zaujíma náš len rozhodovacia hranica -> menej počítač při klasifikaci - spr.
+      logitická regresia
+    truth: 1
+  8:
+    pred: 4
+    text: nak-nakazený zda - zdravý neg-negativny poz-pozitivny P(neb) = 0,2 P(por)
+      nak) = 0,9 P(zdr (poz) = 0,1 � Plauk (poz. 0, 9 P(poc) =?;P(x) P(Y|X);P(x|Y)
+      =;P(M);P(Y);P(nak). P(pel mak);P(poz) =;P(nokl poz);P(X) P(Y|X);P(X|Y);P(voz)
+      = 0,2 . 49;0,9;=0,2
+    truth: 4
+  9:
+    pred: 2
+    text: '- strojové učenie - počítačové vidence - spracovanie reči, zvuku - zpracovanie
+      textu - spracovanie, klasifikácia a predikcia vzorov a udalostí v EEE predikná
+      počasia - extrakcia znalostí'
+    truth: 4
+  11:
+    pred: 2
+    text: parametre konvolučných jadier;Počet parametrov = počet vstupných vstiev
+      � výšší kemelu * šířka kernelu * počet výstupných vrstiev
+    truth: 4
+e3fb369e536a528a79919619d3ccb301:
+  3:
+    pred: 2
+    text: greedy;g = return o h = h*;b(n) = g(n) + h(n);D;� zložitejšie, keďže ná
+      íst najprv dole.... nie som si istý či by to bolo validné, ale niečo na štýl
+      g = - 1x len (path) h = 0
+    truth: 4
+  7:
+    pred: 1
+    text: '- ak by negeneralizoval tak by prechádzal jednotlivými bodami, nevedel
+      by "zavšeobecňovat'
+    truth: 1
+  11:
+    pred: 4
+    text: 18/9. filtrov počet parametrov = (výška filtra = šírka filtra = počet kanálov
+      + bias) počet;1 populární Středa respektive výška a šírka kernelov
+    truth: 4
+e3fcfce792cba2bd9b1f688e09b8636d:
+  9:
+    pred: 2
+    text: '- prohledává stavověko perstru - hran her - strojové učení - vření s učitelem
+      - učení bez učitele požehnání učení neuronové sítě'
+    truth: 3
+  14:
+    pred: 3
+    text: když nedáváme odměnu průběžně. tak nemusí vědět jaké kroky postopil správně
+      i když odměnu na konci dostal když dávané průběžně odměna tak agent dostává
+      zpětnou vozlu hned, může způsobit problémy když odměna ihned bude preferovat
+      jako "short-teum gain" oproti odměně na koni
+    truth: 4
+e48e0794dca4b5b891f98b423b16fbe9:
+  1:
+    pred: 3
+    text: 'Betreb: 0 1234 ná 4 nebo A není 12 A 2 8 x;012 34;B 134 B 34 B;3;A;Možné
+      riešenia: AABX, BBAX;oj;z'
+    truth: 4
+  3:
+    pred: 2
+    text: Greedy search = a* (problem, 0, h) DFS = a* (problem, 0, 0)
+    truth: 2
+  5:
+    pred: 4
+    text: Tento klasifikátor je popsaný konverzačnou maticou a strašnými hodnotami
+      normálnych rozložení, které sú jeho modelovat. Strodové hodnoty je velko, který
+      určuje umrzlou ve středu rozloženía dvojrozvorových dát. Konvertanční matica
+      je matica, kt. na hlavně diafonále určuje rozptyl jednotlivých rozložení, a
+      na vedlejšej ich korelacia med sebou (0 - zřadna, -0, 99 velmi budeme mať s
+      parametrou po každé tredu, číše 75 zájem Tieto premetre odhadneme procesu maximum
+      likelihood estimation, kde sa Snažíme realizovat nájsť parametre (popsané vysšie)
+      rozložení také, aby pravdepodob hodnot toh čo nejvyššie (ich súčin / súcct v
+      logdoném). Timto sme naprotekovali + st. jednotlivých rozložení pro dané triedy
+      (PQ IC), no my potřebujeme P(c|x) - tento postup sem popísal v úlohě 6. Ke stavbě
+      klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovane
+      použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte
+      konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody
+      a nevýhody?
+    truth: 4
+  7:
+    pred: 4
+    text: Bady - trénovací dát. krivka - model naučený poly-regresion k = 2;Nevíme
+      povídať, či model generalizuje, alebo nie, protože nemáme dostupné testovací
+      dáta, na kterých by sme to overili. Model negeneralizuje, ak má vysoká presnosť
+      (objektívna funkcia, napr. meansanevo error (maxim nízke hodnoty) pro náš trénovací
+      dataset, ale nízká presnosť pro testovací dáta/dáta, které nevidel (adol hanich
+      čnost
+    truth: 4
+  12:
+    pred: 4
+    text: vor;12
+    truth: 3
+  13:
+    pred: 3
+    text: Tisto modely generují vety na základě postupného generovaná tokanov (například
+      slov) na základe dopoust vygenerovanej sekvencie. tzn. že modeluje p(dělíš taken/wo,
+      was ) počem Wofillance sú vědky předchádzajúce vygenerované tokeny. Ako prvé
+      nám kontextovo zakóduje vstup dekodér, z kterého enkoder dostane vektor „exbodem
+      dáme štastovací takou (napr. start) a dále tento eukodic postupuje generuje
+      tolary, ale je popísané vyššie. Dekorace funguje na přinášce generovania vektorových
+      příznakové (produkce taken) na základě kontextu, v ktorova se nachádza, tiefo
+      natrénované vektory sú následuje získavané z LVT tabulky. Ak máme vektory vstupnej
+      vcty, tátovate sa zakóduje pomocou objasnených rekurentných vrstven do vektoru,
+      který jet stypu pre eukodér 14. Je při posilovaném učení vhodné, aby agent dostal
+      odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění
+      úlohy? Proč? Může to naopak způsobit nějaké problémy?
+    truth: 3
+e89c2ef8845bc8936dfb0dced67540b5:
+  3:
+    pred: 2
+    text: aby simulovala greedy search a depth-first search (DFS)?;greedy wazek se
+      orientuje pouze podle kewidity tedy g =0, k = ohodnocení heuristiky daného stavu
+      (cena do cíle) (tady je to asi outopat funkce kit?);- je neinformovaná metoda,
+      neorientuje se tedy podle žádných hodnot (využívá zásobota) (zde opět předám
+      že lit a je zná hodnotu � nastaneme tedy h = nh + a g = - g* � začínáme s vysokou
+      cenou h (jsme daleko od cíle) a čím více se vzdalujeme tím se cena snižuje (-gx)
+      � algoritmus má tedy tendenci procházet co nejvzdálenější uzly, tedy chovat
+      se jako DFS.
+    truth: 3
+  4:
+    pred: 1
+    text: XI;12;2;3;XXX.;4;X;6;7;89;10;XXXXIX;D1 zůstane nezměněná. D2 je omezena
+      pravidlem 3X2> X3 na D2 = {4, 5..., 103 D3 je omezena pravidlem na D3 = 21,
+      2, 3, 45
+    truth: 0
+  14:
+    pred: 3
+    text: hlavním cílem je zde danou úlohu splnit -> tedy dát odměnu při úspěšném
+      splnění problému (je jedno jakým způsobem byl doražen) pokud jsou ohodnocovány
+      malé hroby může to v krátkém horizontu mít pozitivní následky, ale ve výsledku
+      nemusí být problém vyřešen což jde proti celému smyslu na druhou stranu může
+      toto postupné vyhodnocování vést k lepším žením -> více efektivnímu než při
+      ohodnocení výsledků na celém problému
+    truth: 4
+eae9dd0163ad1161a9ef65474a7ad30a:
+  1:
+    pred: 0
+    text: ODB;ABBAX
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;DD Morimální úsporu jsou 2 voly (už obrázek), které jsou přerávy,
+      protože MIN jistě už zvolí horší řešení, než jde z levého podstromu.
+    truth: 4
+  4:
+    pred: 2
+    text: X1;XXXXx x XX;XXXI;V
+    truth: 4
+  5:
+    pred: 4
+    text: Pro každou třídu dat přístupnie modelovat její rozložení, které vychází
+      z ZD Gazurského založení. ZD normální založení má 2 parametry - střed a kovarianční
+      matici. Stád je ZD velter, kovarianční vnitra 2x2 valice (na dagonité hlavní
+      diagonále rozptyl, ve zbytku koaloce). Celkem tedy máme 3. 2=6 parametrů, pro
+      jejich popis patrohrazíme 3. (2 + 4) = 18 císl Parametry odhodneme pomocí maximon
+      liteliboval estimaton na datapných trénovac datech. K odhodlávat., že nový vzor
+      patří do třídy vpřípadě Projevův vzorec P(chass|alo) = P(class) - p(abs) class)
+      -, protože právě vyřaz P(obs|class), P(abo) síňme je určen dle odhodnotitele
+      parametrů Gaussovského rozložení. Typicky je pak rodem třída s maximální apateriorní
+      pravděpodobností. P(alo) = 6, P(dus) . P(clo) dass)
+    truth: 4
+  6:
+    pred: 2
+    text: U generativního modelu modelujeme odhad rodování pravděpodobnosti, parametry
+      tohoto rozhození je nutné odhadnout (už předchozí překlad), na základě mit pak
+      konfligence. Diskriminativní model hral odhadu přesluhuje a snazí se právo zvoddávat
+      nahodovou hromadi pro kazeptovi dle dat. Generativní je např. gaussovský klasifikátor,
+      diskriminativní je kvieární koajistická regrese Generativní má neví terdeme
+      overfitovat na málo datech, uvoiruje nám, nahlédnout primo, jak jsou chaty generovány
+      (a je možné generovat nové vzorky Výhodou diskriminativního je, že není nutné
+      odhadovat rozložení pravděpodobnosti (které může být značně sloužitější než
+      gaussovské). Nevýhodou pak, že trénování je typicky sterativní a nemá nadytolé
+      řešení, které by nejlépe pozorovalo data
+    truth: 4
+  7:
+    pred: 4
+    text: Nahodil jsem trénovací data vycházející z funkce p - x dochovává o zimu.
+      Vzhledem ke stupni K=2 se tady regrese dokáže tuto funkci dobře hmot a v případě
+      vidání nových dat, model bude stále dobře odpovídat, tj. generalizovat. Pokud
+      by data odpovídala funkci, co není možné pooddovat ve tvaru y = w1 + w2 x w2
+      x + b, pak by vodel negeneralizoval. Napríklad pokud by trénovací data pokácela
+      z funkce y = sinx x na intervalu LO, F2, podal by se nejspíše probodu naučil,
+      ale již by neparalizoval voják pro interval 20, 25 %
+    truth: 4
+  8:
+    pred: 0
+    text: P(naložen) = 0,2 P(pozitivní (nakonec) = 0,9 P(zdravý/poutumé) = 0,1 P(poutní)
+      =?;(soutvory) / poutovné) =;P(peritivní) P(nohan / portrétní) = 1-P(zdravý)
+      pouluvní z;plochový, pozitivní;= 0,4;P(rdsový) = 1 p(vichrin) = 0,8 P(pozitivní
+      skl vchodu) = P(vekvin) P(vniterní) = P(pritrní) neuronovén) P(volovan) P(nahradí
+      poutníci);poutovní). P(vektorán / poctivní);0,2;9, 9.;0,0;P2
+    truth: 4
+  9:
+    pred: 2
+    text: -;hlouchá manélce inteligence - prohledávání kavalerie bored umuzované přírodou
+      - rohoumé na verovilě - neurovové sítě stropové viení - včení s vritelem vs
+      bez vrtale. posilované viení
+    truth: 4
+  12:
+    pred: 2
+    text: ON;pojídání stář;On závisí na I, a poráběním stavu O2 zákesí na I, I z a
+      pozáběrnim stavu
+    truth: 4
+  13:
+    pred: 3
+    text: 'V ideálním případě vysvětle algoritmus generování jen neformální;Výstupní
+      sekvence jsou opět překány na vstup vencovové sítě jako kontret pro další panování
+      (pravděpodobnost dalšího slova návrší na pelaci, který vů byl vygenerován).
+      Autoregregativní dataset slovů pro převod výstupu XN na její vstup. Navrhují
+      funkci P(w2 w3 ...) = P(w2). P(w2|) w1) . P(w3) w1 w2)...;Pseudobách: tahem
+      < START while not early taková devade (prechat (tohem))'
+    truth: 4
+edfb9f97b5b92200783594b400a493aa:
+  1:
+    pred: 1
+    text: 'řešení: A A A B X;(alternativa BBAX)'
+    truth: 4
+  4:
+    pred: 4
+    text: 1.793,43;1,22,34 l;1,213 - 1169 � 1,2;6 35X3;2) 3x27 X3;ex;D1 = {2, 3, 4,
+      5} D3 = {1, 2, 3, 4} D3 = {1, 23 D2 = {1, 2, 3} D2 = {2, 3, 4, 5} D2 = {1, 3,
+      nedostačující podmínky D3 = {1, 2} k dosažení jednoznačných hodnot
+    truth: 0
+  14:
+    pred: 3
+    text: Pokud je k dosažení cíle potřeba velké množství akcí, tak odměny pouze za
+      dosažení cíle mohou být nedostačující, protože se nedá přesně určit, které akce
+      k výsledku nejvíce přispěly. V takovém případě je dobré nějaké odměny zavést
+      i v průběžně za nějaké významné milníky. Na druhou stranu, pokud budeme agenta
+      odměňovat za každou blbost, co nám přijde správně, tak se agent sice naučí úlohu
+      řešit tak, jak chceme my, ale přicházíme tak o výhodu posilovaného učení, kdy
+      agent sám přijde na nějakou optimální strategii pro řešení problému, která může
+      být mnohem lepší, než ta naše
+    truth: 4
+ee4b7041a56afa5dba176c9bb60a631d:
+  1:
+    pred: 1
+    text: 7 AxBx;x Ax Ax Bx;r;S
+    truth: 4
+  3:
+    pred: 2
+    text: 'Greedy: q h = hľ DFS + g = 88 return 0; h = retužn0'
+    truth: 2
+  4:
+    pred: 4
+    text: z;3;10;Listopad;D.;D2;x;O;x x;x;X;X;X;O x;X X;x X;X x;X;x;33;x;x;X;8;x;X;X;x;+;X;D1
+      = {5};= E13 D3 = 243
+    truth: 4
+  9:
+    pred: 0
+    text: Tady, if else neuronly silná a slabá, špiculinová generat;6 0 1.) Teóni
+      hier Strojové učenie
+    truth: 2
+  14:
+    pred: 1
+    text: Zabraňuje to stagnácii, pretože mu to stále dám mstiváciu ísť dálej. Môže
+      to spomaliť nájdeme riešenie ak odmeníme, bad patho
+    truth: 4
+ef8bd6fc8702840dba8cc2d5d44d2119:
+  2:
+    pred: 4
+    text: MAX;MIN;O;S;vždy označení x nebudeme prohledávat úspora 2 verby
+    truth: 4
+  8:
+    pred: 4
+    text: pozitivní - pak, negativní - veg, nakažený - nak, zdroj - zdrav;(nak) =
+      20% nakl ney počí ľak) = 90% -> P( P(poslední řekou) = 10% stav pár zbraně pokl
+      zdrav (par I nak);= 10%;P(YB|MA);P(nak (par) = P(nak). P(poz Inak);P(pur) P(poz)
+      = P(nak). P(P) par (nak) P(nakl poz);0,2;s;0,9;0,9;0,2
+    truth: 2
+  9:
+    pred: 1
+    text: Strojové učení, Počítačové vědění, i urovnané sítě...
+    truth: 3
+  10:
+    pred: 1
+    text: graf směřující výsaden vpřed;D*;max(wxo) � malit;w;� dat
+    truth: 3
+  13:
+    pred: 1
+    text: 'Tyto modely generují výstupní sekvence na základě pravděpodobnosti dané
+      posloupností slov. Tudíž pro jednotlivcí slova bude vypadat výpočet pravděpodobnosti
+      následovně: P(w|w1 w1) P(w3|m, my) P(w|w|w|w) w2 w sw �'
+    truth: 3
+f3ae7233a5cdc2f3d8fb9c4e75e21814:
+  2:
+    pred: 2
+    text: Musím vyhodnotit;MAX;MIN;2;o;Úprava 2 versy;Ugaře zde uspořim B - uzly.
+      Levou větev musím vytvořit celou. Prostřední tabě Jakmile uvidím že v poslední
+      větvi je ohodnocení - 5, nemusím dál hodnotit poslední dva úzký
+    truth: 4
+  4:
+    pred: 4
+    text: 'D1 = {1, 5} x e p1 / DA = k1, 10} = D;p, výzkum 34x1 P2 123 456 994 10
+      33 x 3 x 3 D3 012346 46 40 x3LXI;3x2 SX3 2x1 x32x1 v;D1 = {5, De: 2, 3, 4, 5,
+      6, 7, 9, 10}; D3 = k 1, 2, 3, 4};pro XX3, x3 x3 c b4, 02 P3 platí 3x23 x3 N
+      x3 A XI'
+    truth: 0
+  5:
+    pred: 2
+    text: 's (x|m) obecý eluxifikator, konkrétně gausovský;P;C;xnim, o;o 2 � Jak moc
+      jsou data korelované (vaniere) u � Kde se naduší střed dat Pro každou třídu
+      budeme mít jedno gausovské rozložení. Tedy 3x (u, 0 3) Používáme maximálně věnovalodý
+      odhad parametrů. Maximalizujeme funkci: argurax P(x|p, 03), derivujeme, položíme
+      rovno 0 o a hledáme maximum;O;Pro nově předloží datový bod se podezříme jakú
+      třída má největší PST na dvých souřadních'
+    truth: 1
+  10:
+    pred: 4
+    text: Dopředný dystérský graf;Neobsahuje ge Data tečou dopředu;Překlad:;146;CNN
+      +;D;a E;;� x 254;LPOG
+    truth: 2
+f45027d0227e0535990c00bf0827e2af:
+  2:
+    pred: 4
+    text: MAX;MIN;68 málo ušetříme 2 raly
+    truth: 4
+  7:
+    pred: 3
+    text: trénovací data:;-1 brénovací dato je dvojice (x, y);- aby negeneralizoval,
+      musel by být buď zvolen bychom museli mít příliš málo dat, na která;- data byla
+      proložena polynomem 2. řádu, jehož de parametry se naučí. model dobře generalizuje,
+      nebo dobře prohlídá data, aniž by overfitoval na konkrétní tvérovací data -
+      bere v potaz Gaussovský pokynem příliš vysokého řádu, nebo šum by se model přeučil.
+    truth: 4
+  10:
+    pred: 1
+    text: a yklický, orientovaný grat; může mít více výstupů;STM;- konservatoř;.;25
+    truth: 4
+  12:
+    pred: 3
+    text: BANEA;OLIER, I1 ONFI Už;vovati
+    truth: 1
+  14:
+    pred: 3
+    text: Obecně chceme odměňovat jen za splnění úlohy. Pokud bychom agenta odměňovali
+      za každou akci, nic se nenaučí. Může ale potom být problém, že se k odměně bude
+      velmi těžké dostat. Potom je dobré trochu odměňovat agenta i v průběhu provádění
+      akcí v detirovaných úspěších směřujících ke kýžení výsledku.
+    truth: 4
+f854b378222faa337e5645aacaecd948:
+  2:
+    pred: 4
+    text: MAX;MIN;G;6;- 2 uzly
+    truth: 4
+  6:
+    pred: 1
+    text: vstupných parametrov Gen. model - modelované rozloženie Gaussovský klasifikátor
+      môže mať priveľa zbytečných vstupných parametrov priamo výstupných tříd Diskr.
+      model - modelované rozloženie lineárna regresia naraztá vesnosť s množstvom
+      dát
+    truth: 1
+  10:
+    pred: 0
+    text: musí byť dvojhlidý;X;---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------;69;(soused)
+    truth: 2
+  11:
+    pred: 1
+    text: váhy jadra rozmezy jadra x počet filtrov
+    truth: 3
+  12:
+    pred: 2
+    text: O1 - vstup I1 + ľubovalý vstupný vektor 02 - vstup 2 + výstup 01
+    truth: 2
+  13:
+    pred: 3
+    text: 'AR DEC - delódovanie popisných vektorov na časti výstupnej sekvencie (papr.
+      slová);slovo'' slovo? slovo;D;dehodéry;vrta ->;hodér;Alg: zaháduje na vstupná
+      sekvencia -> kontext, a pro plovápek pretože;slova slovo;ro START sa modeluje
+      pravdepodobnosť 1. slova, postupne následně sa V modelujú pravděpodobnosti následujících
+      slov'
+    truth: 3
+fd4c95ac222b1b1ce4780a446a0662ff:
+  3:
+    pred: 2
+    text: '65: 950 DFS: 9= 0;h = hľ;h = dlžka stromu - aktuálna pozicia;8;ob'
+    truth: 2
+  4:
+    pred: 1
+    text: Dr. D2 D3;xx x XX XXXXxxx O x x x xxx XXX XXX x x COXXXX x XX;Dy = {53 D2
+      = {13 D3 = 243
+    truth: 4
+  10:
+    pred: 0
+    text: '- nesmie byť cyklický;stavy;tva);vrstva?;vstup;IVSTUP'
+    truth: 3
+  14:
+    pred: 2
+    text: '- Keby dostal odmenu Len pri splnění úlohy, mohlo by to viesť k tomu, že
+      sa nikdy nenaučí, Lebo ak nedojde do ciela, nikdy nedostane odmenu. - pri odmenách
+      za čiestočné výsledky sa môže naučiť - naopak pri odmenách za velmi malý úspech
+      sa učenie zase zhoršuje'
+    truth: 3
+fdb0df15e7ad924fe4403d60cca91fc6:
+  1:
+    pred: 4
+    text: '1,4,0 �;....;Výsledek: AXBAX'
+    truth: 4
+  2:
+    pred: 4
+    text: MAX;MIN;O 58 Možne ušetřiť prohládávanie z očí v zlom ak Afric-Beta odreže
+      tento kus stromu, pretože prvom uzle bolo -4, tak nebude dálej prehľadá
+    truth: 4
+  14:
+    pred: 2
+    text: Príliš časté odmenovanie môže mať za následok, že agent sa nenaučí nic "nové",
+      resp. len to, 2 čomu ho programátor do vedie. Naopak pri odmeňovaní len za dosiamotie
+      cieľa sa agent nemusí naučiť nič ak je cielový stav vzdialený, mými slovami,
+      agent nebude vedicť čo má robiť.
+    truth: 4

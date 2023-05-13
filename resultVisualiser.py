@@ -22,22 +22,25 @@ def plotQuestionPoints(data, questionNum, ax):
             cnt += 1
     ax.plot(xArr, yArr, color='blue')
     ax.plot(xArr, yArr2, color='red')
+            
 
+def compareMSE(data):
 
-def comparePoints(data):
     trueScore = []
     predictionScore = []
-    questionNum = 1
-    max = 15
+    mseValues = []
 
-    for login in data:
-        if questionNum < max:
+    for questionNum in range(1, 15):
+        for login in data:
+            #print(questionNum)
             if questionNum in data[login]:
                 trueScore.append(float(data[login][questionNum]['truth']))
                 predictionScore.append(data[login][questionNum]['pred'])
-                questionNum += 1
-    return trueScore, predictionScore
-            
+        mseValues.append(mean_squared_error(trueScore, predictionScore))
+       
+        questionNum +=1
+    return mseValues
+
 
 def plotTestPoints(data, ax):
     xArr = []
@@ -70,19 +73,38 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         print("Incorrect args")
 
-    data = loadTranscriptions(sys.argv[1])
-    fig, ax = plt.subplots()
-    print(calcTotalMseError(data))
-    
-    plotQuestionPoints(data,5, ax)
+    data1 = loadTranscriptions(sys.argv[1])
+    data2 = loadTranscriptions(sys.argv[2])
+    data3 = loadTranscriptions(sys.argv[3])
+    data4 = loadTranscriptions(sys.argv[4])
 
+    mseVals1 = compareMSE(data1)
+    mseVals2 = compareMSE(data2)
+    mseVals3 = compareMSE(data3)
+    mseVals4 = compareMSE(data4)
 
-    trueData, predData= comparePoints(data)
     X = [1,2,3,4,5,6,7,8,9,10,11,12,13, 14]
-    figure, axis = plt.subplots()
+    figure, axis = plt.subplots(2,2)
 
-    axis.plot(X, trueData, 'o',color='blue', label="true score")
-    axis.plot(X, predData, 'o',color='red', label="prediction score")
-    leg = axis.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), ncol=2, fancybox=True, shadow=True)
+
+    axis[0, 0].plot(X, mseVals1,'--bo',color='blue')
+    axis[0, 0].set_title("2022-1-B-openAI")
+    
+    # For Cosine Function
+    axis[0, 1].plot(X, mseVals2,'--bo',color='blue')
+    axis[0, 1].set_title("2022-1-B-bert")
+    
+    # For Tangent Function
+    axis[1, 0].plot(X, mseVals3,'--bo',color='blue')
+    axis[1, 0].set_title("2022-1-A-babbage")
+    
+    # For Tanh Function
+    axis[1, 1].plot(X, mseVals4 ,'--bo',color='blue')
+    axis[1, 1].set_title("to posledne")
+
+    print(calcTotalMseError(data1))
+    print(calcTotalMseError(data2))
+    print(calcTotalMseError(data3))
+    print(calcTotalMseError(data4))
 
     plt.show()

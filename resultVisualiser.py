@@ -23,6 +23,22 @@ def plotQuestionPoints(data, questionNum, ax):
     ax.plot(xArr, yArr, color='blue')
     ax.plot(xArr, yArr2, color='red')
 
+
+def comparePoints(data):
+    trueScore = []
+    predictionScore = []
+    questionNum = 1
+    max = 15
+
+    for login in data:
+        if questionNum < max:
+            if questionNum in data[login]:
+                trueScore.append(float(data[login][questionNum]['truth']))
+                predictionScore.append(data[login][questionNum]['pred'])
+                questionNum += 1
+    return trueScore, predictionScore
+            
+
 def plotTestPoints(data, ax):
     xArr = []
     yArr = []
@@ -57,6 +73,16 @@ if __name__ == '__main__':
     data = loadTranscriptions(sys.argv[1])
     fig, ax = plt.subplots()
     print(calcTotalMseError(data))
+    
     plotQuestionPoints(data,5, ax)
+
+
+    trueData, predData= comparePoints(data)
+    X = [1,2,3,4,5,6,7,8,9,10,11,12,13, 14]
+    figure, axis = plt.subplots()
+
+    axis.plot(X, trueData, 'o',color='blue', label="true score")
+    axis.plot(X, predData, 'o',color='red', label="prediction score")
+    leg = axis.legend(loc='upper center', bbox_to_anchor=(0.5, 1.1), ncol=2, fancybox=True, shadow=True)
 
     plt.show()

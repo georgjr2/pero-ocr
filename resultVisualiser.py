@@ -107,18 +107,22 @@ if __name__ == '__main__':
 
     axis[0, 0].plot(X, mseVals1,'--bo',color='blue')
     axis[0, 0].set_title("2022-1-B-openAI")
+    axis[0, 0].set_ylim(1,6)
     
     #
     axis[0, 1].plot(X, mseVals2,'--bo',color='blue')
     axis[0, 1].set_title("2022-1-B-bert")
+    axis[0, 1].set_ylim(1,6)
     
     # 
     axis[1, 0].plot(X, mseVals3,'--bo',color='blue')
     axis[1, 0].set_title("2022-1-A-babbage")
+    axis[1, 0].set_ylim(1,6)
     
     # 
     axis[1, 1].plot(X, mseVals4 ,'--bo',color='blue')
     axis[1, 1].set_title("to posledne")
+    axis[1, 1].set_ylim(1,6)
 
     """
     print(calcTotalMseError(data1))

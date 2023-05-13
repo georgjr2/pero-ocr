@@ -20,7 +20,7 @@ import sys
 import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
-import regionsA_2022_2 as regions
+import regionsA_2022_1 as regions
 from shapely.geometry import Polygon
 from shapely.affinity import translate
 from shapely import Point
@@ -29,8 +29,8 @@ import yaml
 # Set year, test number and page you want to check. DisplayPage starts at index 1
 
 year = '2022'
-group = 'B'
-test = '2'
+group = 'A'
+test = '1'
 displayPage = 7
 
 #################################################################################
@@ -170,8 +170,8 @@ if __name__ == '__main__':
         for line in f:
             lineSplit = line.split()
             found = False
-            # if personIsFromAnotherGroup(lineSplit[1], group):
-            #     continue
+            if personIsFromAnotherGroup(lineSplit[1], group):
+                continue
             for person in persons:
                 if person.id == lineSplit[1]:
                     person.examHashs.append(lineSplit[0])

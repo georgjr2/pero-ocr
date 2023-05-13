@@ -2,12 +2,12 @@ maxW = 2500
 
 q1minH = 390
 q1maxH = 600
-a1maxH = 2200
+a1maxH = 2070
 question1 = [(0, q1minH), (maxW, q1minH), (maxW, q1maxH), (0, q1maxH), (0, q1minH)]
 answer1 =   [(0, q1maxH), (maxW, q1maxH), (maxW, a1maxH), (0, a1maxH), (0, q1maxH)]
 
-q2minH = 2210
-q2maxH = 2350  
+q2minH = 2080
+q2maxH = 2260
 a2maxH = 3580
 question2 = [(0, q2minH), (maxW, q2minH), (maxW, q2maxH), (0, q2maxH), (0, q2minH)]
 answer2 =   [(0, q2maxH), (maxW, q2maxH), (maxW, a2maxH), (0, a2maxH), (0, q2maxH)]
@@ -20,13 +20,13 @@ question3 = [(0, q3minH), (maxW, q3minH), (maxW, q3maxH), (0, q3maxH), (0, q3min
 answer3 =   [(0, q3maxH), (maxW, q3maxH), (maxW, a3maxH), (0, a3maxH), (0, q3maxH)]
 
 q4minH = 1900
-q4maxH = 2130
+q4maxH = 2240
 a4maxH = 3580
 question4 = [(0, q4minH), (maxW, q4minH), (maxW, q4maxH), (0, q4maxH), (0, q4minH)]
 answer4 =   [(0, q4maxH), (maxW, q4maxH), (maxW, a4maxH), (0, a4maxH), (0, q4maxH)]
 
 q5minH = 235
-q5maxH = 410
+q5maxH = 470
 a5maxH = 1930
 question5 = [(0, q5minH), (maxW, q5minH), (maxW, q5maxH), (0, q5maxH), (0, q5minH)]
 answer5 =   [(0, q5maxH), (maxW, q5maxH), (maxW, a5maxH), (0, a5maxH), (0, q5maxH)]

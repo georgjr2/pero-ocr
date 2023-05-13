@@ -1,7 +1,7 @@
 maxW = 2500
 
 q1minH = 380
-q1maxH = 530
+q1maxH = 630
 a1maxH = 2200
 question1 = [(0, q1minH), (maxW, q1minH), (maxW, q1maxH), (0, q1maxH), (0, q1minH)]
 answer1 =   [(0, q1maxH), (maxW, q1maxH), (maxW, a1maxH), (0, a1maxH), (0, q1maxH)]

@@ -1,0 +1,1267 @@
+00d52da93a2ea09d33d9c34959629374:
+  1:
+    pred: 3
+    text: AND-OR STROM;+ plně pozorovatelé prostředí senzou � jsme schopni odhadnout
+      možný další krok
+    truth: 0
+  2:
+    pred: 2
+    text: doba;podle úrovně prořezávaní. nemusí se změnit (žádné provezívaní) � zmenší
+      se doba trvání (při prořezávání zisk se nezmění (záleží, jak moc je ve hře náhod
+    truth: 3
+  3:
+    pred: 3
+    text: 1. DFS omezené na průchod do 8. úrovní - má malé panělové nároky - jelikož
+      je ze spodu omezena nemusí se používat seznam cLOSED (může prodloužit dobu trvání,
+      ale uspoří na paměti;e. A s optimistickou heuristikou velmi rychlé, pokud je
+      heuristika optimistická
+    truth: 4
+  9:
+    pred: 2
+    text: '- výhonostně už na tom jsme dobře AI se pomalu dostávají do merku regulačním
+      úřadům - a můžeme očekávat omezení ze strany zákona (pomáhají tomu hanzy okolo
+      AI generující obrazky) - v oblibe jsou aktuálně spíše vrstvy AI (specializované
+      na jednu věc) - myslím si, že je to možné, ale aktualně pro ně není poptávka
+      mimo akademické prostředí.;v. shallow learning s ručně definovanými'
+    truth: 2
+  10:
+    pred: 1
+    text: obstatečně je potřeba najít hranici, kdy je model naučen + může mít přesnější
+      výsledky
+    truth: 1
+02430be22cdd097e46bda4c98975d85d:
+  9:
+    pred: 3
+    text: Ano je možné takúto inteligencii vytvořiť avšak to až v momente, teď bude
+      možné zodpovedať mělen otázku morálnosti a správnosti tvorby General AI, ale
+      aj teď budeme schopný vyriešiť niacezo problémov, které nás od vytvorenia také
+      AI brzdia. Pre začinkoli také AI by vyžadovalo enormné množstvo dát a zároveň
+      aj potřebnej operačnej pamäte, už lin preto, aby dokázalo presvedčiť človeka
+      v Turingovom teste, že skutočne za jedná o všeobecne inteligent;AI.
+    truth: 2
+  10:
+    pred: 2
+    text: Deep learning alebo tillické učenie nevyžaduje taťko ručnej práce ako shallow
+      learning stačí mu poskytnúť velké množstvo dát, které si postupne spracuje a
+      naučí sa na nich. Naopak shallow learning je výhodnejšie v tom, že měliaře nepotřebuj
+      také množstvo dát, ale ani nevyžaduje taťka času na učenie.
+    truth: 4
+  12:
+    pred: 0
+    text: Ano je to možné...
+    truth: 0
+  14:
+    pred: 3
+    text: On-policy => majú však vstupných a výstupných dát => vzač času a naučiti
+      zabírajú;Off-policy -> menší dát, zaberú tak musej času aj památi (lepší (výhodnější
+      na používanie);Off-policy;On-policy
+    truth: 1
+0e33e15598be65ed678dd18f9f2bff79:
+  2:
+    pred: 3
+    text: 'Jelikož affa-beta prořezává strom o "horší“ větve, očekávám tedy že se
+      počet projektých uzlů zmenší. Potřeboval bych nějakou heuristiku Očekávání:
+      průměrný zisk se nesmění dobu volby tahů se zkrátí'
+    truth: 3
+  3:
+    pred: 4
+    text: 'Použil bych DLS s omezením hloubky 8.;optimální: Nejde hlouběji (neprohledává
+      zbytečné stavy) Pokud je řešení vlevo najde ho "hned" Pokud je vpravo, najde
+      ho při nejhorším jako BFS Vzdy najde řešení pokud je vdané hloubce'
+    truth: 4
+  4:
+    pred: 0
+    text: Počet stavů;random neřeší zda je stav do kterého jdu lepší nebo horší žíhaní
+      bere lepší stav nebo počítá energie o kolik je stav horší a nahradí ho s danou
+      pravděpodobností;random - žíhání
+    truth: 3
+  7:
+    pred: 1
+    text: 'Logistická regrese, Weuronová síť;Log. regrese: p(c|x) = T p(c|x) = T plan)
+      nějaké pozornosti;Diskriminativní model to je, protože se snažíme přímo odhadnout
+      hodnotu p(C|X) místo p(X|C) a p(c) a použití Bayes vzorců'
+    truth: 1
+  8:
+    pred: 2
+    text: 'klasifikace - přiřazení třídy novému vstupu diskrétní výstup;regrese -
+      určení pravděpodobnostního rozsahu pro vstup (určení fce fa) = y - spojitý výstup
+      - lehce se přetrénuje;trénovací data : vstupy x a vystupy y;objektivní funkce:
+      např suma čtverců'
+    truth: 1
+  9:
+    pred: 2
+    text: 'Myslím, že je to možné, protože: v určitém smyslu se to už stalo (Lidský
+      mozek) Myslím, že už existuje něco co se blíží (robotka) co vypadá jako z filmu
+      Já, Robat)'
+    truth: 2
+  10:
+    pred: 3
+    text: Deep Learning;(+) lepší výsledky nemusíme ručně definovat příznaky O složitější
+      a výpočetně náročnější
+    truth: 3
+  12:
+    pred: 4
+    text: Je to možné, stejně jako obrázek;1D pooling 1D convolution
+    truth: 4
+  13:
+    pred: 4
+    text: 'vrstvy: konvoluční, poolingové (max pooling);kanály: 3 (RGB) výstup: 3
+      tenzory;Convolution POOLING;1x;180;180 x 180 x 8;90x90x16'
+    truth: 1
+  14:
+    pred: 2
+    text: on-policy - snaží se zlepšovat svoji strategii (policy), kterou používají
+      k dělání rozhodnutí;off-policy - snaží se zlepšovat strategii odlišnou od té,
+      kterou používají k výběru akce;on- pokecy se neučí ze zkušeností předchozích
+      běhů;základě Off-policy -> lepší -> učí se na předchozích zkušeností
+    truth: 3
+1069b3fc4fb47f279610ef035bf163d4:
+  3:
+    pred: 2
+    text: podle poznání;Jestliže víme, že řešení je v hloubce 8, pak nejlepší bude
+      volání metody DLS. Omezení hloubky bude 8 a algoritmus nebude postupně jednotlivé
+      úrovně procházet do šířky, ale půjde rovnou do úrovně k. (postupní)
+    truth: 3
+  4:
+    pred: 4
+    text: NÁHODNÁ procházka algo. si pamatuje pouze nejlepší musí tedy graf růst limitně
+      však k hodnotě maxima;SiMuLATED ANETING;u sinulovaného žíhání je jistá pravd
+      doprostřed překoná lokální max., o mohla najít globální. Zato pravděp. překonání
+      však s během klesá.
+    truth: 0
+  5:
+    pred: 3
+    text: 'Bayes;p(x|c);N;� pro každou třídu � 2 parame celkem;p(x);?!;generativní
+      klas. � modelujeme hustotu psti Normální rozložení pro 3 dimenze:;p(x|c) p(c);p(x|c);matice
+      3 reálných č.;u=;ž;Jx3 reálných čísel;= +;Brod;SEDA. Balík x V;S(x|k) p(x|x);odchyt;3
+      parametry - 6 parametrů: parametrů pro každou třídu nového S;arg max(x|m), kde
+      jsou parametry (u, f);odhad pomocí metody Maximum celkem: 18+2 parametrů, celkem
+      3-13:9) + 2 = likelihood: = 38 reálných č.'
+    truth: 4
+  6:
+    pred: 4
+    text: P(pozlnak);P(negl zdr) = 0,975 P(nak) = 0,2;Výsledek je uveden přímo v zadání
+      P(pozl nak) = 0,9
+    truth: 4
+  7:
+    pred: 3
+    text: 'logistická regrese. k- Nearest Neishbours) k x;P(c=1|x) = v|x w) p(c=0|x)
+      = 1- p(c=1|x);Diskriminativní: - na základě přichozího data přímo rozhodneme,
+      do které třídy bude dato náležet (zde se rozhodujeme s pomocí funkce sigmoida)
+      patřiť která vypočte aposteriorní pst - nemodelujeme hustotu pravděpodobnosti
+      jako u generativních modelů'
+    truth: 3
+  8:
+    pred: 4
+    text: klasifikace - máme data, která se snažíme roztřídit do několika tříd - např.
+      logistická regrese obj. funkce � cross-entropy k- Nearest Neighbours regrese
+      — máme data, která se snažíme proložit nějakou funkcí tak, aby tako data co
+      nejvíce vystihovala. - např. snažíme se najít regresní fci závislosti výšky
+      a váhy lineární regrese k obj. funkce - sum-of-squares (když víme, že data obsa
+      Gaussovský šum) polynomiální regrese - spec. případ lineární
+    truth: 4
+  9:
+    pred: 3
+    text: Momentálně schopni nejsme, ale teoreticky bychom toho schopni měli být.
+      Pokud budeme schopni vhodně namodelovat inteligenci tak, jak ji příroda stvořila.
+      Pokud to dokázala ona, proč ne.
+    truth: 3
+  10:
+    pred: 3
+    text: '10. Jaké může mít výhody/nevýhody hluboké učení vůči tzv. sha příznaky?
+      shallow - a - zpravidla rychlejší, z počátku i přesnější - je třeba ale ručně
+      definovat příznaky -> práce navíc, nakonec to nemusí být tak přesné Naopak hluboké:
+      - trvá natrénovat delší dobu - ale výsledky bývají zpravidla mnohem přesvědčivější
+      - není třeba ručně definovat příznaky -> ušetříme si tím práci - - obecně mohutnější
+      řešení'
+    truth: 4
+  12:
+    pred: 3
+    text: NS;- např. pomocí konvolučních;zvuk -> 1) vektor;nebo například pomocí transformerů
+      (attention algoritmy)
+    truth: 2
+  13:
+    pred: 3
+    text: Pouzázek;pooling;konvoluční jádro je matice reálných čísel, kterými se tvstupní
+      pixely vynásobí a následně sečtu a vytvoří 1 pixel;normální 4 jádra Chapř. 3
+      kanály - REB vstup) KNN často tvoří konvoluční vrstvy a pooling vrstvy konvoluční
+      vrstvy pomocí konvolučních jader násobí a sčítají pixely vstupní obrázku a vytváří
+      nové přístup obráz Pooling vstry pak mají za úkol obrázek zmenšit konvoluční
+      vrstvy musejí mít stejný počet kanálů, jako vstupní obrázek
+    truth: 1
+25c648790a6392af3eddc3ded14a7c92:
+  2:
+    pred: 4
+    text: Třeba hrál optimálně/angelno už s minimaxem a nijak nepomůže jedině zvyšovat
+      volbu tahů) není s čím posunout prům. Těch;Alfa - Boeka
+    truth: 2
+  3:
+    pred: 4
+    text: D;Nepth limit search (lonil = 8);.;určitě nejméně podílí;...;pokud se nemýlím
+      jak je vždy rychlejší než BFS nebo stejně rychlí pokud se. řešení nachází v
+      pravém dobrém sólu (roztomluveno zkratšení)
+    truth: 4
+  4:
+    pred: 1
+    text: v;;tablet;an;stavů;o;horší slovo nedošlé;Čtvrtek;dovoluje zkoušení (na začátku
+      více podle pravděpodobností
+    truth: 3
+  5:
+    pred: 2
+    text: Draháček;X;opst pach. pro třídil;P(C|X);;;2. POXIZ POZ;odhadnuté (elegarial
+      disp) a prior, probabilities;napiš Red Bl;Or, O;gau s dto;odloučení;tyto památky
+      isif P( XII;Spojení se stav do Bajkalu do Bajkale na Radomově Radomoravě.;falssovská
+      30 volební;3;+6;8;;í V;I-;Prose.;6 sportky;2 (q-času) = 20 reálnými čísly;MRV;RD
+    truth: 4
+  7:
+    pred: 4
+    text: Logistická regrese;klasifikátor 2D dat - z přednášky spř. Dimání;1;24 K
+      (XIX) = o (wh - x1 třídu) (date) nepřejeme přímo X na nějakou 7; nesnažíme se
+      zde odhadovat nějaké apodmetné pravděpodobnosti, ale přímo odhadujeme apod.
+      Takže model SVM - spart vedou narodino se nesnaží ani o obhod opost. Jurici
+      ale snaží se najít maximálně pozorovat na naše družini třídy SVM a legionářem
+      doktrin. Vzorný klasif. diskriminuje do tříd a proto je neodhodlají se, tu dislokace
+      jako v gaumatice - neděli kterých by se dalo generovat
+    truth: 4
+  8:
+    pred: 4
+    text: smějovým klasifikujeme objekty do kolegy při Plupál Jedopis o Ragessský
+      klasifikátor Běhání klasifikace;SVM - support vector medines;klasifikace;- odhadujeme
+      průběh nějaké spojité veličiny (z dat) polynominální regrese;egrese;o;lineární
+      regrese (K= nějaké další regrese s bázeň cest - ine;Idj. s Prahy cross erbug?
+      | C|XI (1-6|XX) STK P(C|X) = P(C|X) = 1-0|XIVS Hônge koss Odvody diskriminat
+      (zde ne 5 km fakt jako výše , P(c|o) = P(e) Melioratismus - klasifikátor;Sum
+      space erroga 15 Slyn-x pokud předpokládáme garasecky "zřejmění data);ČESM -
+      Extraten;(C) Se sexu;TE, není dosud slečina � GD; JGD;Ik
+    truth: 4
+  9:
+    pred: 2
+    text: Nevím. Nejsou prostředky na to učit jestli je to možné, ani jak by to bylo
+      možné provést.;české rodiny. Zatím se přikláním z možnosti, že je to možné.
+      A určitě možné aby mě v budoucnu nápadně NI - general AI tak moc simula, že
+      je obleva k tomu věřil, že je General + I, i když to;podle čtyřicet litru musí
+      být pravda
+    truth: 3
+  10:
+    pred: 3
+    text: Výhody;- nejspíš se dobře naučí s málo doby (pro třech hodnotné úlohy);;Nevýhody;-
+      spasla práce závěrů upravování parametrů odboru - sladce, když trochu pozměníme
+      úlohu a model je nepočítaly víže špatně generálitoval - učí se z bef. příznaků;(o
+      proto se pro třídu pokus počítá doplaceniny
+    truth: 3
+  13:
+    pred: 4
+    text: Chodil;45;kancelář;MAX POOLING;IMG x1;ragschle;15 jahr;jelen;pro jednoduchost;chamel;KART.;..;naše
+      se vyzva
+    truth: 1
+  14:
+    pred: 3
+    text: dia;přímolejší;teplejší;lepší;nám;vyšší;gradie;palic;DPCHY;- 40;P(6, +)
+      + PCO PCOD SY P(PO) W) výsledek testu;10);HIDS - PALD.;PCD;Opava PARK;0,5;P(ch,
+      o) = P(tID) + p - ,;OCOJ = PCHOD + PC-TOJ;120 —
+    truth: 1
+26a9350a320f080e23e865aa5320e0ac:
+  1:
+    pred: 3
+    text: známostí knih;světa;senzory pomožu určiť stav, v kterou sa práve nachádzame.
+      vďaka čemu nemusíme udržovať množinu belief states.;orientační výsledkem môže
+      byť napr. strom postupnosti akcí (alebo graf kde listy představují ciel.
+    truth: 3
+  2:
+    pred: 4
+    text: Zisk sa meniť nebude, ako Alfa-Beta, tak aj Minimex sa;snažia maximalizovať
+      svoj zisk, v deterministickou prostredí bude revnaký - počítajú s tým, že si
+      super vyberie ich nejväčšiu straku rvanie volby ťahu sa môže vďaka pruningu
+      drasticky a viac zvýšit - aj o 50% (odrežeme hned na začiatku polovicu vetví),
+      výsledné číslo závisí od aspoziadama výsledkov hry priemorná v listoch prehladávaného
+      stromu. Minimálná rýchlost kde povodných 13.57 s.
+    truth: 4
+  3:
+    pred: 3
+    text: DFS s obmedzenou hĺbkou prikládávania do posledního dne . skromné hĺbku
+      (ořežeme na 8, postupne prehladávania už by v tejto úrovni;ale je viac najlacnejších
+      riešení, všetky sú v hľbke 8 DFS najde jedno z nich nerozgenerovávame zbytečne
+      veľä uzlov, které nebudeme potřebovat
+    truth: 3
+  4:
+    pred: 3
+    text: náhodná prechádzka;alg. si památá zatiať nejlepší navštívený stav. Preto
+      za začátku priebek funkci skúpe rychlo - najdeme vždy lepší a lepší stav. Postupne
+      ale je naše riešenie hud nejlepšie alebo blízko nejlepšího, a funkcia prechádza
+      s vyšším počtem krokov do konštantního priebehu - nejlepšie riešenie už máme,
+      alebo sme mu blízko
+    truth: 0
+  6:
+    pred: 4
+    text: P - pozitivní P(c) = 0. 2 P(P|C) = 0. 9 P(N| 2) - 0.975 (P|c) = 0.9;negativny;*;Ak
+      sme vybrali osobu o kterej vieme že je nakazená, tak potom P, že test bude pozitivny,
+      vyplýva zo zadania P(P|C) = 0. 9.;ový;z;- zdravý
+    truth: 4
+  9:
+    pred: 2
+    text: '- myslím, že v súčastnosti to možné nie je, pretože na to nemáme dostatočné
+      technologické vybavenie. Aktuálne ale vidíme rôzne zamezané AI, které ukazujú,
+      že dokážu viešiť náročné úlohy aspoň tak dobre a možno ešte lepšie (rozhodne
+      rychlejšie), než človek - generovanie hudby, textu, obrázkov, riadenie vozidiel,
+      predpoveď počasia, ... Preto si myslím, že v priebehu nejakého času budeme schopné
+      vytvořiť General AI, která bude schopná napodobniť ľudské správamie a myslenie.
+      Nevidím ale AI, která by dokázala prežívať ľudské emocie - sami o nich neme
+      tak málo, že v žiadnem případe v blízkej budúcnosti nebudeme schopní napodobniť
+      10. Jaké může mít výhody/nevýhody hluboké učení vůči tzv. shallow learning s
+      ručně definovanými příznaky?'
+    truth: 4
+  11:
+    pred: 3
+    text: na začiatku CNN rozoznávajú filtre velmi jednoduché vzory - vodorovné a
+      zvířaté hrany, kruhy, bodky (tečky), ... čím blbšíe do sieke postupujeme, tým
+      zbožitejšie vzory jadrá vedia rozoznávať, - tvar zvieracej hlavy, vzor včelicho
+      úla, obrys človeka, ...;Pod nápisem
+    truth: 4
+  12:
+    pred: 2
+    text: 'ána - pre niekteré typy úloh môžme použiť CNN (zvuk prevedieme;do pektrogramu,
+      z neho môžme napr. klasifikovat žánor hudby. MATER generalis architektúra naznačená
+      v úlohe 13. vstup knížecí P míesto ďalej môžme pracovať s transformermi - tie
+      na;rekurentných vrstev používajú mechanizmus zvaný "attention" : skladajú sa
+      z 2 typov vrstiev - sely-aktentia (nahrádka rekurentně vrst L feed forward za
+      den v sobotu'
+    truth: 4
+  13:
+    pred: 3
+    text: tu;vstupný;obrázok;;+;;konvolučná vrstva;pooling;vrstva;konv. vrstva;plna
+      propojená vrstva;hladá vo vskupe vzory skládá se z učincích za filtrov (většinou
+      velkosti 3x3) počet kanálov závisí od formátu vstupných dát - napr. RGB obrázky
+      budú spracované každý kanál (R, 6, 8) kanál zvlášť, čiernobiele obrázky majú
+      len 1 14. Jaký je rozdíl mezi takzvanými „on-policy" a „off-policy“ algoritmy
+      posilovaného učení? Které jsou lepší a proč?;výstup závisí zmenšuje vstup, čiastočne
+      od požadovaného sa stará o invarianciu výstupu CNN, napr. proti posunutiu ak
+      máme klasifikační vzoru / objektu úlohu, aktivačná funkcia softmax by mohla
+      udat pravdě- podobnosti třied. Inak to možn by napr. súřadnice lokalizovaného
+      objektu odpoveď ána/nie na otázku, či na objekt náč
+    truth: 3
+510077e41f24942dfd5a8da94fba89da:
+  3:
+    pred: 3
+    text: POKUD ZNÁMA ZILOVÁNO ŘEŠENÍ POM NEJLEPŠÍ MRTVOU JE DLS S PANAMATIKEM HLOUBKY
+      8. PROTOŽE DLS VYUŽÍVÁ LIFO FRONTU NEBUDE V PAMÁTI UPRŇOVAT příliš mnoho vzlů
+      (vždy půjde "přímo" do větví stromu) tím že známa hloubku řešení musíme algoritmus
+      spolštát iterované a tředí všatříme čas.
+    truth: 4
+  4:
+    pred: 3
+    text: KART.;;POČET STAVŮ;v pŘÍpadě slepého prohledávání kvalita maustále holísá,
+      protože výběr je čistě náhodný.;Pro smulované číhání kvalita holí sú tvář (nemusí
+      být veřejná nadlepší soust PLK Chenová si zvýšuje.
+    truth: 4
+  5:
+    pred: 1
+    text: P(CESS|ODS) SERVATION);P(OBSSERVATION|CLASS) P(CLASS);P(OBERVATION);klasifikátor
+      bude popsán parametry gausovského rozložení pro obě TŘÍDÍ. PRO KAŽDOU TŘÍDU
+      TO BUDE VEHDU STŘEDNÍ HODNOTY VLIST KONSTAČNÍ MATICA E O ROZHÁLNACH BAB. CELKEM
+      TRADI ZU HODNOT ODhaD PARAMETRŮ POMOCÍ MAXIMUM LIMALIHOOD ESTIMATR NL = TI PIxATI,
+      MDR (229 + 23). DATE M M JSOU PARAMETRY GAUSOVA ROZLOŽENÍ DANÉ TŘÍDY. TEď ÍM
+      = ARG MA XIV, IV, 2)
+    truth: 1
+  8:
+    pred: 2
+    text: klasifikační problém sa zabývá přiřazením pozorovaných dat do nějaké diskrétní
+      třídy. PRACOVASNÍ PROBLÉMY POZDĚJI SOCIÁLNÍ MODELUJÍ FUNKCE.;KLASIFIKÁTOR PROBLÉMŮ
+      - GAUSOVSKÝ KLASIFIKÁTOR - MAxIMUM LIMACICHOOOD ODHAD rozložení. KONFIRMACE
+      logistická vagonka - CROSS - ENTROPY;tragnasní problémy;LIMÁNNÍ PAGRASA - sLM
+      OF SRVALES EKROP NEURONOVÁ SÍŤ - MSE
+    truth: 3
+  9:
+    pred: 2
+    text: osobně si myslím, že to možné je. Ačkoliv to zatím nikdo nedokázal;lidský
+      mozak je tenář.“ Jen stroj i mojíř biologický. V dnešní Dobrá již máme výpočetný
+      handwark. Dostačenka silný aby byl schopen při vhodném použití (mL) VÝHAZOVAT
+      ZNÁMA INTRIGANCE.
+    truth: 4
+  10:
+    pred: 3
+    text: ruční barevnost a definice příznaků je pracná a časová náročné. Využitím
+      hlubokého učení jsme schopni vrchní vy naučit co za příznaků je vhodné použít.
+      Díky tomu jsou učení funguje ja Také možné, že NS valebna vhodná příznaky, která
+      člověka nenapadnou.;V záhodu může být to, že nejsme schopni určit na základě
+      čeho SR NS Rozhoduje (proč jse v příznaky narodné a co říkají). Hluboké vězný
+      Je také úprava náročnější a vyžaduje velké množství trénovacích dat aby podľího
+      rozumné přespolti.
+    truth: 4
+  11:
+    pred: 3
+    text: Na začátku konvoluční vítěz JDR převážně o "hrubé" vzory Jako jsou například
+      hrany, odpod.;hlouběji v síti se pak jedná o konkrétnější prvky například spacifický
+      tvor v oblasti brody, atd. Mombinace hrubších vzorů z předchozích vrstev
+    truth: 3
+  12:
+    pred: 0
+    text: Možné to je;na sto
+    truth: 0
+  13:
+    pred: 2
+    text: počet mandátů závisí na vstupu;VSTUPNÍ VRSTVA;3 KANÁLY BARAU;SvatB;AMEN;Ty
+      contracts o wýbar;pohraniční vrstva bude například Signoria v takovém případě
+      by bíť klasifikovala z třídy (příslušnost např.)
+    truth: 2
+  14:
+    pred: 3
+    text: V on-policy aL Goritmů má agent přístup o pouze me zkušenostmi získaných
+      během současného "života“.;OFF-pOLICH ALgoRITMU UMOŽŇUJÍ AGAMERI PoužiT SA ZE
+      STATŠÍCH zkušeností.;využívají se obě matody.
+    truth: 3
+615402d7307cb7263797bb523a8e65a8:
+  3:
+    pred: 1
+    text: 'předpokládám hluboký prohledávací strom paměti PFS ne (hodně hluboký =>
+      dlouhý čas, hodně krátký BFS nejkratší čas (docela dost paměti) Lzkratka na
+      iterativní DFSS (asi IDS) nejmé- ně paměti. (více času) (zkratka na limitované
+      DFS hloubkou) nejvhodnější čas i paměť;graf představuje zapamatovaný nejlepší
+      stav, jinak by podle zadání vypadal cca: Justifik'
+    truth: 4
+  4:
+    pred: 4
+    text: dlouhé doby mezi naleze- ním lepšího stavu neuvízne trvale na lok. maximu,
+      ale glob. najít bude trvat k vůli;průchod je ochoten se přesunout i na horší
+      stav, protože se tím může dostat z lok. maxima a najít lep maximum
+    truth: 4
+  6:
+    pred: 4
+    text: P(nakažené) = 0,2 P(pozitivní|nakažený) =0,9 P(negativní|zdravý) = 0,975
+      (pozitivní / nakažený) = ?2?;P(pozitivní|nakažený);když vybereme osobu, která
+      je nakažená, tak to moc náhodné není protože dále už se pra- cuje jen s prstí,
+      že je pro ni test pozitivní...
+    truth: 4
+  8:
+    pred: 2
+    text: klasifikace se snaží zařadit nový prvek do nějaké třídy (např. dokument
+      typu PDF) regresní problém se snaží najít funkci, kte rá odpovídá předloženým
+      datům a data touto funkcí proložit (generalizovaně však, klas. - k-nejb. sousedů,
+      clostering regres. model lin. regrese (lin. kombinace) hlas. - data jsou vstup
+      + očekávaný výstup (objekt. funkce) o regrese jen vstup u regrese se používá
+      metoda minima sumy čtverců (očekávaný Gaus. šum), příp. abs. re
+    truth: 1
+  9:
+    pred: 3
+    text: Ano - pakliže vycházíme z toho, ze strong AI má imitovat lidský mozek myslím
+      si to, protože zvládneme je elementární prvky (neurony) a jejich propojení simulovat
+      chybí nám pouze dostatečný výkon. a paměť (i na přesnost), což vývo jem výpočetních
+      technologií vede do bodu, kdy výkonnou a paměti bude dostatek
+    truth: 3
+  13:
+    pred: 3
+    text: obrázek;obrázek RGB 3 kanály, tensor na vstupu;konvoluce;nax pooling stand.
+      NS;max pooling;konvoluce;výstupní aktivační vrstva bude mít na výstupu vektor,
+      kde každý prvek x 46,17 a určuje zda je na obrázku objekt x„ (např. n =1 je
+      holo)
+    truth: 3
+  14:
+    pred: 2
+    text: off-policy;většinou vyšší přesnost a méně vzorků mohou se učit i z předchozích
+      běhů na jeden vzorek sbírají velké množství dat - lepší, když je prostor k vyladění
+      (self-driving cars) on- policy nižší přesnost, více vzorků učí se pouze z 1
+      předešlého běhu lepší, když se ideální model NS mění čase hodně
+    truth: 2
+670bd457fe34808747e5544e5f168fb4:
+  1:
+    pred: 2
+    text: Výsledkem prohledávání je strom af- then, (který pomocí senzorů resp. data
+      ze senzorů agent ví rozhodnout jaké instrukce ze stromů provádět
+    truth: 3
+  2:
+    pred: 4
+    text: Zisk 42 se nezmění, lebo aj offa-beto aj minimus dají stejní výsledek. B,57
+      sekund no tak bude změnit - nebo v nejhorším případě zůstane stejnej- kvůli
+      tomu, že affo-beta může nekteré listy z vyhledávacího stromu uřezat. Aby jsme
+      mohli odhadnout přibližuje o kolik sekund rychlí výpočet potřebujeme informace
+      o vyhledávacím stromů vytvářen algoritmem - např. faktory větvení pro jednotlivé
+      hráče apod.
+    truth: 4
+  3:
+    pred: 4
+    text: 'Budeme předpokládat, že poslední expandovaní uzel na úrovni obsahuje řešení
+      -„worst case seznamovat Tím pádem BFS - Breadth - forst - search nám bude dávat
+      nejlepší paměťové a časovů složitost. Proti DPS nám dá lepší časové nároky,
+      léto DFS může cyklit - nikde nic je nepsán, že prohledávací strom nie je acyklický
+      - a kvůli tomu aj lepší paměťové nároky. Proti 105 - taková optimalizace BFS
+      je zbytečné, víme v jeho hloubky je řešení. VCS: možné použití je nesmyslné,
+      že (větší) existuje uzel cenou větší než 1. Jediním vylepšením brygbol modifikace
+      DFS, limitováním do hloubky 8 - časové nároky bude mít stejné nebo horší kvůli
+      cyklení, ale pak v paměti držíme len aktuální cestu + seznam uzlů v hloubce
+      x + to sníží paměťové nároky.'
+    truth: 4
+  4:
+    pred: 4
+    text: 'počet stavu;Simulované žíhání < -> A - bude konverzovat rychlej jako náhodná
+      procházka. SA má mechanizmus, které umož akceptování horšího ohodnocení stavů
+      jako aktuální popsán rovnicemi: DE = EUSS - EUSI EOS - „energie“ aktuálního
+      stavu E(s|) - „energie“ příštího stav;Náhodná procházka;Pravdepodobnost, že
+      algoritmus nový stav s''akceptuje je 1-esť, kde T je „teplota“;kvalita stavu'
+    truth: 3
+  5:
+    pred: 1
+    text: PCY P(x|= odhadnout lze jako počet vstupních dat daného třídy deleno počtem
+      každého vzorků P(y) - odhadnout lze jako podíl vzorků danej třídy a počet každého
+      vzorků P(x|y) - odhadnout pomocí vzorce P(x|y) = arg max (N|x; u, ?)) P(yx)
+      - odhadnout pomocí Bayesův vzorce 1869 N (x|N, [2) x - je matice vstupných dat,
+      má discenzie 3 (dimenzia) � počet dat v tříde - floating point číslá u - je
+      matice 3x1 pro odhad štřednej hodnoty - floating point číslo - pomocí vnouce
+      u= XII 312 5- je matice) hororizační matice 3x3 pro odhad rozptylů - flating
+      point čelá - pomocí vzorce 2 1/2 (xo-re) Wornst Je třeba odhadnot PCX) 1 frát,
+      P(ys 2 krát, P(x|y) Zkrátka - a kotomu u 2 krát, [Zkrát- a těm pádem podle Ragesův
+      vzorce lze vypočítat odhad P(y|x) - zase 2 hrát pro 2 třídy;ex)
+    truth: 1
+  9:
+    pred: 2
+    text: Určite lze vytvořit General AI. Problém vytvoření takové AI je vlastne velmi
+      komplikované verze Reinforcement learning problémů, jak je to reinforcement
+      learning problém, určite musí existovat nejaký neuronoví síť, které to modeluje
+      - t. j. řešení na problém existuje, len jsme to dosud nenašli. Jiním argumentem
+      je, že víme, že existuje neco, co má požadované vlastnosti (třeng) General AI
+      - člověk - potom je třeba len nájsť techniku, které člověka transformuje na
+      neurální síť, a máme problém vyřešen.
+    truth: 3
+  10:
+    pred: 3
+    text: Shallow learning obecne vytváří algoritmi, které (pracují rychlejšie, ale
+      nevyužie příznaky tak efektivne jako deep learning. Příznaky máme definované,
+      tím pádem není třeba použít extrakce příznaku hluboké učení je velmi dobré na
+      extrakce lumplexních přiznaku, ale toto vlastnost nie je požádán, v tej úloze.
+    truth: 3
+  11:
+    pred: 3
+    text: Obecne čím hlouběji je konvoluční jádro ve sítí tím větším částem obrazů
+      pracuje, KJ na začátku KS extrahují tzv. low - lesech příznaky, hloubější KJ
+      extrahují high-level příznaky.
+    truth: 3
+  12:
+    pred: 2
+    text: Ne, obecne ne. Bez rekurentných vrstev nemal neuroni šít šancu odhadnout,
+      kde začne písmeno slová, a kdy zkončí. Délku pro 1 písmeno je teda třeba měniť
+      dinamičky. Potom existují jazyky u kteréch 1 písmeno + 1 oznak jako mapř. čínština,
+      tím pádem musí n. s. nejak mít informace o tom, jaké byly předchozí písmena
+      - zase nelze bez rekurentních vrstev.
+    truth: 1
+  13:
+    pred: 4
+    text: 'obrazek;26. 10.;ĚJEZD;nežen;XXXIV Obrazat xxx 3 kanálu pro rgb, extrakce
+      16 příznaku podiny vrstva 2x2 MAX - 3 kanálů pro ryb, matice 2, x § 2, 32 příznaků
+      -> pooling vrstva 29 a 4 dostaneme 1x 1024 příznaků - můžeme extrahovat víc,
+      ale zvolme si např. 1024- ve formu matice reálních čísel. Vrstvy - konvoluční,
+      pooling Kanály: max 3 kvůli reprezentace obrázku pomocí matice RG hodnot lze
+      tam dát více kanálu, ale nepřináší žádné extra informace. Výstup: Konvoluční
+      vrstva = pro vstup XXX, výstup je XXX Pooling vrstva: pro vstup xx výstup je
+      fx /k/x|k) pro k § 1, hen'
+    truth: 2
+6d77c9d20f085c086b11952b297e4608:
+  3:
+    pred: 3
+    text: '- NENÍ OPTIMÁLNÍ - JE OPFIMÁLNÍ - NAJDE NEJLEPŠÍ MOŽNÉ ŘEŠENÍ;IDS - LEPŠÍ
+      PAMĚť NÁROČNOST NEŽ BYC BFS - NAJDE RYCHLEJI NEŽ IFG'
+    truth: 3
+  4:
+    pred: 3
+    text: KVALITA;SŽ;Ž_ KOMBINACE NP A GREJNÍ SEBECH , - BUDE RUST;KLESSE;POČET;STAV;Ale
+      Často se stává, že je NP - KVALITA POSTUPNĚ ROSTE NAVĚTÝSN NĚJAKÝ STAV, KTERÝ
+      UŽ BYL NAVŠÍVEN - TAM ZLE NEROSTE ANI NEKLESÁ
+    truth: 3
+  5:
+    pred: 3
+    text: E XCN uc= 19 xon-ucl (xcm? wo) 2 = IV % ";- JE POPBA;N - IN- STŘEDNÍ HODNOTA
+      - ROZAKOLACE počet tříd E-PŘÍSLUŠNOST;P(c|x| = P(X|c) PIC) ZkP(X|2) P(2);- WER
+      tomto případě - E - MATICE 3x3 CENY (PRO NÁS 2 -C <1, N|16
+    truth: 2
+  6:
+    pred: 4
+    text: PCNISOVIZ;POZITIVNÍ, NP... NEGATIVNÍ P(NP|�) so, 1 PINJEDI9 � P(ZINP) =
+      0,975 � P(z IN) = 0, 0, 025;P(PIN);PINIPIPIPI;PINT;ODPOVĚD;je již obsažena v
+      zadání 90%.
+    truth: 4
+  7:
+    pred: 2
+    text: LABISTICKÁ REXOLUCE;GRAPPENT DESCENT;-LR- PRO VÝPOCET POUŽIJEM SIEMNO O
+      INI =  (c=1|x) = o [w|= 5 (w|x1 + wot P(c|X|=1-6|X);PROTOŽE VSTUPY JSOU ROVNOU
+      MAPOVÁNY NA PILIX - NAROZDÍL OD GEN. TZÉNOVÁNÍCH MODELŮ (PIx AL � PIC) � PER
+    truth: 3
+  9:
+    pred: 3
+    text: =;ZATÍM NEUSPÍŠE NE NEJSOU ANI PEVNĚ NASTAVENÉ PARAMETRY JAK GENERAL AI
+      POZNAT - Máme TURNINGIN TEST, ALE TEN JE NEDOKONALÝ protože daná AI může odpovídat
+      na OTÁZKY INA KTERÝ JE PŘIPRAVENA CENSKÁ MÍSTNOST a člověk ji pak nerozezná
+      od člověka Další VĚcí JSOU NAPŘÍKLAD ÉMOCE A SEBEVĚDOMNĚNÍ
+    truth: 2
+  10:
+    pred: 3
+    text: HLUBOKÉ VĚSNÍ;+ NEMUSÍME NASTAVOVAT PŘÍZNAKY A NS SI JE Sama dopočítá +
+      příznaky jsou současné ZNALOSTI O PROBLÉMU FLEPGÍ VÝSLEDKY;SLOŽITEVŠÍ A VÝPOČETNÉ
+      NÁROČNĚJŠÍ NEŽ SMALLOW LSAKING
+    truth: 3
+  11:
+    pred: 3
+    text: ZAČÁTEK � ZACHRÁNÍ VZORY ZOBRAZUJÍ MRAVY, BARVA STŘED O OBSAHUJÍ VĚTŠÍ ČÁSTI
+      OBjEKTŮ KONEC - vZORY OBSAHUJÍ OBJEKTIVECKÉ ČÁSTI OBJEKTU;Čím jsme hlouběji
+      v ks, tím budou vZORY ZANLEJŠÍ VĚTŠÍ ČÁSTI OBJEKTŮ D1
+    truth: 3
+  12:
+    pred: 0
+    text: ANO, ALE SÍŤ BEZ RV JE MNOMEM SLOŽITĚJŠÍ
+    truth: 0
+  14:
+    pred: 3
+    text: '- ON-DALICI - při ZLEMENÍ CHOVÁNÍ NEMŮŽOU POUŽÍVAT vzpomínej (akce, které
+      byly vykonané před ZMĚNOVY PŘEDCHÁZEJÍCÍ OFF-pALILI - vYUŽÍVÁ STARÉ VZPOMÍNKY;OFF-POLICI
+      - je lepší'
+    truth: 3
+7b4dd0c8ba3c575059ffeff8f8f696d5:
+  1:
+    pred: 3
+    text: AND-OR strom na základě kterého spomocí senzorů (budou sledovát „chování“
+      prostředí) agent bude vykonavát akce v zavislostí na vjemech z prostředí.
+    truth: 3
+  2:
+    pred: 2
+    text: zisk se zustane ste čas volby tahů měl by zmenšit Pro odhad chybí informace
+      o hrach (jaké jsou hry, kolik krat se v ních hralo, pro vypočet počtu uzlů,
+      které se dá „odřiznout“);mají spojení Strašně se ša stojí;g An
+    truth: 4
+  3:
+    pred: 0
+    text: Nejlepší bude IDS.;.......;po převratu do posledních stavech se podílí i
+      na počest pomoci podle poznání na podporu pro své - poznámka po případě představení
+      použití poznání pod ním podporovali malé maso a podobné Poznámky z posledních
+      dnů a po;posl=;(pos/není;P(není).;poznanost;Magdalena Štefana Švagrová 26 roku
+      1936 / 25 1/6 1936 Barta Bartoň Bartoň Šerem Širokovský Bartom Dem dort;p(pos/není)
+      = P(není lpos) P(pos);P(není)
+    truth: 0
+  4:
+    pred: 3
+    text: kvalita p;simulované žíhání;nahodná prochazka;počet stavů nahodná procházka
+      pamatuje jenom nejlepší stav proto s počtem stavů kvalita postupné roste připadně
+      se nemění i delší dobu. simulované žihaní postupne zlepšuje zijištené řešeni,
+      ale časem může spac i k horšímu řešení.
+    truth: 2
+  9:
+    pred: 3
+    text: Podle meho nazoru zatím to není možné i když současná úroveň je vysoká (např.
+      DALLE, GPT-3...), ale určitě by již prošla Turingůvym testem. Není všemu se
+      dá naučit 2 dat (např. soucit). Možna v budoucnu kvůli nějakemu průlomu v stavbě“
+      sité (architektuře) se podaři zvětšit výkonnost a také odstranit „omezení“ pro
+      sitě (což určitě nebezpečně pro nas) sedá dosahnout urovně silné inteligenci
+    truth: 3
+  10:
+    pred: 2
+    text: Shallow learning je povrchové učení může mít výhodou vůčí hlubokému učení
+      jenom v horší počateční znalostí domeny pro kterou se dá nastavit ručně lepší
+      příznaky, které potřebujeme nastavit jako „důležité“. Jinak hluboké íčení bude
+      mít vyhodou že sama zvolí přiznaky a nastaví jich hodnoty jenom Ze znalosti
+      vstupních dat.;Manželka
+    truth: 2
+  12:
+    pred: 2
+    text: Ano, pomocí konvolučních a peoling vrsev.;policing vrstvy;;;da no;tull connected
+      vrstvy;konvoluční vrstvy
+    truth: 4
+8310871a91f6396928f7e50acd47c2d3:
+  1:
+    pred: 1
+    text: výsledkem je derivační strom akcií na základe senzova rozhoduje z kterého
+      podstromu vyberie akcin
+    truth: 1
+  2:
+    pred: 4
+    text: mu odhadu chybí.;průměrný risk rostane podla mna približne promalý, možno
+      okúrok lepší, ale vkor ty som povedal že nie ale rhľadiska rýchlosti bude určite
+      efektivnější, ale maximalne zrychlenie by sem očakával do 50% hedrie nejakú
+      rôžu určite raterie aj alfa-Bela výpočet presne ty sa to dalo odhadnúť v prípade,
+      že ty sme poznali prehladávací priestor, kde by sme vedeli, které akce alfa-beta
+      nebudú vóbec prohladávať pod
+    truth: 4
+  3:
+    pred: 4
+    text: s nejvážšou pravdepodobnostou poměl algoritmus.. IDS, kedře vieme presmú
+      hľbku, v který sa nacháděli rušenie a na toto je IPS ako stvořený, hedže určíme
+      postaviť hľsku do který budeme prekládávať, tým pádom nebudeme prehledávať veľa
+      zbytečných vetier. dalším benefitom je, že prohladávame do hlasy čo zmaneni,
+      že oproti napríklad BFS môžeme najsť niešenné stór, redče nemusí expandovať
+      všelky uzly na každý úrovni
+    truth: 3
+  9:
+    pred: 3
+    text: '- myslím si, že v určitom časovém horizontě to bude možné, stačí si zobrať
+      príklad z chat GPT, kt. podľa níma generuje velmi slušně výsledky z hladiska
+      umelý inteligencie � tým pádem, že projekt Chet GPT má velký úspedek tak aj
+      viacero investora sa momentálne snaží do tohto odvetvěa investovať velké množstvo
+      financií, tak za mělolko dokud to bude možné, nehorozie o extrémne rychlem vývoji
+      hardvéru, kl. neodmyslitelnou časťou'
+    truth: 4
+  10:
+    pred: 1
+    text: výhodem něco tak nedostaneme lepšie klasifikovat dalším je nič by nám to
+      nepomohlo, kedú pri "deep learnigu" si sám extrahuje příznaky, robili Ty sme
+      zbytečnú prácu, podá mně by to tolo kontraproduktivne predaný typ učenia
+    truth: 1
+  11:
+    pred: 3
+    text: líšia sa tým, že čím hlbšůe sú v sieti daně konvolučně jadrá, tak daný vstup
+      má niacero príznaka (resp. väčšia hľbku), hedže po každej konvolučnej vrstve
+      je polling vrstva, kt. zmenšuje daný vstup, ale zato vstup do dalšej vrstvy
+      je "hlbší" 17/11 až výsledek bude například 128 x 1 + 1
+    truth: 1
+  12:
+    pred: 2
+    text: '- áno je to možné;- je možné použiť spektrálnu analýzu na začiatku dalej
+      sa to měsíc pomocou konvolučnej sieťe;to byl čím übrg pak změry.'
+    truth: 2
+  13:
+    pred: 3
+    text: TERÉ;vstupný;obrázek;konvolučná vstva;výsledek politing;ROB;konvolucie vrstva;-
+      3 kanalý RGB
+    truth: 1
+  14:
+    pred: 2
+    text: '- hlavným rozdělení je, že jedny využívají tzv. policy“ funkční k regimu
+      učenia a druhé zase mě - to že či sú lepšie tak záleží na všešenom probléme,
+      na ktorom chceme daný algoritmus používať - obecne sú off-policy“ algoritmy
+      rýchlejšie, ale menej presné � naopak "on-policy" sú pomalšie a presnejšie'
+    truth: 1
+8da82df4606715cb145f7f979908efc1:
+  3:
+    pred: 4
+    text: DEPTH-LIMATED SEARCH (DLS).;metoda není obecně optimální, ale stane se optimální
+      v případě, že známe hloubku řešení, protože není nutné hledat hlouběji metoda
+      je také vhodná z paměťových nároků, protože je pouze nutné mít Oín) zásobník
+      předchozích stavů výkonově se vyrovná prohledávání do šířky, protože by stejně;bylo
+      nutné projít úzly v 1. -7. hloubce
+    truth: 4
+  4:
+    pred: 0
+    text: score;score;p;random walk;musí NIKA;simulated annealing;t[steps];KW má vyšší
+      šanci se dostat z lokálního minima, ALE také má nejhorší časovou náročnost (teoreticky)
+    truth: 3
+  6:
+    pred: 0
+    text: nakažen;nerozkožen negativní AZ pozitivní;P(A) = 0, 2 P(B) = 1-P(A) = 0,
+      B P(P|z|A) = 0, 9 P(N|B) = 0,975;P(Z|A) = 0,9
+    truth: 4
+  9:
+    pred: 3
+    text: Ne v dohledné budoucnosti;- aktuálně jsou paměťové a výkonové nároky takové
+      umělé inteligence nerealizovatelné - pro vytvoření takové umělé inteligence
+      by byla třeba nepřeberná datová sada (řádově větší - inteligence by musela mít
+      schopnost modifikovat sebe sama, což zatím neumíme a zatím není ani jasné, jak
+      na to
+    truth: 3
+  10:
+    pred: 3
+    text: '- pro ručně definované příznaky je mnohem kratší doba učení - hluboké učení
+      může najít lepší příznaky po určité době - ručně definované příznaky jsou zpravidla
+      na počátku lepší'
+    truth: 2
+b4935d607791eae472f1c04b426b2d18:
+  2:
+    pred: 4
+    text: ME;čas se sníží - díky použití Alta Beta nebude docházet a prohledávání
+      celého prostoru horší možnosti se díky ořezávání nebudou počítat;průměrný zisk
+      na hru zůstane minimálně stejný nebo se zvýší - Afa žetou bude uzavírat nevýhodné
+      cesty, z toho důvodu by neměl být zisk na hru menší Jak moc se hodnoty změní
+      podle mě nelze odhadnout - neznám chování soupeře, neznám počet dříve odehraných
+      her, neznám průběh her (byly dlouhé/krátké? -> ovlivňuje hloubku stromu, ...
+    truth: 2
+  3:
+    pred: 4
+    text: IDS - interativní prohledávání do hloubky;- máme jasně určenou maximální
+      hloubku (větší než 8. úroveň napodobená - max hloubka se s každým cyklem zvětšuje
+      o 1;v paměti;V tomto případě vždy najde řešení, které je optimální. Nebude existovat
+      možnost nalezení jiné a kratší cesty. Paměť je šetřena tím, že ukládáme uzly
+      pouze z aktuálně prohledávané větve (a ne "komplet" strom jako u BFS);moc hluboko,
+      neprohledáváme
+    truth: 3
+  4:
+    pred: 3
+    text: � simulované žíhání náhodná procházka - schodovitý tvar najde aktuálně nejlepší,
+      pak dlouho nic, ale počet navštívených se zvětšuje, pak nový nejlepší � udělá
+      schod atd...;počet navštívených stavů;geworfen
+    truth: 2
+  9:
+    pred: 2
+    text: Myslím si, že v současné době nelze vytvořit silnou umělou inteligenci.;V
+      podstatě by to znamenalo, že musíme umět simulovat kompletní činnost mozku,
+      což lidstvo zatím nedokáže. Momentálně neznáme ani všechny procesy, které se
+      v mozku mohou odehrávat. sami ani nejsme schopni využívat celou mozkovou kapacitu.
+      Navíc by AI musela získat také kognitivní vlastnosti člověka. To nyní také nelze
+      úplně dobře strojově napodobit.
+    truth: 2
+  10:
+    pred: 2
+    text: shallow - stačí méně dat; je potřeba ručně anotovat data, což je pracné
+      a zabere čas;deep - je potřeba mít k dispozici větší množství dat, aby stroj
+      mohl lépe hledat puttení/podobnost,... i příznaky jsou pak definovány antematicky;
+      člověk může provést jen kontrolu
+    truth: 3
+  12:
+    pred: 2
+    text: Ano, lze tahle zpracovávat;noce;a většinou čtverce nejelo a tím střely z
+      - pod der geboren die výbor teď má odepsané pro turnajového tabulky sedl kam
+      nedbal na brzy sám strašně;pohřbu na straně
+    truth: 0
+  14:
+    pred: 3
+    text: off-policy - tyto algoritmy mají možnost pohlížet do minulosti, do stavů,
+      ve kterých už se nacházely, jak se rozhodly, k jakému výsledku to vedlo Na základě
+      těchto zkušeností se mohou rozhodnout stejně/ lépě / úplně jinak on- policy
+      - tento typ algoritmů nezná minulost a rozhoduje se na základě situace v daný
+      moment.;off-policy jsou lepší dílny znalosti "minulosti."
+    truth: 2
+b9f5b9793d2ca99f24ea098f529807e7:
+  3:
+    pred: 3
+    text: ostatní slepé metódy (BFS, IDS, ...) - vela pamete. pomalšte A je informovaná
+      majú heuristiku.;UCS - ma g, čiže si pametá cesty, ktorú prešiel a teda sa abstane
+      najrýchlejšie k riešeniu.;neinformované metody nemající hieuristiku;Gready Slavoh
+    truth: 1
+  5:
+    pred: 1
+    text: parametry na trénovacích datech odhadli?;p(observation) heď príde nové dato
+      X na klasifikaci. Tak ho vbžim do funkci hustoty pravdepodobnosti a potom vynásobím
+      apriorní pravdepodobnosti danej triedy a potom podelim evidencí. Tento postup
+      použijem oboch tried a kde my vyjde väčšia pravdepodobnost, tak tam zaradim
+      daný dato.;p(class|observation);observation (class) p(class);Fankcia hustoty
+      pravdepodobnosti - Je to Funkce, gausovka ktorej středních hodnot a kovariační
+      matice sme odhadli MLE. ktor Kovariační matica, 3x3 matica reprezentovaná 9
+      čísly, ale Teď že je symetrická stačí len 5 čísel. - rektor středních hodnot
+      - s čísla
+    truth: 4
+  7:
+    pred: 1
+    text: Pri Logistickej regresei natrénujem váhy pre rozdelovaciu priamhu. Nové
+      vzor x sa zarodí do tahej triedy, na ktorej strane priamky leží. Aposteriorní
+      pravd. bude vracať len hodnoty 1 (tředa 1.) a 0 (pre tricom?).;Logistická regrese,
+      neuronová sieť;na
+    truth: 1
+  9:
+    pred: 3
+    text: Myslim, že ano. - Možeme předpokladať, že ľudský mezes je typ neuronovej
+      siete, ktorú, buď nepoznáme, alebo je príliž zložina. Alebo niečo v tom zmysle.
+      Ja si teda myslim, že neby sme dokázali záležitost Emergon previest do chervalentnej
+      počítačovej podoby, Mohol by to byť hrom u general AI.
+    truth: 3
+  10:
+    pred: 2
+    text: Při hlbokém učení nemusí programátor ručne definovať přiznaly sieť sa naučí.
+      To je veľká výhoda, protože určiť a ručne definovať je ztužite a časovo náročné.
+    truth: 2
+  11:
+    pred: 3
+    text: Na začátku siete jadra reasujú na hrany, Farby, základné věci.;čím hibšie
+      sme, tým viac sa to potom podoba veciam čo hladáme. Pri konci, kde máme napríklad
+      už dalšíu vrstvu hlasů obohaci, tak tam sú už objekty.;Možeme menť sieť;Kadlec
+      směrom nore vrsty dostávající informace doe stratilo aby viděli kde bolí hrany
+      a podobne. Lebo to sa cestou;tu se už 1 pixel a;určí pa čo to je.
+    truth: 4
+  12:
+    pred: 0
+    text: ulasifikace;Dvora;rátce;konvolučný 10 vrstva
+    truth: 4
+c54fb9058a498e5d0a9138a3846352b4:
+  1:
+    pred: 4
+    text: AND - OR strom;ND;uzlo;uplatní se tak, že senzory reagují na výstupy nedeterministických
+      akcí a podle toho vybírají další cestu (postup)
+    truth: 4
+  2:
+    pred: 3
+    text: průměrný zisk zůstane STEMNÝ � Alfa-Beta nemění (neovlivňuje) výsledky Volba
+      tahu se sníží (v nejhorším případě zůstane stejná) � výsledek AB je stejný jako
+      MINIMAX � Alfa-beta ořezává větve, které není třeba prozkoumávat jelikož výsledek
+      z takových větví bude vždy horší než výsledek ze známích větví;kolikrát se zrychlí?
+      � nelze určit - v nejlepším případě by bylo možné odřezat odhadem menší polovinu,
+      takž zrychlení cca. 1,8x v nejhorším případě nedojde k žádnému prořezání, takže
+      zrychlení žádné (možná i zanedbatelné zpomalení kvůli režii)
+    truth: 3
+  3:
+    pred: 4
+    text: Nejlepším řešením bude použití IDS ... (inkremental deptl search) Jedná
+      se o modifikaci DFS s omezenou hloubkou prohledávání a víme-li, že řešení je
+      v hloubce 8, pak když hloubku omezíme právě na úroveň 8, řešení nalezneme. V
+      nejkratším čase a nejmenším paměťovým nárokem. Optimální z hlediska nalezeného
+      řešení � nemusí najít všechny řešení, když omezíme hloubku (tj. některá řešení
+      se nachází třeba i v hloubce 10, a tyto řešení nebudou nalezeny). Avšak alespoň
+      1 řešení (=v hloubce 8) vždy nalezne ?! Optimální z hlediska výpočetních nároků
+      � řešení najde s nejmenším možným výpočetním výkonem � nerozbaluje žádné uzly
+      navíc
+    truth: 4
+  4:
+    pred: 2
+    text: počet navštívených;počet navštívených;SIMULOVANÉ ŽÍHÁNÍ U náhodné procházky
+      jsou navštěvovány i stavy, které jsou horší než nejlepší navštívený u žíhání
+      je snaha vybírat stále lepší stavy;Náhodná procházka
+    truth: 1
+  6:
+    pred: 4
+    text: N... negativní;test;P... pozitivní;S) = 0,2 =018;IN (H) = 0, 975;P(P|s;=
+      2;(els) = P(PIS) = 0,9 � Přímo to plyne se zadám;P;11;99;PC;+.;Test u náhodně
+      vybrané pravděpodobností;nakažené osoby bude pozitivní s 90%
+    truth: 4
+  8:
+    pred: 1
+    text: kLASIFIKAČNÍ � určuje, do jaké třídy vstupní dato náleží REGRESNÍ — odhaduje
+      hodnotu na základě jiných atributů/hodnot;R-NEJBLIŠÍCH sousedů LOGISTICKÁ REGRESE
+      GAUSOVSKÝ KLASIFIKÁTOR;lineární regrese polynomiální regrese;poslat BEP, O -
+      (H);marš.
+    truth: 2
+  9:
+    pred: 2
+    text: Dle mého názoru a všeobecného;Dle mého názoru to možné není. Jsme schopni
+      se k tomu přiblížit, ale ne zcela dokázat.;PROČ? · General AI by musela mít
+      všeobecnou znalost všech problémů a momentálně by to znamenalo, že bychom museli
+      umět napodobit mozek. Samotná General AI by mohla být mnohem chytřejší / mocnější
+      než člověk a proto se sám člověk bojí ji vyvinout � mohla by ho Pravděpodobnější
+      je, že budeme vytvářet specializované AI pro zničit Samostatné činnosti � je
+      to jednodušší a účinější Nemáme momentálně k dispozici takový výpočetní výkon,
+      abychom něco takového natrénovali
+    truth: 3
+  10:
+    pred: 3
+    text: DU je mnohem náročnější na trénování (čas vývoje, čas trénování PL dokáže
+      řešit i mnohem komplexnější problémy � dokonce i ty, na výpočetní výkon) něž
+      nebyla trénovaná. sloužit jako základ pro sl sítě � není třeba trénovat /v nic
+      nového (samozřejmě po modifikaci původní sítě) a jsou mnohem levnější / vydlejší
+      na vývoj a je tedy mnohem jednodušší jejich použití � různé prototypy a podobně
+      u pr není nutné definovat příznaky - to totiž může být občas pro člověka obtížné
+    truth: 3
+  12:
+    pred: 2
+    text: Zvuk lze zpracovat i například pomocí konvolučních sítí, kdy zvuk je převeden
+      na 20 reprezentaci � vlnění, frekven a taková reprezentace je pak dána konvoluční
+      síti Ta je schopná ve zvuku hledat vzory apod.;období týd všem těm;estru školo!
+    truth: 2
+  14:
+    pred: 3
+    text: ON-poLICY � tyto alg. vylepšují svoji policy, pouze na základě výsledků
+      aktuálního běhu - nejsou žádným způsobem ovlivněny předchozími běly;Off-pOLICY
+      � tyto alg. vylepšují svoji policy i na základě předchozích běhů — mají paměť,
+      která si tyto výsledky pamatuje;OFF-POLICY jsou lepší, jelikož není nutné vždy
+      trénovat zcela od znova, ale máme již k dispozici data z předchozích běhů �
+      úspora času a výpočetního výkonu
+    truth: 3
+d47558962966c8b741426336d3ebfe9c:
+  9:
+    pred: 2
+    text: Myslím si, že ano. Již dnes se AI musí brzdit a onezovat aby se zabránilo
+      nežádaným účinkům. Ale již dnes jsem voborí, kteří se chovají jako lidi, mají/trénují
+      emoce, umějí se pohybovat umí mít ambice, učit se z chyb.. Splňují tedy většinu
+      toho, co dělá lidi lidmi. Myslím si, že do budoucna ne jistě potenciál AI ještě
+      posílit tak, že bude součástí společnosti jako plnohodnotný člověk
+    truth: 4
+  10:
+    pred: 2
+    text: při hlubokém učení nemusíme my sami počítat (odhadovat parametry, síť se
+      na základě dat sama trénuje � je tedy přesnější, pro nás jednodušší, ale zase
+      o dost náročnější na výpočetní zdroje a složitost Výhodou může být, že nepotřebujeme
+      hrubokou znalost dat pro pochopení problému, stačí jich mít dostatek a síť už
+      si s tím poradí při trénování sama Nevýhoda může být třeba potenciál přetrénování.
+      Pokud sami definujeme primály, nemůžeme se stát, že se síť vymkne kontrole,
+      nebo je to alespoň méně pravděpodobné
+    truth: 4
+  13:
+    pred: 2
+    text: 6 a 9;1561 1718;15,25 x 15,25 x 508;osvátek 122x12 pixelň;max-poolin;1.
+      ÚNORA;na začátku vrstev je max-proling pro zmenšení počet konvolučních jader
+      se vždy zdvojnásobuje (64-128-254. obrázek platí pro jednohanálový obrázek (černobíl
+      ). Jinak se ještě pečet pader násobí počtem nanálů
+    truth: 2
+  14:
+    pred: 3
+    text: lepší není ani jeden - záleží dle využití on-policy potřebuje hodně dat,
+      na základě kterých se bude rozhodovat, tedy je paměťově o dost náročnější. Také
+      v případě např. trénování auta nechceme aby se auto opakovaně učilo na srážce,
+      protože to by stálo dost peněz, ale chceme spíše, aby v případě srážky vědělo,
+      že to nebyla dobrá cesta, a už to nezkoušelo dále off-policy se trénuje spíše
+      pokus-omyl, čímž získává trénovací dáta
+    truth: 2
+e3fcfce792cba2bd9b1f688e09b8636d:
+  3:
+    pred: 4
+    text: DLS - Repth limited search;Bude mít výhody PFS, bez toho aby se zbytečně
+      hledala hlouběji;Metoda bude vyhledávat všechna řešení do dané úrovně hloubky
+      ve které najde řešení nezamoř vů optimální - nikdy se hlouběji než je nejzašívaněj
+      řešení;nadpo
+    truth: 4
+  4:
+    pred: 3
+    text: kvalita;žíhání;v náhodná prstinka;- strže náhodně procházka je no náhodná,
+      může dosáhat nějakého maxima ale nemusí být ani lokální, kvalita se tedy bude
+      měřit záhodě podle tako který sousední stav si vybere simboně řekní se jen občas
+      vychýlí mimo nejlepšího souseda a to mu pomůže překonat i lokální maxima, aby
+      se vvě danáhl lepší kvality;počet ově
+    truth: 4
+  5:
+    pred: 2
+    text: '- montáž - P(C|X) P(C) - apriory pravděpodobnost - 1x parmetu P(x|C) -
+      N|(x|m, 2) u = 1 fy - 3x permetr M - vektor středých hodnot vdosti na přemožil
+      doled ohled možností němok podle xyz-3x peretu S2 7 - kovarianční matice by-kovariance
+      3/8 - opět ML odhad 3x primetr dohromady 10 parametrů krát 2 třídy = 20 parametrů
+      / čísel;LI-PIC;III PL;ochlad mocimální věrnky so počtu třesoucích dat'
+    truth: 3
+  7:
+    pred: 0
+    text: boystická regrese, neuronové sítě
+    truth: 0
+  8:
+    pred: 2
+    text: odelů? - klasifikace se zvoří data klasifikovat do tříd (skupin goussovský
+      klasifikátor, k- nevrest neiglburs na verose - data mohou být zkusy bodů;regrese
+      se zvoří funkci, která co nejlépe prodeluje dat - lineární regrese (polynomicální
+      regrese) - data mohou být skupiny bodů pooužívá zvučet čtverců
+    truth: 2
+  9:
+    pred: 0
+    text: Ne, je příliš mnoho iformové, které by se muselo vařit a vždy by se mohlo
+      zajít něco co ješte neumí selo umí ale se zcela správně
+    truth: 1
+  10:
+    pred: 2
+    text: výhody - nemusí se dehnat příznaky, suma si je přeučit extrahuje - může
+      se jednoduše na jiný úkol pomocí "Line - tuněny";seškody - oproti stolku lezningu
+      může být problém když máme málo dát - může dojít k přetrénování
+    truth: 4
+  11:
+    pred: 3
+    text: na začátku se oběvují "lov - level" vrvy, které větžinou kopírují tvory
+      filtrů - např., vertikální, horizontální čáry následují tvory "mid-lievel" vrury,
+      který už mají zajímavější - menší dataily se projevují nejhlouběji jsou "high-losevel“
+      vrvy, které už můžu připomínat složitější útvary s většími detaily
+    truth: 3
+  12:
+    pred: 2
+    text: Ano, stejně jako text např klad pomocí mechopismu attention;tříd LET - LET
+      1857 Anton - b2t t27 - 63 - 1
+    truth: 2
+  13:
+    pred: 3
+    text: KP;;;K- konvoluční vztah;P-pooling vrstva V - výstrý aktivační vstva;konvoluční
+      vztahy - provádí se zde kvaliční filtry Pooling vrstva - dochází ke zmešení
+      obrázku - sixelu se agregují vrstvou MAX nebo AVG funkce;Výstupní vstup je stejně
+      veľké jako vstupní místo relaktivizace je proje 1x1 ale má x y kmótrů
+    truth: 2
+  14:
+    pred: 2
+    text: on- policy se změřují na vylepšování své policy funkce, minulost si pamatuji
+      pouze v aktuální iteraci v životě - hodí se v případě že nové iterice můžeme
+      provádět (simulovat velmi rychle;off-policy - učí se i z dat z minulých interací
+      přívozů na např. Q-learning upravuje svoji Q-fuku - hodí se kdyú interarí nemusí
+      být zas tak velký včet
+    truth: 3
+ee4b7041a56afa5dba176c9bb60a631d:
+  1:
+    pred: 3
+    text: Výsledkem je napríklad IF, LSE stran (nemôžeme možných dopredu vedieť premýstav,
+      iba skupinu stavou W. Senzory umožnia agentovi rozlišiť, do kterého stavu sa
+      dostal a ako v stromu pokračovať.
+    truth: 4
+  2:
+    pred: 2
+    text: Zisk by sa zmeniť nemal, ale obidva algoritmi hládajú optimálně riešenie.
+      Volba tahu by sa mohla zrýchliť „Alfa-Beta orezáva ťahy, které v prípadu chladného
+      protivníka nikdy nenastanú. Odhadnúť o kolka za algoritmus umení je nemožné,
+      nevieme koliv takov má na výber a ani ich hodnoty, aby sme vedeli zjistiť kdes
+      ich odreže.
+    truth: 4
+  3:
+    pred: 4
+    text: 'v;Simited depth seauch s limitou v hľbke 8. DFS o sebe optimálne;nie je,
+      no limitovaním na 8: hľbku 8. .., v kterej vieme, že sa nacház určenie sme to
+      spravili optimálným. BFS by lob náročně vza památ (LDS má výhody PFS) a IDS
+      by zbytečně strácalo výkon (vieme vrstvu;uřešením);eva altuálního;lita;stavu;Náhodná
+      procházka;je kompletně náhodná, neobjahuje si žádný saketelný paltern.;stavy;Simulované
+      žíhaní;Také sa za nejlepším stavom, na neřidičky je domítený vybrať „horšie“
+      aby sa nabránilo uviaznutiu v lokilusnu;mneime'
+    truth: 4
+  4:
+    pred: 0
+    text: náhodná procházka;Náhodná;Náhodná procházka;vždy si památá nejlepší, takže
+      nikdy sa mu výsledek nezhorší.;Simulované žíhaní
+    truth: 4
+  6:
+    pred: 4
+    text: P( -;pozitivny (nahrazený) pozitivny (nakazený) =;P(pozitivny (nahrazený)
+      = 0,9 = 90%
+    truth: 4
+  9:
+    pred: 2
+    text: Myslím, že ľudský mozog je len dostatočně komplexný stroj, takže áno. je
+      možné, že výpočetne sme toho už dosiakli, len nám treba správnej software. Asimov,
+      Čapek a autor „Do andreach's dream of electric sheer ktorého meno mi vypadlo
+      sú jedny s mojich oblíbených autorov. Nakoniec, myslím, že aj bez úmyslu, dostatočne
+      komplexný systém začne vyfazovať známky inteligencie.
+    truth: 3
+  10:
+    pred: 3
+    text: Výhoda je, že niekedy priznaky proste nedokážeme určiť a desp learning si
+      ich (at má dostatek vstupných dát) schopný „odhadnůť sám“. Nevýhoda je práve
+      potreba získanéa moc (a potenčálna klasifikácia) velkého množstva dát. Práca
+      sa prestrúva s programovania na data;o
+    truth: 2
+  14:
+    pred: 2
+    text: policy je lepší ale máme velké množstvo dát;On- policy sa učí na dátach
+      s ktorými pracuje a ignoruje históriu.;Sf-policy vytvárn parametre na dataset,
+      na parceli nepoužije ich o dějin generací. Město toho si ich ukládá a využíva
+      svoju pamáť.;zas Off-policy je lepší ale nemáme dostatek dát, On-policy je al
+      ich je dosť.;- policy sa neučí na predošlých generáciách (má pamäť) a nie na
+      tom s čím pracuje. Preto funguje lepšie s nedostatkam dát. On-policy vstupal
+      ak ich je dost.
+    truth: 4
+fd4c95ac222b1b1ce4780a446a0662ff:
+  2:
+    pred: 3
+    text: '- Alga-Beta dosahuje rovnaké zisky ako MiniMax. Alpa-Beta môže nájsť výsledok
+      rychlejšie ak by mohla prerezať časť stromu. Potrebujeme poznať akc strom vyzerá.
+      ALPEN'
+    truth: 4
+  3:
+    pred: 2
+    text: '- IDS - narozdiel od BF. S nie je tak moc památovo náročné - s tým, že
+      sa postupne zanoruje môžeme nájsť riešenie bez toho aby sme sa zacyklili niekde
+      hlboko vstrome ako pri DFS'
+    truth: 3
+  4:
+    pred: 2
+    text: -x znázorňuje simulované žíhání - keď budeme hladať maximum, je možné, že
+      nájde lokálny extrém a skončilo by simulované žíhání však umožní zobrať horšie
+      hodnoty na prekonanie extrému a potom najdeme globálnye;náhodná přechádzka se
+      bude náhodně přesývat a zasekne sa vlokólnom extréme
+    truth: 1
+  9:
+    pred: 3
+    text: V dnešnej dobe sa odbor umelej inteligencie zlepšuje a rozrastá obrovskými
+      Krokmi, napríklad spracovanie textu s Chat GPT alebo prevod textu na obrázky
+      ako Dalle alebo Mid Journey. Toto boli obrovské pokroky pre širokou verejnosť
+      aj keď sa jedná o Narrow AI. Aj keď sú to pokroky v narrow AI, myslím, že pokrok
+      je možný a, pre General AI a v zlepšovaní kognitívnych schopnostiach strojov
+      ako sú učenie sa, pochopenie súráslostí, self-awerres. Ani predný vedci nevedia
+      kde sa general AI môže dostať, takže táto možnost by sa nemala zavrhnuť
+    truth: 3
+  10:
+    pred: 2
+    text: Niektoré úlohy sú velmi náročné na extrakciu príznakov, do konca až nemožné
+      pro človeka. Při ručných príznakoch je potřebné vyskúšať vela možností manuálne
+      aby sa našiel správny výsledek. Napríklad extrakcia príznakou pre rozpoznanie
+      obličejov na obrázku Človek nevíe ako mají vyzevať a musí skúšať. Deep learning
+      extrakciu zvládne sám a to je výhoda a ulahčenie práce programátora Nevýhody
+      - je potřebné viac dát - napotrebná väčšia neuronová sieť
+    truth: 4
+  11:
+    pred: 2
+    text: i pro ostatní architektury?);- na začiatku unímame iba hrany a velmi malé
+      časti potom sú ta menšie časti velkých objektov nakoniec sú to celé objekty
+      alebo velké časti -;v její starosti si m do surongské dopravy interpretuje;získat,
+      pozdě až na 1A Jaroslavi v obci se budou Snadno se slavíme v pod 700
+    truth: 4
+  14:
+    pred: 3
+    text: -;On-policy - pracujú iba s aktuálnym stavom a potřebujú velké množstvo
+      zážitkov - sú jednoduchšie ale potřebujú velký výpočetný výkon opp-policy -
+      pracujú aj s minulými stavmi a nepotřebujú toliko zážitkou možné;Každá má;svoje
+      výhody a priestor na použitie
+    truth: 3
+fdb0df15e7ad924fe4403d60cca91fc6:
+  2:
+    pred: 1
+    text: Volba tahov (čas) sa zmenší, keďže budeme odsekávať stavový prostor. Priemený
+      zisk sa však môže znížiť - to záleží najmá na kvalite odrezávania možností.
+      Odhad záleží aj napríklad na kvalitě nevrst. funkcie na počte stavov.
+    truth: 1
+  3:
+    pred: 3
+    text: DFS s omezením na 8. úroveň stromu.;V prípadě, ale by sme použili BFS, museli
+      by sme si památať všetky vztah všetkých úrovní, v prípade DFS s omezením, v
+      najhoršom prípade - ak sa riešenie nachádza úplne napravo to dopadne pamáťovo
+      a časovo rovnako ako BFS ale v najlepšom prípadě, ak sa riésenie nachádz v lázním
+      podstrome, dopadne DFS výrazne lepšie. (To za predpokladu, že prehládáva nayskór
+      lávě podstro
+    truth: 4
+  4:
+    pred: 3
+    text: poč. navštívených;Je vidieť, že pri náhodne prechádzke sa kvalita stavu
+      znižuje a zvyšuje náhodne, pretože algoritm s navštěvy stavy rôznej kvality
+      náho Na druhej strane pri sim náhodně prochádzla žíhaní sa kvalita časo celkově
+      zvyšuje ale v malý krokoch sa občas zníži, ked sa energia v aktuálnom stave
+      dovoná energií sudre To umožňuje tomuto algo dostat sa k lepším sta za cenu
+      horších v prejc cez horšie stavy;ní
+    truth: 4
+  6:
+    pred: 4
+    text: (pozit / nakazena) =0,9
+    truth: 4
+  8:
+    pred: 2
+    text: vstupné data;„ - Pri klasifikačnom probléme sa snažíme klasifikovať do istého
+      počtu tried [žatiať čo pri regresnom probléme hládáme paranetne pre regresi
+      funkciu - číže hládáme funkciu, kt. dokážeme přeložiť trénovací data a teda
+      aj odhadnúť nové data. klasif. - K- Nearest, gaussgovský klasifikátor regresní
+      problém - relineárna regresia, polynomiálna regresia Pri klasif. problémech
+      dáta obsahujú hodnotu a triedu do kt. patnia pri regresných nám stačí ich hodnota
+      resp. poloha. Pri klasif. pracujeme s pst príslušnosti do danej turecky resp.
+      trénovaním M y = ao x t a, a pri lin. a poku. regresů trénujeme parametre pokynóm
+      pregr. vs.;ladav hra
+    truth: 2
+  9:
+    pred: 2
+    text: Osobne si myslím že to možné je, 20 rokov dozadu by nikto neveril, že za
+      pár korún sa bude dať kúpiť mobilní zariadenie, kt. sa výkonom vyrovná v tej
+      dobe velkým počítačom. Tým, že naše telo - špecificky mozog je vytvorený neurónni
+      a rôznymi funkciami - chem. procesmi venm že pri dostatočnom "okopírovaní" týchto
+      procesou a štraktáry bude možné dosahať vytvoreniu General AI na úrovni batolátá
+      kt. sa bude učiť. Proti argumenty typu "nebude mať intuicia, cit! a podobne
+      neporazujem za dostačujúce, protože tieto vlastnosti sú tvéž výsledok chem.
+      procesor - napríklad sociopati majú tieto procesy narušené, preto nemají rovnaké
+      pocity ako rčičšina.
+    truth: 4
+  10:
+    pred: 2
+    text: Ak ročne extrahujeme príznaky, môžeme v kratším Časovom úseku dostať model,
+      kt. zvláda klasifikáciu dobre. V prípade hlbokého učenia je a le výhoda tahá,
+      že tieto príznaky a pattemy sú nájdeme samotnou sicťou a môžeme dostať ovelá
+      lepší model - k tomu sa vztahuje otázka "Ako my môžeme vedicť, kt. príznaky
+      sú dôležité pre sieť?“, Pri trénovaní deep NN je často výsledek, že aj heď zamýšlíme
+      napr. že určitý layer bude fungovať ako identifikácia kruhov apod., často si
+      sieť robí IIčo chce“ a nájde optimálnejšie využitie pre každý layer
+    truth: 4
+  11:
+    pred: 3
+    text: Na začiatku konvolučných sietí sa často aplikujú fitre, kt. detegují malé
+      lokálne príznaky -> ako napríklad hrany, kde na začiatku sa aplikují napríklad
+      tri konvoluční pravé hran a horizontálne jadná na lávě hrany hrany a dálej v
+      sieti sa potom aplikujú jadrá které konvolvují a detegují trany kruhov a vých.
+      travou a na konci sa delegují už zložité obrazce z pretošlých layerov.
+    truth: 2
+  12:
+    pred: 2
+    text: Íslo by to za predpokladu, že všetky slová v jazyku majú napr. rovnakú dľžku
+      - ak sa v otázke myslí detekovať text v zvuku napr. V reálnom svete by to i
+      šlo velmi tažko, protože relument siete dokážu feedbachom brať v potaz aj predošlé
+      dáta a modelovať pravdepodobnosť dalších dát. Táto vlastností je podstatné pri
+      dátach kt. sú rôznej dľahy ale obsahovo rovnaké - ako napríklad zvuk rety povedanej
+      svými věčníků - rychlejším a pomalším. V prípadě ale, že by sme žili v ideálnom
+      svete kde slová majú rovnakú dľÍžku, bolo by možne izolovať jedn. tacio a konce
+      slov a vytvoriť NN ht. by klasifikovala stová podíl jednotl. prízvadlou � napr.
+      každá vzorka slova (všetky mají rovnako vzorek v ideálnom suctě.
+    truth: 1
+  13:
+    pred: 1
+    text: konvoluční sieť, kt. bude z obrázkov detego rať napúli paličkové písnená
+      ABOD - by sme mohli vytvoriť napr. takt;Začali by sme pár kanálni, kt. by detekovali
+      vertikálně hrany -> napríklad hran a horezonté hran - podobne ako som naznačil
+      v úloze 11, k tomu by sme mohli pridať aj šilné hrany, myslím že by to pomohlo
+      napr. , vo vyšších vrstvách by sme spojením kard vedeli detekovať tvary špecifické
+      pro dané písmená � silné hraje pre A, k, kt. obsahují aj horiz. či vertikále
+      či jistá kombinácia pre oblúky v písmencích. Po skombinovaní by sme na najvyššej
+      vrstve dostali písmeno ht. najviac sedí k týmto kombináciam hodnot. z konvolucii
+    truth: 1
+  14:
+    pred: 2
+    text: ého učení? Které jsou a to konkrétně Líšia sa v spôsobe učením sa policy,
+      tak, že pri algoritmech on-policy sa optimálnou policy dokáže naučiť len tak,
+      že agent robí rozhodnutia kt. korelujú s danou policy. Pri off-policy sa dokáže
+      naučiť ay bez toho, aby agent robil. "správne" rozhodnutia.
+    truth: 2

@@ -1,0 +1,2384 @@
+00d52da93a2ea09d33d9c34959629374:
+  1:
+    pred: 1
+    text: vím-li, že v určitém stavu;lze pouze provedenim jedné akce se dostat do
+      výsledku, pokud tento stav navštívím znova, mohu jít přímo k výsledku (tzv.
+      zkratka)
+    truth: 1
+  2:
+    pred: 4
+    text: hodnot. Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her,
+      pro něž minimax lze použít.;valita;v jednom Protože člověk není stroj, který
+      okamžiku si správně uvědomit stav hry nebo držet v hlavě široky a hluboký strom
+      možnosti Někdy stačí vyhrát (ale ne nutně s nejvyšším skóre) Min. hodnoty se
+      vybírají pro protivníka, neboť minimax strom se počítá pro každého hrače a protiv
+      jde proti hračí (pro něj max užitek, pro náš min užitek) - stuhdání hračů jdoucí
+      proti sobě (kavetní hry,
+    truth: 3
+  3:
+    pred: 2
+    text: 1;6;+ ČLOSED;BFS;DAS;d;76;6D;10;b. D;i;Strana 25.;neghický � každý stav
+      je unikát;000
+    truth: 2
+02430be22cdd097e46bda4c98975d85d:
+  4:
+    pred: 1
+    text: takýto agent potrebuje poznať prostredie okolo seba v prostředí sa musia
+      nachádzať odmeny;stav bude reprezentovaný atomický
+    truth: 3
+  7:
+    pred: 4
+    text: NIF.;� 20% = 02 80% = 0,8 S = 90% = 0,9 = N|5 = 10% = 0,� 1917 = 97,5% =
+      0,975 = 2,5% 0,025 AIF 2 a 0,9. P(P) 0,2 = 20 %;q;BAYESOVO;P(ylx P(s|p);Plá;1)
+      Plz;P(PS) PÍS);P(D);H - zdraví P-pozitivni S-chorí N-negativní;P(P|S) P(P|S);P(S|P);(200)
+      S;809 H;180-100;200;c;N;1010 180;20;28. 11. 780
+    truth: 1
+  9:
+    pred: 3
+    text: Cielom Turingovho testu je zistit či AI dosiahlo úrovne general AI, teda
+      je inteligentní natoľko, že človek nedokáže rozlíšiť konverzácni s AI oproti
+      tej s iným človekom. Možné závory sú, že člověk buď AI rozpozná a tak nemožno
+      o ňom prehlásiť, že je iteligentní (vychádzame z předpokladu, že človek je inteligentný)
+      alebo ho nerozpozná od človeka a AI tak bude považované za inteligentné. Základným
+      nedostatkom je právě předpoklad, že človek je inteligentní. Vzhladom na člověka,
+      který by s AI komunikoval, je potom závislý výsledek, který môže pre každého
+      znamenať čosi iné. Tj. „zapacitne slabšia mysel“ môže za inteli- gentné AI považovať
+      aj také, které zvláda základní komunikáciu (viď množstva scamov na internete).
+      Tento testo má zmysel používať jedine v prípade, že sa snažíme jasne určiť či
+      práve vo výššie uvedenom príklade, neprichádza k jakému stanu, nesnaží za nás
+      mětto oklamať, zmanipulovať a podobne. Dotiať však nedosáhnem aspoň proti dverí
+      pre general AI, tento test je v podstatě irelevantní.
+    truth: 3
+0e33e15598be65ed678dd18f9f2bff79:
+  4:
+    pred: 1
+    text: Potřebuje -> odhad ceny cesty k vrcholu;reprezentativu � Atomická
+    truth: 1
+  6:
+    pred: 2
+    text: Logistická regrese (Lineární, Polynomiální) diskrim. modely se snaží přímo
+      odhadnout pravdepodobnosti třídy gener modely odhadujeme pravděpodobnostní rozložení
+    truth: 0
+  8:
+    pred: 2
+    text: 'vznikne problém přetrenování � pro nápravu potřebujeme více Test. dat;0,5;15;bod
+      1 regrese... měla by to být parabola doktorech? přestavení Nakreslil jsem: parabolu
+      procházející cca test body Proč?" Protože hledám pokynom který bude mít v hodnoty
+      syn'
+    truth: 2
+  13:
+    pred: 3
+    text: chceme, aby slova s podobným významem byli k sobě vektorové blízko.;W V
+      artmetiku potom umožňuje s danými vektory pracovat "matematický
+    truth: 2
+  14:
+    pred: 3
+    text: 'NS modeluje Q funkci, která pro daný stav ohodnocuje jednotlivé akce, které
+      agent může provádět vstupy: dvojice (stavn, akcem) výstupy: ohodnocení jednotlivých
+      akcí Agent ji používá pro učení se (odměny)'
+    truth: 3
+1069b3fc4fb47f279610ef035bf163d4:
+  3:
+    pred: 2
+    text: 'bez;Explored:;BFS: O (b) DFS: O bod;b - faktor větvení;18 2 = 8 27-16;80;s
+      Explored: BFS: OBSAH) DFS: 0 (6 a)'
+    truth: 1
+  4:
+    pred: 4
+    text: -;najde nám nejbližší lok. maximum aktuální hodnotu;pro;- posová se, až
+      najde lokální maximum - končí;- vrátí nám toto místo maxima (stav);ňax.
+    truth: 1
+  7:
+    pred: 0
+    text: P(nak / poz) = P(pozluak) Plnak);P(pozlnak) = 0,9 p (nak) =0,2 p(zdravý)
+      = 0,8 P(negl zdravý|= 0, 975 � 0,025;P(nak) poz) =?;P(poz);P(pozladnavý) P(poz)
+      = P(pozlzdravy) P(zdravy) + + P(pozlnan) + Plnak) = =0,025.0,8 + 0,9. 0,2 =
+      = +01,8 = 0,2 0,02;7;-;0,9 07;0,9 op
+    truth: 4
+  8:
+    pred: 2
+    text: K určuje stupeň nejvyššího polynomu bude to kvadratická fce;vstupem mohlo
+      být málo dat, model se tak naučil na malém, nebo nevalidu vzorku -> špatně tedy
+      prochází novými daty (křivka)
+    truth: 3
+  9:
+    pred: 2
+    text: účelu?;- odlišení, zda testovaný je člověk/stroj - proti argument "Chinesse
+      room" — v místnosti člověk, který neumí čínsky. Má ale k dispozici literaturu
+      a národ, jak čínský mluvit/psát. Zdá se, že čínsky umí, i když ve skutečnosti
+      neumí - Paralela - můžeme tedy „ošálit“ Turingův test
+    truth: 1
+  10:
+    pred: 3
+    text: '- loss funkce má za úkol určit správnost výstupu NS s referenční hodnotou
+      výstupu (máme labeled data) - vstupem tedy výstup NS + referenční h. - výstup
+      - hodnota reprezentující podobnost těchto dvou hodnot;� dále tato hodnota použita
+      v optimalizačních algorit parametrů;NS'
+    truth: 4
+  13:
+    pred: 3
+    text: Vektory jsou reprezentací textu - slova s podobnými významy mají i podobné
+      vektory;Vektor je uložen v Lookup table;Word Vector aritmetika je způsob přepisu
+      slova na daný vektor
+    truth: 2
+1101bdc0b19ca8bc615b343a37e69620:
+  1:
+    pred: 2
+    text: Z řešení úlohy;algoritmus po naražení na uzel 10 ví, že se v jeho derivaci
+      nachází řešení, nemusí již prohledávat ostatní uzly.
+    truth: 2
+  3:
+    pred: 3
+    text: DFS - big-ol;s EXPLORED;BFS - big- 0 DFS = big- 0;b;(d -1);Bld 1,
+    truth: 2
+  4:
+    pred: 1
+    text: aget potřebuje odpor od informace, jak je daný krok, mezi kterými si vybírá
+      užitečný k řešení (zda se kněmu blíží, nebo ne (muže se blížit i k lokálnímu
+      extrému), atomická
+    truth: 2
+  8:
+    pred: 4
+    text: 0,5;o1;Při trénování nastal problém přetrenování, který znemožní úspěšné
+      použití modelu pro nová testovací data. Tento problém by šlo odstranit použitím
+      regrese nižšího řádu;Ještě mohl nastat problém, který je způsoben nedostatkem
+      dat spolu se šumem ve zdrojových - datech. Tento problém lze redukovat přidáním
+      dalších dat do trénovací sady.
+    truth: 4
+  9:
+    pred: 2
+    text: '- Závěrem TS je zda je stroj inteligentní, nebo ne. Nedostatky - Předpoklad,
+      že jsou lidé inteligentní - čínský pokoj [nekonečna kniha přepisů vět)'
+    truth: 2
+  11:
+    pred: 2
+    text: Slze získat nesprávně naučený model v případě kdy learning rate je příliž
+      vysoký. Při učení se přeskočí hledané maximum.
+    truth: 3
+  13:
+    pred: 2
+    text: Pokud jsou si slova blízká, tak chceme, aby leželi blízko sebe. Word Vector
+      aritmetika - umožňuje nad slovy provádět díky jejich vektorové reprezentaci
+      matematické operace například?;královna - žena = král
+    truth: 4
+  14:
+    pred: 2
+    text: n (x1, x2... xn) = 12 (xn w2) + l;- perception (jeden neuron v neuronové
+      - síti);SED FE;Modeluje funkci pravděpodobnosti vstupy - sézory okolí výstup
+      - nadcházející krok Agent ji používá k zjištění dalšího kroku, který má podniknout.
+    truth: 1
+1fe5f64c5593bf37ac6a5b332f1693fa:
+  3:
+    pred: 3
+    text: 1. BFS - Olt DFS - Olb. d*);2. BFSCE - OIb 4-1, DFSa-Old*);3FS - pronaja
+    truth: 1
+  7:
+    pred: 4
+    text: ky pxy) plzy / = platy/plyt;B. pož. test;807;A- zdravý; Á - naházený B -
+      pozitivny test B - negativny test;p(Á (B) = 1 - p(A|B);p (A|B) = 0,025.0,8 +
+      0,9.0,2 v blaho;p(A|B) =;0,8 . 0,025;p(B|A) p(A) + p/BIAT p(A) = - (1-p(Š|A)
+      p(A) + p/BIATI p/A) = (1 - 0,975). 0,8 + 0,9 . 0,2 0,025.0,840,9.0,2;p(B) =
+      kg p/B, x;p (Á|B) =;1;0,8 . 0,025;0,025. 0,8 + 0,09.0,2;p (nahazená l pozitivní
+    truth: 4
+  8:
+    pred: 4
+    text: 1.5;1.0 0.5;parabola, která přechádza prsne dátami nastalo pretrénovanie
+      - overfitting, model presne kopíruje dáta bol spósobený malým počtem trénovacích
+      vzorov a pre ne vysokým stupňem polynómu příliš napravil by sa dal zváčíaném
+      trénovacej sady, resp. přidáním nových trénovacích vzorov alebo zvolením nižšího
+      stupňa polynómu
+    truth: 4
+  9:
+    pred: 2
+    text: cielom je zistit, či je testovaný systém (počítač) inteligentný, alebo nie
+      možné závěry - systém je inteligentný/systém nic je inteligentný myslím si,
+      že nedostatkem je priame porovnávanie s človekom, pre skutečné zistenie inteligencie
+      by bolo vhodné systém nechať "žiť" v sledovanom prostředí a všímať si, či je
+      schopný reagovat na situacie, které predtým nevidel, ale je schopný sa prispósobovať
+      rôzným podnětová redpokladá, že pokiaľ systém nie je možné rozlíšit od človeka,
+      je inteligentný táto myšlienka určite zvykáva v situaciách, kedy je nutné prejaviť
+      city a emocie tak předpokladáme, že "modelový" človek je emočne inteligentny),
+      zbytek by aj pri reprodukcii a pod. � proto je vhodné doménu situacií, v ktorých
+      je systém nerozlišitelný od človeka na problémy, ktoré nevyžadujú empartiu,
+      cit, EQ;�
+    truth: 4
+  13:
+    pred: 3
+    text: word veitor aritmetiku - pri spracovaní sekvencií textu rekurentnými vrstvami
+      potřebujeme, aby na ich vstupe boli číselné hodnoty, nie priamo slova - môžeme
+      si teda vytvoriť nejaký slovník, pomocou one hot encodingu každé slovo zaúčdovať
+      vektorom, který obsahuje samé nuly a jednotku pre "index" / pozicin slova v
+      slovníku dálej teda nepracujeme se slovami ano takými, ale sich vektorovou reprezentacion.
+      tento spósob je však velmi pamaťovo náročný, používa sa prístup s Loon up tabulkou
+      a word embeddingami, každé slovo má svoj určitý index a vektor hodnôt - slová,
+      ktoré sú syntakticky či semanticky podobně, majú aj tieto hodnoty podobně +
+      vo vektorovom priestore takýchto slov je potom možný pohyb medzi podobnými slovami
+      pomocou přičítania nejakej konstanty
+    truth: 3
+  14:
+    pred: 3
+    text: vstupom je aktuálny stav a akcia - rls,a) - reward za tento stav a akciu
+      EL... J - očekávaný úžitek z dalších akcií;modeluje a funkční tá nám ohodnocuje
+      kvalitu akcie v konkrétnom stave pri posilovanom učení síce ide len o odhady
+      a očekávané hodnoty, je to nějaká metrika, ktorá nám dovolí volič naprínosnejšie
+      riešenie pokiaľ NN funguje správne, mal by platiť nasledujúci vzťah, pokiaľ
+      nie, môžeme rozdiel ľavej a pravej strany rovnosti použiť ano loss - funkciu;9
+      (s, a) = ris, al + E|max 9 (s, a);agent sa teda pomocou vej snaží vyberať najkvalitnejšie
+      riešenie, které mu princie největší úžitek
+    truth: 4
+20729bed8a76d6f6f3fb387acc7f6087:
+  2:
+    pred: 4
+    text: tady se nám protivík snaží co nejvíc znepřijemit, život (a zároveň nax.
+      svůj zisk);MAX;MIN;kde předpokládáme, že protivník je racionální (maximalizuje
+      svůj zisk). Pokud není racion. tak své taky musíme ohněm podle průměru hodnot,
+      které proti dostává.;7 sekvenční hry
+    truth: 2
+  3:
+    pred: 3
+    text: 'máme tedy být;nalů;1. nemáme seznam CLOSED;DFS: O (2) i může se zacyklit
+      BFS: O G , projde všechny nesly;do;.... .........................................................................................................................dak.....................................................................................o....o.....o......o.......o....o......o.....z...z.z..
+      .... geschrieben: vých úkolů a;2) Máme seznam CIOSED;cíl;DFS: O (b) i již se
+      nezacpli, ale může být až posl. uzel BFS: 60 2'
+    truth: 1
+  4:
+    pred: 3
+    text: -> potřebuje vědět, kde se zrovna nachází ani nemusí vědět, kde je cíl ->
+      jedná se o faktorizovanou regrez. stavu je vázaný na prostředí (ten stav) �
+      nějak se v něm pohybuje � musí vědět, kde je
+    truth: 1
+  7:
+    pred: 4
+    text: 't... posit. test;N. -;P(N) =0, 2 =0,8 P( P(t|N) =0,9 = P(-|N) = 0,1 P(-
+      |z) = 0,975 = 9 (+ 12) = 0,025;+) P(t) = p(+|n) . p(N) 0,9 . 0, 2 1) = P(t|N)
+      . pí;0,2;(sum rule : 0, 9 .0, 2 + 0,8 . 0,025 = 0, 2'
+    truth: 4
+  8:
+    pred: 0
+    text: KAZ;� nebudeme scho;generalizo;vat;-> způsobem tím, že jsme se naučili křivku
+      přesně, kde není zaveden gauss. šum;t;te;po zavedení gauss. šumu budeme schopni
+      pěkně generalizovat
+    truth: 0
+  9:
+    pred: 2
+    text: '-> cíl: udělat rozhodnutí, zda je AI nerozeznatelné od lidské inteligence;�
+      na nedostatky poukazuje prob. čínské místnosti � AI není čínsky, pouze se tak
+      tváří (v místnosti někdo vrací spr. překlad) � není možné vnímat enoce stroje,
+      eugabii a další lidské emoce. V tomto testu nerozumíme, či je stroj jen nesinuluje.'
+    truth: 3
+  13:
+    pred: 3
+    text: -> tyto věktory;jsou;pro každé slovo unikátní;� W. aritmetika;říká nám,
+      jak moc jsou si dvě slova podobná. hrál z monarcha eukl. vzd. je malá, jedná
+      se o syrovým;Kčs;bod;programu;král n řidič emkl. Vod. je velké slova nemají
+      nic společného Dur Buon � max index � je rychlejší;úroda
+    truth: 3
+  14:
+    pred: 2
+    text: 'a (skial) = Etupky Erberak) / skrac;vstupy: aktuální stav a akce, kterou
+      si může vybrat výstup: říká nám, které akce máme brát, abysme naxinalizovali
+      průměrnou odměnu užívá ji k tom, aby se naučil, které akce v daným stavech narimelují
+      jeho prům. odměnu'
+    truth: 3
+26a9350a320f080e23e865aa5320e0ac:
+  2:
+    pred: 3
+    text: minimálne hodnoty hladáme, keď sa snažíme hrať tak, aby sme mali minimálne
+      straty (pri maximálnem pokladu úžitku). Vychádza to z super sa nám snaží maximálne
+      uškodiť. Využívame vtedy, ale je naša maximálna strata superarým maximálnym
+      ziskem a opačne.
+    truth: 3
+  6:
+    pred: 3
+    text: logistická regresia, lineárna regresia;externagista pracuje na základe skóre
+      s= w1. x + b. Pomocou nebo potom napr. s použitím signorid. funkcia vypočíta
+      pravdepodobnosť p.;p(y = 1 (x, w, b) = 1+ exp( = ply= 0|x, w|b) = 1 - p(g=1|
+      ...);rozdiel s generat. klasif. modelmi je v tom, že sa diskrim. nesnažía najskór
+      modelovat triedu z kt. boli dáta generované. Namiesto toho klasifikujú priamo
+      zo vstupem.
+    truth: 2
+  8:
+    pred: 1
+    text: 1. 5;Pokyn. regresia sa naučí váhy modelu tak, aby výsledný model šiel bez
+      vstupno/výstupné body.
+    truth: 1
+  10:
+    pred: 2
+    text: stupce loss funkcia počíta odchylku vypočítaného od reálného. Používa sa
+      pred úpravou parametrov a pomáha zjistit, ako daleko sme od požadovaného výsledku.
+      Má k dispozicii požadovaný výstup pre každý vektor vstupov X1 jej vstup je vypočítaný
+      výstup modelu yn. Výstupem je hodnota (vektor hodnot) vzdílenosti gen od tn.
+    truth: 4
+  12:
+    pred: 1
+    text: vstup;p = fy;,kde;p- počet operacií;Fx - velkost filtru v sueze x Py-veľkost
+      filtru v smere y;A. 1 + B + 2 + 3 t ...
+    truth: 1
+  13:
+    pred: 3
+    text: 'word vecker aritmetika =;word embeddings = vektory vyjadrujú okrem sekvencie
+      aj jej vzťahy (sémantické) s inými sekvenciami - vektory podobných slov budů
+      podobné ďalej vyjadrujú kontext, čo znamená že vektory slov v podobném kentexte
+      (mačka), (mačiarko) alebo vynavím bude bližšíc pri sebe popisuje operacie, kt.
+      môžme s týmito vextormi robik, napr.: - plus, mínus (pes - (mačka) = (domáce
+      žriva)) násobenie skaláram - zvážíme vektor - dok produck - ne vyjadriť koreláciu
+      dvojh vektorov'
+    truth: 3
+  14:
+    pred: 1
+    text: 'policy function - táto f-cia sa snaží agenta naučiť, ale si v stavoch vyberať
+      akcie na základe odmeny vstupy: aktuálny stav a akcie výstupy: vybraná akcie
+      /nasledující stav'
+    truth: 1
+28820ed35e5098a689435823adf2e4e2:
+  1:
+    pred: 1
+    text: �;AND;- zapamatova porady rohledovaná;Ak zapamatujem stavy ktorí vedu k
+      ríešením tak možeme ne presumo vat ho dvakrat ak uvidím ho ešte raz. V našom
+      prípade ešte máme vzel 3 cyklusom a preto ak budem vedřet že ten vzel určíte
+      zde do cíele, tak zažitkujem velia času, ktory by mohli stratit na to aby dozvedat
+      sa všechné stavy cesta k ktorym Tde cez uzel 3. V našom případě dovzlas okládáme,
+      že jsou oba hráči 2. Minimax je populární algoritmus pro ře- na algoritmu spočívá
+      v hledání minimálních stop racionální, tedy že maximalizují svůj užitek. Pře-
+      hodnot. Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her, pro
+      něž minimax lze použít.
+    truth: 1
+  2:
+    pred: 4
+    text: 'keď ho vyřešíme popostroch pro hledání normálních hodnot - tak naja najčastějším
+      Algoritmy ktory hladajú míníme hodnotu najčastějšie hladajú parametry rodelu
+      prí ktorem chyba je ním malná, alebo hladuju zřešenie z mínímalnou cenou. Aby
+      sme mohli použít mínínax hra ma splňovat take vlastnosti: e) Možeme ohodnotiť
+      každu akcích v hry, a čím vatšíe bude hodnota hodnocení a tím lepšíe bude pre
+      hračá ktory tu akcí a v robíl 2) Hra musí byt znulovym sučtom. Aby Lebo Mín
+      Max funguje tak že maximalizujeme svoj užitek a mínímalizujeme užitek Tvých
+      hračov'
+    truth: 1
+  6:
+    pred: 4
+    text: P(c=1|X) = G(x, I);p(c=2|x) = 1p(c=1|x);Br;w nahy;2) ";LIŠÍ TO tÍm že generativní
+      vypočítajú tře pradepodobností zvlažď a potom z nich berřeme maxím ale diskriminativny
+      vypočítají p jednej třídy a hlídajú ho rozdíl z
+    truth: 1
+  7:
+    pred: 4
+    text: PINY;= 80%;20%;P(P|N) = 90% P(N|PINN) = 97,5% P(PLN|) = 2,5% p(PROKONOM);PVH;P(N|P
+      P(N|P) = PIPINI = PINJ = B. , 7o P(P) P(PI=P|P, N|) + PIP, NN) = 100 + 2/30
+      200 P(P|N|=P(P|P|A|N) = P(N) = 900 80 . 2,5 100 TOO P(P, NN|=P(P|PINN) - PINN);30/6;1000;7/100
+    truth: 4
+  9:
+    pred: 3
+    text: Cíel získit či naš agent patrí do silnej UI. Ak naučíme orgenta špecialne
+      pre ten test tak on z velkej pravdepodobnost ho projde. Hlavny nedostatek že
+      on testuje len tře aspekty inteligencie ktore spojene z komunikacíej. Myslím
+      že už neexistuje smysl používat ten test lebo ho projde většina existujúcích
+      chat botov ktorý ne patría do sílny Vi
+    truth: 3
+  10:
+    pred: 4
+    text: šel. Vypočítat rozdíl medzí vystupem madelu a očakovaným vystupen. Počas
+      Učenía jej mínímalizujem. Vstup-očakovaná hodnota a hodnota ktoru dal model,
+      vystup - hodnota chyby
+    truth: 4
+  12:
+    pred: 1
+    text: x = ve vík. d. d) . Ok;x - hodnota prxela ik- input kanaly d-rozner jádra
+      ok- out put kanaly u nasobení
+    truth: 2
+  13:
+    pred: 3
+    text: Chceme aby tře vektory zachovaly sematiku slova. Ten pojem znamená aritmetiku
+      oktory pravidíme operacie nad rektorami ktory bolí získané zpomocou „word embeddlings".
+      Napríklad jak spočítame vzdálenosti medzí slovami tak možeme dozvědat sa či
+      su tře slova synoníme.
+    truth: 3
+  14:
+    pred: 2
+    text: Pří DQN neuronová síť modeluje A funkcíu ktorá založena na Bellmanovej rovníce.
+      Na vstup dávame stav, na vystupe získame hodnoceníe všechych možných akcí hodno;Hodnocení;Stav
+      5;�;DaN;- sám;� a2 � a3;-> an;a - hodnocení pre akcí C
+    truth: 3
+2999da745d9319388937680319e94ef8:
+  1:
+    pred: 0
+    text: 6;86 od V roku A vybírá tak protihráč, a jeho tahem hra končí Můžeme tedy
+      vyhodnotit tak A, a při dalších hrách, pokud máme možnost táhnout do A, už víme,
+      že pokud bychom táhli do AI hra pro nás vždy skončí kladným ohodnocením, bez
+      stolu a nemusíme už usel znovu vyhodnocovat za předpokladu, že si můžeme vybrat
+      tah a zají á výhradně musíme dr budeme mít novinou vybe- Minimax je populární
+      algoritmus pro resen- hráčových hér, kde předpokládáme, že jsou oba hráči nemec
+      racionální, tedy že maximalizují svůj užitek. Přesto hodnot. Vysvětlete tento
+      rozpor a pojmenujte odpovídající vlastnost her, pro něž r;oc
+    truth: 1
+  3:
+    pred: 3
+    text: '1) BFS: O (nk);DFS: O (n);n= D;I BFS: stejné i DES: O (např) (b)'
+    truth: 3
+  4:
+    pred: 3
+    text: 'agent potřebuje znát ohodnocení současného stavu stavy, kterých lze dosáhnout
+      - ohodnocení daných stavů Agentova reprezentace stavu spočívá v: identifikátoru
+      + ohodnocení současného stavu vektoru ohodnocení všech okolních stavů'
+    truth: 3
+  7:
+    pred: 4
+    text: INF. ER;P(+;(2) =;ÍNÍ;P(N|-;P(2|-;P(z|+;P(t|N);KART.;OBT-PCNI = 0,8 0,9
+      =0,1 =2P/N|+) -0,975 = 1í p(Z|-) = 0,025 z 209;=?;21;k kteří jsou % nakažených
+      pozitivní Po pozitivních celkem P(N) DALVI+ P(+IN) -;(N|+) + plz udivení;0,25
+      0,9;sud - prefect quast 800;0,18;0,20,97 0,80,025;0,78 + 0,02;0,20
+    truth: 4
+  8:
+    pred: 4
+    text: 'Problémem zde je, že model vůbec negeneralizuje: smyslem modelu má být
+      odhad funkce pro nové hodnoty a model místo toho přesně vykreslil jednu konkrétní
+      funkci, nedokáže proto odhadovat nové data, dal by se napravit buď snížením
+      řádu, nebo přidáním více vstupních dat, aby počet vstupů výrazně převyšoval
+      řád regrese a nepodél musel generalizovat'
+    truth: 2
+  9:
+    pred: 2
+    text: Cílem je rozhodnout jestli je testovaná umělá inteligence srovnatelná s
+      lidskou inteligencí (tj. jestli se nám povedlo sestrojit silnou umělou inteligen
+      nerozeznatelnou od člověka). Nedostatkem je, že za daných podmínek by slabá
+      umělá inteligence mohla teoreticky předstírat, že se jedná o silnou inteligenci
+      prostým skládáním odpovědí slov dohromady podle dostatečně kompletní komplexní
+      předlohy a tím text zneplatnil tzv. "Chirese novou argument")
+    truth: 3
+  10:
+    pred: 1
+    text: optimální Její rolí je určení odchylky od cílového stavu Jejím vstupem jsou
+      vypočítané hodnoty; výstupem suma čtverců odchylek od očekávaných hodnot.
+    truth: 2
+  11:
+    pred: 2
+    text: je to možné - při příliš velké hodnotě learning rate přeskočíme se může
+      stát, že optimální hodnotu a dostaneme se k úplně jinému výsledku (budeme skákat
+      o moc velkou hodnotu, nikdy se neustálíme na optime zabrd Naopak u příliš malého
+      LR by učení příliš velké množství kroků
+    truth: 4
+  12:
+    pred: 1
+    text: + n + n + d n ... počet prvků a... počet filtrů vrstvy
+    truth: 2
+  13:
+    pred: 2
+    text: Chceme, aby slova často používaná společně měla mezi sebou co nejmenší euklidovskou
+      vzdálenost Word Vector aritmetika je proces umíšťování slov do lodkup tabulky
+      podle jejich využití ve větách
+    truth: 2
+2b1500702cc62787245e747cf6e7e907:
+  1:
+    pred: 2
+    text: 56;Stav 1 vede k řešení protože stavy 2 a 3 vedou k řešení;Stav 4 vede k
+      řešení protože si pamatujeme že stav 1 vede k řešení � nemusí se prohledávat
+      stav 5.
+    truth: 1
+  3:
+    pred: 3
+    text: '1) BFS: OLE DFS: ObxD-D);600 060 000 300 - narozeniny;4;27;2);OlsAbsk...
+      + 51) pro BFS : DFS'
+    truth: 2
+  7:
+    pred: 0
+    text: 'p (hak ) = 0,2 p(posl. /nak) = 0,9 p (negl = 0,975;P(pos, nak) = P(posluab)
+      p (nak) = P(nak) plans) = 0,2. 0,9 =0,18;P(pos) = P(posluak) : pluk) + P(posledn)
+      + P(zdr) = 0,18.02 + 0,025.0,8=0,036 + 0,02 =0,056 p(posl nab) plnak) P(hak/pos):;P(pos);0,056;0,18'
+    truth: 2
+  8:
+    pred: 2
+    text: Přetrénovanost dá se opravit pomocí většího počtu dat Problém vznikne pokud
+      budou nová data generované pomocí s polynomialní funkce vyššího než druhého
+      řádu.
+    truth: 1
+  10:
+    pred: 2
+    text: zjistit velikost chyby modelu — menší hodnota na výstupu loss funkce = menší
+      chyba.;vstup jsou výsledky z modelu a skutečné výsledky (labory) - výstup je
+      vektor vektoru chyb pro data
+    truth: 4
+2ea99fefbc421672603c520f6165d18f:
+  3:
+    pred: 2
+    text: DFS;BFS:;O(D) - udržujeme si pouze frontier (zásobník) OPEN,;2) o B) - řešení
+      může být až v „nejposledněji“ prohledávané větvi;2;uzdvořujeme si 6 pouze frontier
+      (frontu) oper zonovíme se jen přibližně do hloubky 2x, rozbalíme následující
+      vrstvu, je to ale 0 (6 ?) asymptotický - i když si 0 (6) pomotujeme více informací,
+      asymptoticky je to totéž;31. 9. 77 82.27
+    truth: 3
+  4:
+    pred: 3
+    text: '- agent potřebuje, aby prostředí bylo alespoň částečně pozorovatelné -
+      agent potřebuje, aby stavový prostor nebyl tvořen příliš mnoha konstantními
+      plochami (nevhodné pro hill-clim bing) a lokálními extrémy (nevhodné i pro restorty,
+      pokud jich je lokálních extrémů mnoho) — agentová reprezentace stavu je otomická,
+      pamatuje si kde je, a může kontrolovat své okolí. pouze to,'
+    truth: 2
+  7:
+    pred: 4
+    text: P(nakaženo/pozitivní);Stol;život položeno);P(pozitivní);tů;o (860;0.025;(nakaženo)
+      konztitucí nebožané p(nakaženo) = 0,2 p(pozitivní|nakaženo) = 0. 9 p(negativní|zdravý)
+      = 0.975 p(pozitivní|zdravý) = 0.025;P(nakaženo) P(pozitivní) nekoženo);P(nakažene)
+      P(pozitivní nekežene) + p(zdravý);P(nak.) P(poz. l nak.);p(nek.) P(poz. / nok.)
+      + 1 (1-2 (nakaženo). 1- P(negativní) zdravý);0.18;0.2x0. 9;č. 18 + 0, 2 20 10;0.2x0.9
+      + 0. 8. 0.025;P(pozit.;;protože 12 STOK
+    truth: 4
+  8:
+    pred: 4
+    text: Ta křivka by měla být dokonalou parabolonu. Polynomiální regrese dru kého
+      řádu modeluje parabolu, ovšem každé tři body neležící na stejné přímce mohou
+      být povabolou zcela dokonale interpolovány. Došlo k pře- trénování, tedy model
+      dokonce sedí na tvénovací dota. Řešením by bylo použít více dat k trénování,
+      nebo snížit řád metody.
+    truth: 4
+  9:
+    pred: 1
+    text: 'Cílem Turingova testu je dokázot, že model, který povo žujeme ze obecnou
+      umělou inteligenci, je obecnou umělou inteligencí. Možné výstupy: 1. Bylo dosaženo
+      obecné umělé inteligence, které je k nerozez- rání od člověka. 2. Dobrý model
+      není obecnou umělou inteligenci, tedy taková dosud neexistuje. Nedostatek je
+      takový, že umělá inteligence může být cílené trénované právě pro Turingův test,
+      ale stále nebude obecnou umělou inteligencí. Dá se argumentovat i čínským pokojem,
+      ale to nevím jako vklidní připomínku.'
+    truth: 3
+  11:
+    pred: 4
+    text: Při zvolení příliš vysoké učící konstanty může učení divergovat! Tedy při
+      výpočtu dalšího kroku gradientního sestupu uděláme tak mohutný krok, že můžeme
+      výrazně překročit lokální minimum funkce, jejíž minimum hledáme, efektivně se
+      od něj vzdálit. při volbě příliš malé učící konstanty naopak může výpočet trvat
+      neúnosně dlouho.
+    truth: 4
+  12:
+    pred: 1
+    text: c. k.;C - počet buněk konvolučního jádra k - počet konvolučních jader �
+      velikost vstupního obrázku v souřadnici -velikost výstupního obrázku v souřadnic
+      Používáme jedno konvoluční jádro pro každý konvol
+    truth: 2
+  14:
+    pred: 2
+    text: Při deep-learningu modeluje neuronová síť funkci, která vstup dostává akce,
+      které lze v provést a po výstup vrací velikost odměny pro agenta, která udává,
+      že danou akci je nejlepší provést právě nyní. Agent se poté rozhoduje ve svém
+      chování na základě velikostí odměny.;m;domén stavu
+    truth: 3
+2fcfde5bdeca3406910a9f82585f5a99:
+  5:
+    pred: 3
+    text: 'aposteriorne pravdebodobnosti a vypočítají sa ako počet hodnot v tanci
+      triede podobný celkovým počtem dát;Počet parametrov;3 parametre (z trvaly);počet
+      hodnot:;N(x 4, 2) u - střední hodnota, střed naších dát, pro každé triele samostatné
+      E-kovarianční matica, hlavná diagonála určuje roztianetie dát podľa osi. pain
+      / reliavia diagonála preliturie korelaciu melci osami, musí byť symetrická Ma
+      = L: L: i. pro jednu triedu 4 parametre, pre 3 třety 12 parametrov 6 hodin,
+      -“ -"- 1 procentor tr kx výpočet apoštoliovací pravdepodobnosti: P(X|C) . P(C)
+      ";P(C|L) =;PERIFET DIX = NEMNIE P(L|C) - gaussovo rozloženie;18 hodnot;P(x);POD
+      = {P(X|c) . P(c) - apr. Pravdepol.;pec) - apriorna pravdepodobnosť'
+    truth: 4
+  6:
+    pred: 2
+    text: 'Logistická regresia, SVA. support vectur machines,;Při logistickei regresií
+      sa počína Cross-entropy, uposterine pravdepodobnosti. Crosi eatrops je loss
+      funkcia na základě krvei učíme nisticko regresia binárne parametre: pa: 1 x)
+      = o (étu) P(C|OL x) = 1-0 (x|k) (C|X) nemodelujeme ale primo vypočítacame. �
+      zimou likelihost: grama p(C|X) z ktorej je odvedená cross entropy ale tam namiesto
+      maximalizówie minimalizujeme. jí sa tom že negenerujeme nic z dát ale snažíme
+      sa naučiť váhy tak aby zodpovdali énormním tálum, p(C|X) nenotificujeme ale
+      hned vypočítavame.;svA-majú tvrdé hranice od ktoré sa značím léta odtláčat aktivační
+      funkcia se „hoheika“'
+    truth: 2
+  8:
+    pred: 2
+    text: model negeneralizuje nové dáta. Krivka je už moc komplexní. Napraviť by
+      sa použitím viaca i trénovacích dát, alebo zmeziť k.;zrak nakreslil sou triumf,
+      která procházka vietními bodni.
+    truth: 2
+  9:
+    pred: 3
+    text: Turingov test je používá na to aby sme zjistili či sa dá stroj od človeka.
+      Výsledkem testu je že človek nevede rozoznať stroj od dalšího človeka nebo vetel
+      rozvinuť. Test je úspešná keť človek - nevede rozoznať stroj od Julijeho človeka.;melzenie
+      je paralex činenci miestnosti, kde môžme mať človeka, který preklada slová o
+      slovníku a naopak sa môže tvářiť jako inteligentný systém ale je to oba obsiniací
+      LVT.
+    truth: 2
+  11:
+    pred: 2
+    text: Pri moc vysokých hodnotách LR môže model divagovať = a nikdy sa nedostaneme
+      k optimálnemu riešeniu.;to tak že však tuto moc vysoká ulebo môže byť k príliž;nízky
+      a model by sa trénoval nekonečne jiho.
+    truth: 4
+  12:
+    pred: 1
+    text: jako;kurka xk. m.;d (to ...);opty;filtr odpitel;Ek. kn na kun-šírka a vnika
+      konvolučného jatra
+    truth: 1
+  14:
+    pred: 1
+    text: Modeluje a funkciu. Funkcia vracím ohodnotenia akcií v konkrétním stave.;stupom
+      je dvojica (S, at). a výhled ohodnotné akcie. Regent si najprv natrénuje úlo
+      (cakciu na talách (replas buller). Používa se aby zjistil akcí má vykonat ľulšiu
+      akciu.
+    truth: 4
+4213cbc24a62d7aac83c860a66d64701:
+  2:
+    pred: 4
+    text: Minimax je algoritmus, který počíta s tým, že obaja hráči budú hrat racionálne,
+      a proto sa snaží musí maximalizovať rozdiely na každej uróvni binárneho stroma.
+      Maximálna hodnota nám určuje pro nás naj- výhodnější tah, minimálna hodnota
+      zase reprezentuje nejvýhodnější tak z pozicie súpera. Algoritmus funguje spolehlivospotiaľ
+      súper vždy vyberá tahy, které sú pre nebo najvýhodnej šie. Potiaľ súper výberá
+      taky náhodne je možné (nahra s velkým počtem možných tahov) upraviť algoritmus
+      tak, že pri ťahu súpera budeme hledať miesto minima premer.
+    truth: 2
+  3:
+    pred: 2
+    text: BFS BFS et;DF. DFS a b. D
+    truth: 2
+  6:
+    pred: 1
+    text: „Neurónové siete Lineárna regresio Pri NS sa prechádza jednotlivými vrstvami,
+      ktoré na základe ich výsledkov počítajú pravdepodobnosť výskytu určitého vzoru
+      v dátach. generativny model se snaží najít vhodné rozloženie na trenovacích
+      dátach, kdežto diskriminutí vny sa snaží vstup mapovat na výstup vhodnou funkcion.
+    truth: 0
+  8:
+    pred: 1
+    text: 1,5;Na obrázku je polynomiálna funkciu 2. rádu, která modeluje polynóm prechádza-
+      jáci bodmi, které boli dopreda definova né. málo, s výřezem přítel
+    truth: 1
+  9:
+    pred: 2
+    text: 'Čilom TII je určiť, či odpovede na položené otázky poskytuje;Knihovna Marie
+      stroj, který disponuje inteligentným sprvaním alebo nic. Resp. má za úlohu odhaliť,
+      čis odpovede poskytol človek alebo stroj. Výstup - pohieľ hodnotitel uzná odpoveď
+      na svoju otázku ako zmytupení, inteligentní je možné stroj považovat za inteligentný
+      � ak nie tak potom stroj nemožno považovať za inteligentní Problémem je, že
+      pohial stroj vykazuje prvky inej jako teologiej inteligencie, případne ale je
+      inteligentnejší jako člověk tak potom je výstupem testu nesprávne tvrdenie,
+      že stroj mě je inteligentný. Taktéž sa môže stať, že hodnotitel je podpriemerae
+      inteligentný a aj inteli- gentné odpovede môže považovať na neinteligentné:'
+    truth: 4
+  10:
+    pred: 2
+    text: 'LOS: funkcese hodnotí, ale úspěšná bola NS pri analyzovaní jej vstupu vzhladem
+      na anotované dáta. Porovná va výstup NS správným výsledkem v anotovaných dátach
+      Vstup: výstup z NS, GT (ground trotta z ana dát) Výstup: úspěšnost / kvalita
+      výsledku vzhledem na GT'
+    truth: 4
+  12:
+    pred: 2
+    text: Konvolucia je operácia, která má na vstupe maticu pertov (4xka, za čajne
+      o k=3) a na tieto hodnoty sa aplikuje konvolučné jadro o rovnalej veľko Upliká
+      cia spočíva v prenásobení hodnôt vstupnej matice s konv. jadrom a nasledným
+      sčítáním těchto hodnost.;Vzorec:;k *k;je rozmer;konv.;st sprav
+    truth: 2
+  13:
+    pred: 3
+    text: Word embeddings je vektorová reprezentácia slov. Slová s podobným z významom
+      rú reprezentované vektorami s podobnými hodnotami A teda v Look Wp tabulke sa
+      nachadzajú blízko sebe. Táko vlastnosť umožňuje vykonávať methkové matematické
+      operacie nad slovami označované ale Word Vector uritmetika. Napr. king-men-quen
+    truth: 4
+  14:
+    pred: 2
+    text: NS modeluje;Vstupem je aktuálny stav systému Výstupem je potom pravdepodobnosť,
+      resp. ohodnotenie nasledujíceho stavu po vykonaní určitej akcie
+    truth: 2
+4675df389dab25469cf2879db941e2af:
+  1:
+    pred: 4
+    text: OR-uzel;AND-VZKL;COKL;GOTH - nalezli jsme jednoho nelu řešitelného potomka
+      Vh n uzel je tedy řešitelný;zapamatuji si, že n je popelitelný (tedy stav, který
+      n představuje je řešitelný);uzel musí mít řešitelné oba své potomky - jeden
+      z nich je řešitelný a druhý z nich představuje stejný stav jako již řešitelný
+      hzel n (máme zapamatováno) je řešitelný uzel na - nemuseli jsme tedy znovu prohledávat
+      a zkoumat potomky uzlu n a tím jsme ušetřili čas a celkový výpočet
+    truth: 4
+  2:
+    pred: 4
+    text: '- dalo by se na danou problematiku pohlížeti tak, že o představuje vyrovnání
+      užitků obou hráčů, pozitivní hodnota, že hráč 1 je na bohu lépe a záporná hodnota,
+      že hráč 2 je na tom lépe (platí však pouze pokud je rovnost definována na 0
+      (teoreticky může být posunuta místo dvou (několika hodnot), které představují
+      užitky hráčů (jako v MAXN) se pro dva hráče mohou užít reprezentovat pomoc jedním
+      číslem.;používá se pro dvouhráčové hry;jeden hráč svůj užitek (hodnota sou maximalizuje
+      jeho soupeř pak hodnotu sončtu minimalizuje představuje jeho maximal užívku);s
+      nulovým součtem -'
+    truth: 4
+  3:
+    pred: 3
+    text: 'BFS DFS:;O (6. D);2) BFS: Off DFS: O (6. D)'
+    truth: 3
+  4:
+    pred: 2
+    text: '- agent si udržuje pouze aktuální stav potřebuje umět nalézat sousední
+      nely (stavy) a ohodnocovat je - měl by mít možnost pamatovat si nejlepší nalezený
+      sbor před vestavbem - obecné bývá sbar/uzel reprezentován proměnnými a jejich
+      doménami - repraohtace stavu je tedy faktorizovaná (proměnné a jejich domény)
+      velkodobrovolníků podružských aby bylo možné problém bímba způsobem řešit, je
+      nutné aby ho bylo možné tímto způsobem reprezentovat'
+    truth: 3
+  6:
+    pred: 2
+    text: lineární logistická regrese, neuronové sítě pro klasifikaci (např. sort
+      max na výstupu);P(cX) = o C|XTW), kdo je vstupní vektor např -w je vektor vah
+      např. 5 °. á je logistická signalita. Rá + 8°C platí pro binární klasifikaci
+      hlavně p(c=1|x) = U|w) => p(c=o|x) = 1- p(c=1) x) hranici mezi třídami diskriminativní
+      modely modelují přímo aprobatiorní psb. - zaměřují se na - generativní modely
+      nejprve generují husboby rozložení ps6 pro třídy a jejich apriorní pso. a až
+      podle pomocí Bayesova vzorce dávají apostolické pst. p(cIX) - diskriminativní
+      modely na dostatečných vzorcích dat vykazují lepší vlastnosti, ale na malém
+      počtu vzorků jsou náchylnější k přetrénování jsou pak modelářní dovolují and-forend
+    truth: 4
+  7:
+    pred: 3
+    text: NS/=;PINS) P(NS);P(P|epis);P(s|P);P(S|P) = P P(P|S|P|S) + P(P|NS) P(ne)
+      9:02 P(SIP) =;P(s|P) =;P(S|P) = 0,9 . 02 + 0,035.08;0,9 . 02;P(PIS) P (s);(PIS)
+      P(s);P(P);P(s|P) =;P(s, P) = P(S|P) PIP) = P(P|P|S) P(s);P(S|P) =;0,9 02 + 0,035.08
+      0,45;0,73;0,45 + 0,28
+    truth: 3
+  8:
+    pred: 4
+    text: funkci nakreslil jsem kvadrabickou ba je polx nomem k 2. řádu;dileož;stupněm
+      problém, který nastal je přetrénování (ne přímo na obrázku) způsobem malým počtem
+      třévovacích dat a k tomu velkým polenomu a dálo k proložení všech brénovacích
+      dat přesně odstranění � více trénovacích dat, případně snížit stupeň polynomu
+    truth: 4
+  9:
+    pred: 4
+    text: -álem Turingova testu je zjistit, zdali inteligentní - zdali vykazuje princip
+      spočívá v tom, že nejsme schopni rozlišit stroj od člověka a vlastnosti člověka
+      kognitivní schopnosti právě na základě těchto schopností � stroj vykazuje vlastnosti
+      člověka a člověk je inteligentní � stroj je inteligentní. problementan bývá
+      čínský pokoj, který je založen na tom, že jednotlivé části stroje inteligentní
+      nejsou, z čehož plno, že ani stroj pak není, že vlastně nechápo co dělá. � tento
+      probíargument však není úplně věcný viz TT-burianů člověk jeho test se mozek
+      a neurony může provádět různě, klasicky byl však prováděn textovou formou. -
+      jeden iteoretických nedostatků jo, že může značně převyšovat schopnosti člověka
+      a na jejich základě může být v rozpoznán - chce to neznamená, že není inteligentní,
+      nicméně testem neprojde dále pokud by stroj zůstal celou dobu potichu (neodpovídal
+      by), pak odhadu. by rozhodnutí o tom, zdali je inteligentní mohlo záviset na
+      náhodném aby stroj prošel musí replikovat chování člověka ten ovšem národná
+      vždy zcela racionálně - stroj by pak muzel záměrně replikovat i byhto lidské
+    truth: 4
+  10:
+    pred: 2
+    text: '- loss funkce udává jak moc se získaný výstup prodaný vzorek vyší od požadovaného
+      výstupu udává tady chybu klasifikace/predikce atd. vstupem je nejčastěji výstup
+      našeho daného modelu nad nějakým vzorkem a požadovaná cílová hodnota (výstupní
+      hodnota) pro tento vzorek.'
+    truth: 3
+  11:
+    pred: 2
+    text: u BD to možné je - učící konstanta může být velká, což vede k diregenci,
+      která model spolehlivě rozbije - malá konstanta, pak může vést k velmi dlouhému
+      (časové) učení u S6D je text o špatným projevům špatně zvolené učící konstanty
+      částečné zamezena, jelikož se postupně přizpůsobuje a normalizuje. - jedním
+      z algoritmů SGP je např. Adam
+    truth: 3
+  12:
+    pred: 1
+    text: vrstvy;počet počet = c. d. - dr. [u. ] � počet jader;�;rozměry vstupního
+      obrázku (počet pixelů v x a y;počet kanálů vstupního obrázku;dimenze, rozměry
+      jádra - typicky d, = dych = 3;050
+    truth: 3
+  13:
+    pred: 4
+    text: '- pokud používáme neuronovou síť např. ke zpracování bodu v vrstvách rekurenčních
+      - každé slovo je reprezentováno nějakým vektorem čísel, mapování zajišťují učené
+      lookup tabulky. Po těchto vektorech chceme, aby u podobných slov, čísla významově
+      blízkých, byly podobné - - tahle podobnost poté umožňuje s temito vektory zajištěno
+      přáním provádět mabinetické operace (náš obecní sčítání), jež (např. sledování
+      jejích může odhalovat skryté vazby v jazyce, případně tyhle operace dávají kontextu)
+      dokonce smyslu plné výsledky Tohoto v jazykovém modelu (vrstvě využívá) daném
+      např. král a "monarcha" mají podobě výkroky "král" a "pak naopak rozdílně žido'
+    truth: 3
+495ef79db86e9a0196ac1c8f89e61f67:
+  3:
+    pred: 4
+    text: 'BFS;2) BFS: 6;DFS: 8;DFS: Dx6'
+    truth: 1
+  9:
+    pred: 3
+    text: 'Nedostatok v podobe čínskej izby: Do izly posúvame na papierikoch text
+      v čímštine viečom sa nám vracejú odpovede. Problém ale nastáva v tom, že v nátri
+      vzly môže seděť osoba neznalá čínskeho jazyka spolu s množstvom čínskej literatury,
+      v ktorej môžem hladať odpoveď na nami poskytnutý text - nie sme schopní overiť
+      povoden správy s odpovedou.'
+    truth: 3
+  12:
+    pred: 1
+    text: y = w šířka, výška, počet kanálov masky;+C
+    truth: 3
+510077e41f24942dfd5a8da94fba89da:
+  3:
+    pred: 2
+    text: (M BFS - OB buď) = O(mLan) DFS - OLIF) - OLN);(2) BFS - O (n2) DFS - O (new
+      n);70
+    truth: 1
+  8:
+    pred: 2
+    text: „Abgresní hřivna přesně odpovídá trénovacím datům. Nastal problém malého
+      přEtrénovají v livech příliž Množství dat vzhledem k parametru k.;1,5;tapnavit
+      lze pomocí většího množství dat, ZAVEDENÍM BIAS NABO ZA úPRAVOU SÍLY RAGRISSK
+      konficientem tam jedn tomu bílou v proskytu. například
+    truth: 3
+  9:
+    pred: 2
+    text: Turingův test má za cíl určit, zda je aI rozhodnotitelný od člověka. ZÁVĚRAM
+      TESTU JE VÝchMI ZDA SA PLE TAKTUÁLNÍHO BAVÍM jedná o stran či člověka.;možným
+      spochybnějším je problém čínská skříňka. Historický Pokud dva vstup shříbám
+      dávám čínský text na papírku a na výstupu se mi vrátí přeložený text, můžu tvrdit,
+      že tato shříť na rozumí čínský pokud jen prohledané slovníky a opisuje vstup?
+      schopnost priúca s daty vs porozumění. (Rozr. osobně si myslím že Lze o tanová
+      smětáčce prohlásit, že čím umí. Schopnost “pravého“ porozumění těžko difinovat)
+    truth: 3
+  10:
+    pred: 4
+    text: Loss FUNKCE POROVNÁVÁ HODNOTÍ VÝCHODU NS (čLOVĚKOML) S "KRÁSNÝM" ANOTOVANÝMI
+      VÝSLEDKY. VSTUPeM JE TŘEDY HODNOTA TESTOVATEL FUNKCE A HODNOTIA APOTHPOSMETNÝ
+      UČITELSAM. VÝSTUPEM JE YSHALÁRNÍ HODNOTA LOSS, mÍRoV SE BUPE ALGORITMUS SNAŽIT
+      MIMOLIZOVAT (OPTIMALENČIET FUNKCI A BOCAPITOLOGICKÉM
+    truth: 4
+  11:
+    pred: 4
+    text: při příliš možná hodnotě lze je možné, že se gradient;DESCRIMENT VZORKŮ
+      V NEVÝHODNÉM KONEČNÍM MINIMU. Malý Na obrázku a je LR příliš nízký a tady kterou
+      při hledání minima. Tím jsme uvízly v průhodném CONVTNÍM MINIMU (kDYŽ BLÍZKO
+      JR LEŽÍ PORICH.;U DATÁLKU B JE KLON POSTUPUJE VRCHŮ A tÍm JSAME upřemočily!!!
+      V lepšímu výsledku. (Ta obrázky je (výpočtivě nemožné) GlObální minimum ovšem
+      právě se nehledá zajímá náš lounářský
+    truth: 1
+  12:
+    pred: 1
+    text: P = 2. Kmita;n;p- výsledky;Knajka - rozměny reorganizačního filtru (Marmelu)
+    truth: 1
+  14:
+    pred: 4
+    text: MODELUJE FUNKCI a KTERÁ VYJADŘUJE JAKÉ AKCE POVADOU K Mraviší průměrná odměna
+      pilo agenta. Jejími vSTupy je stav prostředí (nebo pozorování z minula, pohud
+      dostatečně popisuje prostředí;JinÝmi VÝSTUPY JSOU PROMĚNNÉ ODMĚNY PRO POSTUPNÁ
+      ADICE (PŘÍD PROVOZOPODUJEJEJE že má agent tuto akci vyrovnat) Počet viálné práce
+      s matimálním ohlednocením a tu provádí.
+    truth: 4
+515a0274ee53fe5a4fd634d0589bec73:
+  2:
+    pred: 4
+    text: '- zisk hráča jde proti zisku súpera;- ide o ty s nulovým súčtom;v prípade,
+      že jeden hráč svoj zisk maximalizuje, druhý musí tento zisk minimalizovat, aby
+      tak hnal proti súperovi.;-'
+    truth: 4
+  3:
+    pred: 4
+    text: 'Vážená : . 8;2);O O BES DAS O;úplne rovnako + velkosť množiny explored'
+    truth: 1
+  4:
+    pred: 1
+    text: prostredné musí byť známe a plna pozorovatelné a deterministické - stavy
+      sú akomické (klasické prehľadabanie)
+    truth: 1
+  5:
+    pred: 1
+    text: 'čítame a-posteriori P pomocou Bayesovho vzorca: P;P(y) je) (model P(yk)
+      je v tomto prípade gaussovské rozlož. pravdepodobnosti, P(x) je prior pravdepodobnosť
+      tridy x a P(y) je tzv. evidence a to je súčet súčinu všetkých pravdepodobností
+      éměř je popísan jednou studnou hodnotou a jednou kovariančnou maticou (E). Využijú
+      sa pri výpočte vierohodnosti P(ylx kde P(y|x) pravdepodobnosť je hodnota gaussovskej
+      funkcie pre dané dat Tuto hodnotu vypočítame dosadením do předpisu že rozloženia
+      hust. P, v ktorej sú aj parametru ju a E. kde x, a x2 sú hodnoty pozorované
+      1 a 2, 31 (32) boch í data roztrhnuté v si z své hodnoty určujúce koreláciu
+      dát (tvar gauss rozložen'
+    truth: 2
+  7:
+    pred: 4
+    text: =) 1- P(Nal.) = P(Zdrav) = 0,8;P(Pozi Nak.) = 0,9 p(Neg.|/zdrav.) - 0, 975
+      � P(Poz/Zdrav.) = 0,025 1- P(Neg.|Zdrav.) P(NAR. / Poz.) = x ?;P(NALI/POZ.)
+      =;P(Poz.) Nek.). P(Nat.;P(Poz.);SUM RULE;P(Poz) = P(Poz / Zdrav.). P(Zdrav.)
+      + P(Poz.|Nak.). P(Nak.) 0,2 P(Poz) = 0,025 . 0,8;P(Nak/Poz);kat
+    truth: 4
+  8:
+    pred: 4
+    text: 0,5;- pretrénovanie - model prechádza presne cez trénovacie dáta, co znamená,
+      že model negeneralizuje na Bestovacích dátach bude fungovat ovela horšně ako
+      jednoduchější model tohoto spôsobené malým počtem dát a vysokým stupňom polynómu
+      k tomu. měřením je buď získat další trénovacie dáta, alebo zmenšiť stupeň polynómu
+      K na 1.;nakreslit som parabolu, lebo k = 2.
+    truth: 4
+  9:
+    pred: 1
+    text: '- cielom je rozlišiť stroj od človeka - môže nestať, že test určí, že ide
+      o stroj alebo to určiť nebude vedieť, resp. nebude veduť rozlíšiť či ide o stroj
+      alebo človeka, a preto rozhodne, že ide o človeka nedostatkem je samotná definicia
+      inteligencie - výsledek závisí ten na tom, ako konkrétne definujeme inteligenciu
+      sest má zmysel použiť v případe, že nevieme či komunikuj so strojom alebo človekom
+      (čo je na druhej strane)'
+    truth: 1
+  10:
+    pred: 2
+    text: vstupom je model a ground truth - výstupom je hodnota, která hovorí či sa
+      model mýli a ako velmi. Nízká hodnota - model sa nemýli / mýti ale minimálne,
+      vysoká hodnota - model sa rýli. Čím je hodnota vyššia tým viac sa model mýli
+      je to metnika ktorá sa pri učení snažíme minimaliz hodnota loss funkcie je vypočítaná
+      po každej izerácii, na konci učenia sa vypočíta hodnota objektivnej funkcie,
+      čo je súčet všetkých podmětů z loss funkcie - celková metrika;-
+    truth: 3
+  11:
+    pred: 2
+    text: môže nastať, že pri použití zdej hodnoty sa model až nenaučí Nic. - diruguje
+      � stane sa tak pri použití vysokej hodnoty konstanty naopak nízka hodnota ten
+      predlžuje učenic. - hodnotu je tuda voliť experimentálne a poctivo, ide o najdôtežitejšim
+      hodnotu pri učení. model začne divorgovat at kroky optimalizácie sú příliš velké,
+      teda gradientný zastup neblíži k minimu, ale „beží“ hore - dole, kedy výsledkom
+      může byť až NaN alebo nekonečno.
+    truth: 4
+  12:
+    pred: 1
+    text: '- výpočet je závislý od veľkosti konvolučného jadra / filtra;čapou;výška;M
+      x W x C = počet operační násobenia počet kanálov filtru a filmu'
+    truth: 3
+5369915f58938b8046fd891fd93ecd2f:
+  1:
+    pred: 2
+    text: Při prohledávání 2 nalezneme podstrom 4-2, který je cílový, tak si ho zapamatujeme,
+      ale jelikož vzel 3) není řešitelný, tak ani uzel <2). Následně prohledáváme
+      uzel narazíme na vzel již známe a víme, že je řešitelný, tudíž ho již nemusíme
+      prohledávat;1. n - stav C - cílový stav
+    truth: 4
+  2:
+    pred: 4
+    text: co je pro totiž Minimat je pro hry nulového součtu soupeře dobré, je pro
+      mě špatné. Proto soupeř z mého pohledu vybírá minimum (pro soupeře je to maximum)
+    truth: 4
+  3:
+    pred: 2
+    text: 148 13 DFS BFS;KNIH - lineární O (J) - exponenciální O (5);5 k;DES BFS;pamětová
+      náročnost je stejná
+    truth: 2
+  5:
+    pred: 2
+    text: gaussovské rozložení je;- střední hodnota kovarianční matice mají podobu
+      reálného čísla a matice, 2x2 reálných čísel (20 data);popsáno parametry;pro
+      každou třídu se parametry spočítají zvlášť střední hodnota — průměrná hodnota
+      pozice kovarianční matice - např. pomocí Maximum likehood;pro každou třídu nově
+      příchozí vzor předhodíme funkci p() a vynásobíme fixní pravděpodobností tříd,
+      ke které pli patří
+    truth: 0
+  6:
+    pred: 1
+    text: logistická regrese - na rozdíl od gen. blos se zde nepočítají (netrénují)
+      parametry pro rozložení pravděpodobnosti ale přímo se zde modeluje funce, která
+      rovnou klasifikuje do tříd
+    truth: 0
+  7:
+    pred: 4
+    text: P(z) =;P(N|=0,2;N - nemocný;zdraví;P(X|Y);P;P(poz / N) = 0,9 P(negl 2) =
+      0,975 den P(N|poz) -2 P(roz/z) = 1-8 (reglz);= 9025;P(N|(poz);P(n);P(po2);P(POZ|N);P(poz)
+      = P(z) . P(poz|z) t P(v) . P(roz |N);P(roz) = 0,8.0,025 + 92.0,9;P(w|+ poz)
+      =;0,2;0,8 0,025 + 0,2 . 09;Pravděpodobnost natíženosti pozitivní osoby je;0,2
+      . 0,9;0,8. 0,029 + 0,2 . 0,9
+    truth: 4
+  8:
+    pred: 4
+    text: podporu druhého řadu je parabola;25 i 05;Nastal problém přetrénování tzn.
+      náme málo dat a proto se model maximálně přizpůsobil trénovacím vzorům � potřebujeme
+      více trénovacích dat (musíme jich získat více, buď pozorováním problému nebo
+      dogenerováním podle gauss. rozl.) � nebo můžeme snížit řád polynomu
+    truth: 3
+  9:
+    pred: 2
+    text: brněnský vzduch kakaa cílem je zjistit zda program je umělá inteligence
+      závěrem je že buď je, nebo není;nedostatkem tohoto testu je, že nepoznáme, jestli
+      program splňuje kritéria UI, nebo je prostě tak velký že všechno zvládl hloupě
+      namapovat pomocí funkce (problém čínské krabičky);Dalším nedostatkem je že vycházíme
+      z toho, že člověk je inteligentní.
+    truth: 3
+  10:
+    pred: 2
+    text: Toss funkce říká jak moc se predikce leší od validačního řešení a s její
+      pomocí upravujeme perametr modelu;vstupem je prodikce modelu na validačních
+      vstupech a validační řešení výstupem je míra chyby
+    truth: 2
+  11:
+    pred: 1
+    text: '- při nízké hodnotě lokálním extrému;se můžeme zaseknout v nějakém;při
+      příliš vysoké nám model nemusí konvergovat'
+    truth: 3
+  14:
+    pred: 2
+    text: modeluje pravděpodobnost akcí v závislosti na stavu;vstupem je stav a akce
+      výstupem jsou akce a jejich pravděpodobnost;agent ji používá k tomu aby se rozhodl
+      jakou akci vykonat vzhledem k tomu v jakém stavu je nachází (součástí stavu
+      agenta mohou být jeho pozorování prostředí)
+    truth: 2
+554f1cfee56cf20c2f51a5331933eb85:
+  1:
+    pred: 3
+    text: Zapamätanie:;Zúžitkovanie;Úspora spočíva v tom, že nemusíme prehladávať
+      uzol B.;OR
+    truth: 4
+  4:
+    pred: 3
+    text: stavy - musí poznať susedné, aby ich potřebuje aktuálnym stavom mohol porovnať
+      reprezentací a stavov je atomická;nadvážnost stav
+    truth: 4
+  6:
+    pred: 0
+    text: Logistická regresia
+    truth: 0
+  9:
+    pred: 1
+    text: Jeho cielom je získiť či sa program dá klasifikovať ako strong AI, teda
+      dostatočná na to aby bola nerozlíšitelná od človeka. Turingov test spochybňuje
+      myšlienkový experiment - argument čínskeho pokoje (Chine rovm argument). Jeho
+      podstatou je, že by sa AI vo formě programu dala nahradiť človekom, který úlohe
+      nerozumie, ale iba za riadi zbřerkou nejakých prisvidiel a produkuje požadované
+      výstupy ako reakciu na vstupy. Spochybňuje sa tým podstata strong AI a celého
+      testu - AI sa dá pozerať iba ako na program produkující správne výstupy pro
+      splnění testu
+    truth: 3
+  11:
+    pred: 2
+    text: uveďte, k čemu může dojít.;Ano, je to možné. Príliš nízky learning rate
+      môže viesť ku univerzitu na neuspokojivých lokálných extrémach a všeobecne ku
+      velmi pomalému učeniu. Pri príliš vysokom learning rate môže zasa dójsť ku strate
+      optimalizácie,
+    truth: 3
+  12:
+    pred: 1
+    text: v daném výrazu použijete.;Záleží na velkosti konvolučného jadra (Pr. velkosť
+      3x3 -> % operácií násobením
+    truth: 2
+  13:
+    pred: 3
+    text: Chceme aby slová používané v podobnom kontexte alebo slová s torov podobným
+      či rovnakým významom mali menšin vzdialenost významová vektorov, které ich reprezentují.
+      Nord vektor aritmetika - slová reprezentujeme vektormi, ich hmot podobnost môžeme
+      určiť vypočítaním ich vzdialenosti.
+    truth: 3
+  14:
+    pred: 2
+    text: Jde o posilňované učenie. Vstupom je stav a výstupom je odhad hodnotenia
+      akcií. Neurónová sieť modeluje funkciu odhadu kvality stavov. Agent je používa
+      pre maximalizovanie odmien pri učení a aktualizuje nám základe svoju stratégiu.
+    truth: 3
+5c55ddf6cabad401d3e98d861f0c8205:
+  3:
+    pred: 3
+    text: '1) BFS: 0 (b-d) DFS: 0 (b+d);O (6-8);2) O (2. bod) 0 (6)'
+    truth: 1
+  4:
+    pred: 2
+    text: Agent od prostředí musí znát hodnoty stavů;reprezentace stavů je strukturovaná
+      - 4 sousedi v obrázku;2;3;24;-1;3;4;5x;3;4;1;O;1;5-cíl (lokální max.)
+    truth: 1
+  5:
+    pred: 4
+    text: třídy pojmenuju C, Cz, Cz;C=3, 2D p(x|ci) = ko; 1); p(x|C) = KO; � ip (x|cs)
+      = 20;1) Podle nejvyšší hodnoty rozhodneme do jaké třídy patří. 3x střední hodnota
+      - pro vektor LŠI - 2 čísla (x, y) S6x - 3 čísla (Ex, CUIS) 3x odchylka - s2
+      - matice 6;3 aprior p;15 reálných čísel (+ 3 prom. pravděp.
+    truth: 0
+  8:
+    pred: 4
+    text: 1,5;Tento model negeneralizuje � nebude přiřazovat správný výstup [4], na
+      správný vstup [�].;0,5 .;K = hyperbola, parabola... atd. (x);Problém byl způsoben
+      málo daty. Napravil by se více daty.
+    truth: 4
+  9:
+    pred: 3
+    text: Zjištění jestli stroj (umělá inteligence) se chová inteligentně (kongritivní
+      chování jako člověk) Závěry jsou ANO, NE. Nedostatky - stroj je příliš inteligentní
+      (rychlý) � nechová se jako člověk Smysl má u generické AI - rozhodnutí zda se
+      o generické AI jedná
+    truth: 3
+  10:
+    pred: 2
+    text: Úprava (update) NS, aby byla loss funkce co nejnižší => získávame správne
+      výsledky vstupem vektor + bias a learning role výstupem je vektor.
+    truth: 1
+  11:
+    pred: 2
+    text: (D) když je Ir moc malá budeme se učit moc dlouho;— velká budeme divergovat
+      � nic se nenaučíme;loss fce:;mu;ideal Tr;malá Ir;velká Ir;SGP) mini-batch �
+      neučí se ze všech dat jen počíta gradiet z nějaké menší části dat.
+    truth: 4
+  12:
+    pred: 1
+    text: Mi;300 10/3;o;= EVI = 3-3 = 0 � 1 pixel má hodnotu;Násobení matic;sečtení
+      všech bodů výsledné matice
+    truth: 1
+  13:
+    pred: 3
+    text: 'Chceme aby vektor měl vlastnosti významu slova => synonyma mají podobný
+      vektor (nebo např. slovo v jiném jazyce day a pes);Word Vector artmetika znamená
+      že: můžeme od sebe slova odečítat, sčítat a ty vektory budou dávat smysl. king-man
+      = queen nebo že král a monarcha jsou k sobě vektorově blíž než monarcha a řidič.'
+    truth: 4
+5dedca302522fc18e562221b1854b2cc:
+  1:
+    pred: 1
+    text: 'Rok: 2;ze stavu 50 můžeme akcí 1 dojít do stav 60 a akcí 2 do slova 2,
+      jedná se o OR uzel. Skaučí řešit jen jeden uzel. - znovu jsme došli do stavu
+      2 - neprohledávan dál, protože jak se ze stavu? dostat do řešení OR vzel, nemusím
+      použít;pamatujme si, že ze stavu 2 episkie řešení;x pokud vím, že prohledám
+      zleva doprava, měl bych prohodit 2 a 60), ale to už by v obrázku bylo moc škrtání'
+    truth: 2
+  2:
+    pred: 4
+    text: Při hře dvou hráčů jeden maximalizuje svůj zisk - ten, co je na tahu. Druhý
+      hráč který zrovna není na tahu, se snaží soupeřův zisk minimalizovat - tedy
+      hledá minimální hodnoty zisku A;vlastnost her - hry s pevným součtem - zisky
+      obou hráčů sumují do 1 - větší zisk hráče A � menší ziak hráče B
+    truth: 4
+  3:
+    pred: 3
+    text: 'bez dosud BFS: 0 (6) DFS: OUBL;s dosed: jsem v acyklickém prostoru, takže
+      s dosed je to stejné jako bez ní.;D;000 -60 000 000 000 000 000 000 000'
+    truth: 2
+  5:
+    pred: 4
+    text: observation / class) P(class) p(class) observation) = S (observation locs)
+      P(class) daná;parametry pr a o 2 gaussova rozložení a kovarianční matice;DEI
+      LET;- apriorní pravděpodobnost jsme odhodli na delech vztahem počet příslušníků
+      třidy celkový počet dat;M a o2 jsme odhadli přístupem maximum likelihood pí,
+      o? = argmax < log M|x i M. př - parciálně zdorvujeme a výsledky položíme rovný
+      nule -> vyjádříme pr a oZ;Fidni do počet reálných čísel = 3. 1+3. (2+2+1.;počet
+      tříd;rozplal;borelační coeficien = 3+15 = 18;apriorní pravděpodobnost
+    truth: 2
+  6:
+    pred: 4
+    text: logistická regrese, neuronové sítě pro klasifikaci;y = wx - což je nějaká
+      polynomiální funkce rozdělující plochu/prostor/účastný prostor na třídy. pro
+      nové dáto pak v xy kolmo na funkci položím log. aigmoidu, která dle vrací pravděpodobnost
+      třídy [ra, bal];optimalizujeme parametry w = � � ve vztahu;generativí - nejprve
+      musí znát p(classa) a p(okalolaca) až potom počítají p(classlóbs) - méně náchylné
+      na přetrénování s málo trénovacími daty obvykle potřebují více výpočetních prostředků
+      pro stejnou úroveň;diskriminativní - rovnou počítají p(class) observation) -
+      rychleji konverzují ke řešení
+    truth: 4
+  7:
+    pred: 4
+    text: P(pogitive) = ? = Ephy);ly) ply) = p (y (y) p (x) p (nakažený/pozitiv) =
+      P(pozitiv|nakaž) p (nakaž,;P(x|;p(pozitiv);p(x);p(posi = 0,2 0,1 + 0,8. 0, -ýplod
+      I. 1/10 7/10 1/10 dopis;100 100;stojí;0,9 . 0,2;x/5) =;00;Kulturní vychovatelka
+      = Pololetní prospěch = E;12;er
+    truth: 1
+  8:
+    pred: 4
+    text: 1,5;druhý řád � parabolu;0,9;- došlo k přetrénování na málo vzorcích. Pokud
+      bychom měli více trénovacích dat, mohla by tvořit přímku. Nebo jiný tvar - přímka
+      by také vznikla, pokud bychom měli k =1 model tedy dostatečně negeneralizuje
+      - naprovení - více trénovacích dat, zvolit jiný řád — ale zde nevíme jaký, protože
+      máme málo dat
+    truth: 4
+  10:
+    pred: 3
+    text: doss funkce určuje, jak přesný je výsledek učení - př. kolik příkladů je
+      správně klasifikováno/všechny příklady - je ale ve formě chyby � čím menší loss,
+      tím lepší.;- vstupy - model, validační datu - výstup - chybovost modelu na ralidačních
+      datech
+    truth: 1
+  11:
+    pred: 4
+    text: ANO, je to možné. Pokud zvolím příliš velkou konstantu, pak může velikost
+      gradientu přivyšít hodnotu optima a opět bleanovat za optimum. - učení není
+      tak jemné, aby mohlo najít optimum Zvolím-li příliš malou konstantu - může nastat
+      chyba způsobená minimálním rozlišením floating point a ritmetiky
+    truth: 2
+  12:
+    pred: 1
+    text: x q;počet kanálů;.;šířka Konvolučního jádra;výška konvolučního jídla
+    truth: 3
+  13:
+    pred: 3
+    text: chceme, aby vektory symbolizující podobná slova (významově) byly podobné.
+      V extrémních případech (agronyma, která lze vždy zaměnit) pak vektory mohou
+      být stejné;- vcord architektura - výpočty s rakami, kde váha je udávana
+    truth: 3
+  14:
+    pred: 2
+    text: vstupy - aktiv Lákce.;výstup - ohodnocení akce ve stavu Gfunkce agent pohybující
+      se v prostředí na základě výsledků/volí nejvýhodnější akci tak, aby dosáhl co
+      největší odměny za dobu svého života
+    truth: 4
+5dff9e7052fea9930bd73c07a81648b0:
+  13:
+    pred: 2
+    text: Aby podobné slova byli reprezentovány podobnými vektory.;Aritmetika nad
+      rektory, které reprezentují slova. Pokud od sebe dva vektory odečteme a vezmeme
+      akce litní hodnotu tohoto čísla tak čím menší číslo dostaneme tím více jsou
+      si vektory podobné
+    truth: 3
+  14:
+    pred: 1
+    text: vstupy jsou provedené akce, stav prostředí, výše odměny za provedení;akce;agent
+      jí používá pro určení dalšího kroku
+    truth: 2
+7333634f907f926e6e7e37153f5450a9:
+  1:
+    pred: 1
+    text: pokud narazíme na podstrom, který obsahuje stav a kerim. víme že je zaučovat
+      cesty k cíli, tak vime vře tento srel vede k řešení;nocen klepe
+    truth: 4
+  3:
+    pred: 3
+    text: BF DFS - D . 2);BFS - t DFS - P - p N
+    truth: 3
+  7:
+    pred: 4
+    text: P(N|s) = 0. 1;IIH = 0.975 P(S|=02 P(H) = 0.8;ale;P(PIHI = 0.025;P(S|P) =
+      P(P) P(P|s) - P(s);(PIS) P(P|S);um;o;P(P|S) P(S| + P(P|P|H) . P(H);0,9 . 0,2;0.
+      9. 02 + 0.025.0,8;= P(PIS) - P(s) + P(PIH) . P(P|H)
+    truth: 4
+  9:
+    pred: 2
+    text: zjistit zda je stroj rozeznatelný od člověka na základě jeho odpovědí -
+      není to možné x je to mainé;- netušíme co se děje uvnitř stroje (muže měl naučené
+      odpovědi na dané atórky)
+    truth: 2
+  10:
+    pred: 2
+    text: '- určitie chybavost např. neuronové sítě - výstupem bude statom - vstupem
+      bude vektor očekávaných a realných výsledků'
+    truth: 3
+  13:
+    pred: 2
+    text: chceme aby významně podobně stava měly malou exklubskou vzdálenost např.
+      aby mouranda a hrál vektory které stav blízka jedná se o operace pomocí kterých
+      určujeme významovou podobnost stav
+    truth: 3
+8310871a91f6396928f7e50acd47c2d3:
+  3:
+    pred: 3
+    text: BAS DNE;bar;BFS - O (6+6);DES - OBLIGD;e;2) s;BFS -> 0 (1675) DFS -> O (b)
+      b + d)
+    truth: 1
+  4:
+    pred: 2
+    text: potřebuje vedieť aktuálny stav, možné sa môže dostať;strang kom;agentová
+      reprezentacia � štrukturovaná
+    truth: 1
+  8:
+    pred: 1
+    text: 2;ako možný problém by mohlo byť že mě je generalizujúci vysoké k a málo
+      dát ideálne by bylo zváčšit množstvo dát
+    truth: 1
+  9:
+    pred: 2
+    text: účelu?;- test je podla mňa zbytečný používať v prípadě, že ty sne chceli
+      otestovat nejaké vedomosti z nejakej skúmanej oblasti, kedře tu ty stroj určitě
+      prekonal človeka, ale zároveň to nic nehorá o tom, či je stvoj inteligentný;-
+      cielom je risdiť, či je stroj inteligentny je inteligentný - náven L mě je inteligentní;�
+      skuma či je stroj schopný nahradiť kognitivne vlastnosti člověka. Tým pádem
+      člověk nemůže rozhodně či sa jedná o stroj alebo človeka
+    truth: 3
+  11:
+    pred: 2
+    text: -áno, pri nesprávnou "barning rate" môže dojít k Stavu, že sa model pneučí
+      a nebude klasifikovať správne tuď môzeme rozvoliť velký alebo malý krok "learning
+      vate", všetko toto ouplynul výsledek;� možný scenán loss
+    truth: 1
+  12:
+    pred: 1
+    text: vstup;konvolučné jadro 3x3;vrstva (max, aug;výsledek;-18 násobení v tomto
+      případe
+    truth: 2
+  13:
+    pred: 2
+    text: '- chceme aby nebdi ortogonálne WA nourdel od onehod incoding vyvčíva aj
+      euklidovství vzdielenoť daných slov, číže sloví, kt. sú významova podobně tak
+      sú pri sebe'
+    truth: 3
+  14:
+    pred: 2
+    text: '- jedná sa o sami-supervised larning;sú tam 2 prístupy, buď on-policy alebo
+      Off-policy;v prípade on-polici využíva agent policy funkci, bez využívánia nějakej
+      histórie off-policy - úprava policy na základe histórie'
+    truth: 1
+845c61b8d1361a7636cf773d6064cb46:
+  1:
+    pred: 2
+    text: Zde se zjistí, že uzel A a tudíž aby tento podstatně vedl k řešení;když
+      jak na tento totožný podstrom narozíme v jiné části vozeto celkového stromu
+      už víme, že ho nemusíme celý vyhodnocovat postupně, protože víme že vede k řešení
+    truth: 2
+  2:
+    pred: 4
+    text: odpovídající vlastnost her, pro ně;každém kroku musí v - sum ganes jedná
+      být vždy takové tahy, které pomohou jednomu danému káči (nemohou pomocí oběma
+      součet toho jak se jednomu pomůže a druhý se snevýhodní by tedy měl být roven
+      nule � proto zero-sum by později mimo uznání po datum stavu nauk
+    truth: 2
+  3:
+    pred: 3
+    text: bez;DPS;1000;elsel bez BES Ot. 69;BFS s elsem O (log (b);go od 60 let PFS
+      1 1/2 člověk KART. Olbrat DFS Ak chole olomu
+    truth: 1
+  4:
+    pred: 3
+    text: potřebuje vědět, jak dané prostředí vypadá u N dan potřebuje vědět jednotlivé
+      rozložení daní) vedět jednotlivé rozložení stopů ve svém okolí a to, jaké ohodnocení
+      by získal kdyby se pro dvoj stav rozhodnut,;- representuje stavu je atomická,
+      pouze se dokáže rozhádnout zda nějaký stav pro něj je lepší než ten jeho aktuální
+    truth: 4
+  5:
+    pred: 4
+    text: pravděpodobnosti vypočteme;p(caRli4|x) = p(x|x) P(y);pomocí apolerou;pro
+      každou ze tří tříd;únc = argnax pixin) = argence [1 plan, n. dvěma parametry
+      jsme odhadli s využitím Maximu eltelitood odhadů - všechny parametry jsou representovány
+      realizaci čistý určitý sám střed daného rozložení - u je matine je koaeloční
+      matice (25 25, je symetrická), tl. dragovala nám k říká míru rozložení dat,
+      vedlých míru pozitivní či negativní korelace 6. Uveďte dva příklady diskriminativně
+      trénovaných modelů pro klasifikaci, které umožňují vyhodnocení aposteriorních
+      pravděpodobností tříd pro vstupní (testovaný) vzor. Alespoň pro jeden z těchto
+      dvou příkladů uveďte, jak se tyto aposteriorní pravděpodobnosti konkrétně spočítají.
+      V čem se jejich výpočet Jiří ve srovnání s generativními klasifikačními modely?
+      logistická regrese
+    truth: 1
+  7:
+    pred: 4
+    text: P(NAK|POS) =?;P(NAKIPOS) = PINABIPTICOLINAK P(POS) BAYES RULE � potřebu
+      vypočítat p(pos) P(POS) = Z P(PIPOS, Y;SUM RIVE � potřeba upočítat jednotlivé
+      marg P(POS|NAK) = P(POSI NAK) = P(NAK) P(PON|Z) = P(POUIZ) PIz);P(POSY NAK)
+      = 99-022=0,18 P(PON|Z) = OR5-98 = 0,02 P(pos) = z podpos, 4) =0, 18, 19, 02
+      = 9 -9a P(NAKIPS) = 02-99 D2 Pokud náhodně vybrané osoby je pozitivní, šance
+      žije nadšena 10%.
+    truth: 4
+  8:
+    pred: 4
+    text: 1,5;10;Učíme se v jeho funkci f která repezentuje det. Jelikož se jedno
+      o plynom. reg s K=2, bude se závod o nějakou pratolu či hyperbolu. která tato
+      data kvadraticky položí. Problém bude nejspíše v tom, že pokud dostaneme nové
+      dat, které 10 0,0 2.0 x bude mimo trajektorií dané přímky, polynomiální reg
+      s §2 ne na tyto body nedokáže správně adaptaci. Bylo by tedy utřela zvýšit K
+      a
+    truth: 1
+  9:
+    pred: 2
+    text: Cílem TT je určit, zda vytvořený strý (program nebo něco podobného) dosáhl
+      otecné umělé inteligence. Výsledkem může být tě pozorovatel nedokáže rozlišit
+      s tím komunikuje (vytvořený stroj taky uspěje) nebo to dokáže rozlíšit (rozezná
+      strý od člověka) a a stroj tedy testem nepřijde. Nedostatky testu jsou hlavní
+      agumentací proti němu může být činský pokoj, který se může tvářit inteligentně
+      a TT by mohl projít, ale ve skutečnost se o žádnou inteligenci nejedná
+    truth: 3
+  11:
+    pred: 2
+    text: gradient descene / simpelar gradien descere Při vízkých hodnotách LR se
+      může stát, že se náš model nepodaří výhru naučit, připadně že to bude trvat
+      velmi dlouho. Především se to může stát u 6D, kdy je gradient, jenž je počítám
+      jako derivu loss funkce počítám vždy nad celým dotazem. Toto je velmi zdlouhavé
+      a v konvisaci s vkloutkem může teoreticky dojet i k univerzitě. Lepší může být
+      zítra s SED, kdy k výpočtu gradientů z loss funkce dochádzí se vždy, ale po
+      náhodném počtu kroků
+    truth: 1
+  12:
+    pred: 1
+    text: k - velikost jednotlivých filtrum (k je počet pocentů na pravé straně M
+      - počet konvolučních jadr v dané vrstvě (počet různých faktů které jsou vyhodnoceny);před
+      vásolení - k - k. M
+    truth: 3
+  13:
+    pred: 4
+    text: aby nesi z sebou mohli věřit vzdálenosti měli možnost se porovnávat (euklidovská
+      vzdálenost) což nám one-bot-ensodina nedovoluje slovo car a auto by měli mít
+      podobnou velikost aby mezi nimi mohla být pozorována závislost;Word Vector -
+      pomocí velbloud jsou zobrazování jednotlivé závislosti (mezi men a rovnou je
+      stejná rozdílnost jako mezi guerz a kiny - jedná pouze o rozdílné polovi;OBECN
+      kina MOTAL Počasí
+    truth: 3
+8e74b62c6d2cfebfb003da2801a4b51c:
+  2:
+    pred: 4
+    text: důvod je protože hledáme noininální hodnoty pro druhého hráče kdo z jeho
+      pohledu se jedná o naxionální užitek ale z našeho Pohledu organizální;ninipax
+      lze použít pro h3 kdo je možné numerizovat užitek a hey kdo se neučí střídají
+      ve svých akcích (to zích)
+    truth: 3
+  3:
+    pred: 2
+    text: b);BFS DFS D;� musí přejít všechny potomky až do hloubky d*;udržuje si použe
+      v paměti prohledávání dané hloubky větve proto raximálně hloubka D;2.) BFS -
+      DFS;� musí projít potomky až do hloubky d' a ještě udržovat všechny předchozí
+      potovoyy u dosud � v dosed si postupně musí udržovat všechny Prvky do hloubky
+      D kde pro větev kdo řešení to d*
+    truth: 2
+  6:
+    pred: 1
+    text: Logistická linearní Regrese oproti generativním klasifikačním podělím se
+      listí tak že se odhaduje přímo pravděpodobnost P(c|x) tatinco u generativních
+      se podobuje rozložení hustoty pravděpodobnosti
+    truth: 1
+  7:
+    pred: 4
+    text: 20% Viz P(VIZOR) B0% NenáViz PINY = 0,8 P(PIV) = 0,9 = 90% P(Rozdílní P(N|N|=0,
+      975=97,5 Nonesctivní;P(P) = P(VI. P(PIW|x PAW) (1-PININI);0,2. 09 + 0,0,025
+      = 0,18 + 0,2 = 0,319;200;P(V|F);(PIV). P(V) O, d. 0, 2;P(P);0,318;0,;0,328
+    truth: 3
+  8:
+    pred: 4
+    text: pomocí trenovacích dat se polynomialní regrese naučila přesný průchod danými
+      daty.;dojde k overfiting (přetrénovaní) to znamená že model negeneralizuje a
+      tím pádem by nebyl schopný fungovat správně na nový datech. Problém by se dal
+      vyřešit přidáním dalších trenovacích dat nebo zmenou řádu polynomiální respexe
+    truth: 3
+  9:
+    pred: 2
+    text: Cílem je dokázat jestli daná počítač komunikovat s člověkem tak že nejde
+      poznat jestli se jedná o počítač nebo člověka - Závěry jsou tedy že dokáže nebo
+      ne a tím pádem zdalo je daný počítač (prosnavo) inteligentní hlavní nedostatkem
+      je že test náro neuhazuje jestli je daný Počítač opravdu inteligentní ale jak
+      dokáže napodobovat lidskou komunikaci, je ho také možné použít pouze při komunikaci
+      tedy psaná, mluvená
+    truth: 4
+  11:
+    pred: 3
+    text: Je možné že pokud bude učení konstanta nastavena na třeba větší hodnotu
+      tak by u GD a SGD vznikl Problém že by se snažil až prološ kompenzovat za daný
+      gradient tím pádem by se parametry v dané neuronové Siťe pořad přestahovali
+      a nemohli se přibližit správné hodnotě
+    truth: 3
+  13:
+    pred: 3
+    text: hlavním cílem je aby slova s podobný významem byli Reprezentovány blíže
+      k sobě měli;wordvector arcitnetika nám poté umožnuje pracovat se slovi (textem)
+      pomocí natenatických král - rouž z královna a podobné výrazů tedy příklad
+    truth: 4
+  14:
+    pred: 2
+    text: modeluje funkci které se říká Q-funkce kdo tato funkce slouží tedy pro vypočítání
+      ohodnocení akcí které je možné vykonat vstupem je tedy současný stav a akce
+      a vystupen je ohodnocené stavy ze kterých poté asent dále vybírá, kdo při deep
+      Q-learningu je tato funkce trenovaná Jako neuronová síť a u Q-learningu je odhadovaná
+    truth: 3
+9fae5964355733843daa9b7668b03bed:
+  2:
+    pred: 4
+    text: Jsou dva hráči, kteří se střídají. Jeden má za úkol vybrat vybírat co nejmenší
+      hodnoty (aby to soupeřovi zkazil) a druhý z těch nejmenších vybírá zase ty největší
+      (chce získat nejlepší skóré). Jedná se o tzv. zerosum game, kde lepší skóré
+      můžeme získat pouze na úkor protihráče.
+    truth: 3
+  3:
+    pred: 3
+    text: O (BFS) = D O(PAS) = RO;� zacyklenl bez exklame;... Strana politický a podobný
+      význam a další nepostojnosti a kdyby pozor na poli po prohlídce a pod. za svou
+      po poli prodáno;o(SF) event =;o;DATS ePiGRAFIE = d;5 tis;b = 2;2 D = 2 D=3 D=4;36;2
+      h vozy
+    truth: 2
+  7:
+    pred: 3
+    text: Ps-pozitivní, test, Aug...;N... nakažení zdraví;P(N|L|0, 2 P(2|59) P(P|P|N)
+      =0, 9 P(NEG|N|=9) P(NEGIT|Z) = -25 0,025 P(Poz 0,975;Bra;18;84 80;200;P(N|/Poz)
+      =?;P(W||Poz) = P(POZ|N| | P(N) + P(POZ|Z) · P(2) = g9. 0, 2 + 9025 .018 = 0,
+      38 P(N|Roz). P(Poz) = P(POZIN). P(N) P(POZ|M) - P(N) 0,18 P(N|POZ) =;P(NOMPOZ);0,38;=0,684;0,18;Pravděpodobnost
+      je 68,4 %;0,2
+    truth: 3
+  8:
+    pred: 1
+    text: Sp;vzniku;Jelikož máme málo vstupních dat, . dochází k přetrénování, kdy
+      regresní křika je dokonalá pro trénovací Body, ale jakmile přijde nový vstup
+      je pro něj nepoužitelná;Parabola vede skrz tyto trénovací vstupy křivka se vytvoří,
+      tak aby se minimalizovala, velikost čtverců (vzdálenost od křivky pro jednotlivé;body
+    truth: 3
+  9:
+    pred: 3
+    text: Cílem je zjistit, zda je stroj inteligentní, závěr 1- je inteligentní, závěr
+      2 - není.;Nedostatek je například v paradoxu čínského pokoje, kdy dáme do místnosti
+      papírek s čínskými znaky a někdo nám dá potom přeložený papír, ale již nevíme,
+      že tento člověk vůbec čínsky nemluví (nerozumí), má v místnosti pouze pravidla
+      pro přeložení všech znaků. Tedy pokud máme v programu velký počet If / IV může
+      se stroj jevit unteligentů, i když má pouze jednoduchá pravidla / podmínku na
+      všechny vstupy;Test má chce použít pouze jako 1. z vícero testů, které prokážou
+      inteligenci stroje, takový předpiktor
+    truth: 3
+  10:
+    pred: 2
+    text: Loss funkce nám říká, jak se léčí výstup naší neuronové sítě oproti referenčnímu
+      výstupu. Interval hodnot, kam výstup spadá.;Vstupem je výstup vrstev neuronové
+      sítě a referenční výstup neuronové s. Výstupem ohodnocení správnosti
+    truth: 4
+  12:
+    pred: 1
+    text: velikost filtru x velikost ciltru x počet piltrů počet kanálů (např. REB
+      má 3);3;x počet piltrů
+    truth: 4
+  14:
+    pred: 1
+    text: q-punkci
+    truth: 1
+a2ea1b9fdebff19434d6aebe076014c3:
+  3:
+    pred: 1
+    text: D. BFS 0 = DFS 0 = 5;2) PPS
+    truth: 1
+  4:
+    pred: 1
+    text: '- odhad kde se daně řešení nachází informaci od prostředí, jakou má postup
+      hodnotu;-dromické reprezentace sr'
+    truth: 2
+  8:
+    pred: 4
+    text: Nakreslil jsem tři vzorky dar a polynom skládající se ze dvou lin. funkcí
+      jimi procházející na stávi problém, protože máme málo trénovacích dat a model
+      nám tzv. negeneralizuje - vhodnou řešením by bylo zvětšit množství dar - takle
+      se model naučil vshodnosit pretrichy je přes ně ty to tři data
+    truth: 1
+  9:
+    pred: 4
+    text: cílem je ověřit teda lze stroj považovat za inteligenční vychází z toho,
+      že pokud jej nerozeznáme od člověka, tak ho lze považovat za inteligentního.
+      Tento test naráží na problém, že pokud zavřeme člověka do místnosti a budeme
+      na něj mluvit jazykem, kterému nerozumí, tak nám také nebude moct odpovědět
+      případně, pokud by tam měl činskou knížku, my na něj mluvili činsky a on činsky
+      neuměl, tak by mu odpověď trvale dlou a nekonec by stejně bylo „stopové trény
+    truth: 3
+  10:
+    pred: 2
+    text: vstupy jsou dva, 1. výstup z konvoluční vzory 2. Očekávaný výsledek (vrstva
+      vrstev);výstupem je pravděpodobnost s jakou výscup odpovídá očekávanému výsledku
+    truth: 2
+  11:
+    pred: 2
+    text: Je to možné, při velmi vysoké hodnotě by mohlo velmi rychle dojít k přetrénování
+      a model by pak mohl vrácet nesmysly.;Naopak při příliš nitké hodnotě by trénování
+      mohlo trvat extrémně dě nekonečně dlouho, než by nám model začal konverzovat.
+    truth: 1
+  12:
+    pred: 1
+    text: záleží na velikosti marice z konvoluční vrstvy;pro ZV to budou "operace"
+    truth: 1
+ab70f7e934170236b880d9ba1b0b162a:
+  3:
+    pred: 3
+    text: 1) BFS - rozbalí všechny uzly do hloubky dt - exponenciální par náročnost
+      DFS - rozbalí jednu větev do hloubky D � lineární pam. naročnost (P (k);BFS
+      = do8, DFS = D. b 2) Pokud problém necyklí neměl by mít seznam explored zásadní
+      vliv na paměťovou složitost
+    truth: 1
+  4:
+    pred: 1
+    text: '- Agent potřebuje hodnotící funkci stavu Agent potřebuje z prostředí získávat
+      vjemy aby měl co poslat do hodnotící fce'
+    truth: 1
+  5:
+    pred: 2
+    text: Pro každou třídu mám separátní gauss rozložení. Na, N2, jinými Na testovaný
+      vzor x oplikují 3x funkci p(x) vždy s senými pro danou třídu parametry pr (střední
+      hodnota) a E(rozptyl);je 2D vektor [>] � 2 čísla 2 ž je matice [4,7] - střešla;18
+      parametrů celkem;Parametry jsme při trénování odhadli např. metodou/max-likehood
+    truth: 2
+  6:
+    pred: 1
+    text: například neuronová síť, aposteriorní p se spočítá tím natrénované NN že
+      vlastnosti vzoru se dají na vstup síť nedokáže generovat nové vstupy
+    truth: 1
+  7:
+    pred: 4
+    text: P(nem) = 20% P(pozitivem) = 90% P(negl nem) = 1 P(negl zdr) = 97,5%;P(zdo)
+      = 80%;z /závod = 2,5%;P(nem / poz) P(nen) poz Plnem/poz;0,90 120;=? P(pozitivem)
+      . P(nem) P(pot);0,2;P(poz) = P(zdr). P(pozdr) + P(nem). P(pozinem);P(pož);SOUZPISEM.
+      0,8 - 0,025 + 0,22,9 = 0,02 + 0,18 0,2
+    truth: 4
+  8:
+    pred: 1
+    text: y = ct ax + bx?;V2;73;tento model správně negeneralizuje, problém by šel
+      řešit použitím pol. regrese vyššího řádu
+    truth: 1
+  9:
+    pred: 3
+    text: 'Cílem testu je ověřit, že člověk - pozorovatel nedokáže klasifikovat zda
+      odpovědi, které dostává pocházejí od stroje nebo jiného člověka. Možné závěry
+      dokáže správně klas. nedokáže spolehlivě neumí, ověř určit jestli odpovídá stroj
+      nebo člověk Nedostatky: Test jestli odpovědi vznikají díky inteligenci a opravdovému
+      pochopení položené otázky nebo díky rozsáhlé databázi, ve které je možné na
+      každou otázku nalézt odpověď což se označuje jako chineserovi podlem.'
+    truth: 1
+  10:
+    pred: 4
+    text: loss funkce počítá s míru správnosti výstupu systému v porovnání se správným
+      výstupem. Vstupem je výstup systému a správný výsledek. Výstupem je číslo udávající
+      jak moc se tyto dva liší např. metodou mean-square error.
+    truth: 4
+  11:
+    pred: 1
+    text: uveďte, k čemu může dojít.;Pokud je LR příliš vysoká může model oscilovat
+      a nikdy se nepřiblíží správnému řešení.
+    truth: 4
+  12:
+    pred: 1
+    text: 'Počet filtrů x Počet kanálů x Velikost konvoluční matice;Počet filtrů s
+      kolik filtrů tato vrstva na svůj vstup aplikuje Počet kanálu: kolik barevných
+      kanálů má vstupní pixe);Velikost komunikace: Počet baněk matice pro běžně používanou
+      matici z přednášek FIT 3x3 jde o 9 operací'
+    truth: 4
+  13:
+    pred: 3
+    text: Primárním cílem je aby podobná slova ležela v prostoru blízko u sebe tzn.
+      měla malou euklidovskou vzdálenost. Word Vector armetika znamená možnost používat
+      nad vektory matematické operace např. king-man = queen
+    truth: 4
+  14:
+    pred: 1
+    text: Neuronová síť modeluje Q-funkci. Vstupem funkce Je aktuální stav agentova
+      prostředí. Výstupem je postupnost kroků vedoucí k maximální odměně. Agent použije
+      první krok vrácený Q-funkcí jakou svou další akci.
+    truth: 2
+acdc7ccf1fd0d9dd2873bd437ec92729:
+  1:
+    pred: 1
+    text: 6;nemusíme již vyhodnocovat
+    truth: 4
+  2:
+    pred: 4
+    text: Jelikož jde o hry s O součtem, minimalizační vrstva je tam o toho aby zkoumanému
+      hráči, druhý hráč nejvíce uškodil. 2. hráč hraje ve svůj prospěch. Takovéto
+      hry se odehrávají u takových her s X součtem
+    truth: 4
+  4:
+    pred: 3
+    text: 'obecně potřebuje: - znát současný stav znát následníky současného stavu
+      - cenu přechodů směřující k cíli;je atomický'
+    truth: 2
+  5:
+    pred: 1
+    text: 'vaní prst = [p(chuss|obs);P(chaos) observation);apostolickou prst.;P(observation|class)
+      P(chass);P(observation);[1 (observation/class) p(class);- parametry: střední
+      hodnoty a rozptyly gauss- na složení pro každou třídu 2D vektor 2x2 matice 2.
+      4. 3 = 24 čísel 2 = 3 = 6 parametrů parametry lze spočítat pomocí max. věnohodného
+      odhadu pro gaussovské rozložení = arg max o (x, ?);rozložení;vstupní data parametry
+      rozložení'
+    truth: 2
+  7:
+    pred: 4
+    text: P(zároveň) P(nakažený) - 0,2 P(pozitivní|nakožený) =0.9 P(negativní|zdravý)
+      =0, 975 vyzdobené P(nakažený|pozitivní) =? P(vozitivní|nakažený) - P(nakažený)
+      P(nakažený / pozitivní) =;P(vozitivní);P(nakažený|pozitivní) =;0. 9. 02;09 002
+      + 0.1.0.8;P(pozitivní|nakažený) P(nakažený) P(pozitivní|zdravý) P(zdravý)
+    truth: 2
+  8:
+    pred: 4
+    text: 'řešením je polynom druhého řádu = parabola problém: overfitting - model
+      se naučil perfektně kopinovat trénovací data negeneralizuje pro nová data způsobeno
+      malým počtem trénovacích dat na moc velký řád regrese'
+    truth: 4
+  9:
+    pred: 1
+    text: '- cílem je zjistit, zda li umělá inteligence je skutečně inteligentní =
+      je chytrá aspoň jako člověk u nedostatky: - pokud je daná AI natrénovaná na
+      specifický úkol a je testován pouze ten, může se pak AI vdát jako inteligentní
+      - pokud AI nerozumí problému, ale musí mechanicky provádět daný úkol může se
+      AI udát jako inteligentní - test dává smysl pro testování "strong AI", tedy
+      obecně inteligentního stroje schopný řešit generální problémy'
+    truth: 3
+  10:
+    pred: 2
+    text: '- lon určuje kvalitu odpovědi algoritmu v porovnání strénovací sadou -
+      je to hlavní součást algoritmu, podle kterého se stroj učí - vstup: odpověď
+      stroje, předem známá odpověď, daný vstup výstup: reálné číslo kde: čím větší
+      = špatná odpověď čím blíž k 0 = dobrá odpověď'
+    truth: 3
+  11:
+    pred: 4
+    text: při velkých hodnotách L-R se může stát, že vždycky "přeskočíme" globální
+      minimum jednotlivých vah a tedy se můžeme dostat do bodu, kdy se nikdy nedostaneme
+      do minima algoritmus se přestane učit
+    truth: 4
+  12:
+    pred: 1
+    text: Kga;Božena Kv;rozlišení n x n zídka;- počet pixelů v konvolučním jádře
+    truth: 1
+  13:
+    pred: 2
+    text: '- každému slovu se přiřadí pomocí lookup tabulky vektor vah, přičemž chceme,
+      aby kontextuálně podobná slova měly podobný vektor vah;- např: monarcha = král
+      monarcha kosmonaut;- MVA: - možnost nakládat se slovy jako s velkony a mít možnost
+      počítat např: zuklidovskou vzdálenost skalární součin maticové násobení'
+    truth: 2
+  14:
+    pred: 1
+    text: '- modeluje kvalitu akce v daném stavu;Tha. s;kvalita aktiv daném stavu;-
+      současný stav vybraná akce;stratigie;- pokud se provede akce a: nad stavem si,
+      pak Q funkce říká, kolik odměny mohu po provedení akce očekávat'
+    truth: 3
+ae04cdd739eceeae85fda0bd00049cd7:
+  2:
+    pred: 4
+    text: Minimax lze použít pro tzv. zero-sum hry, tzn. že zisk jednoho hráče je
+      na úkor druhého hráče. Proto můžeme pro druhého hráče hledat minimální hodnoty.
+    truth: 4
+  5:
+    pred: 1
+    text: 'Parametry jsme na trénovacích datech získali pomocí maximálně věrohodného
+      odhadu. g max p(x|x|x|x| ), E). (Získáme je tak, že zderivujeme vzorec;arg max
+      Op, 2;gaussovského rozložení (parciálně podle pr, 2) a tyto derivace pak položíme
+      a k rovný nule.) Hledáme takové parametry, které maximalizují funkci N(x|p,
+      §). Máme 3 třídy, takže budeme mít cílem 6 parametrů (u a k pro každou třídu
+      zvlášť) Podoba parametrů je: pr - vektor např. ju = LoJ - matice např? [ó] Cû]
+      (hlavní diagonála určuje roztažení na ose x a y, druhá diagonála určuje korelaci
+      - zploštění)'
+    truth: 1
+  8:
+    pred: 4
+    text: 1.5;0,5;křivka, kterou se naučí model podynomiální regrese druhého řádu;trénovací
+      Došlo k přetrénování - křivka přesně kopíruje data. Je to způsobeno tím, že
+      máme málo dat — vyřešíme tím, že si seženeme více dat. Šlo by řešit taky snížením
+      řádu polynomu.
+    truth: 4
+  10:
+    pred: 2
+    text: Slouží k určení jak moc se liší výstup od očekávaného výstupu. Vstupem je
+      label a výsledek našeho modelu. Výstupem je jak k velkému rozdílu došlo.
+    truth: 4
+  11:
+    pred: 2
+    text: Je to možné. Např. nechceme, aby učící konstanta byla příliš velká, jinak
+      by došlo k moc velkým „skokům“.
+    truth: 4
+  12:
+    pred: 1
+    text: WXHXC XXXM;NU x H je velikost vstupu (člověka z výška) · c je počet kanálů
+      K je velikost konvolučního jádra · M je počet filtrů
+    truth: 2
+  13:
+    pred: 2
+    text: chceme, aby slova, která si jsou nějakým způsobem blízká (synakticky významové,
+      apod.) byla blízko sebe (euklidovská vzdálenost)
+    truth: 3
+b925207381f4c6854adc87388565073e:
+  3:
+    pred: 3
+    text: Oprší;b);2);PBFS;(není;potřeba rozgenerovat potomky);I;ODFS;-;d*;potřebuje
+      si pamatovat akorát aktuální hloubku Zanoření, velká šance že nejdřív narazí
+      na D, než na d*
+    truth: 2
+  6:
+    pred: 1
+    text: Logistická regrese příslušnost do tříd 0,1 P(c=1|X) = o (x|w) = o (x|xw2
+      + xxxx|w| w|) kde o je aktivační fce signorid. 5(0) =0,5, 0, 0 = 0, 0 co) =1;a;negativních
+      klasifik
+    truth: 1
+  7:
+    pred: 2
+    text: P(N|P) =;P(PIN) P(N);P(P);P(A|B) = PARAMETRY P(x) = Z P(x|y) P(x|y) = P(X|x)
+      P(x);P(B|A) P(A);P(B);D;P;Ney;N;P(P) = 0,2;13;2;78;60;20;80;PAPA ZP P(b) = Weiss
+      od;P(N|P) =;0,9;0012;0,2;0,9
+    truth: 2
+  8:
+    pred: 3
+    text: 1,0;0,5;zakreslil jsem regresní křibhu která prochází zadanými body. Bohužel
+      nelze definovat průběh pro jinačí hodnoty, než v intervalu xx0 x2), tudiž nastal
+      tzv. overfitting - přetrénování kde regresní křivka se naučila až příliš dobře
+      pro definovat (sposit / odhadnout) (testovací) pro nové data bude nejspíše predikovat
+      nesmysly. trénovací data, tudíž Problém by se dal řešit větším množstvím trénovacích
+      dat, stejně jako pomocí super learningu, kdy neanotovaná data pomáhají regresní
+      křikum správně. totrénovat
+    truth: 3
+  9:
+    pred: 2
+    text: Cílem je určit, zda je systém inteligentní. První výsledek je, že nedokážeme
+      rozeznat odpovědi systému od "inteligentního" (člověk) - tudiž systém považujeme
+      za inteligentní. Druhá možnost je, že rozdíl v odpovědích je patrný a my jsme
+      schopni rozlišit kdo nebo co odpovídá. Zásadní nedostatek je předpoklad, že
+      pokud dokáže systém vyhovět požadavka, znamená to, že mu rozumí (je inteligentní.
+      předpoklad připodobňuje inteligenci lidskou, racionální, k té výpočetní Tento
+      nedostatek napadá tzv. chinese - room experiment, kdy uvnitř místnosti je člověk,
+      co neumí číssosky a všechno vědění světa sepsáno v čínské literatuře Do místnosti
+      člověk dostává papírky s dotazy. Teoreticky takovýto systém je schopen odpovědět
+      na cokoliv. Je však inteligentní? Odpovědi může najít až v exponenciálních časech...
+      Tudíž dle Turingova testu by byl považován za inteligentní, ale ve skutečnosti
+      nemá žádné predné využití...
+    truth: 4
+  11:
+    pred: 2
+    text: že velice nelibou Ze vzorce gradient decentu víme, že se počítají odečtením
+      gradientů vy vásobených konstantou x (learning rate) od současné hodnoty vektoru.
+      Pokud zvolíme např. příliš malé, budeme de-fucto odečítat nulu a tím pídem by
+      se model buď neučil vůbec, anebo příliš pomalu. Podobně, kdyby byla a příliš
+      velká, docházelo by k rekonzistentnímu výpočtu délky gradientů by nemusel konverzovat
+      kO)
+    truth: 3
+  12:
+    pred: 1
+    text: fy x 3 x in x out velikosti filtru;-;velikost vstupu;velikost výstupu;Tudíž
+      4 operace násobení
+    truth: 1
+  13:
+    pred: 3
+    text: vektory word embeddlings reprezentují sémantické souvislostí jednotlivých
+      slov (tohonů) De-fusto se jedná o look-up tabulku, kde prokaždý řádek hned dokážeme
+      našít příslušné slovo, plus ohodnocení "blízkosti" k jiným slovům. To mám dovoluje
+      využít WV aritmetáku - nad embeddovanými slovy provádět matematické operace,
+      kterými můžeme ovlivnit výstupné slovo - např. “king - man = queen“
+    truth: 4
+  14:
+    pred: 2
+    text: Deep O-Learning učí agenta rozhodovat jaký course of action vybrat. Pro
+      jednotlivé následující kroky Q-learning vypočítává ohodnocení - tudíž vstup
+      - současný stav - výstup - Jeden nejlépe ohodnocený krok, který se proveden.
+    truth: 2
+b9f5b9793d2ca99f24ea098f529807e7:
+  1:
+    pred: 1
+    text: uspora je také, že heď už roz nasrd cesty (cesta z bystric do Brna pri prerálne
+      silnice) tak už víc, že je tam esta a ne musí ju znova hledať;5;2
+    truth: 4
+  2:
+    pred: 4
+    text: MAX MNV 6000;Protože aby maximalizoval super svojzisk. My předpokládáme
+      ťahy úpera pomocou Min. A najvážší zisk bude mať, heď nám vrátí najmenšíu hodnotu.
+      Najlepšíe ale protihráč hrá proti mne. Inak by to boho potřebne trošku pozměniť
+    truth: 3
+  3:
+    pred: 3
+    text: '= 0 (k BFS no explored DFS no explored : 0 (b);s explored = s explored:
+      06 (b'
+    truth: 2
+  5:
+    pred: 4
+    text: Vypočítame pomocou bayesova vzorce. Aby sme to mohli vypočítať potřebujeme
+      apriorní pravde- podobnosť (marginálna pravdepodobnosť triedy), Funkci hustoty
+      dat počet v triedu pravdepodobnosti, a evidenci apriori spočítame ako in-celkový
+      počet Z Funkci hustoty pravdepodobnosti získame ML odhad - Evidenci / normalizaci
+      získané pomocou sum ruk pře každú triedu máme Novarianční matica - rektor -
+      2 zložkový vektor středních hodnot - matice - 2x2 apriorní pravdepodobnosť -
+      jedno číslo Funkci hustoty pravděpodobnosti -
+    truth: 1
+  6:
+    pred: 2
+    text: vypočítajú sa jej parametri pomoci Loss-entropy runka;Logistická regrese;senerativně
+      použijú bayesov vzorec s hustou pravdepodobnost nemodelujú hned posteriórní
+      pravdepodobnosť triedy
+    truth: 0
+  8:
+    pred: 1
+    text: následný polynóm;vězení;viac trénovacích dat, změnit polynóm;Negeneralizuje
+    truth: 1
+  10:
+    pred: 2
+    text: hordice vstupem je výstup modelu a očakávaný výstup. Podľa toho oko dobrej
+      je výsledek, tak sa upraví (neupraví model
+    truth: 2
+  12:
+    pred: 1
+    text: x veľkost konvolučného jadra/mriežky;ANA
+    truth: 1
+c54fb9058a498e5d0a9138a3846352b4:
+  3:
+    pred: 2
+    text: BFS - budu prohledavat patra postupně � musím rozbalit všechny patře až
+      do hloubky od;a;vždy se zanožím až do hlouby D, pak se vynořuju zkouším dal;pamatuji
+      si všechny vrsty přede mnou v řešení;BES;6;1+6 + 6 3/4 37 - ... � tedy součet
+      všech pater až do hloubky do � neumím to zapsat hezky matematicky;PFS
+    truth: 3
+  6:
+    pred: 1
+    text: PŘÍKU;Rozpily:;logistická regrese k-nearest sousedů (k- nejbližších);Liší
+      se tak, že mapuje vstupní data na výstupní kabely přímo- kdežto generativní
+      modelují pravděpodobnostní rozložení dat ze kterého poté tato pravděp. vychází.;K-
+      NEJBLEDÍKU SOUSEDŮ vypočítá pravděp. tak;že se podívá na okolí bodu (data) Vezme
+      data která patří do třídy A, vezme data která patřil do třídy B a vytvoří pravděpodobnost
+      počet dat v A pravděpodobnost že patří do A;počet zkonaných sousedů
+    truth: 0
+  7:
+    pred: 2
+    text: pozitivní;(PIS) PIS);PtS/P);negativní;P(P;2;SIPIO;P(P|S) = 0,9 P(s) = 0,2
+      P(H) =0,8;P(HIN) P(N);PINIH);P(P, S) = P(PIS) - P(P|S);P(H);P(P, 4) - P(PH)
+      - P(H);PC P(P, H) IP P(;(P, S) + P(P, H) = 0, 38 0,9 .0,2 = 0,18 0,025. 0,8
+      = 0,2;s). p;0,2;0,18;P(PIS) = P(PIS) - PIS) = P(S|P) P(e);,;0,38
+    truth: 3
+  8:
+    pred: 4
+    text: Nakreslil jsem křivku s jedním zakřivením � řád k = 2 vychází 2 x? a to
+      tak, že křivka přímo prochází trénovacími vzory. problém nastal takový, že pro
+      trénování bylo použito pouze velmi malé množství dat. to vede k tomu, že model
+      se přetržuje na tato data a pro další dodaná nebude generalizova Náprava je
+      použití většího vzorku trénovacích dat aby se regresní křívka (její parametry)
+      mohli lépe natrénovat.
+    truth: 4
+  9:
+    pred: 3
+    text: Turingův test určuje, zda je/není stroj inteligentní. závěry CO je inteligentní
+      (2) není inteligentní Vychází z předpokladu, že člověk je inteligentní.;Zasadním
+      nedostatkem může být, že stroj může mít k dispozici velké množství dat a velký
+      výpočetní výkon, takže jednotlivé problémy vyřeší a budou nerozpoznatelné od
+      člověka to však ze stroje nedělá stroj inteligentní. Inteligence je mnohem komplexnější
+      vlastnost, než jen vracet vhodné odpovědi. V dnešní době není tento test příliš
+      použitelný, jelikož již existují systémy, které mají odpovědi nerozpoznatelné
+      od člověka, ale stále nejsou považovány jako inteligentní.
+    truth: 3
+ce1e0e61482d8d323c9af9f6dddd0a6b:
+  1:
+    pred: 2
+    text: 'vede k řešení;pamatuji si, který ze 2 32) stavů s. a sz vedl k řešení;and:
+      pokud narazím na and větev, už mám v paměti, že uzel Sz vede k řešení, tedy
+      v tomto případě Sx vede rovnou do SB'
+    truth: 1
+  2:
+    pred: 4
+    text: protihráč maximalizuje svůj užitek minimalizací mého zisku, na jeho tazích
+      tedy vybírám hodnoty, které jsou pro mě nejhorší (ty nejmenší) lze použít pro
+      hry, kde hrají 2 hráči proti sobě a snaží se maximalizovat svůj užitek minimalizováním
+      protihráčova užitku tedy pokud by protihráč hrál např. náhodné tahy, je třeba
+      Minimax upravit a hrát v potaz průměr hodnot
+    truth: 3
+  5:
+    pred: 4
+    text: '1. parametr - apriorní pravděpodobnost p(C) pro každou ze 3 tříd (odhad):
+      poč. dat v č p(cí) = poč. dat celkem, p(c2), p(c3) - stejným způsobem - každá
+      1 reálné číslo 2. odhad parametrů a E vícerozm. gaus. rozložení pro každou třídu:
+      nee = Né Exten, Se = Ne E (Xon - vec)? � 2D vektor - 2 reálná čísla � korelační
+      matice - 2 reálná čísla (na diagonále jsou � pomocí těchto výpočtů mohu odhadnout
+      rozložení pozorování pro dané třídy: p(X|C) posteriorní pravd. � odhad metodou
+      maximální věrohodnosti využiji tyto hodnoty pro výpočet pravděpodobnosti, že
+      daná hodnota patří p(x) do každé ze 3 tříd, pomocí Bayessova vzorce: p(C|x)
+      = p(X|C) p(c) = p(x|c) - p(c) suma přes každá ze 3 tříd má tedy: EP(x|k) p(k)
+      K všechny třídy p(c) apriorní pravd. (1 číslo), víc 2D vektor (z čísla), E 2x2
+      korelační matice (2 čísla)'
+    truth: 4
+  6:
+    pred: 2
+    text: lineární logistická regrese, polynomiální logistická regrese (jako ugenerativního
+      modelu v příkladu 5) nemusím odhadovat rozložení dat p(x|c) a až pak z něj posterior.
+      pr. p(c|x), ale soustředím se rovnou na odhad pravděpodobnosti p(C|X) - odhad
+      parametrů aktivační fce signorida O (XII) - snažím se ji maximalizovat, měním
+      parametr w - metoda maximální věrohodnosti;�;� příp. mohu využít logaretmizace
+      a cross-entropy objektivní fce pro optimalizaci � max. aposteriory probability
+      rule � vyberu tu třídu, která má vyšší F
+    truth: 4
+  7:
+    pred: 4
+    text: 'N - nakažení 2- zdraví pozitivní - negativní P(N|=0, 2, 2, P(2|7-0,8) P(t|IN)
+      =0, 9 P(-l2) -0, 975 P(N|+) P(tlz) = 0, 025;P(N|+;P(t) = P(t|N|+ P(t, 2) = P(t|N)
+      P(N) + P(H|Z) P(z) 0,18 0,02 P(t) = 0,9-0, 2 + 0,025. 0,8=0,2 P(N|H) = 09: AL
+      okr'
+    truth: 4
+  8:
+    pred: 1
+    text: 1,51 1 0,5;dat je málo, tedy výsledná funkce bude procházet přímo některými
+      z bodů a nebude schopen generalizace dá se řešit přidáním trénovacích dat nebo
+      snížením hodnoty k to by ale v tomto konkrétním případě příliš nepomohlo, K
+      je již dost nízké a dat by bylo i tak málo)
+    truth: 2
+  9:
+    pred: 3
+    text: 'cílem je zjistit, zda nějaká zkoumaná AI splňuje požadavky, aby mohla být
+      „strong AI“, tedy aby měla kognitivní schopnosti nerozpoznatelné od člověka
+      � závěry: je strong Al, není strong AI nedostatek porovnání probíhá s člověkem
+      ale může existovat i jiný druh inteligence, např. mimozemská, která se od té
+      lidské liší, tedy nebude rozpoznána � osoba, která klade otázky, se nemusí umět
+      dotázat tak, aby bylo rozpoznatelné, že ti není stromy'
+    truth: 4
+  10:
+    pred: 2
+    text: 'vstupem jsou: očekávaný výstup pro danou hodnotu a výstup, který jsme od
+      modelu dostali výstupem je: jak moc se naše hodnota a očekávaná hodnota liší
+      tyto loss fce pro dané množství dat se pak mohou sečíst a tato hodnota - celková
+      chyba - určí, zda je model správně natrénovaný, či nikoliv'
+    truth: 3
+  12:
+    pred: 2
+    text: šířka x výška konvolučního jádra * poč. vstupních kanálů x poč. výstupních
+      kanálů
+    truth: 4
+  14:
+    pred: 2
+    text: 'modeluje Q-funkci - vstupy jsou: aktuální stav, daná akce - výstupem je:
+      ohodnocení dané akce;Funkce tedy ohodnocuje akce pro dané stavy. Používá se
+      pak ke zvolení chtěné strategie (max ohodnocení, samoling...).'
+    truth: 4
+d47558962966c8b741426336d3ebfe9c:
+  3:
+    pred: 3
+    text: 'DFS: 1;od;d*'
+    truth: 1
+  7:
+    pred: 4
+    text: P(N|) - není nakažen, P(P) - poz. rest;nakažen P(N) P(PIN|=0, 9 ; P(NEGIN)
+      = 1-P(PIN) =0, 1 P(NEGIN|=0, 975; p(p|p|N|) = 0, 0, 05 P(N|) = D, 2, P(NN|)
+      = 1-P(n) = 0, 8;P(NEG) - neg. rest;P(N|L);P(PIN) - P(N);P(P;0,9 .0,12;0,1845;0,18;0,1845
+      1800;P(PIN|PIN) P(N) + P|PINN) . P(NN) = 0, 9. 0, 2 + 0, 0, 0, 005. 0,8 = 0,
+      18 + 0, 0045 = 0, 1845
+    truth: 3
+  8:
+    pred: 4
+    text: 7;= a � x = 1, y = 1, 5 �x=0; y = 015 ax2 + 6 x 0,5 = 1,5 0,5 = 0 +0 + C
+      a + b = 1 C = 0,5 a = 1 - 6;x2 + 6x C (polynom 2. řádu);a = 1 - 1,75;1 = 49
+      + 25 + 0,5 4-46 + 26 _0,5 26 = 3,5 b = 1,75;-0,75 x 2;a = 0,75;1,75 x 0,5;1,75x2
+      1,75x + 0,5;Model se naučí řešení pomoc polynomu 2. stupně. Dat je příliš málo
+      pro takovou regr. úryvku, model je přetrénovaný Napravit by se dal zvýšením
+      množství dat
+    truth: 3
+  9:
+    pred: 3
+    text: Jen pro panství lesa je na začátku schopný dané stavbě člověk nebo strojový
+      vztah na vedení;do pens;Cílem Turingova testu je člověkem určit, zda na druhé
+      straně je stroj, nebo nejsme schopni určit, zda je to stroj nebo člověk. Jeho
+      dva možné závěry tedy jsou - je to stroj nevím, je to stroj nebo člověk Nedostatkem
+      je, že hodnotíme pouze odpovědi, ne způsob, jak jsme k nim došli - můžou to
+      být tedy nacvičené otázky a odpovědi, bez pochopení řešení dané problematiky.
+      Např. při překladu může mít stroj naučené fráze, ale samotný jazyk nechápe,
+      tudíž se ne komplexnímu překladu nehodí, jelikož by mohl překládat doslovně
+      sráze, které nezná, což by mohlo vést v druhém jazyce k nesmyslům.
+    truth: 1
+e3fcfce792cba2bd9b1f688e09b8636d:
+  2:
+    pred: 4
+    text: hodnot. Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her,
+      pro něž minimax lze použít.;Protére ve svém minimaxu počítám druho práce jako
+      sopeře, který je rozšaňák, kterého úkol je v mění minmáxu minimalizovat můj
+      užitek pokud 0 = vyrovnáno, každý má svoji stromu měřítka, kde jeden maximalizuje
+      pozitivní hodnoty a druhý mocimolizuje negativní;hry musí mít způsob jak je
+      ohodnotit, podle aktuálního stavu
+    truth: 1
+  3:
+    pred: 3
+    text: -d Db BESID = DESID = DA (b-d)
+    truth: 1
+  4:
+    pred: 3
+    text: atunická - jenom udává lepší / houží faktorizovaná - ohodnocena číslem strukturovaná
+      - může mít další infunkce o stran než jen ohodnocení
+    truth: 1
+  8:
+    pred: 2
+    text: W problém - negenerolizován - příliž raněný na třenovacích datech, upravit
+      parametry pro lepší generalizaci;pokynem druhého řádu parabola - prochází třenováni
+      body
+    truth: 2
+  9:
+    pred: 3
+    text: Cíl je otestnost zda něco (třeba AI) se dá rozpoznat od člověka, zda je
+      inteligení jako člověk Závěry - sení člověk - rozpoznalo se - je člověk - nebylo
+      rozpoznáno že doopravdy není,;člověk;nedstatky - nemusí jít o inteligenci rovnou
+      člověku. ale o algoritmus, který testovatele ožálí.
+    truth: 2
+  10:
+    pred: 1
+    text: 'Přeje sám chybu na základě očekávaného výsledku a podle ní může upravit
+      model vztypy: výsledek učení a očekávaný výsledek výstr: chybová funkce - úprava
+      modelu'
+    truth: 2
+  11:
+    pred: 3
+    text: Při velmi nízkých hodnotách se může stát, že se bude učit až velmi pomalu
+      a třeba i nemusí dojít k řešení - neefektivní Narpsk při vyskytl hodnotěl může
+      divergovat, napři, zkřikat např. forkú , špatně tedy modeluje postup úkol
+    truth: 4
+  13:
+    pred: 4
+    text: 'Chceme aby byl reprezentován v Look > v Table aby šli slova / vektory indexovat
+      Chceme aby slova které jsou podobně, jejich vektory byli blízké;pracovat Word
+      Vertor aritmetika - umožněje slovy s aritmetickými operacemi na základě např:
+      stůl - nohy = deska;se významu V měnit význam'
+    truth: 4
+  14:
+    pred: 2
+    text: 'Funkci, která vybírá stvy, kde agent dostane největší odměnu Vstup: stav
+      agetu, případně okolí Výstup: stavy/akce, které může agent provést (pro naučivali;Aget
+      na základě předchozích zkušeností vylišná stvy;odměny,'
+    truth: 1
+ee09d9aaa8474a6513133aa8452fad6f:
+  2:
+    pred: 4
+    text: už algoritmus se snaží maximalizovat tisk hráče a minimalizovat tisk soupeře
+      - hry bez náhodných jevů sero-sum
+    truth: 2
+  3:
+    pred: 3
+    text: 'Paměťová náročnost BFS. O AI v nejhorším případě jsme žádné uzly do dosud
+      nepřidali. v nejlepším případě;O areál DFS: O Old) (D old)'
+    truth: 1
+  4:
+    pred: 3
+    text: 'agent potřebuje od prostředí: reprezentaci aktuálního stavu a budoucí stav
+      (podle kt. se rozhodne) prostředí (problém) vyjádřeno, jako funkce k(C) - reprezentace
+      stavu: atomické - stav reprezentován jednoduchým číslem (např. počet volných
+      míst na šachovnici N dam)'
+    truth: 2
+  5:
+    pred: 1
+    text: tyto parametry reprezentovány? Jak jsme tyto parametry;u - střední hodnota,
+      vektor s dvěmi hodnotami u =;- střed v grafu;[- konvoluční matice, matice 2x2
+      (as aug), kde "a", a" nám určují výšku a šířku,“ a "aj určují rotaci - v grafu;20
+      BERN;- Pro každou třídu odhadneme parametry a vytvoříme hustotu pravděpodobnosti
+      -> tzn. máme 3 hustoty pravděpodobnosti - při přechodu nového vzoru x vypočítáme
+      pravděpodobnost příslušnosti ke každé třídě - z odhadnutých hustot pravděpodobností
+      - parametry odhadneme z trénovacích dat - klasifikace - výběr nejvyšší pravděpodobnosti
+      maximum likelihood
+    truth: 1
+  8:
+    pred: 4
+    text: '- model bude přetrénovaný - dobře odhaduje trénovací data, avšak není schopen
+      správně gene zovat (pro nově přichozí data) řešení - poskytnout více trénovacích
+      dat problém vznikl - malým počtem trénovacích dat'
+    truth: 1
+  9:
+    pred: 2
+    text: '- cílem je - určit, zda-li je umělá iteligence nerozpoznatelná od člověka
+      - test je velice vážně definován - není možné určit umělou inteligenci podle
+      souboru otázek (psaných), je potřeba se i zaměřit na tvůrčenost, např. básničky,
+      obrázky, atd.;účelu?'
+    truth: 2
+  10:
+    pred: 2
+    text: '- výpočet ohodnocení výsledku pro dané vstupy (např. binary eras-;- využívá
+      se k ohodnocení při učení - vstup: výstupy modelu + trénovací data - výstupem:
+      ohodnocení výstupu modelu - používá se k ověření, že při trénování se blížíme
+      k optimu (řešení)'
+    truth: 2
+  11:
+    pred: 4
+    text: malý:;dobrý:;- pokud je learning rate příliš - malý - můžeme se „zaseknout“
+      v lokálním minimu a trénování se „zastaví“ velký - může se stát, že nám bude
+      loss příliš „zkákat“ a nebudeme konverz. ovat k optimu.;moc velký prsty
+    truth: 4
+  12:
+    pred: 1
+    text: 'Pokud má konvoluční vrstva x jader s velikostí yxy, pak je potřeba provést
+      x rysy násobení pro každý kanál vstupních dat. Pro jeden pixel: x = 1 počet
+      hanáků = počet násobení'
+    truth: 3
+  13:
+    pred: 3
+    text: '- vlastnosti - aby se pomocí matematických výpočtů dala určit např. podobnost
+      slov (např. pomocí euklidovské vzdálenosti) - např. vzdálenost (king, quen)
+      - vzdálenost (king, ship);Word vector aritmetika - matematické operace se slovy
+      nám vytvoří nové slovo např king + quen = kingdom king-ship = castle;Apod.'
+    truth: 3
+  14:
+    pred: 2
+    text: Nurronová síť - vybírá jaké akce by se v daném stavu měli provést - vstup
+      - stav výstup - akce vektor akcí + pravděpodobnosti NN - modeluje policy - agent
+      NN využívá pro výběr své následující akce
+    truth: 1
+ee4b7041a56afa5dba176c9bb60a631d:
+  3:
+    pred: 3
+    text: 'O;BFS OL DFS =;0. 6;(součástí 20. August;: A společně s tebou vypravujeme.
+      22. listopadu 1919 v Brně 19 Vyhláška o poznání Martin a pozdravuje 1950.;BFS
+      0 (b) DFS OLPE d;+ o;o;Staré domy. postavení v obci. za svobodu 5. dubna 1917
+      gestattet. nemocnice.'
+    truth: 1
+  4:
+    pred: 1
+    text: potřebuje vedeť hodnotu v mieste kde práve je a nižší atmicháx
+    truth: 2
+  9:
+    pred: 2
+    text: nebude rozoznatelná Cielom je nájsť reálner AI. AI. AI pomyšlení od človeka
+      alebo bude (zlykala). Vdnešnej dobu ho už určite vieme preknať s AI, ktoré by
+      sme rozhodne nepovažovali za „inteligentné" (napr. chatbots). Dalším argumentem
+      môže byť činská místnost s;Dnes už;zamyslel prakticky nemá.
+    truth: 2
+  10:
+    pred: 2
+    text: Vyššía hodnota „trestá“ zlý postup. Vstupem je daný konkrétnym trénom. modelem
+      a výstup je jedno číslo.
+    truth: 2
+  13:
+    pred: 3
+    text: Chceme vedieť pracovať s textova rovnaká alo s číslami. WV aritme- tika
+      nám s takto reprezentovaným textom umožňuje pracovať (a + = b)
+    truth: 1
+fd4c95ac222b1b1ce4780a446a0662ff:
+  3:
+    pred: 3
+    text: 0 (2) EXPIORED BFS - EXPLORED DFS - O(ď byď) BFS - 0 (20) DFS - o (a)
+    truth: 2
+  7:
+    pred: 4
+    text: p(nak) = 20 4/ P(pozlrak) = 90% (nak / poz) = ?;= 80% (zdrav) (neglnak)
+      = 10% P(neg / zdrav) = 97, 5% P(pozdrav) = 2, 5%;P(X|C) P(c) P(c) = EP(c|x)
+      P(cyx) = P(ok) Me);P(x|c) = P(nakl poz;P(nak / poz;P(c|x) . p(x);P(c|x) . P(x)
+      + P(c|y) . P(c|x) P(poznak) - P(nak);P(poznak). P(nak) + P(poz / zdrav). P(zdrav);10.20;1800;90.20
+      t 2,5. 80 180 + 200 = 188 = 90%
+    truth: 4
+  8:
+    pred: 2
+    text: 20;1,5;0,5;Rád polynomiálnej regresie je príliš velký vzhladom na počet
+      trénovacích vzorov. Model sa pretrénoval a presne kopiruje trénovacie vzory
+      a tým pádom negeneralizuje a nebude mocť boť použitý Dalo by sa to napravit
+      väčším množstvím trénovacích vzorov
+    truth: 2
+  9:
+    pred: 3
+    text: '-závěry: stroj je inteligentný alebo meje inteligentný;- Nedostatky: stroj
+      sa môže tváriť inteligentne ale v skutečnosti je len databáza plná dát. Na poukázanie
+      tohoto problému existuje test „čínska izba“. - využitie: overenie schopností
+      textových umelých inteligencí'
+    truth: 3
+  10:
+    pred: 1
+    text: 'Určuje ako moc sa zlepšujeme vo výsledkoch učenia - vstup: Learning rate,
+      váha, hodnota'
+    truth: 1
+  13:
+    pred: 1
+    text: '- aby boli významovo blízko, mali nízku enklidovskú vzdialenosť;Word vetor
+      - reprezentacia slov pomocou vektorou'
+    truth: 2
+  14:
+    pred: 1
+    text: '- funkcia využíva informacie o aktuálnom stave agenta a aj informácie o
+      všetkých nadchádzajúcích ťahoch agenta na rozhodnutie o tom ako bude vyzerať
+      další krok'
+    truth: 1
+fdb0df15e7ad924fe4403d60cca91fc6:
+  3:
+    pred: 3
+    text: .;...... Sir,;..;Bt 1) Odb. Bd (P-d) 27;o DFS 1) Obrát t z holistů ta se
+      zavázala a prohlídá 2 ostat 2) spravované;zábavní;0 (b !)
+    truth: 0
+  7:
+    pred: 3
+    text: P(N) = 012 P(P|N|=0, 9) 14;P(PiN) = 019 0012;0,9-012 =;P(N|P). P(P);0,9
+      .0,2;účinnosť pre N = 0 všinnosť P = 0,9;K;0795;0,2 - 0,9 + 0,8 . 0,975;P(pozit)
+      = P(nakazený). p(učinnost) + P(nenakazuj). P(účinnosť P(pozit) = 0,2 . 0,9 +
+      0,8 P(nakazeny|pozit) =;P(P|N) . P(N);P(POZIT););= P(nakažlivá port);3.
+    truth: 1
+  9:
+    pred: 2
+    text: Cielóm testu je určit, či je koncový bod“ počítač alebo človek. Test je
+      ohnedzený - aspoň v prípade ale bol originálu opísavý - tým, že je nutné si
+      s “koncovým bodem“ písať a to, že stroj odpisujúci na otázky čste nemusí byť
+      "inteligentný" - čínský poloj
+    truth: 1
+  10:
+    pred: 2
+    text: Loss funkce nám pri tomto učení určuje,“ ako daleko" sne od správného nešenia.
+      Vstupom je aktuální stav ku ht. sa NS dostala a výstupem je hodnota, podlá kt.
+      vieme nasledovne upraviť rály.
+    truth: 2
+  11:
+    pred: 4
+    text: obidra algoritmi Gradient decenda a stochastic GAGD Sledujú modelovaní funkciu
+      - zpoužívají derivácie na určenie smeru k minimu. Avšak tým že určují iba smer
+      k nimim sa nám pri vysokých hodnotách learning rate môže stať, že extré lokálny
+      budeme preskakovať - v 1D že, a tak nikdy nedosiativneme dobre naučený model
+      NS.
+    truth: 4
+  12:
+    pred: 1
+    text: '- ct C násobení, kde c je velkosť (šírka ver výška) šablóny konvolucíe'
+    truth: 2
+  13:
+    pred: 3
+    text: Chceme, aby každé slovo malo vnikačky vektor, ale zároveň chceme, aby slová
+      podobného význam boli blízko seba a opačného v iaverznom vektore. Táto aritmetika
+      so slovami ahoj s vekt. slova "dobrý" by Uzly!!!;nám umožňuje pracovať číslami
+      -> pri vynásobení sme vzali dostať rektor slova
+    truth: 4
+fdd9ca784e674c04aa5436a352eb8651:
+  3:
+    pred: 3
+    text: Bon;S;d;BAFS;má v paměti pouze vrstvu d+1;má v paměti všechny předešlé vrstvy
+      + následující;DAFS;má pouze cestu k cíli . 1) 0 (d) 2) O (2 b?) - musí udržet
+      všechny vztahy které prošel - PFS Nepoužívá;Pokud se jedná o necyklický problém,
+      není potřeba množina CLOSED.
+    truth: 2
+  7:
+    pred: 4
+    text: P(nakaženo) = 0,2 P(zdrávo) - 0,8 P(nakažený/pozitivní) = 9:0,2 P(nakaz/pozitivní);0,2;P(poz)
+      nakaz P (hak) P(pozit);P(pozitivní i nakazeny) = 0,9 P(zdravy / negativní) =0,
+      975 P(negativní (nakazený) = 0,1 P(nakažen / negativní) =0,025;9;P(pokažený
+      lucentin poziti (valeaz). Plna P(x|x) - P(P|r);P(x);negativní P(negativ| nakecae)
+      P(nakaze) P(ROZ) = P(negativní) = P(poziti.) � 1P (negativní) = 1/7;P(nakaz/nej)
+      0,1 . 0,2;0,025;F025 25;0,02
+    truth: 2
+  8:
+    pred: 2
+    text: g);je polynom druhého řádu parabola, data jsou danou křivkou perfektně protrutá.;Pro
+      takto málo dat se stává, že je daný model přetrénovaný, tedy pro další příchozí
+      data může vyhodnocovat špatné výstupy Lze přidat více trenovacích dat a model
+      znovu přetrénovat. U více dat lze i počítat s vnějším
+    truth: 4
+  9:
+    pred: 3
+    text: cílem TT je zjistit;zda má;stroj umělou inteligenci;hodnou člověka.;stroj
+      je chytrý jak člověk - není - ,-;- test se zaměřuje pouze na znalosti, což dokazuje
+      teorie o čínské sk nemluvícím člověkovi zavřeném v neomezené knihovně čínských
+      knih a vědění, kde najde odpověd na každou otázku, Tedy je schopný odpovědět
+      čínsky na čínskou otázku bez znalosti čínštiny.
+    truth: 3
+  10:
+    pred: 2
+    text: 'loss funkce určuje, jak moc se výstup neuronové sítě liší od reálné hodnoty.
+      Výstup loss funkce je pak použít k přetrénování (dotrénování) NS.;vstupem: vektor
+      hodnot výstupem: je to číslo'
+    truth: 3
+  13:
+    pred: 3
+    text: chceme, aby vektory slov, které spolu souvisí byly blízko sebe. Např. slovo
+      „král" bude blízko slovu „muž“, ale daleko od slova „žena“.;World Vector aritmetika
+      nám umožňuje dělat aritmetické operace nad slovy. muž + panovník = král
+    truth: 4
+  14:
+    pred: 1
+    text: Modeluje Q-funkci;- funkce ohodnocuje okolní stavy. Na základě těchto hodnot
+      se pak agent rozhoduje do jakého stavu pokračovat
+    truth: 2
+ffd524f75656215b0379cb7da3820608:
+  2:
+    pred: 4
+    text: žito u„ To isté platí aj naopak, teda Souveřovo ztráta se rovná heď prehladávam
+      stavový prostor a předpokládám, že je na tahu soupeř, beru uzel s nejmenším
+      ohodnocením.;Ary, kde sa striedujú hráči na ťahu. ťahové
+    truth: 3
+  3:
+    pred: 3
+    text: BFS = 0 (6 h) DFS = OBRIG (bAd);III;dosed;d*;a
+    truth: 1
+  4:
+    pred: 3
+    text: toho;odprostredia potrebuje vedieť aké může vykonávat, a na jaké stavy vedou
+      Potrebuje taktiež vedieť vzťahy medzi prvnami prostředí aby vedot ohodnotit
+      daný stav strukturovaná reprezentace stavů.
+    truth: 3
+  5:
+    pred: 4
+    text: 'Alg. P(g);bayes;(G);p(realic);potrebujeme vypočítať posteriorní pravděpodobnost
+      každé ze 3 tříd. P(4) určit pro každou třídu grusovské rozložení: M - střední
+      hodnota 2 rozměrný vektor � rozptil ve 2D � 2x2 matice N a využijeme pro výpočet
+      hodnot gaussovského rozložení každé třídy tieto z parametre odhadneme pomocí
+      gradientního sestupu s využitím loss t-ce v každé iteraci trénovaní.'
+    truth: 1
+  8:
+    pred: 4
+    text: 1,5;polynomiální regresi 2. řádu se nakonec vytvoří hřivna reprezentující
+      nějakou kvadratickou t. ci. Problém je v tom, že pri takto malom poůze dat nebude
+      problém pre model protnout všechno dato. Tým pádem nebude dobré generalizovať
+      pro nové náda - problém overfitting, ktorý by sa dal napraviť získaním viac
+      trénovacích dat
+    truth: 4
+  9:
+    pred: 2
+    text: 'Problémy:;Cílem je ověřit zda je nějaký stroj silná umělá inteligence,
+      t.j. nejde rozlišit její chrání na základě odpovědí od chrání člověka. Závisí
+      na schopnosti ach toho, které pokládá otázky, aj toho, kto na ně odpovedá: Problém
+      „činske místnosti“ � stroj môže generovat odpovede náhodne a ten, kto ich overuje
+      nemusí napríklad vedicť počínsky a rozoznať, či ide „inteligentní“ odpověď.'
+    truth: 2
+  10:
+    pred: 2
+    text: Její vstupem je výstup modelu a výstup trénovacích dat. Výstupem je rozdíl
+      mezi týmito dátami -> napríklad mean-synared errov. V učení s učitelem je její
+      role proporování výstupu modelu s výstupem v trénovacích datech. Snažíme se
+      o její minimalizaci.
+    truth: 4
+  11:
+    pred: 2
+    text: hodnota 14. spôsobí, že sa model bude učiť pomaly. Priliš malá príliš veľká
+      zas spojení, že bude odchylovať od požadov riešenia -> pak se nedá získat dobře
+      naučený model.
+    truth: 4
+  13:
+    pred: 3
+    text: 'Chceme aby vektory pre podobně slová boli podobně.;Aritretilm: V Popis
+      pravidel pro „přepis“ slov z textu do vektoru;; stavy vedoucí stavy)'
+    truth: 2
+  14:
+    pred: 1
+    text: Modeluje ohodnocení úžitku nějaké akce agenta. Agent ji používa při rozhodování
+      o tom, jakou akci udělá.
+    truth: 1

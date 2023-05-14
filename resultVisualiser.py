@@ -123,52 +123,52 @@ if __name__ == '__main__':
     axis[0, 0].plot(X, mseVals1,'--o',color='blue')
     axisTitle  = os.path.basename(sys.argv[1])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[0, 0].set_title("Test 1 -- {} MSE".format(axisTitle))
+    axis[0, 0].set_title("Model 1 -- {} MSE".format(axisTitle))
     axis[0, 0].set_ylim(0,6)
     
     #
     axis[0, 1].plot(X, mseVals2,'--o',color='red')
     axisTitle  = os.path.basename(sys.argv[2])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[0, 1].set_title("Test 2 -- {} MSE".format(axisTitle))
+    axis[0, 1].set_title("Model 2 -- {} MSE".format(axisTitle))
     axis[0, 1].set_ylim(0,6)
     
     # 
     axis[1, 0].plot(X, mseVals3,'--o',color='green')
     axisTitle  = os.path.basename(sys.argv[3])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[1, 0].set_title("Test 3 -- {} MSE".format(axisTitle))
+    axis[1, 0].set_title("Model 3 -- {} MSE".format(axisTitle))
     axis[1, 0].set_ylim(0,6)
     
     # 
     axis[1, 1].plot(X, mseVals4 ,'--o',color='orange')
     axisTitle  = os.path.basename(sys.argv[4])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[1, 1].set_title("Test 4 -- {} MSE".format(axisTitle))
+    axis[1, 1].set_title("Model 4 -- {} MSE".format(axisTitle))
     axis[1, 1].set_ylim(0,6)
 
     axis[2, 1].plot(X, mseVals5 ,'--o',color='black')
     axisTitle  = os.path.basename(sys.argv[5])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[2, 1].set_title("Test 5 -- {} MSE".format(axisTitle))
+    axis[2, 1].set_title("Model 5 -- {} MSE".format(axisTitle))
     axis[2, 1].set_ylim(0,6)
 
     axis[0, 2].plot(X, mseVals6 ,'--o',color='purple')
     axisTitle  = os.path.basename(sys.argv[6])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[0, 2].set_title("Test 6 -- {} MSE".format(axisTitle))
+    axis[0, 2].set_title("Model 6 -- {} MSE".format(axisTitle))
     axis[0, 2].set_ylim(0,6)
 
     axis[1, 2].plot(X, mseVals7 ,'--o',color='pink')
     axisTitle  = os.path.basename(sys.argv[7])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[1, 2].set_title("Test 7 -- {} MSE".format(axisTitle))
+    axis[1, 2].set_title("Model 7 -- {} MSE".format(axisTitle))
     axis[1, 2].set_ylim(0,6)
 
     axis[2, 2].plot(X, mseVals8 ,'--o',color='brown')
     axisTitle  = os.path.basename(sys.argv[8])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[2, 2].set_title("Test 8 -- {} MSE".format(axisTitle))
+    axis[2, 2].set_title("Model 8 -- {} MSE".format(axisTitle))
     axis[2, 2].set_ylim(0,6)
 
     testMse1 = getTestScoreMSE(data1)
@@ -190,7 +190,6 @@ if __name__ == '__main__':
     wholeTestMSE.append(testMse7)
     wholeTestMSE.append(testMse8)
 
-    Xnew = ['model1', 'model2','model3','model4', 'model5', 'model6', 'model7', 'model8']
     #MSE whole test
     axis[2, 0].plot('model1', testMse1 ,'o',color='blue')
     axis[2, 0].plot('model2', testMse2 ,'o',color='red')
@@ -213,6 +212,18 @@ if __name__ == '__main__':
     plt.plot(X, mseVals8,'--o',color='brown', label=os.path.basename(sys.argv[8]).split('.yaml')[0])
     plt.legend()
     plt.title("Comparison of models, regarding MSE of each question")
+
+    plt.figure(3)
+    plt.plot('model1', testMse1 ,'o',color='blue')
+    plt.plot('model2', testMse2 ,'o',color='red')
+    plt.plot('model3', testMse3 ,'o',color='green')
+    plt.plot('model4', testMse4 ,'o',color='orange')
+    plt.plot('model5', testMse5 ,'o',color='black')
+    plt.plot('model6', testMse6 ,'o',color='purple')
+    plt.plot('model7', testMse7 ,'o',color='pink')
+    plt.plot('model8', testMse8 ,'o',color='brown')
+    plt.title("MSE for different models on the whole test score")
+
 
 
     plt.show()

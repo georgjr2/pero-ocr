@@ -1,6 +1,6 @@
 00d52da93a2ea09d33d9c34959629374:
   2:
-    pred: 1
+    pred: 0
     text: doba;podle úrovně prořezávaní. nemusí se změnit (žádné provezívaní) �
       zmenší se doba trvání (při prořezávání zisk se nezmění (záleží, jak moc je
       ve hře náhod
@@ -12,14 +12,14 @@
     truth: 1
 0e33e15598be65ed678dd18f9f2bff79:
   8:
-    pred: 1
+    pred: 0
     text: 'klasifikace - přiřazení třídy novému vstupu diskrétní výstup;regrese
       - určení pravděpodobnostního rozsahu pro vstup (určení fce fa) = y - spojitý
       výstup - lehce se přetrénuje;trénovací data : vstupy x a vystupy y;objektivní
       funkce: např suma čtverců'
     truth: 1
   14:
-    pred: 2
+    pred: 0
     text: on-policy - snaží se zlepšovat svoji strategii (policy), kterou používají
       k dělání rozhodnutí;off-policy - snaží se zlepšovat strategii odlišnou od
       té, kterou používají k výběru akce;on- pokecy se neučí ze zkušeností předchozích
@@ -33,7 +33,7 @@
       úrovně procházet do šířky, ale půjde rovnou do úrovně k. (postupní)
     truth: 3
   4:
-    pred: 4
+    pred: 0
     text: NÁHODNÁ procházka algo. si pamatuje pouze nejlepší musí tedy graf růst
       limitně však k hodnotě maxima;SiMuLATED ANETING;u sinulovaného žíhání je jistá
       pravd doprostřed překoná lokální max., o mohla najít globální. Zato pravděp.
@@ -45,7 +45,7 @@
       zadání P(pozl nak) = 0,9
     truth: 4
   13:
-    pred: 2
+    pred: 0
     text: Pouzázek;pooling;konvoluční jádro je matice reálných čísel, kterými se
       tvstupní pixely vynásobí a následně sečtu a vytvoří 1 pixel;normální 4 jádra
       Chapř. 3 kanály - REB vstup) KNN často tvoří konvoluční vrstvy a pooling vrstvy
@@ -66,14 +66,14 @@
       začátku více podle pravděpodobností
     truth: 3
   5:
-    pred: 1
+    pred: 0
     text: Draháček;X;opst pach. pro třídil;P(C|X);;;2. POXIZ POZ;odhadnuté (elegarial
       disp) a prior, probabilities;napiš Red Bl;Or, O;gau s dto;odloučení;tyto památky
       isif P( XII;Spojení se stav do Bajkalu do Bajkale na Radomově Radomoravě.;falssovská
       30 volební;3;+6;8;;í V;I-;Prose.;6 sportky;2 (q-času) = 20 reálnými čísly;MRV;RD
     truth: 4
   9:
-    pred: 4
+    pred: 0
     text: kde hod features;sind -hal gentlemes;vigh learg fallen;nar.;. v;formy,
       žaludka obce;nejistě hlavně rozdělení;;vzory které si uvedou jí i člověk viditelné
       palany krátkého světa;-;Verb;někde nazvánka;1-2;poslední k. vrstvy 7-9
@@ -92,13 +92,13 @@
     truth: 3
 510077e41f24942dfd5a8da94fba89da:
   4:
-    pred: 3
+    pred: 0
     text: KART.;;POČET STAVŮ;v pŘÍpadě slepého prohledávání kvalita maustále holísá,
       protože výběr je čistě náhodný.;Pro smulované číhání kvalita holí sú tvář
       (nemusí být veřejná nadlepší soust PLK Chenová si zvýšuje.
     truth: 4
   10:
-    pred: 4
+    pred: 0
     text: ruční barevnost a definice příznaků je pracná a časová náročné. Využitím
       hlubokého učení jsme schopni vrchní vy naučit co za příznaků je vhodné použít.
       Díky tomu jsou učení funguje ja Také možné, že NS valebna vhodná příznaky,
@@ -115,7 +115,7 @@
     truth: 2
 6d77c9d20f085c086b11952b297e4608:
   10:
-    pred: 4
+    pred: 0
     text: HLUBOKÉ VĚSNÍ;+ NEMUSÍME NASTAVOVAT PŘÍZNAKY A NS SI JE Sama dopočítá
       + příznaky jsou současné ZNALOSTI O PROBLÉMU FLEPGÍ VÝSLEDKY;SLOŽITEVŠÍ A
       VÝPOČETNÉ NÁROČNĚJŠÍ NEŽ SMALLOW LSAKING
@@ -128,7 +128,7 @@
     truth: 1
 b9f5b9793d2ca99f24ea098f529807e7:
   3:
-    pred: 4
+    pred: 0
     text: ostatní slepé metódy (BFS, IDS, ...) - vela pamete. pomalšte A je informovaná
       majú heuristiku.;UCS - ma g, čiže si pametá cesty, ktorú prešiel a teda sa
       abstane najrýchlejšie k riešeniu.;neinformované metody nemající hieuristiku;Gready
@@ -136,7 +136,7 @@ b9f5b9793d2ca99f24ea098f529807e7:
     truth: 1
 c54fb9058a498e5d0a9138a3846352b4:
   6:
-    pred: 4
+    pred: 0
     text: N... negativní;test;P... pozitivní;S) = 0,2 =018;IN (H) = 0, 975;P(P|s;=
       2;(els) = P(PIS) = 0,9 � Přímo to plyne se zadám;P;11;99;PC;+.;Test u náhodně
       vybrané pravděpodobností;nakažené osoby bude pozitivní s 90%
@@ -149,7 +149,7 @@ c54fb9058a498e5d0a9138a3846352b4:
       BEP, O - (H);marš.
     truth: 2
   10:
-    pred: 3
+    pred: 0
     text: DU je mnohem náročnější na trénování (čas vývoje, čas trénování PL dokáže
       řešit i mnohem komplexnější problémy � dokonce i ty, na výpočetní výkon) něž
       nebyla trénovaná. sloužit jako základ pro sl sítě � není třeba trénovat /v
@@ -159,7 +159,7 @@ c54fb9058a498e5d0a9138a3846352b4:
       člověka obtížné
     truth: 3
   14:
-    pred: 2
+    pred: 0
     text: ON-poLICY � tyto alg. vylepšují svoji policy, pouze na základě výsledků
       aktuálního běhu - nejsou žádným způsobem ovlivněny předchozími běly;Off-pOLICY
       � tyto alg. vylepšují svoji policy i na základě předchozích běhů — mají paměť,
@@ -169,7 +169,7 @@ c54fb9058a498e5d0a9138a3846352b4:
     truth: 3
 ee4b7041a56afa5dba176c9bb60a631d:
   10:
-    pred: 4
+    pred: 0
     text: Výhoda je, že niekedy priznaky proste nedokážeme určiť a desp learning
       si ich (at má dostatek vstupných dát) schopný „odhadnůť sám“. Nevýhoda je
       práve potreba získanéa moc (a potenčálna klasifikácia) velkého množstva dát.
@@ -177,7 +177,7 @@ ee4b7041a56afa5dba176c9bb60a631d:
     truth: 2
 fdb0df15e7ad924fe4403d60cca91fc6:
   8:
-    pred: 4
+    pred: 0
     text: vstupné data;„ - Pri klasifikačnom probléme sa snažíme klasifikovať do
       istého počtu tried [žatiať čo pri regresnom probléme hládáme paranetne pre
       regresi funkciu - číže hládáme funkciu, kt. dokážeme přeložiť trénovací data

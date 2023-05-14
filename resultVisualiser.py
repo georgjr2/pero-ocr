@@ -103,6 +103,7 @@ if __name__ == '__main__':
     data6 = loadTranscriptions(sys.argv[6])
     data7 = loadTranscriptions(sys.argv[7])
     data8 = loadTranscriptions(sys.argv[8])
+    data9 = loadTranscriptions(sys.argv[9])
 
 
     mseVals1 = compareMSE(data1)
@@ -113,6 +114,7 @@ if __name__ == '__main__':
     mseVals6 = compareMSE(data6)
     mseVals7 = compareMSE(data7)
     mseVals8 = compareMSE(data8)
+    mseVals9 = compareMSE(data9)
 
     X = [1,2,3,4,5,6,7,8,9,10,11,12,13, 14]
     figure, axis = plt.subplots(3,3)
@@ -126,50 +128,55 @@ if __name__ == '__main__':
     axis[0, 0].set_title("Model 1 -- {} MSE".format(axisTitle))
     axis[0, 0].set_ylim(0,6)
     
-    #
     axis[0, 1].plot(X, mseVals2,'--o',color='red')
     axisTitle  = os.path.basename(sys.argv[2])
     axisTitle = axisTitle.split('.yaml')[0]
     axis[0, 1].set_title("Model 2 -- {} MSE".format(axisTitle))
     axis[0, 1].set_ylim(0,6)
-    
-    # 
-    axis[1, 0].plot(X, mseVals3,'--o',color='green')
+
+    axis[0, 2].plot(X, mseVals3 ,'--o',color='green')
     axisTitle  = os.path.basename(sys.argv[3])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[1, 0].set_title("Model 3 -- {} MSE".format(axisTitle))
-    axis[1, 0].set_ylim(0,6)
+    axis[0, 2].set_title("Model 3 -- {} MSE".format(axisTitle))
+    axis[0, 2].set_ylim(0,6)
     
-    # 
-    axis[1, 1].plot(X, mseVals4 ,'--o',color='orange')
+    axis[1, 0].plot(X, mseVals4,'--o',color='orange')
     axisTitle  = os.path.basename(sys.argv[4])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[1, 1].set_title("Model 4 -- {} MSE".format(axisTitle))
-    axis[1, 1].set_ylim(0,6)
-
-    axis[2, 1].plot(X, mseVals5 ,'--o',color='black')
+    axis[1, 0].set_title("Model 4 -- {} MSE".format(axisTitle))
+    axis[1, 0].set_ylim(0,6)
+    
+    axis[1, 1].plot(X, mseVals5 ,'--o',color='black')
     axisTitle  = os.path.basename(sys.argv[5])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[2, 1].set_title("Model 5 -- {} MSE".format(axisTitle))
-    axis[2, 1].set_ylim(0,6)
+    axis[1, 1].set_title("Model 5 -- {} MSE".format(axisTitle))
+    axis[1, 1].set_ylim(0,6)
 
-    axis[0, 2].plot(X, mseVals6 ,'--o',color='purple')
+    axis[1, 2].plot(X, mseVals6 ,'--o',color='purple')
     axisTitle  = os.path.basename(sys.argv[6])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[0, 2].set_title("Model 6 -- {} MSE".format(axisTitle))
-    axis[0, 2].set_ylim(0,6)
-
-    axis[1, 2].plot(X, mseVals7 ,'--o',color='pink')
-    axisTitle  = os.path.basename(sys.argv[7])
-    axisTitle = axisTitle.split('.yaml')[0]
-    axis[1, 2].set_title("Model 7 -- {} MSE".format(axisTitle))
+    axis[1, 2].set_title("Model 6 -- {} MSE".format(axisTitle))
     axis[1, 2].set_ylim(0,6)
 
-    axis[2, 2].plot(X, mseVals8 ,'--o',color='brown')
+    axis[2, 0].plot(X, mseVals7 ,'--o',color='pink')
+    axisTitle  = os.path.basename(sys.argv[7])
+    axisTitle = axisTitle.split('.yaml')[0]
+    axis[2, 0].set_title("Model 7 -- {} MSE".format(axisTitle))
+    axis[2, 0].set_ylim(0,6)
+
+    axis[2, 1].plot(X, mseVals8 ,'--o',color='brown')
     axisTitle  = os.path.basename(sys.argv[8])
     axisTitle = axisTitle.split('.yaml')[0]
-    axis[2, 2].set_title("Model 8 -- {} MSE".format(axisTitle))
+    axis[2, 1].set_title("Model 8 -- {} MSE".format(axisTitle))
+    axis[2, 1].set_ylim(0,6)
+
+    axis[2, 2].plot(X, mseVals9 ,'--o',color='teal')
+    axisTitle  = os.path.basename(sys.argv[9])
+    axisTitle = axisTitle.split('.yaml')[0]
+    axis[2, 2].set_title("Model 9 -- {} MSE".format(axisTitle))
     axis[2, 2].set_ylim(0,6)
+
+
 
     testMse1 = getTestScoreMSE(data1)
     testMse2 = getTestScoreMSE(data2)
@@ -179,6 +186,7 @@ if __name__ == '__main__':
     testMse6 = getTestScoreMSE(data6)
     testMse7 = getTestScoreMSE(data7)
     testMse8 = getTestScoreMSE(data8)
+    testMse9 = getTestScoreMSE(data9)
 
     wholeTestMSE = []
     wholeTestMSE.append(testMse1)
@@ -189,17 +197,6 @@ if __name__ == '__main__':
     wholeTestMSE.append(testMse6)
     wholeTestMSE.append(testMse7)
     wholeTestMSE.append(testMse8)
-
-    #MSE whole test
-    axis[2, 0].plot('model1', testMse1 ,'o',color='blue')
-    axis[2, 0].plot('model2', testMse2 ,'o',color='red')
-    axis[2, 0].plot('model3', testMse3 ,'o',color='green')
-    axis[2, 0].plot('model4', testMse4 ,'o',color='orange')
-    axis[2, 0].plot('model5', testMse5 ,'o',color='black')
-    axis[2, 0].plot('model6', testMse6 ,'o',color='purple')
-    axis[2, 0].plot('model7', testMse7 ,'o',color='pink')
-    axis[2, 0].plot('model8', testMse8 ,'o',color='brown')
-    axis[2, 0].set_title("MSE for the whole test")
     
     plt.figure(2)
     plt.plot(X, mseVals1,'--o',color='blue', label=os.path.basename(sys.argv[1]).split('.yaml')[0])
@@ -210,24 +207,30 @@ if __name__ == '__main__':
     plt.plot(X, mseVals6,'--o',color='purple',label=os.path.basename(sys.argv[6]).split('.yaml')[0])
     plt.plot(X, mseVals7,'--o',color='pink', label=os.path.basename(sys.argv[7]).split('.yaml')[0])
     plt.plot(X, mseVals8,'--o',color='brown', label=os.path.basename(sys.argv[8]).split('.yaml')[0])
+    plt.plot(X, mseVals9,'--o',color='teal', label=os.path.basename(sys.argv[9]).split('.yaml')[0])
     plt.legend()
     plt.title("Comparison of models, regarding MSE of each question")
 
     plt.figure(3)
-    plt.plot('model1', testMse1 ,'o',color='blue')
-    plt.plot('model2', testMse2 ,'o',color='red')
-    plt.plot('model3', testMse3 ,'o',color='green')
-    plt.plot('model4', testMse4 ,'o',color='orange')
-    plt.plot('model5', testMse5 ,'o',color='black')
-    plt.plot('model6', testMse6 ,'o',color='purple')
-    plt.plot('model7', testMse7 ,'o',color='pink')
-    plt.plot('model8', testMse8 ,'o',color='brown')
-    plt.title("MSE for different models on the whole test score")
+    plt.plot('model1', testMse1 ,'o',color='blue', label=os.path.basename(sys.argv[1]).split('.yaml')[0])
+    plt.plot('model2', testMse2 ,'o',color='red', label=os.path.basename(sys.argv[2]).split('.yaml')[0])
+    plt.legend()
+    plt.title("MSE for different models on the whole test score - BERT")
+
+    plt.figure(4)
+    plt.plot('model3', testMse3 ,'o',color='green', label=os.path.basename(sys.argv[3]).split('.yaml')[0])
+    plt.plot('model4', testMse4 ,'o',color='orange', label=os.path.basename(sys.argv[4]).split('.yaml')[0])
+    plt.plot('model5', testMse5 ,'o',color='black', label=os.path.basename(sys.argv[5]).split('.yaml')[0])
+    plt.plot('model6', testMse6 ,'o',color='purple', label=os.path.basename(sys.argv[6]).split('.yaml')[0])
+    plt.plot('model7', testMse7 ,'o',color='pink', label=os.path.basename(sys.argv[7]).split('.yaml')[0])
+    plt.plot('model8', testMse8 ,'o',color='brown', label=os.path.basename(sys.argv[8]).split('.yaml')[0])
+    plt.plot('model9', testMse9 ,'o',color='teal', label=os.path.basename(sys.argv[9]).split('.yaml')[0])
+    plt.legend()
+    plt.title("MSE for different models on the whole test score - OPENAI")
 
 
 
     plt.show()
 
     #how to run script
-    #python .\resultVisualiser.py .\results\2022-2-bert-paraphrase-miniLM-final.yaml .\results\2022-2-ALL-zero-answers.yaml  .\results\2022-2-bert-distiluse-final.yaml .\results\2022-2-ALL-two-answers.yaml .\results\2022-2-ALL-three-answers.yaml  .\results\2022-2-ALL-babbage-v2.yaml .\results\2022-2-ALL-babbage-v3.yaml .\results\2022-2-ALL-babbage-v4.yaml
-
+    #python .\resultVisualiser.py .\results\2022-2-bert-paraphrase-miniLM-final.yaml .\results\2022-2-bert-distiluse-final.yaml .\results\2022-2-ALL-three-answers.yaml .\results\2022-2-ALL-two-answers.yaml  .\results\2022-2-final-babbage-v1.yaml .\results\2022-2-final-babbage-v2.yaml .\results\2022-2-final-babbage-v3.yaml .\results\2022-2-final-babbage-v4.yaml .\results\2022-2-final-babbage-v5.yaml 

@@ -233,4 +233,10 @@ if __name__ == '__main__':
     plt.show()
 
     #how to run script
+    #python .\resultVisualiser.py .\results\2022-1-bert-paraphrase-miniLM-final.yaml .\results\2022-1-bert-distiluse-final.yaml .\results\2022-1-ALL-three-answers.yaml .\results\2022-1-ALL-two-answers.yaml  .\results\2022-1-final-babbage-v1.yaml .\results\2022-1-final-babbage-v2.yaml .\results\2022-1-final-babbage-v3.yaml .\results\2022-1-final-babbage-v4.yaml .\results\2022-1-final-babbage-v5.yaml 
+
     #python .\resultVisualiser.py .\results\2022-2-bert-paraphrase-miniLM-final.yaml .\results\2022-2-bert-distiluse-final.yaml .\results\2022-2-ALL-three-answers.yaml .\results\2022-2-ALL-two-answers.yaml  .\results\2022-2-final-babbage-v1.yaml .\results\2022-2-final-babbage-v2.yaml .\results\2022-2-final-babbage-v3.yaml .\results\2022-2-final-babbage-v4.yaml .\results\2022-2-final-babbage-v5.yaml 
+
+    #python .\resultVisualiser.py .\results\2022-3-bert-paraphrase-miniLM-final.yaml .\results\2022-3-bert-distiluse-final.yaml .\results\2022-3-ALL-three-answers.yaml .\results\2022-3-ALL-two-answers.yaml  .\results\2022-3-final-babbage-v1.yaml .\results\2022-3-final-babbage-v2.yaml .\results\2022-3-final-babbage-v3.yaml .\results\2022-3-final-babbage-v4.yaml .\results\2022-3-final-babbage-v5.yaml 
+
+    #python .\resultVisualiser.py .\results\2022-1-A-bert-distiluse-final.yaml .\results\2022-1-A-bert-paraphrase-miniLM-final.yaml .\results\2022-1-ALL-three-answers.yaml .\results\2022-1-ALL-two-answers.yaml  .\results\2022-1-final-babbage-v1.yaml .\results\2022-1-final-babbage-v2.yaml .\results\2022-1-final-babbage-v3.yaml .\results\2022-1-final-babbage-v4.yaml .\results\2022-1-final-babbage-v5.yaml

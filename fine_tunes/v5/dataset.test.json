@@ -1,0 +1,2279 @@
+[
+    {
+        "questionNum": 2,
+        "promptRaw": "ým, že sa jedná o hru 2 hráčov, tak ak jeden hráč vyberá na základe max a druhý na základe min, tak majú obaja šancu 50,50 že vyhrajú, na predpokladu, že nehrajú náhodné. .. vlastnosti - hra pre z hráče jevy, že vyhá hráč č 1 alebo č. 2 musia byť roonaké",
+        "completion": "0",
+        "login": "8310871a91f6396928f7e50acd47c2d3",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "2. Minimax je populární algoritmus pro řešení dvouhráčových her, kde předpokládáme, že jsou oba hráči racionální, tedy že maximalizují svůj užitek. Přesto polovina algoritmu spočívá v hledání minimálních hodnot. Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her, pro něž minimax lze použít."
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "9959b39950406bc66827b12959f783aa",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Nakreslete jednu standardní rekurentní vrstvu nad sekvencí délky 4 jako výpočetní graf (obecně a nezávisle na typu rekurentní sítě). V diagramu pak pro dva libovolné výstupní vektory označte, na jakých všech vstupech dané vrstvy (vstupních vektorech) každý z nich závisí. V odpovědi nesmí být žádný text kromě symbolů „01“, „II“, „024, „I2\", označujících vámi zvolené výstupy (O1 a 02) a k nim všechny náležící vstupy (II a I2)."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "V každém kroku generují na základě toho co doposud vygenerovali.;P(X|P(X|X)) P(XS|P|P|P(X|P(X|))",
+        "completion": "2",
+        "login": "6f5ac7c2b9cfe572c3654ff47bd016cb",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";13. Jakým postupem generují výstupní sekvence (např. věty) autoregresivní sequence - to-sequence (Seg2- seg) modely, které se používají například pro překlad jazyka? Vysvětlete jen funkci autoregre- sivního dekodéru. Ideálně napište i to, jakou pravděpodobnostní funkci tyto neuronové sítě modelují. V ideálním případě vysvětle algoritmus generování jen neformálním pseudokódem."
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "- strojové učení - hluboké učení úspěšně - počítačové vídení rozpoznavání obrazu.",
+        "completion": "3",
+        "login": "da6d7974b094aff71a711f08f4b890d0",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké znáte podobory umělé inteligence? (jen vyjmenovat)"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "- pravdepodobnosť třídy - třeba odhadnúť. Vieme celkový počet a počty dát ku každej triede. celkový počet... N pravd. tvrdý 1... p 1 počet dát v trúde 1 ... n,;potom p. = \"Dom, celkovo 3 reálné čísla: pupup3;Výpočet proud. pre nový vzor získáme podľa bayesovka pravidla, v kterých využijeme jednotlivé p. 1, 1, 1/2 čípy p. 3",
+        "completion": "0",
+        "login": "de9177b9575ef89d4b2f4e2c3a9d3cb0",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "5. Mějme dvourozměrná data pro tři třídy. Na těchto datech chceme natrénovat gaussovský klasifikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozi vzor patří do jedné, druhé či třetí třídy?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "n (x1, x2... xn) = 12 (xn w2) + l;- perception (jeden neuron v neuronové - síti);SED FE;Modeluje funkci pravděpodobnosti vstupy - sézory okolí výstup - nadcházející krok Agent ji používá k zjištění dalšího kroku, který má podniknout.",
+        "completion": "1",
+        "login": "1101bdc0b19ca8bc615b343a37e69620",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "14. Co modeluje neuronová síť (jakou funkci) při Deep Q-learningu (DQN)? Funkci vysvětlete (co jsou její vstupy, výstupy, jak ji pak agent používá). K-vstupy ne-volky W1 b - bases"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "Ne, obecne ne. Bez rekurentných vrstev nemal neuroni šít šancu odhadnout, kde začne písmeno slová, a kdy zkončí. Délku pro 1 písmeno je teda třeba měniť dinamičky. Potom existují jazyky u kteréch 1 písmeno + 1 oznak jako mapř. čínština, tím pádem musí n. s. nejak mít informace o tom, jaké byly předchozí písmena - zase nelze bez rekurentních vrstev.",
+        "completion": "1",
+        "login": "670bd457fe34808747e5544e5f168fb4",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "12. Je možné zpracovávat zvuk sítěmi bez rekurentních vrstev? Pokud ne, proč? Pokud ne, proč? Pokud ano, naznačte možnou architekturu pro kontrétní typ úlohy (vrstvy, jejich propojení)."
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "Jej rola je určiť chybu na 1 vzorke /1 datu - porovnamie očekávaného výstupu s reálným výstupem který sme získali. Jej vstupom je očekávaný výstup a výstup ktorý sme získali. Jej výstup je vzdělenosť (chyba medií týmito hodnotami",
+        "completion": "4",
+        "login": "554f1cfee56cf20c2f51a5331933eb85",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "Jaká je role loss funkce v učení s učitelem? Co je jejím vstupem a výstupem?"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "narrow AI deep A.I.",
+        "completion": "0",
+        "login": "cefd5c86a5a731b024525b6a26663cc8",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké znáte podobory umělé inteligence? (jen vyjmenovat)"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "3;56;D1;X;XXXX XXXxx 1 2 344 D1x x x X 0 D2 0 x x xx x X. XXX D3x x X 0X x x x x D3 D1 = 553 D2 = {15;X X;X;8;02 D;x",
+        "completion": "4",
+        "login": "6f5ac7c2b9cfe572c3654ff47bd016cb",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "4. Máme CSP úlohu s proměnnými X1, X2, X3 a odpovídajícími doménami D1 = fl, 2, 3, 4, 53, D2 = D3 = (1, 2, ..., 9, 10). Proveďte inferenci tak, abyste zajistili konzistenci hran pro omezení 3X2 x X3, X3 XI."
+    },
+    {
+        "questionNum": 7,
+        "promptRaw": "N-MAMEŽSTVO;Pferde;P(P|NOG) = P(= P(z) =;2) 0,975;p-pozitivní MEZ - TROPIVNÍ ZDRAVÍ;P(ZETIQUI P(MAG);PRAMENOM;podmasku pro- plán;P(PIN) = P(PIN) - P(N) = PIND) - plod;P(N;P(v|P;P(PIN) - P(N);P(P);Parket;P(N|P) =;P(P|N) - P(M);P);P(N|P);P(MP);P(P|N) - PLNIN;PIFINIT P(P|PIL) P(PIM|PUDA);P(AM) + 1-P(vekT2);P(MP);0,9 . 02;b, 2) - PANEM PRIVATIS - Marka Rudolf;PRAMENY P(vectř) = PALIKOLOGIe P(P) = P(P|P|PA|Z) P(PILZ) - 1 - P(PhE|A|X);P(PVH);P;NI;OR + 1 - 1975;0,910,12;0,919,25 0,99,25;P(PINS-P|N) = P(MP) - P(P)",
+        "completion": "0",
+        "login": "510077e41f24942dfd5a8da94fba89da",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "7. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dis- pozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, šance, že mu test vyjde negativní, je 97.5%. Jestliže má u náhodně vybrané osoby test pozitivní výsledek, jaká je pravděpodobnost, že je tato osoba nakažena tímto virem? Výslednou pravděpodobnost nejprve odvoďte obecně pomocí matematických symbolů pro (podmíněné, mar- ginální, sdružené) pravděpodobnosti a teprve poté dosaďte konkrétní hodnoty."
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "vrstvy;počet počet = c. d. - dr. [u. ] � počet jader;�;rozměry vstupního obrázku (počet pixelů v x a y;počet kanálů vstupního obrázku;dimenze, rozměry jádra - typicky d, = dych = 3;050",
+        "completion": "3",
+        "login": "4675df389dab25469cf2879db941e2af",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "12. Jaký počet operací násobení je potřeba pro výpočet jednoho výstupního pixelu jednoduché ZD kon- voluční vstvy z přednášek? Napište pouze matematický výraz a heslovitě význam symbolů, které v daném výrazu použijete. Pro jeden psel je M.N.N. N"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "� používá se v úlohách pro zpracování textu, jazyka.;� myšlenka je taková, že NS má přehled o pozici znaku/slova ve zpracovávaném slovu/větě;Výhody a nevýhody tlépe funguje na dlouhé víty / slova, které musí procházet mnoha úrovněmi rekurentních vrstev Může se hůře implementovat než RV, je pomalejší a nani nemusí být tak přesný.",
+        "completion": "2",
+        "login": "b1d20c748b7d25f2fd7a96cd3b7b8658",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jaká je základní myšlenka attention mechanizmu (pozornosti) v neuronových sítích? Jaké má výhody;oproti rekurentním vrstvám? V jakých úlohách se například používají?"
+    },
+    {
+        "questionNum": 2,
+        "promptRaw": "Zisk sa meniť nebude, ako Alfa-Beta, tak aj Minimex sa;snažia maximalizovať svoj zisk, v deterministickou prostredí bude revnaký - počítajú s tým, že si super vyberie ich nejväčšiu straku rvanie volby ťahu sa môže vďaka pruningu drasticky a viac zvýšit - aj o 50% (odrežeme hned na začiatku polovicu vetví), výsledné číslo závisí od aspoziadama výsledkov hry priemorná v listoch prehladávaného stromu. Minimálná rýchlost kde povodných 13.57 s.",
+        "completion": "4",
+        "login": "26a9350a320f080e23e865aa5320e0ac",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "2. Váš agent hraje deterministickou sekvenční hru pro dva hráče pomocí algoritmu Minimax. Při hraní proti sadě referenčních soupeřů na evaluační sadě her dosáhl průměrného zisku na hru 42 a na referenčním stroji mu trvala volba tahů v průměru 13.57 sekund. Uveďte, jak očekáváte, že se tyto metriky změní (zvětší/zmenší), když Minimax nahradíte algoritmem Alfa-Beta. Odhadněte, jak moc se změní, příp. stručně popište, jaké informace Vám k takovému odhadu chybí."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "tu;vstupný;obrázok;;+;;konvolučná vrstva;pooling;vrstva;konv. vrstva;plna propojená vrstva;hladá vo vskupe vzory skládá se z učincích za filtrov (většinou velkosti 3x3) počet kanálov závisí od formátu vstupných dát - napr. RGB obrázky budú spracované každý kanál (R, 6, 8) kanál zvlášť, čiernobiele obrázky majú len 1 14. Jaký je rozdíl mezi takzvanými „on-policy\" a „off-policy“ algoritmy posilovaného učení? Které jsou lepší a proč?;výstup závisí zmenšuje vstup, čiastočne od požadovaného sa stará o invarianciu výstupu CNN, napr. proti posunutiu ak máme klasifikační vzoru / objektu úlohu, aktivačná funkcia softmax by mohla udat pravdě- podobnosti třied. Inak to možn by napr. súřadnice lokalizovaného objektu odpoveď ána/nie na otázku, či na objekt náč",
+        "completion": "3.5",
+        "login": "26a9350a320f080e23e865aa5320e0ac",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "13. Velmi obecně popište nějakou jednoduchou konvoluční síť vhodnou pro klasifikaci obrázků. Ideálně vytvořte popsaný náčrtek sítě. Jaké vrstvy v ní mohou být, kolik v nich tak může být kanálů, co mohla ve bude výstupem a jaká by mohla být výstupní aktivační vrstva? pro o lna dochádza k vektor, aby s pracovat zvlášteniu vstupu z matice;skvo"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "u;- střední - rozptyl;hodnota;(x;Matice středu je vektor X - reálných čísel Kovarianční matice XXX - reálných čísel Parametry odhadujeme pomocí Maximum likelihood estimation:;X podle dimenze);max = arg max(ply) = arg max/fx/ aly",
+        "completion": "0",
+        "login": "1069b3fc4fb47f279610ef035bf163d4",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": ";5. Na dvoudimenzionálních datech pro tři třídy jsme natrénovali gaussovský klasifikátor. Pro nově příchozí testovaný vzor x nám tento generativní model umožní určit, s jakou aposteriorní pravděpodobností tento vzor patří do každé třídy. Jak tyto pravděpodobnosti vypočteme? Uveďte přesný postup, co a jak konkrétně počítat. Předpokládejte, že již máte k dispozici funkci pro vy- hodnocení hustoty pravděpodobnosti vícerozměrného gaussovského rozložení p (x) = N(x; u, 2). Vyjmenujte všechny parametry, kterými je tento gaussovský klasifikátor popsán, a napište, kde se tyto parametry využijí při vypočtu aposteriorních pravděpodobností tříd. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak jsme tyto parametry na trénovacích datech odhadli?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "BANEA;OLIER, I1 ONFI Už;vovati",
+        "completion": "1",
+        "login": "f45027d0227e0535990c00bf0827e2af",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Nakreslete jednu standardní rekurentní vrstvu nad sekvencí délky 4 jako výpočetní graf (obecně a nezávisle na typu rekurentní sítě). V diagramu pak pro dva libovolné výstupní vektory označte, na jakých všech vstupech dané vrstvy (vstupních vektorech) každý z nich závisí. V odpovědi nesmí být žádný text kromě symbolů „O1“, „II“, „024, „I2\" označujících vámi zvolené výstupy (O1 a 02) a k nim všechny náležící vstupy (II a I2). (A) E2"
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "3x5 = 15;15 x 15 pixelů vstupu;3+ (5 - 1) = 7;7x7 picelů; stride = 1;2.",
+        "completion": "4",
+        "login": "c548f0dd09eef8e11eb900931a7c2b65",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "11. 2D konvoluční síť začíná dvěma konvolučními vrstvami. První vrstva má 16 jader o velikosti 3x3 a druhá 32 jader o velikosti 5x5. Velikost vstupního obrázku je 64x64 a má 3 kanály. Napište velikost perceptive field aktivací druhé vrstvy (tedy na jaké oblasti závisí hodnoty v jednom „pixelu“ výstupu druhé vrstvy). Velikost perceptive field napište jak v pixelech vstupního obrázku, tak výstupní „ak- tivační mapy“ první vrstvy. Odpověď nesmí obsahovat žádný souvislý text delší než dvě slova."
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "parciální derivace chybové funkce podle vektoru vah používá se při hledání minima chybové funkce např. metodou gradientského sestupu",
+        "completion": "4",
+        "login": "05bb8bab96cd66903de8541d992ec881",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Co je „gradient“ v kontextu učení neuronových sítí? Jak je při učení využit?"
+    },
+    {
+        "questionNum": 2,
+        "promptRaw": "v tomto algoritme tým, že predpokladáme že sú obedraja hráči razionálny, vyberáme vždy vzor, kt. redie NIE K nášmu maximu ale súperovmu minimu, tým nic nedávame 2 E možnosť dosiakrúť ráčšieho výsledku. Na obr. vidíme, že vždy vyberieme minimály vzol aby sme vedeli, alú maximální podstroue. Pri odnotu vie súper dosiahnúť v tomto stavovom gberaní tâta - potom Vyberieme podstrom s vyššiou hodnotou MAX;Minmax: rozhodovanie;trou;SOPLAN",
+        "completion": "0",
+        "login": "fdb0df15e7ad924fe4403d60cca91fc6",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "2. Minimax je populární algoritmus pro řešení dvouhráčových her, kde předpokládáme, že jsou oba hráči racionální, tedy že maximalizují svůj užitek. Přesto polovina algoritmu spočívá v hledání mu spočívá v hledání minimálních 2-2 hodnot. Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her, pro něž minimax lze použít.;takový"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "1. musíme odhadnout 2 rozdělní hodnoty pravděpodobnosti pomá;N3 (w|E) � 2x3 + 2x3x3 = 6+18 = 24. 3 toto ván. povoláván Tyritologie však pro rozdílu triedu P(x|C|X|C) 26 2. odhadneme oprium periodšpodobnosti jednotných tříd p(ci), P(co). To jsou 2 parametry;+ 660 m parametrů;Parametry odhadneme metodou maximální věrohodnosti a tedy et třída ci (vsorků) P(x|C) = FIN(x|W|E) a P(C|) = 109 AP(X|C) 3. výpočet xI= ā P(x|c);DM;oe;P(x|c) PCS;D;PXXICIJ PCO",
+        "completion": "4",
+        "login": "87ec428b0fefd4586143fa90a6fa0581",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "výška - obraz na šírka - obrazu počet - Kanálov výška - konvolučného jadra - šířka - konvolučného - jadra",
+        "completion": "1",
+        "login": "fd4c95ac222b1b1ce4780a446a0662ff",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "12. Jaký počet operací násobení je potřeba pro výpočet jednoho výstupního pixelu jednoduché 2D kon- voluční vstvy z přednášek? Napište pouze matematický výraz a heslovitě význam symbolů, které v daném výrazu použijete."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "- budeme odhadovat střední hodnotu;- jelikož 3D *;tedy a je vektor a k je matice,;- pro 1 třídu tedy 3+3x3=12 reálných čísel, 2 třídy = 24 čísel - odhadneme je pomocí metody: maximální věrohodný odhad parametrů - díky těmto odhadnutým parametrům získáme při výpočtu posteriorní pravděpodobnosti podmíněnou pravděpodobnost p (x|closs), kterou získáme z odhadnutého rozložení pravděpodobnosti,",
+        "completion": "0",
+        "login": "0e33e15598be65ed678dd18f9f2bff79",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi-;fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? /Jak tyo parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "- učení s učitelem má k dispozici olabelovaná data, kde se učí pomocí ground truth a loss funkce - posilované má část dat označených a část neoznačených, kde se na neoznačených dále vylepšuje",
+        "completion": "1",
+        "login": "1069b3fc4fb47f279610ef035bf163d4",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Jaký je rozdíl mezi učením s učitelem a posilovaným učením (reinforcement learning) v tom, čím definujeme úlohu, kterou se má algoritmus naučit vyřešit?"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "- úprava parametrů při učení NN (gradient descent)",
+        "completion": "1",
+        "login": "ee09d9aaa8474a6513133aa8452fad6f",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Co je „gradient“ v kontextu učení neuronových sítí? Jak je při učení využit?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "1,5;druhý řád � parabolu;0,9;- došlo k přetrénování na málo vzorcích. Pokud bychom měli více trénovacích dat, mohla by tvořit přímku. Nebo jiný tvar - přímka by také vznikla, pokud bychom měli k =1 model tedy dostatečně negeneralizuje - naprovení - více trénovacích dat, zvolit jiný řád — ale zde nevíme jaký, protože máme málo dat",
+        "completion": "4",
+        "login": "5dedca302522fc18e562221b1854b2cc",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "8. Mějme tři trénovací vzory pro regresní problém: vstupy x1 = 0.0, x2 = 1.0 a xz = 2.0 a jim odpovídající výstupy y, = 0. 5, yz = 1.5 a 33 = 1.0. Nakreslete obrázek s těmito trénobrázek s těmito trénovacími daty a s řešením, které se na těchto datech naučí model polynomiální regrese druhého řádu (K = 2). Vysvětlete, co a proč jste nakreslili. Při trénovaní tohoto modelu nastal určitý problém, který nejspíše znemožní úspěšné použití tohoto modelu pro nová (testovací) data. O jaký problém se jedná, čím byl způsoben a jak by se dal napravit?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "GENERATIVNÍ GENERUJE NOVÉ PRVNÍ A pak určuje kam patří;DISKRIMINATIVNÍ URČUJE PŘESNĚ který PRVEK KAM patří;GAUSSOVSKÝ KLASIFIKÁTOR JE GENERATIVNÍ",
+        "completion": "0",
+        "login": "bc5bddaab7c3d9e082e47cbf3ff88fb8",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "*/ XX/x3 12 XXXIX *3/X x x;D1 = k 35 D2 = d 93 D3 = {5 8};+ X X X 3/6;A * X;8;X;8;X;1x;9 *;sp;12",
+        "completion": "4",
+        "login": "be96c674bbbb81dd11ef4e2551e7e813",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "4. Máme ČSP úlohu s proměnnými X1, X2, X3 a odpovídajícími doménami D, = D2 = D3 = [1,2,..., 9, 10]. Proveďte inferenci tak, abyste zajistili konzistenci hran pro omezení X2 = X2, X3 2X1 + 1, X3 x 2."
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "AGENTA považujeme (dle Turingova testu) za inteligentního, když nedokážeme rozpoznat, zda jsme odpověď na otázku obdrželi od člověka nebo od počítače (-agenta) Vycházíme při tomto tvrzení z předpokladu, že člověk je inteligentní.;ASPEKTU - porozumění problému — schopnost odpovědět na libovolný problém - schopnost udržet informaci o návaznosti otázek;Dle výše popsaného nemusí agent splňovat všechny aspekty. Stačí, když jeho chování bude velmi podobné člověku.",
+        "completion": "1",
+        "login": "c54fb9058a498e5d0a9138a3846352b4",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké jsou různé aspekty inteligence? (jen vyjmenovat) Musí agent vykazovat všechny tyto aspekty, abyste ho považovali za inteligentního?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "5b664b32ef0f72ca651874d45d93b7db",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad.;— musí být acyklický, orientovaný"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "b925207381f4c6854adc87388565073e",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "4. Uvažujte agenta, který je založen na hladovém lokálním prohledávání ve formě hill-climbingu s re- starty. Takový agent umí například řešit problém N dam nebo najít ideální pozici nové budovy v dis- kretizovaném světě. Uveďte, co takový agent obecně potřebuje od prostředí (problému) samotného a následně pak klasifikujte agentovu reprezentaci stavu (atomická /faktorizovaná /strukturovaná). Odpověď strukturujte do odrážek."
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "upravitelé parametry;vyzkoumat života vrstev výška cesty;hloubka vraty",
+        "completion": "0",
+        "login": "e3fcfce792cba2bd9b1f688e09b8636d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "lépe pracuje s odměnami v rámci učení NS při rozpoznávání textu, odpovědi na textové otázky",
+        "completion": "1",
+        "login": "845c61b8d1361a7636cf773d6064cb46",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jaká je základní;oproti rekurentní;? V jakých úlohá;rnosti) v neuronových sítích? Jaké má výhody;klad používají?"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "Aby se pro každou akci dal;spočítat počet kroků do oíle",
+        "completion": "0",
+        "login": "2b1500702cc62787245e747cf6e7e907",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "4. Uvažujte agenta, který je založen na hladovém lokálním prohledávání ve formě hill-climbingu s re- starty. Takový agent umí například řešit problém N dam nebo najít ideální pozici nové budovy v dis- kretizovaném světě. Uveďte, co takový agent obecně potřebuje od prostředí (problému) samotného a následně pak klasifikujte agentovu reprezentaci stavu (atomická /faktorizovaná /strukturovaná). Odpověď strukturujte do odrážek."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "chceme, aby vektory slov, které spolu souvisí byly blízko sebe. Např. slovo „král\" bude blízko slovu „muž“, ale daleko od slova „žena“.;World Vector aritmetika nám umožňuje dělat aritmetické operace nad slovy. muž + panovník = král",
+        "completion": "4",
+        "login": "fdd9ca784e674c04aa5436a352eb8651",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "13. Když reprezentujeme text pomocí „word embeddings“, jaké chceme, aby tyto vektory měly vlast- nosti? Co znamená pojem „Word Vector aritmetika“?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "0;Jednosměrná výstupní sekvenční vektory 13;obousměrná:;stupní Stavovský vektor;vstupní sekvenční vektory;výstupové;stavový vektor;a zvař b(x2, axi);ai = b(ni, a jo = 1, a i n);výhody obousměrných - mohou se spracovávat i opačné sekvence nevýhoda - sekvence v jedno",
+        "completion": "2",
+        "login": "ec4e79dd816915a29d6d64b954c5de69",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Co je to obousměrná (bidirectional) rekurentní vrstva? Jak se liší od „normální\" rekurentní vrstvy? Odpovězte krátce a jen vysvětlte rozdíl, výhody a nevýhody/omezení. Nesmíte vysvětlovat obecně rekurentní vrstvy."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": ";Draháček;X;opst pach. pro třídil;P(C|X);;;2. POXIZ POZ;odhadnuté (elegarial disp) a prior, probabilities;napiš Red Bl;Or, O;gau s dto;odloučení;tyto památky isif P( XII;Spojení se stav do Bajkalu do Bajkale na Radomově Radomoravě.;falssovská 30 volební;3;+6;8;;í V;I-;Prose.;6 sportky;2 (q-času) = 20 reálnými čísly;MRV;RD",
+        "completion": "4",
+        "login": "25c648790a6392af3eddc3ded14a7c92",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "Na třídimenzionálních datech pro dvě třídy jsme natrénovali gaussovský klasifikátor. Pomocí 5. Bayesova vzorce můžeme pro nově příchozí testovaný vzor spočítat, s jakou aposteriorní pravděpo- dobností tento vzor patří do které třídy. Napište tento vzorec a vysvětlete, jak přesně vysvětlete, jak přesně vyhodnotíme jednotlivé výrazy v tomto vzorci (tak, aby podle Vašeho popisu bylo možné tento výpočet imple- mentovat). Předpokládejte, že již máte k dispozici funkci pro vyhodnocení hustoty pravděpodobnosti vícerozměrného gaussovského rozložení p (x) = N (x; p. „2). Vyjmenujte všechny parametry, kterými je tento natrénovaný gaussovský klasifikátor popsán, a řekněte, jak se tyto parametry využijí (do kterých výrazů se dosadí) při výpočtu apošteriorních pravděpodobností tříd. Jakou mají tyto para- metry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak jsme tyto parametry na trénovacích datech odhadli?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "ON;pojídání stář;On závisí na I, a poráběním stavu O2 zákesí na I, I z a pozáběrnim stavu",
+        "completion": "4",
+        "login": "eae9dd0163ad1161a9ef65474a7ad30a",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Nakreslete jednu standardní rekurentní vrstvu nad sekvencí délky 4 jako výpočetní graf (obecně a nezávisle na typu rekurentní sítě). V diagramu pak pro dva libovolné výstupní vektory označte, na jakých všech vstupech dané vrstvy (vstupních vektorech) každý z nich závisí. V odpovědi nesmí být žádný text kromě symbolů „01“, „II“, „024 ... 12\" označujících vámi zvolené výstupy (01 a 02) a k nim všechny náležící vstupy (II a 12)."
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "pro prohledání AND-OR grafu vznikne sekvence if then jsem tedy schopen příště již v některých stavech rozhodnout, která akce by mohla vést k řešení (nebudu tedy muset prohledávat již pravý podstrom, půjdu přímo do levého",
+        "completion": "0",
+        "login": "1069b3fc4fb47f279610ef035bf163d4",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "1. Při každém prohledávání je možné za cenu paměti urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání v nedeterministickém prostředí je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete 3-uzlový podstrom AND-OR stromu, ve kterém dojde k zapamatování, a 3-uzlový podstrom, ve kterém se zapamatovaná informace zužitkuje. Stručně popište, jak k onomu zužitkování dojde, tedy, v čem bude spočívat úspora. Při kreslení předpokládejte, že prohledávání probíhá zleva doprava."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "3. dimenze jsou výstupní? parametr dvouvzměrného gaussova rozložení, pro každou třídu jedno rozložení f(x) a N (xxx, de, O2) � poslední hodnotu, P2 - rozptyl (variance) potřebuji 2x4 reálných čísel pro reprezentaci parametrů odhadneme je metodou maximální věrohodnosti z těchto dat - po vložení hodnot (x, y) (nebo (xxx) spíš...) do rozložení pro každou třídu má dostaneme pravděpodobnost, že tato data do dané třídy patří.;3D data;pro 2 třídy",
+        "completion": "0",
+        "login": "b1d20c748b7d25f2fd7a96cd3b7b8658",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "691b3e014c609607f10df53d1d8cfa0b",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jaká je základní myšlenka attention mechanizmu (pozornosti) v neuronových sítích? Jaké má výhody oproti rekurentním vrstvám? V jakých úlohách se například používají?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "p(x|c) =;p(c);psi že vzor patří do každej triedy vypočítame pomocou Bayesovho vzorca na ten potřebujeme apriorní pst. každej tricelej pic) = počet vzorok v triede a celkový počet vzorov vo všechných triedach likelihood - pre každú wiedu spočítame pomocov maximum likelihood odhadov parametrov parametre majú podobu vektoru pre Strednú hodnotu a matice pri smerodajnej odchytke 3 reáme čísla pro střední hodnotu a 9 pre odchylku;p(x|c) = p(c|x) p (x) Euplo, k)",
+        "completion": "0",
+        "login": "1fe5f64c5593bf37ac6a5b332f1693fa",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "5. Na dvoudimenzionálních datech pro tři třídy jsme natrénovali gaussovský klasifikátor. Pro nově příchozí testovaný vzor x nám tento generativní model umožní určit, s jakou aposteriorní pravděpodobností tento vzor patří do každé třídy. Jak tyto pravděpodobnosti vypočteme? Uveďte přesný postup, co a jak konkrétně počítat. Předpokládejte, že již máte k dispozici funkci pro vy- hodnocení hustoty pravděpodobnosti vícerozměrného gaussovského rozložení p (x) = N (x; u, 2). Vyjmenujte všechny parametry, kterými je tento gaussovský klasifikátor popsán, a napište, kde se tyto parametry využijí při vypočtu aposteriorních pravděpodobností tříd. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak jsme tytovány? Jak jsme tyto parametry + pst = pravdepodo nost na trénovacích datech odhadli? p(c|x) p(x)"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "Nejdříve projde postupně věta/slovo 1 směrem a na tanci vrstvy se jakoby výsledek spojí se zpětným průchodem tou samou rekurentní vrstvou i se stejným vstupem a tento výsledek dopředného a zpětného průchodu se pošle do další vrstvy",
+        "completion": "2",
+        "login": "4bf747ef2120d309620fbd78fe771b7f",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Co je to obousměrná (bidirectional) rekurentní vrstva? Jak se liší od „normální\" rekurentní vrstvy? Odpovězte krátce a jen vysvětlete rozdíl, výhody a nevýhody/omezení. Nesmíte vysvětlovat obecně rekurentní vrstvy."
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "-d Db BESID = DESID = DA (b-d)",
+        "completion": "1.25",
+        "login": "e3fcfce792cba2bd9b1f688e09b8636d",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "3. Pro prohledávání stavových prostorů obecně platí, že prohledávání do šířky (BFS) má dramaticky větší paměťové nároky než prohledávání do hloubky (DFS). Uvažujte necyklický (tj. jako strom vypadající) prohledávací problém, kde má každý stav 6 potomků, celková hloubka problému je D a řešení se nachází v hloubce dr. Vyjádřete obecně v big- O notaci paměťovou náročnost BFS a DFS (v uzlech) při řešení takového problému, a to v případě, že (1) si algoritmy neudržují žádnou množinu EXPLORED (seznam CLOSED), a naopak, (2) pokud si množinu EXPIORED udržují. BFS (1) DFS (1) = D - b"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "musí být konečný;/;včet vstupu svých při",
+        "completion": "0",
+        "login": "1101bdc0b19ca8bc615b343a37e69620",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad."
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "aeroplan po 10;10 4/10;50 5/50 Z;100;26%",
+        "completion": "2",
+        "login": "c22548046f82977bab5cf4ddd15e85e4",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. 20% procent populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, je šance, že mu test vyjde negativní, také 90%. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "3x27;Dr P2/0;S;2 J;3 O;4 x;XXXIX;5 110;x;6;X;x;7;X;x;899;x;x;X;X;10;X;3/XIX XIO;X;x;X;x;D1 = 2 BANATI D2 = {13 D3 = {43",
+        "completion": "4",
+        "login": "d93e16d9eedd00e09bdea8e2562b9e78",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "4. Máme CSP úlohu s proměnnými X1, X2, X3 a odpovídajícími doménami D1 = fl, 2, 3, 4, 53, D2 = D3 = fl, 2, ..., 9, 107. Proveďte inferenci tak, abyste zajistili konzistenci hran pro omezení 3X2 x X3, X3 ŘI."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "Gaussovské rozložení má dva hlavní parametry střední hodnotu (vrchol křivky) a směrodatnou odchylku (8);Výpočet pak probíhá pomocí Maximum likelihood estimation: (arg max p(x|y) = argymax Mp (x, ly)",
+        "completion": "0",
+        "login": "1069b3fc4fb47f279610ef035bf163d4",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "-;hlouchá manélce inteligence - prohledávání kavalerie bored umuzované přírodou - rohoumé na verovilě - neurovové sítě stropové viení - včení s vritelem vs bez vrtale. posilované viení",
+        "completion": "4",
+        "login": "eae9dd0163ad1161a9ef65474a7ad30a",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké znáte podobory umělé inteligence? (jen vyjmenovat)"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Neuronové sítě L deep learning stallowlearning",
+        "completion": "2",
+        "login": "afe81d7a80453838440677e5234cabd3",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké znáte podobory umělé inteligence? (jen vyjmenovat) strojové učení ks učitelem L bez učitele"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "vektor, určující kterým směrem by být posunuty vnitřní parametry sítě tak, aby dosahovala lepších výsledků. Je derivací loss;funkce. čím blíže je sradient O, tím blíže jsme k naučené síti /síti, co se na trénovacích datech víc nenaučí.)",
+        "completion": "4",
+        "login": "2de1ac8e1214010d396cb407a91c1f99",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Co je „gradient“ v kos;rých sítí? Jak je při učení využit?"
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "P(nak) = P(pos). P(naklpos) = Pinak). P(poslank);P(posl. naz) = 0,9;P(pos) =?;0,1 . 0,8 + 0,2. 0,9 = P(pos) P(posledn). P(zár) + Pinak). P(poslanek)",
+        "completion": "4",
+        "login": "fbdbb7fc219dc1afa5f5a66fe575382b",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6.20% procent populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, je šance, že mu test vyjde negativní, také 90 %. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní? ney P(P|x|x) = 0, 9; Pleosl ROM = 0,1"
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "môže nastať, že pri použití zdej hodnoty sa model až nenaučí Nic. - diruguje � stane sa tak pri použití vysokej hodnoty konstanty naopak nízka hodnota ten predlžuje učenic. - hodnotu je tuda voliť experimentálne a poctivo, ide o najdôtežitejšim hodnotu pri učení. model začne divorgovat at kroky optimalizácie sú příliš velké, teda gradientný zastup neblíži k minimu, ale „beží“ hore - dole, kedy výsledkom může byť až NaN alebo nekonečno.",
+        "completion": "4",
+        "login": "515a0274ee53fe5a4fd634d0589bec73",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": ";II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu CD a SCD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "konvoluční sieť, kt. bude z obrázkov detego rať napúli paličkové písnená ABOD - by sme mohli vytvoriť napr. takt;Začali by sme pár kanálni, kt. by detekovali vertikálně hrany -> napríklad hran a horezonté hran - podobne ako som naznačil v úloze 11, k tomu by sme mohli pridať aj šilné hrany, myslím že by to pomohlo napr. , vo vyšších vrstvách by sme spojením kard vedeli detekovať tvary špecifické pro dané písmená � silné hraje pre A, k, kt. obsahují aj horiz. či vertikále či jistá kombinácia pre oblúky v písmencích. Po skombinovaní by sme na najvyššej vrstve dostali písmeno ht. najviac sedí k týmto kombináciam hodnot. z konvolucii",
+        "completion": "1.5",
+        "login": "fdb0df15e7ad924fe4403d60cca91fc6",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "13. Velmi obecně popište nějakou jednoduchou konvoluční síť vhodnou pro klasifikaci obrázků. Ideálně vytvořte popsaný náčrtek sítě. Jaké vrstvy v ní mohou být, kolik v nich tak může být kanálů, co bude výstupem a jaká by mohla být výstupní aktivační vrstva?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "PCY P(x|= odhadnout lze jako počet vstupních dat daného třídy deleno počtem každého vzorků P(y) - odhadnout lze jako podíl vzorků danej třídy a počet každého vzorků P(x|y) - odhadnout pomocí vzorce P(x|y) = arg max (N|x; u, ?)) P(yx) - odhadnout pomocí Bayesův vzorce 1869 N (x|N, [2) x - je matice vstupných dat, má discenzie 3 (dimenzia) � počet dat v tříde - floating point číslá u - je matice 3x1 pro odhad štřednej hodnoty - floating point číslo - pomocí vnouce u= XII 312 5- je matice) hororizační matice 3x3 pro odhad rozptylů - flating point čelá - pomocí vzorce 2 1/2 (xo-re) Wornst Je třeba odhadnot PCX) 1 frát, P(ys 2 krát, P(x|y) Zkrátka - a kotomu u 2 krát, [Zkrát- a těm pádem podle Ragesův vzorce lze vypočítat odhad P(y|x) - zase 2 hrát pro 2 třídy;ex)",
+        "completion": "1",
+        "login": "670bd457fe34808747e5544e5f168fb4",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "5. Na třídimenzionálních datech pro dvě třídy jsme natrénovali gaussovský klasifikátor. Pomocí Bayesova vzorce můžeme pro nově příchozí testovaný vzor spočítat, s jakou aposteriorní pravděpo- dobností tento vzor patří do které třídy. Napište tento vzorec a vysvětlete, jak přesně vyhodnotíme jednotlivé výrazy v tomto vzorci (tak, aby podle Vašeho popisu bylo možné tento výpočet imple- mentovat). Předpokládejte, že již máte k dispozici funkci pro vyhodnocení hustoty pravděpodobnosti vícerozměrného gaussovského rozložení p (x) = N (x; II, 2). Vyjmenujte všechny parametry, kterými je tento natrénovaný gaussovský klasifikátor popsán, a řekněte, jak se tyto parametry využijí (do kterých výrazů se dosadí) při výpočtu aposteriorních pravděpodobností tříd. Jakou mají tyto para- metry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak jsme tyto parametry na trénovacích datech odhadli?"
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "ak má štandardná vrstva tak počet parametrov = 3x3 x počet vrstven;. os",
+        "completion": "2",
+        "login": "2a75e5d12870ce9323a75192fef31a49",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "II. Co jsou matický číslo) konvolučné filty;„učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Artificial General Intelegence - něco o čem nevíme nic a chceme toho dosahnou (napodoba lidskému intelektu). Má knowledge, může se učit během celého životního cyklus;AI, který se používá pro konkrétní tasky. Když umí obličije tak sotva může dělat něco jiného než ten tak na který byl natrenovan. Může dosáhnout a obejít lidskou performance ale jen v konkrétním tasku.;třarization NLP (Natural Language Processing) enchancement ASR (Automatic speech Recognition) recognition recognition - detection cv (computer vision) traching nějaký data modelling se taky dá považovat za AI",
+        "completion": "4",
+        "login": "837032a3c2d8c387024651eb631ff039",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";9. Jaké znáte podobory umělé inteligence? (jen vyjmenovat) AGI;Narrow"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "5053112ed2eb6e04292b5773a3faaebe",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Je při posilovaném učení vhodné, aby agent dostal odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění úlohy? Proč? Nůže to naopak způsobit nějaké problémy?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "generatívny model předpokladá, že dáta pochádzajú z určeného rozloženia, určiť najlepšie parametre tohto rozloženia a na základě všech určí hranic klasifikácia príkladem je lineárny klasifikátor;diskriminativny wodel sa vrno snaží určiť rozhodovacie hranici klasifikácie púkladem je lineárny logistický klasifikátor",
+        "completion": "1.5",
+        "login": "4701ad87d7f1c9e2341736c8aedc6c39",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "U klasifikačním problémů na vstupní sadu chceme uhádnout aposteriorní pravdepodobno p(x|c) - t. j. pravdepodobnost, že vstupní vzorek x patří do nejakej tříde, jak o ňom máme k dispozice informace a - patří do třídy c.. V regresním problémů neuf neaproximujeme p(x|c), ale chceme data reprezentovat pomocí funkce.;g 10 August",
+        "completion": "0",
+        "login": "670bd457fe34808747e5544e5f168fb4",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "8. Jaký je rozdíl mezi klasifikačním a regresním problémem? Pro každý tento problém uveďte alespoň dva různé modely, které lze trénovat pro jejich řešení. Jakou podobu mají trénovací data pro tyto modely /problémy? Jaké objektivní funkce se používají při trénovaní těchto modelů?"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "xx1: D1 = E223, 453 D3 = 21, 43 D2 = 21. 108 FALKERY: D2 = 813 D2 = 848 D1 = 853 x1: 455 v x 3. 12 4 V;D1 = 853 D2 = § 13 b3 = 543",
+        "completion": "4",
+        "login": "b6d73a834ec5aad1c8b3b05ccf9b43c0",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "4. Máme CSP úlohu s proměnnými X1, X2, X3 a odpovídajícími doménami D1 = (1, 2, 3, 4, 5?), D2 = D3 = (1, 2, ..., 9, 10). Proveďte inferenci tak, abyste zajistili konzistenci hran pro omezení 3X2 x X3, X3 XI."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "339df3958e8b2954a8f4aa1cf116a8cf",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "5. Mějme dvourozměrná data pro tři třídy. Na těchto datech chceme natrénovat gaussovský klasifikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozi vzor patří do jedné, druhé či třetí třídy?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "Parametry klasifikátoru jsou u - střední hodnota a E-Kovarianční matice. u je vektor středních hodnot o 3 prvcích - 1 reálné číslo (střední hodnota) pro každou slimenzi. Z je \"3D matice\" (tensor). o rozměru 3x3, tedy obsahuje 9 reálných čísel. Celkem 3+9 = 12 čísel. Takto získáme rozložení pro každou třídu. Vypočítáme pomocí rozložení posteriorní pravděpodobnost p(class|x) = P(class|!|p(X|class) pro každou třídn.;P(x)",
+        "completion": "2",
+        "login": "cd371a8615558884b8b143a0e59fa853",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je por popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "Její vstupem je výstup modelu a výstup trénovacích dat. Výstupem je rozdíl mezi týmito dátami -> napríklad mean-synared errov. V učení s učitelem je její role proporování výstupu modelu s výstupem v trénovacích datech. Snažíme se o její minimalizaci.",
+        "completion": "4",
+        "login": "ffd524f75656215b0379cb7da3820608",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "10. Jaká je role loss funkce v učení s učitelem? Co je jejím vstupem a výstupem?"
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "Při velmi nízkých hodnotách se může stát, že se bude učit až velmi pomalu a třeba i nemusí dojít k řešení - neefektivní Narpsk při vyskytl hodnotěl může divergovat, napři, zkřikat např. forkú , špatně tedy modeluje postup úkol",
+        "completion": "4",
+        "login": "e3fcfce792cba2bd9b1f688e09b8636d",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "II. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu CD a SCD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "oproti rekurentním vrstvám? V jakých úlohách se například používají? skoro Podle nich se určuje místo, kde se nachází v celém kontrastu část vstupu;porovnat, používají se hn;Výhoda;x něco jiného. Nemusí v paměti ukládat tolik dat. Používají se například k extrakci z textu na základě otázky",
+        "completion": "1",
+        "login": "5dff9e7052fea9930bd73c07a81648b0",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jaká je základní myšlenka attention mechanizmu (pozornosti) v neuronových sítích? Jaké má výhody"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "02430be22cdd097e46bda4c98975d85d",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "12. Jaký počet operací násobení je potřeba pro výpočet jednoho výstupního pixelu jednoduché ZD kon- voluční vstvy z přednášek? Napište pouze matematický výraz a heslovitě význam symbolů, které v daném výrazu použijete."
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "konzervám gehorsamstabil Balkan N 3 vždy doma Bož Tady Drahenice a Bude musel pochovaný z toho bylo musil obojíš opakovat, ať polepší nedosáhne agent Kel\";prodá vždy akciu dní v nedokončuje nicht ohne daherige stand ANTY - A -;A-B-BAX je postupnosť akcií, pri ktorej sa agent dostane z ttaného bodu v stavovom průstore vždy do civilu, teda stavu O.",
+        "completion": "4",
+        "login": "02430be22cdd097e46bda4c98975d85d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "I. Agent se pohybuje ve znázorněném stavovém prostoru pomocí akcí A, B a X. Jedná se ovšem o částečně pozorované prostředí a to natolik, že agent nemá vůbec žádné senzory. Navrhněte řešení problému ve formě posloupnosti akcí, které vedou k zaručenému dosažení cíle (stav O)."
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "3. 16. 3. 32.32 - 5.3;= 322.25.27.2 = 32 50.27;3.16.3.32 = 27.16.3;2;Perceptive field: 64x64 x (27.16.32)",
+        "completion": "1",
+        "login": "89b8ce031e1483c47fb6f8f8aa150a96",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "11. 2D konvoluční síť začíná dvěma konvolučními vrstvami. První vrstva má 16 jader o velikosti 3x3 a druhá 32 jader o velikosti 5x5. Velikost vstupního obrázku je 64x64 a má 3 kanály. Napište velikost perceptive feld aktivací druhé vrstvy (tedy na jaké oblasti závisí hodnoty v jednom „pixelu“ výstupu druhé vrstvy). Velikost perceptive field napište jak v pixelech vstupního obrázku, tak výstupní „ak- tivační mapy“ první vrstvy. Odpověď nesmí obsahovat žádný souvislý text delší než dvě slova."
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "konvoluční jádra;n x m (např. 3x3 pro;velikost matice konvoluce 1x vel. matice konvoluce 2 x počet jader (=počet výstupních kanálů) x počet vstupních kanálů",
+        "completion": "4",
+        "login": "9959b39950406bc66827b12959f783aa",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;;;11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "loss funkce počítá s míru správnosti výstupu systému v porovnání se správným výstupem. Vstupem je výstup systému a správný výsledek. Výstupem je číslo udávající jak moc se tyto dva liší např. metodou mean-square error.",
+        "completion": "4",
+        "login": "ab70f7e934170236b880d9ba1b0b162a",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "10. Jaká je role loss funkce v učení s učitelem? Co je jejím vstupem a výstupem?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "65: 950 DFS: 9= 0;h = hľ;h = dlžka stromu - aktuálna pozicia;8;ob",
+        "completion": "2.75",
+        "login": "fd4c95ac222b1b1ce4780a446a0662ff",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "3. Máte k dispozici odladěnou implementaci A* a * problem, g, h). Na vstupu očekává problem (umí rozbalovat uzly a ověřovat, zda jsou cílem), g (popisuje cenu uražené cesty, kde cesta jené cesty, kde cesta je seznam uzlů) a h (popisuje odhad zbývající ceny do cíle); původní funkce jsou a hx. Jaké g a h funkci a x předáte, aby simulovala greedy search a depth-first search (DFS)?"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "chceme, aby slova, která si jsou nějakým způsobem blízká (synakticky významové, apod.) byla blízko sebe (euklidovská vzdálenost)",
+        "completion": "3",
+        "login": "ae04cdd739eceeae85fda0bd00049cd7",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "13. Když reprezentujeme text pomocí „word embeddings“, jaké chceme, aby tyto vektory měly vlast- nosti? Co znamená pojem „Word Vector aritmetika“?"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "Grac musí být;acyklický;a orientovaný;deterministický);smysl funkce;vstup;výstup",
+        "completion": "4",
+        "login": "9fae5964355733843daa9b7668b03bed",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad."
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "8da82df4606715cb145f7f979908efc1",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "14. Jaký je rozdíl mezi takzvanými „on-policy“ a „off-policy“ algoritmy posilovaného učení? Které jsou lepší a proč?"
+    },
+    {
+        "questionNum": 2,
+        "promptRaw": "- Alga-Beta dosahuje rovnaké zisky ako MiniMax. Alpa-Beta môže nájsť výsledok rychlejšie ak by mohla prerezať časť stromu. Potrebujeme poznať akc strom vyzerá. ALPEN",
+        "completion": "4",
+        "login": "fd4c95ac222b1b1ce4780a446a0662ff",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "2. Váš agent hraje deterministickou sekvenční hru pro dva hráče pomocí algoritmu Minimax. Při hraní proti sadě referenčních soupeřů na evaluační sadě her dosáhl průměrného zisku na hru 42 a na referenčním stroji mu trvala volba tahů v průměru 13.57 sekund. Uveďte, jak očekáváte, že se tyto metriky změní (zvětší/zmenší), když Minimax nahradíte algoritmem Alfa-Beta. Odhadněte, jak moc se změní, příp. stručně popište, jaké informace Vám k takovému odhadu chybí."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "72819d573f479644e0f732b57bc8f13b",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jaká je základní myšlenka attention mechanizmu (pozornosti) v neuronových sítích? Jaké má výhody;oproti rekurentním vrstvám? V jakých úlohách se například používají?"
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "510077e41f24942dfd5a8da94fba89da",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "1. Při každém prohledávání je možné za cenu paměti urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání v nedeterministickém prostředí je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete 3-uzlový podstrom AND-OR stromu, ve kterém dojde k zapamatování, a 3-uzlový podstrom, ve kterém se zapamatovaná informace zužitkuje. Stručně popište, jak k onomu zužitkování dojde, tedy, v čem bude spočívat úspora. Při kreslení předpokládejte, že prohledávání probíhá zleva doprava."
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "=> P(zdrav) = 0,8;P(nak) P(poz/nak) = P(poz) P(zdrav|poz) = P(pozitiv|pozdrav) P(zdrav) P(pozitivar). P(zdrav) - od P(poz;P(nak) =0, 2 - zdrav, poz P(port) = 0,9 � P(nesl mák) = 0,1 rak P(poz /zdrav) =0,9 SSP (neylepší o) P(neglectra) =0, a =) P(poziebna) = P(pozdě?);P(ezdrav|pož);P(poz) P(hakl poz);o;P(voz) =;(poz) =;0,8 = 30%;P(poznak) P(nak);P(nak / poz)",
+        "completion": "0",
+        "login": "89b8ce031e1483c47fb6f8f8aa150a96",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. 20% procent populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, je šance, že mu test vyjde negativní, také 90%. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "P(x) = 0,2 . 0,5 = 0,1;pravdepodobnosť že bude pocitňuje 0,1.",
+        "completion": "0",
+        "login": "8310871a91f6396928f7e50acd47c2d3",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. 20% procent populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, je šance, že mu test vyjde negativní, také 90%. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "nastavitelné váhy",
+        "completion": "0",
+        "login": "ee4b7041a56afa5dba176c9bb60a631d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "pri učeni s učitelou máme sadu příkladov wo formáte tieto vstupy majú také také očakávanú hodnotu features � labels;v posilovanom učení máme prostředie a vieme ohodnotiť, ale dobre agent splnil úlohu v danou prostredí, ale nevieme ako má vypadať výsledok, a snažíme se získat čo najlepšie přesne;ohodnotenie (agent sa snaží)",
+        "completion": "3",
+        "login": "688c2754432d58f63f516f2cf5958c11",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Jaký je rozdíl mezi učením s učitelem a posilovaným učením (reinforcement learning) v tom, čím definujeme úlohu, kterou se má algoritmus naučit vyřešit?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "IDS - interativní prohledávání do hloubky;- máme jasně určenou maximální hloubku (větší než 8. úroveň napodobená - max hloubka se s každým cyklem zvětšuje o 1;v paměti;V tomto případě vždy najde řešení, které je optimální. Nebude existovat možnost nalezení jiné a kratší cesty. Paměť je šetřena tím, že ukládáme uzly pouze z aktuálně prohledávané větve (a ne \"komplet\" strom jako u BFS);moc hluboko, neprohledáváme",
+        "completion": "3.5",
+        "login": "b4935d607791eae472f1c04b426b2d18",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "3. Jakou neinformovanou metodu je nejlepší použít (nejméně paměti, nejkratší čas), pokud víme, že nejlevnější řešení prohledávací úlohy je v 8. úrovni prohledávacího stromu? Metodu po stromu? Metodu pojmenujte nebo stručně popište. Odůvodněte, proč je metoda optimální z hlediska nalezeného řešení i výpočetních nároků."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "b4935d607791eae472f1c04b426b2d18",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "13. Velmi obecně popište nějakou jednoduchou konvoluční síť vhodnou pro klasifikaci obrázků. Ideálně vytvořte popsaný náčrtek sítě. Jaké vrstvy v ní mohou být, kolik v nich tak může být kanálů, co bude výstupem a jaká by mohla být výstupní aktivační vrstva?"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "- myslím si, že v určitom časovém horizontě to bude možné, stačí si zobrať príklad z chat GPT, kt. podľa níma generuje velmi slušně výsledky z hladiska umelý inteligencie � tým pádem, že projekt Chet GPT má velký úspedek tak aj viacero investora sa momentálne snaží do tohto odvetvěa investovať velké množstvo financií, tak za mělolko dokud to bude možné, nehorozie o extrémne rychlem vývoji hardvéru, kl. neodmyslitelnou časťou",
+        "completion": "4",
+        "login": "8310871a91f6396928f7e50acd47c2d3",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "9. Myslíte si, že je /není možné vytvořit silnou umělou inteligenci (General AI)? Prč? Důležité jsou;argumenty a bylo by vhodné, aby vaše argumenty podporovaly vaši odpověď na první část otázky."
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "- odmeny už počas riešenia úlohy môžu viesť k rýchlejšiemu procesu učenia;- ak by odmeny neboli správne (napr. dostane odmenu aj keď sa od cíla vzdialil), môže to naopak viesť k zhoršeniu výsledkov",
+        "completion": "4",
+        "login": "cd3566ec8a54afb4c8f0ad4f22b7a48e",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Je při posilovaném učení vhodné, aby agent dostal odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění úlohy? Proč? Může to naopak způsobit nějaké problémy?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "Pro gaussovský klasifikátor je třeba pravděpodobnost každé třídy (prior) P(A), P(B) oba se počítají podílem mezi počtem prvků zdaně třídy a počtem prvků celkově. Dále je třeba hustota pravděpodobností pro každou třídu: p(data) třída) kterou aproximujeme pomocí gaussovského rozložení, tedy je třeba spočítat střední hodnotu u a rozptyl 0? Takto máme vše co je potřebné pro výpočet Baxessova vzorce P(class) P(dato Htída) P(cluss|duto) = P(dato) Celkově tedy 6 reálnými čísly 2x prior, 2x ju, 2x0? Parametry je, o odhadu Ze vzorců, které se dají vypočítat metodou maximální věrohodnosti. Poté co přijde dato, pravděpodobnost pro všechny třídy a poté zaleží, jaký přístup volíme - Jestli nám stačí P větší než 50% nebo potřebuje nic toto.",
+        "completion": "2",
+        "login": "89b8ce031e1483c47fb6f8f8aa150a96",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "Pro obě třídy je potřeba odhadnout střední hodnotu je a rozptyl Jelikož jsou data třídimensionální, u je vektor (re) = 3 a 5^ matice 3x2. Pro každou třídu se tedy jedná o 3 + 9 reálných čísel, dohromady 28. Použijeme odhad pomocí metody maximální věrohodnosti. Pro každé příchozí dato spočítáme pravděpodobností, že náleží rozdělení dané porovnately u jednotlivých tříd Vybereme třídu, kde je tato pravděpodobnost nejvyšší. P(c|x) = P(X|C) P(c);je;(x)",
+        "completion": "2.5",
+        "login": "feef7d1e9a822ca84b2d9340a42f8ede",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "Slovo Slovo slovo ANOT;nejdříve ENKODER zahoduje;o Kontextový vzor LSSMEN V PRVNÍ ČÁSTI POSTAVE NA VSTUP SPECIÁLNÍ STARÉ gimbol a vyberveruje první slovo toto Slovo jde OPŘE NA JEHO VSTUP A VÝGERMERU SR DALŠÍ SLOVO Takto pokračujeme pokud nevÝGERNeROSE CSTOPY gÉMOL POTŘ SKONČÍME BŘADY CELÉHO TOMUTO pROCESU JE PRODÁVÁN JAK KONFECTOVÝ VEKTOR TA POJEDNÁ VYGENEROVANÉ SLOVO. MODELUJE PRAVDĚPODOBNOST SLOV(A) V ZÁVISLOSTI NA KONTRKTU A PŘEDCHÁZEJÍCÍM SLOVĚ P(SLOVA) = KONTRX A POSLOVALI;VÝZNAM VĚTY DO „KONTRXTOVÉHO vRATORU“ A tento vektor Je předá dekodéru, které",
+        "completion": "3",
+        "login": "55153f3976b813a5a04f49ae4dce8ac9",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jakým postupem generují výstupní sekvence (např. věty) autoregresivní sequence - to-sequesivní sequence - to-sequence (Seg2- seg) modely, které se používají například pro překlad jazyka? Vysvětlete jen funkci autoregre- sivního dekodéru. Ideálně napište i to, jakou pravděpodobnostní funkci tyto neuronové sítě modelují. V ideálním případě vysvětle algoritmus generování jen neformálním pseudokódem."
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "02;IL",
+        "completion": "0",
+        "login": "495ef79db86e9a0196ac1c8f89e61f67",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Nakreslete jednu standardní rekurentní vrstvu nad sekvencí délky 4 jako výpočetní graf (obecně a nezávisle na typu rekurentní sítě). V diagramu pak pro dva libovolné výstupní vektory označte, na jakých všech vstupech dané vrstvy (vstupních vektorech) každý z nich závisí. V odpovědi nesmí být žádný text kromě symbolů „01“, „II“, „02 4/, „I2\" označujících vámi zvolené výstupy (O1 a 02) a k nim všechny náležící vstupy (II a I2)."
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Zjištění jestli stroj (umělá inteligence) se chová inteligentně (kongritivní chování jako člověk) Závěry jsou ANO, NE. Nedostatky - stroj je příliš inteligentní (rychlý) � nechová se jako člověk Smysl má u generické AI - rozhodnutí zda se o generické AI jedná",
+        "completion": "3.5",
+        "login": "5c55ddf6cabad401d3e98d861f0c8205",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "9. Co je cílem Turingova testu a jaké jsou jeho dva možné závěry? NEPIŠTE, jak se provádí! Vnímáte nějaké zásadní nedostatky tohoto testu? Tedy takové, které například mohou zpochybnit platnost jeho výsledku, nebo které omezují doménu, kdy má vůbec smysl tento test použít vzhledem k jeho účelu?"
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "66;Pokud si zapamatujeme že ve stomb je řešení při průchodu dalších větví již můžeme vynechat s větší hloubkou protože už víme, že máme řešení s lepší;ty",
+        "completion": "0",
+        "login": "8e74b62c6d2cfebfb003da2801a4b51c",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "1. Při každém prohledávání je možné urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání s nejistotou je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete (pokud možno malý) AND-OR strom, ve kterém k tomu dojde, a stručně popište, jak to proběhne."
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "vím-li, že v určitém stavu;lze pouze provedenim jedné akce se dostat do výsledku, pokud tento stav navštívím znova, mohu jít přímo k výsledku (tzv. zkratka)",
+        "completion": "1",
+        "login": "00d52da93a2ea09d33d9c34959629374",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "I. Při každém prohledávání je možné za cenu paměti urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání v nedeterministickém prostředí je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete 3-uzlový podstrom AND-OR stromu, ve kterém dojde k zapamatování, a 3-uzlový podstrom, ve kterém se zapamatovaná informace zužitkuje. Stručně popište, jak k onomu zužitkování dojde, tedy, v čem bude spočívat úspora. Při kreslení předpokládejte, že prohledávání probíhá zleva doprava."
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "konvoluční filtry;(výška x a šířka + hloubka + bias) + počet = parametr",
+        "completion": "4",
+        "login": "8f89c29a449586071735da9d9be70bb9",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "- Závěrem TS je zda je stroj inteligentní, nebo ne. Nedostatky - Předpoklad, že jsou lidé inteligentní - čínský pokoj [nekonečna kniha přepisů vět)",
+        "completion": "2.5",
+        "login": "1101bdc0b19ca8bc615b343a37e69620",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "9. Co je cílem Turingova testu a jaké jsou jeho dva možné závěry? NEPIŠTE, jak se provádí! Vnímáte nějaké zásadní nedostatky tohoto testu? Tedy takové, které například mohou zpochybnit platnost jeho výsledku, nebo které omezují doménu, kdy má vůbec smysl tento test použít vzhledem k jeho účelu?"
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "generativní model - modeluje rozložení trénovacích dat p(X|C) a apriorní pravděpodobnost p(i) - ze kterých následně odvodí pravděpodobnos posteriorní p(C|X) potřebujeme předpoklad rozdělení stačí méně dat (nepřetrénuje se (tolik));diskriminativní - rovnou odhaduje pravděpodobnost třídy P(C|X) - - nenechá se moc ovlivnit ontliery které jsou vzdálené od hranice - snadno se přetvěruje na málo datech (lepší mít více dat)",
+        "completion": "2",
+        "login": "6f5ac7c2b9cfe572c3654ff47bd016cb",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "h(w|=0);do číl;Pokud bude cena hran nulová (tedy g(v) =0) a heuristika bude také vždy vracet 0, tak za předpokladu, že se prioritní fronta A* chová pro stejné váhy stejně jako normální fronta, bude chovat A* jako BFS a tím pádem vždy nalezne optimální řešení.",
+        "completion": "0",
+        "login": "0cab81d7505839d36bcf11ca74e5baf6",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";3. U heuristiky v A požadujeme, aby dávala optimistický odhad zbývající ceny do cíle. Demonstrujte na vhodném příkladu s jediným cílovým uzlem, že i při porušení této podmínky může dojít k nalezení optimálního řešení. Do prohledávacího grafu vepište jak ceny hran, tak hodnoty heuristiky."
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "- ct C násobení, kde c je velkosť (šírka ver výška) šablóny konvolucíe",
+        "completion": "2",
+        "login": "fdb0df15e7ad924fe4403d60cca91fc6",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "12. Jaký počet operací násobení je potřeba pro výpočet jednoho výstupního pixelu jednoduché ZD kon- voluční vstvy z přednášek? Napište pouze matematický výraz a heslovitě význam symbolů, které v daném výrazu použijete."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "klasifikace;vstupy Generativní Gaussovaly Klasifikátor (výstup;MLE parametrov Gaussovky;;;",
+        "completion": "0",
+        "login": "b9f5b9793d2ca99f24ea098f529807e7",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "8. Jaký je rozdíl mezi klasifikačním a regresním problémem? Pro každý tento problém uveďte alespoň dva různé modely, které lze trénovat pro jejich řešení. Jakou podobu mají trénovací data pro tyto modely /problémy? Jaké objektivní funkce se používají při trénovaní těchto modelů?"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "� orientovaný � acyklický � Huzol je buď tensor, alebo funkcion -;6 III;octnit;1",
+        "completion": "4",
+        "login": "56ffb625c1d50b61aa838947499f8ea9",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "P(nakazeny) = 0,2 P(pozit /nahazeny) = 0,9 X = nakazeny P(pozit)? pozit. nakazený P(nakazeny / pozit) = 0,9;PAYL = P(A). P(W|= ROXIX p(x);Loudou kotrmelec P(x|y) = P(Y|X). P(X);PCY;P(pozit) = P(nakaz/pozit). Plnokazem p(pozit);Off. 012;P(pozit) nalezen;P(nakazený|pozit) = 0,1;pipatit l =;9;p(pozit) = 0,90,02;019;P(pozit) = 0,2",
+        "completion": "0",
+        "login": "fdb0df15e7ad924fe4403d60cca91fc6",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "02430be22cdd097e46bda4c98975d85d",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "13. Když reprezentujeme text pomocí „word embeddings“, jaké chceme, aby tyto vektory měly vlast- nosti? Co znamená pojem „Word Vector aritmetika“?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "konvariačnou maticou a odchylkou (rozptylova);klasifikátor je popíšu Matica 3x1, rozpty 3x3, Sú reprezentované 12 timi číslami. Klasifikátor je po fietoparametre odhadneme paužitím MLE (arg, max p (x|h)) Uděla tomu potom vieme získať odhad hastoty pravdepodobnosti a apriorní pravdepodobnosť Na základe toho vieme pomocou bayesova vzorca vypočítač pravdepodobnost friedy pre nové dat p(x|t) p(t) p(t|x);P(X)",
+        "completion": "1",
+        "login": "eb15628acdbcae020a12326ce6b1c8e3",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "p(P) = 0,26",
+        "completion": "4",
+        "login": "ef1da85ed907b35a0b27aab2472edbb5",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. 20% procent populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, je šance, že mu test vyjde negativní, také 90 %. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní? N - nahrazený P(NG|N) =0,9 P(PIN) = 0,9 P(N) = 02 p(p) =? NN - nenahrazený PCHNIJ = 0,8 PUBLIKING = 0,1 P(PINNI = 0,1 p - pozitivny NG = negativný p(p(p) = Ep(pli) pli) = p(p) = p(FIN) p(N) + p(P|NN) = ANN) = 99.02 + 0,20,8 = 0,26 TGSY"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "8ce0af8bc8320da3cdad209461ad5f7c",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Nakreslete jednu standardní rekurentní vrstvu nad sekvencí délky 4 jako vencí délky 4 jako výpočetní graf (obecně a nezávisle na typu rekurentní sítě). V diagramu pak pro dva libovolné výstupní vektory označte, na jakých všech vstupech dané vrstvy (vstupních vektorech) každý z nich závisí. V odpovědi nesmí být žádný text kromě symbolů „01“, „II“, „024 označujících vámi zvolené výstupy (O1 a 02) a k nim všechny náležící vstupy (II a I2)."
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "XAXBI;PLÁN AKCÍ;JE pOSLOVNOST EX, A, X, X, XI.",
+        "completion": "4",
+        "login": "55153f3976b813a5a04f49ae4dce8ac9",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "I. Agent se pohybuje ve znázorněném stavovém prostoru pomocí akcí A, B a X. Jedná se ovšem o částečně pozorované prostředí a to natolik, že agent nemá vůbec žádné senzory. Navrhněte řešení problému ve formě posloupnosti akcí, které vedou k zaručenému dosažení cíle (stav O). A"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "PISKRIMNATIVNÍ MOD.;O vÝRODA: pokud má náhonované pravděpodobnostní rozložení dat, mohu z něi vzorkovat data nová O výHoDA: stačí mu méně dat ONEVÝHODA: pomalu ší;Učí se unapování vstupních dat (x) přímo � x O NEVÝRODA: očekává více vstupních dat AVÝHODA: rychlejší než generativní O NEVÝHODA: snadno se přetrénuje na málo datech O GENERATIVNÍ MODEL modeluje pravděpodobnostní rozložení dat P(X|Y) a prior (apriorní pravděpodobnost) P(Y) PŘÍKLAD:;na výstup rabely (Y) příklad: logistická regrese k - nejbližších sousedů;Gansovský kvalifikátor",
+        "completion": "3",
+        "login": "c54fb9058a498e5d0a9138a3846352b4",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "1234567 9 10;X52x11;x 3 x 2;XI X2 XII. XI 83=8;* 3) XXXxxx x XX xxxxxx xxxxx (9);xxxx e xx;x32341 x3 641 = 7 157",
+        "completion": "3.5",
+        "login": "05bb8bab96cd66903de8541d992ec881",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "4. Máme CSP úlohu s proměnnými X1, X2, X3 a odpovídajícími doménami D1 = D2 = D3 = [1, 2, ..., 9, 10?. Proveďte inferenci tak, abyste zajistili konzistenci hran pro omezení X2 = X2, X3 + 2X1, X3 x 3 x 2 x 2 2 1 x 2 = x 2"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "Gradient - derivace funkce, která nám určuje směrnici (neboli sklon) pokud budeme počítat gradient loss funkce tak víme, že máme jít v protisměru, abychom se dostali na minimum",
+        "completion": "3",
+        "login": "fdd9ca784e674c04aa5436a352eb8651",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Co je „gradient“ v kontextu učení neuronových sítí? Jak je při učení využit?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "greedy search: a* (problem, 0, W);depth-first search: a* (problem, g*); 0)",
+        "completion": "2",
+        "login": "c9c4060106249fda11a3043c33e8d8a2",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "3. Máte k dispozici odladěnou implementaci A* a * problem, g, h). Na vstupu očekává problem (umí rozbalovat uzly a ověřovat, zda jsou cílem), g (popisuje cenu uražené cesty, kde cesta je seznam uzlů) a h (popisuje odhad zbývající ceny do cíle); původní funkce jsou a hx. Jaké g a h funkci a x předáte, aby simulovala greedy search a depth-first search (DFS)?"
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "- peneratívny modeluje rozdelenie hustoty pravdepodobnosti pre jednotlivé triedy a je schopný povedať s akou pravdepodobnosťou dáta patria do danej triedy - diskriminativní van ich \"naturdo\" rozděluje a je schopný povedať rovno že do anej triedy dá to patrí sorerativny je napríklad Gausovská klasifikátor - rozpoznávání s nutné rozumové - dokáže určiť pravděpodobnosti jednotlivých tried liškriminativny môže buť napríklad ineárna regresi citlivý na pretrénovanie nearest-nějšho do besedy",
+        "completion": "1",
+        "login": "2a75e5d12870ce9323a75192fef31a49",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "cace 6. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "05bb8bab96cd66903de8541d992ec881",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Co je to obousměrná (bidirectional) rekurentní vrstva? Jak se liší od „normální\" rekurentní vrstvy? Odpovězte krátce a jen vysvětlte rozdíl, výhody a nevýhody/omezení. Nesmíte vysvětlovat obecně rekurentní vrstvy."
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "ON-poLICY � tyto alg. vylepšují svoji policy, pouze na základě výsledků aktuálního běhu - nejsou žádným způsobem ovlivněny předchozími běly;Off-pOLICY � tyto alg. vylepšují svoji policy i na základě předchozích běhů — mají paměť, která si tyto výsledky pamatuje;OFF-POLICY jsou lepší, jelikož není nutné vždy trénovat zcela od znova, ale máme již k dispozici data z předchozích běhů � úspora času a výpočetního výkonu",
+        "completion": "3",
+        "login": "c54fb9058a498e5d0a9138a3846352b4",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "14. Jaký je rozdíl mezi takzvanými „on-policy“ a „off-policy“ algoritmy posilovaného učení? Které jsou lepší a proč?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "x) TIXY = 0,1;P(voz|N);P(poz). P(N|por.);P(pr.);30,0 K. 0. 9 /6 08 Vojnost konvoluce - akce 2x;26;0,2 P(pozit = 0, 2;P(vra.) =0,20 = 20 %",
+        "completion": "2",
+        "login": "ee4b7041a56afa5dba176c9bb60a631d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "- vstup;Výstup je semenován pomocí určení pravděpodobností (slova) na základě předešlích slov a první vstupní vektor je Start, noták podle vstupu vypočítá pravděpodobnost slov a zvolí jedno z pravděpodobných. - na druhé vstupu je vektor prvního slova, pravděpodobnost 2. slova vyspočítáme na základě prvního",
+        "completion": "4",
+        "login": "1470d08ba3cc205b74780668fd31047f",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jakým postupem generují výstupní sekvence (např. věty) autoregresivní sequence - to-sequence (Seg2- seg) modely, které se používají například pro překlad jazyka? Vysvětlete jen funkci autoregre- sivního dekodéru. Ideálně napište i to, jakou pravděpodobnostní funkci tyto neuronové sítě modelují. V ideálním případě vysvětle algoritmus generování jen neformálním pseudokódem.;"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Príklady aspektor inteligencie - intuicia - motorické zručnosti / pohyb - schopnosť učiť sa - schopnosť odvodsonať na základe bakta (reasoning) - má vedoucie samého sebo (consciousness, self-awareness) - schopnosť ucítiť so (emputia) Agent nemusí vykazovať všetky tieto aspekty, aby sme ho parašovali za inteligencní Napr. hlasový asistenc nemusí mať vedouce samého sebo a schopnosť pohybu B",
+        "completion": "4",
+        "login": "03ba496bc2d137a3a094d1f420246958",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";9. Jaké jsou různé aspekty inteligence? (jen vyjmenovat) Musí agent vykazovat všechny tyto aspekty, abyste ho považovali za inteligentního?"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "3x2 x3: D2 = {1, 2, 3}; 83 = 64, 5, 6, 7, 8; 9i 10} X3K XI: DA = §53; D3 = E43 3x2 x 3: D2 = {13; D3 = E43 X3. XI: D1 = §53: = 53.;D1 = {53; D2 = {1 1}; D3 } 4}.",
+        "completion": "4",
+        "login": "2999da745d9319388937680319e94ef8",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "4. Máme CSP úlohu s proměnnými X1, X2, X3 a odpovídajícími doménami D1 = (1, 2, 3, 4, 5), D2 = D3 = fl, 2, ..., 9, 107. Proveďte inferenci tak, abyste zajistili konzistenci hran pro omezení 3X2 x X3, X3 XI."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "p(poztěhovaný;žitinný BATESLU VZOREC: plzchatý / poz.) o P(pozit.);pozdravuj P(pozdrav.) - pozdravuj;p(pozitivní|nak.) = 0,9 P(zdravý|pozitivní) = 0, 1;Ko;IPC (pok, nak) = p(poz|vok). P(nak) =0, 18 p(poz, zdrav) = p(pozi zdrav). p eo;P(poz.);(poz) = s p(poz;podle zkolejna;9 = 0,18 80,09 = 0,7;0,70;RE;P(pozitivní) = 0, 26;p(zdravý) poz.)",
+        "completion": "0",
+        "login": "c7262a745405372830d5c0a21157e71d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní? 0,1 zdravý � =0,2 P(nakažení)"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "ANALYZA;� OVT;IIV;Nelze cyklus;-> bur;nelze;Lze",
+        "completion": "3",
+        "login": "6f5ac7c2b9cfe572c3654ff47bd016cb",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad."
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "2;b(4) =",
+        "completion": "2",
+        "login": "13a036ceabe98bc5840a382a0558bafc",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";3. U heuristiky v A požadujeme, aby dávala optimistický odhad zbývající ceny do cíle. Demonstrujte na vhodném příkladu s jediným cílovým uzlem, že i při porušení této podmínky může dojít k nalezení optimálního řešení. Do prohledávacího grafu vepište jak ceny hran, tak hodnoty heuran, tak hodnoty heuristiky."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "klasifikátor je popsán střední hodnotou „u“ a odchylkou střední hodnotu získáme u = 1 ? X x na kdo N je počet dit kategorie odchylku získáme o = 1 � x x � � u , pro každou a kdynaí dostaneme určité gaurosti rozložení (odchylku umocním následně na 2. mocíma) nově příchozí vzor",
+        "completion": "0",
+        "login": "e89c2ef8845bc8936dfb0dced67540b5",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "5. Mějme dvourozměrná data pro tři třídy. Na těchto datech chceme natrénovat gaussovský klasifikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto parametry: reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozi vzor patří do jedné, druhé či třetí třídy?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "- Běžná rekurentní vrstva zpracovává sekvenci jedním směrem, což může pro delší sekvence způsobit nepřesnosti a ztrátu kontextu \"z minulosti\". Oboumožná jak propaguje informaci oběma směry, což může kontext celé sekvence opřesnit.",
+        "completion": "3",
+        "login": "c22548046f82977bab5cf4ddd15e85e4",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Co je to obousměrná (bidirectional) rekurentní vrstva? Jak se liší od „normální\" rekurentní vrstvy? Odpovězte krátce a jen vysvětlte rozdíl, výhody a nevýhody /omezení. Nesmíte vysvětlovat obecně rekurentní vrstvy."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "Generativní model modeluje explicitně rozložení původních dat (tříd).;Diskriminativní model pouze hledá funkci popisující hranice mezi třídami.;Generativní model: gaussovský klasifikátor diskriminativní model: hogietická regrese",
+        "completion": "2",
+        "login": "c548f0dd09eef8e11eb900931a7c2b65",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "Učenie s učitelem - dáta sú dvojice (vstup, ciolog, výstup). Máme teda jasne definovaný cid. Vieme, že sa má daná NN naučiť, prevenc řešenie. Reinforcement learning - viel nie je jasne detinerový. Chceme aby sa agent videm dostal, ničeo změnil a za to získana odmeny. Nevieve však ale tohoto dorama docíliť, očala veme, že to ogar získá a naučí sa. Agent musí najet všesonie, napomóc ho dopadne. Nichody však nače byť podléhám vůbec výš správce vietnie problému. Agent vytvořena akcie, které hodnotíme odverenou alebo získa odnem až na konci.;Vrouc ohodnotit úpladky porovnat loss fcie, u kterej sve schopný počítať gradient. Pri posilovani není však može být vyslechnu nejdá hodnota počítať gradiew",
+        "completion": "4",
+        "login": "880e6fd1ec018d28c458796c730c184e",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Jaký je rozdíl mezi učením s učitelem a posilovaným učením (reinforcement learning) v tom, čím definujeme úlohu, kterou se má algoritmus naučit vyřešit?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "P(nakazení) = 0,2;plnenakazení) =0, 8 p(+ |nakazení) =0, 9 p(- (nahazení) =0, 1 (1-0, 9) P(nenakazení|t) = 0, 1 P(naharení|t) = 0,9;(1-0, 2);P(+) = 2.;P(A|B) =;P(PIA) . P(A);P(B);P(P;P(B|A). P(B|A);P(A|B);P(+);P(t) nakazení . plna;p (nak. 1 +);=> P(t) =;0,9 .0,2;0,9;2",
+        "completion": "4",
+        "login": "3a3d21d3d346f65e160c3859d0a79dc3",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 7,
+        "promptRaw": "PINY;= 80%;20%;P(P|N) = 90% P(N|PINN) = 97,5% P(PLN|) = 2,5% p(PROKONOM);PVH;P(N|P P(N|P) = PIPINI = PINJ = B. , 7o P(P) P(PI=P|P, N|) + PIP, NN) = 100 + 2/30 200 P(P|N|=P(P|P|A|N) = P(N) = 900 80 . 2,5 100 TOO P(P, NN|=P(P|PINN) - PINN);30/6;1000;7/100",
+        "completion": "4",
+        "login": "28820ed35e5098a689435823adf2e4e2",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "7. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dis- pozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, šance, že mu test vyjde negativní, je 97.5%. Jestliže má u náhodně vybrané osoby test pozitivní výsledek, jaká je pravděpodobnost, že je tato osoba nakažena tímto virem? Výslednou pravděpodobnost nejprve odvoďte obecně pomocí matematických symbolů pro (podmíněné, mar- ginální, sdružené) pravděpodobnosti a teprve poté dosaďte konkrétní hodnoty. N. nakazeny NN - nenakázány p. positivny NP - negativny"
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "generativy model;modeluje pravdepodobnostné rozloženie diskriminativy - rovno sa snaží odhodnéť daní třídu.;generativy lin regresia - náchylnosť na overfitting - potreba nacdat;diskriminativy Log. regresia robustnějšie - funguje dobre ai pri menšom počte dát",
+        "completion": "4",
+        "login": "43986b8b6ebee0468cbde54d39668894",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "fdb0df15e7ad924fe4403d60cca91fc6",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "klasifikace;regrese;klasifikace - s anotací;Data;regrese - bez anotace;vede na učení;bez učitele (např. k-means);vede na učení s učitelem",
+        "completion": "0",
+        "login": "b4935d607791eae472f1c04b426b2d18",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "8. Jaký je rozdíl mezi klasifikačním a regresním problémem? Pro každý tento problém uveďte alespoň dva různé modely, které lze trénovat pro jejich řešení. Jakou podobu mají trénovací data pro tyto modely /problémy? Jaké objektivní funkce se používají při trénovaní těchto modelů?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "tyto parametry reprezentovány? Jak jsme tyto parametry;u - střední hodnota, vektor s dvěmi hodnotami u =;- střed v grafu;[- konvoluční matice, matice 2x2 (as aug), kde \"a\", a\" nám určují výšku a šířku,“ a \"aj určují rotaci - v grafu;20 BERN;- Pro každou třídu odhadneme parametry a vytvoříme hustotu pravděpodobnosti -> tzn. máme 3 hustoty pravděpodobnosti - při přechodu nového vzoru x vypočítáme pravděpodobnost příslušnosti ke každé třídě - z odhadnutých hustot pravděpodobností - parametry odhadneme z trénovacích dat - klasifikace - výběr nejvyšší pravděpodobnosti maximum likelihood",
+        "completion": "1.5",
+        "login": "ee09d9aaa8474a6513133aa8452fad6f",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": ";5. Na dvoudimenzionálních datech pro tři třídy jsme natrénovali gaussovský klasifikátor. Pro nově příchozí testovaný vzor x nám tento generativní model umožní určit, s jakou aposteriorní pravděpodobností tento vzor patří do každé třídy. Jak tyto pravděpodobnosti vypočteme? Uveďte přesný postup, co a jak konkrétně počítat. Předpokládejte, že již máte k dispozici funkci pro vy- hodnocení hustoty pravděpodobnosti vícerozměrného gaussovského rozložení p (x) = N(x; u, 2). Vyjmenujte všechny parametry, kterými je tento gaussovský klasifikátor popsán, a napište, kde se tyto parametry využijí při vypočtu aposteriorních pravděpodobností tříd. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny na trénovacích datech odhadli?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "Ne - agent by se učil provádět průběžné kroky a mohl by ignorovat splnění úlohy",
+        "completion": "2",
+        "login": "6f5ac7c2b9cfe572c3654ff47bd016cb",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Je při posilovaném učení vhodné, aby agent dostal odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění úlohy? Proč? Může to naopak způsobit nějaké problémy?"
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "25c648790a6392af3eddc3ded14a7c92",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "1. Výsledkem prohledávání ve známém, deterministickém a plně pozorovatelném prostředí (pomocí, např., IDS.) je agentův plán ve formě lineární posloupnosti akcí. Co je výsledkem prohledávání ve známém, nedeterministickém a plně pozorovatelném prostředí? (Nápověda: není to nic Markovovo.) Jak se v tom uplatní agentovy senzory?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "Klasifikační - triedence objektov do skupin (jablké, granáty);Regresný - Korelácia nedajú výškou a výhod populárie;Dála sú vo forme matic o rozmezoch počtu parametrov.",
+        "completion": "0",
+        "login": "ee4b7041a56afa5dba176c9bb60a631d",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "8. Jaký je rozdíl mezi klasifikačním a regresním problémem? Pro každý tento problém uveďte alespoň dva různé modely, které lze trénovat pro jejich řešení. Jakou podobu mají trénovací data pro tyto modely /problémy? Jaké objektivní funkce se používají při trénovaní těchto modelů?"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "např. emoční inteligence: „schopnost vnímat na vjemy, aritmetick inteligence; schopnost rozhodovat na základě vjemů Nejsou potřeba všechny aspekty; např. agent bez emoční inteligence se dá považovat za inteligentní",
+        "completion": "4",
+        "login": "ec4e79dd816915a29d6d64b954c5de69",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";9. Jaké jsou různé aspekty inteligence? (jen vyjmenovat) Musí agent vykazovat všechny tyto aspekty, abyste ho považovali za inteligentního?"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "agent potřebuje nejaké - počítání přibližné řešení;(nemusí být správné (uklidní) - omezující podmínky pokud je to cSp problém;reprezentace stavu je atomická",
+        "completion": "1.5",
+        "login": "5369915f58938b8046fd891fd93ecd2f",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "4. Uvažujte agenta, který je založen na hladovém lokálním prohledávání ve formě hill-climbingu s re- starty. Takový agent umí například řešit problém N dam nebo najít ideální pozici nové budovy v dis- kretizovaném světě. Uveďte, co takový agent obecně potřebuje od prostředí (problému) samotného a následně pak klasifikujte agentovu reprezentaci stavu (atomická /faktorizovaná /strukturovaná). Odpověď strukturujte do odrážek."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "; zugsfürste erst nicht am Ende dahin an Heraus genommen werden wird u. erst noch nicht anders das Eine verspachen verschien verseit deien versen Berseichen ven versen den veren zu zu zu zu zich zich zu zu zu zu zu der zu ver zu der zu der der Ba P(poz);P(poz / nak);P(nakl poz);P(poz / nak). P(nak) č. 9. 0,2;P(nak);(poz). P(nak / poz);0,9;P(poz) = 0,2",
+        "completion": "4",
+        "login": "de9177b9575ef89d4b2f4e2c3a9d3cb0",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus rem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní? poz (nak) = 0,9 (park) = 0,2 P(nak / poz) = 0,9 P(por) =?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "Při učení s učiteľom definujeme úlohu pomocou datasetu (vstupy a výstupy) Při posilovanom učení definujeme úlohu prostředím a akciami, s kterými agent operuje",
+        "completion": "2",
+        "login": "4701ad87d7f1c9e2341736c8aedc6c39",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Jaký je rozdíl mezi učením s učitelem a posilovaným učením (reinforcement learning) v tom, čím definujeme úlohu, kterou se má algoritmus naučit vyřešit?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "tyl pro každou třídu. mají podobu jen = 1/4 kn a 8 x = 1/4 2 x - y) parametry odhadneme pomocí maximálně věrohodného odhadu arg max p(X|M, &?) = arg max T p(x|m|m, 82) tzn. hledáme takové parametry MNO, které maximalizují funkci. pokud p(class) � p(class) tak bude vzor patřit do třídy 1 (class);je potřeba odhadnout střední hodnotu a rozp",
+        "completion": "1.5",
+        "login": "ae04cdd739eceeae85fda0bd00049cd7",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "5. Mějme dvourozměrná data pro tři třídy. Na těchto datech chceme natrénovat gaussovský klasifikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozi vzor patří do jedné, druhé či třetí třídy?"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Určite lze vytvořit General AI. Problém vytvoření takové AI je vlastne velmi komplikované verze Reinforcement learning problémů, jak je to reinforcement learning problém, určite musí existovat nejaký neuronoví síť, které to modeluje - t. j. řešení na problém existuje, len jsme to dosud nenašli. Jiním argumentem je, že víme, že existuje neco, co má požadované vlastnosti (třeng) General AI - člověk - potom je třeba len nájsť techniku, které člověka transformuje na neurální síť, a máme problém vyřešen.",
+        "completion": "3",
+        "login": "670bd457fe34808747e5544e5f168fb4",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "9. Myslíte si, že je /není možné vytvořit silnou umělou inteligenci (General AI)? Poč? Důležité jsou;argumenty a bylo by vhodné, aby vaše argumenty podporovaly vaši odpověď na první část otázky."
+    },
+    {
+        "questionNum": 7,
+        "promptRaw": "Maximum Likelihood;Diskriminativny klasifikátor rozhoduje o rozdělení do tříd",
+        "completion": "0",
+        "login": "fd4c95ac222b1b1ce4780a446a0662ff",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "7. Uveďte dva příklady diskriminativně trénovaných modelů pro klasifikaci, které umožňují vyhodno- cení aposteriorních pravděpodobností tříd pro vstupní (testovaný) vzor. Alespoň pro jeden z těchto dvou příkladů uveďte, jak se tyto aposteriorních pravděpodobnosti konkrétně spočítají pro příchozí testovaný vzor x. Na základě uvedeného výpočtu aposteriorních pravděpodobností vysvětlte, proč se jedná o diskriminativně trénovaný klasifikátor."
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "1) BFS - rozbalí všechny uzly do hloubky dt - exponenciální par náročnost DFS - rozbalí jednu větev do hloubky D � lineární pam. naročnost (P (k);BFS = do8, DFS = D. b 2) Pokud problém necyklí neměl by mít seznam explored zásadní vliv na paměťovou složitost",
+        "completion": "1.5",
+        "login": "ab70f7e934170236b880d9ba1b0b162a",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "3. Pro prohledávání stavových prostorů obecně platí, že prohledávání do šířky (BFS) má dramaticky větší pamětové nároky než prohledávání do hloubky (DFS). Uvažujte necyklický (tj. jako strom vypadající) prohledávací problém, kde má každý stav 6 potomků, celková hloubka problému je D a řešení se nachází v hloubce dr. Vyjádřete obecně v big- O notaci pamětovou náročnost BFS a DFS (v uzlech) při řešení takového problému, a to v případě, že (1) si algoritmy neudržují žádnou množinu EXXLORED (seznam CLOSED), a naopak, (2) pokud si množinu EXPIORED udržují."
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "Príliš časté odmenovanie môže mať za následok, že agent sa nenaučí nic \"nové\", resp. len to, 2 čomu ho programátor do vedie. Naopak pri odmeňovaní len za dosiamotie cieľa sa agent nemusí naučiť nič ak je cielový stav vzdialený, mými slovami, agent nebude vedicť čo má robiť.",
+        "completion": "4",
+        "login": "fdb0df15e7ad924fe4403d60cca91fc6",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Je při posilovaném učení vhodné, aby agent dostal odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění úlohy? Proč? Nůže to naopak způsobit nějaké problémy?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "- častokrát je vhodná aj prieběžná odmena, ale závisí od konkrétneho případu - ak sa má agent dostať z bodu A, do bodu B, tak by bez priebežných odmien vóbec nemusel najisť cestu, pretože ju ešte nikdy neabsolvoval (resp. by to trvalo neúmerne dlho a bolo by to neefektivne) - ak by autonómne autá trénovali na principe len koncových odmien, malo by to katastrofálne účinky, � potrebujeme vyhodnocovat priebežne",
+        "completion": "3",
+        "login": "e3fb369e536a528a79919619d3ccb301",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Je při posilovaném učení vhodné, aby agent dostal odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění úlohy? Proč? Nůže to naopak způsobit nějaké problémy?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "Je vhodné oceňovaní i průběžně, například za vzdálenost od cíle. Pro zjištení optimální cesty, případně pro vyhnutí se negativním ohodnocením Oceňovaní dokáže urychlit učení agenta",
+        "completion": "3",
+        "login": "afe81d7a80453838440677e5234cabd3",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Je při posilovaném učení vhodné, aby agent dostal odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění úlohy? Proč? Může to naopak způsobit nějaké problémy?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "signál může cestovat oběma směry, můžeme se teda lépe navrátit k minulým částem vstupu a tím obdržet více informací vhodných třeba pro kontext",
+        "completion": "2",
+        "login": "f6002120d2ae8a2a54c0c5be9cec8ed3",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Co je to obousměrná (bidirectional) rekurentní vrstva? Jak se liší od „normální\" rekurentní vrstvy? Odpovězte krátce a jen vysvětlte rozdíl, výhody a nevýhody/omezení. Nesmíte vysvětlovat obecně rekurentní vrstvy."
+    },
+    {
+        "questionNum": 2,
+        "promptRaw": "Jde o antiagentné hry - uvažujeme, že hru hrajú dvojja súperiaci hráči/agenti. Jeden s cieľom dosiahnuť čo najváčňiu bodovú hodnotu a druhý scielom dosiahnuť čo najmenšiu hodnotu bodového zisku",
+        "completion": "0",
+        "login": "554f1cfee56cf20c2f51a5331933eb85",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "2. Minimax je populární algoritmus pro řešení dvouhráčových her, kde předpokládáme, že jsou oba hráči racionální, tedy že maximalizují svůj užitek. Přesto polovina algoritmu spočívá v hledání minimálních hodnot. Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her, pro něž minimax lze použít."
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "gradient funkce v daném bodě je vektor udávající směr nejrychlejšího růstu této funkce v tomto bodě a NN používáme gradient descent - chceme snížit loss, a to v závislosti na váhách sítě, tedy spočítáme derivaci d Loss a postupně updatujeme váhy (rychlost závisí na learning rok a Ta zavozřejmě se jedná o grad. descent jelikož loss chceme snížit, pohybujeme se tedy přesněvadž v směru než udává gradient",
+        "completion": "4",
+        "login": "f6002120d2ae8a2a54c0c5be9cec8ed3",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Co je „gradient“ v kontextu učení neuronových sítí? Jak je při učení využit?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "n, h(n);A: f(h) = glonthan) U AX počítáme nejen s heuristikou, ale narozdíl např. od GS i s dosavadní cenou do vybraného uzlu. K nalezení optimálního řešení tak může dojít i při porušení podmínky protože i když se dostaneme do cílového stavu, tak zkoušíme další uzly s nižším fin).",
+        "completion": "4",
+        "login": "691b3e014c609607f10df53d1d8cfa0b",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "3. U heuristiky v A požadujeme, aby dávala optimistický odhad zbývající ceny do cíle. Demonstrujte na vhodném příkladu s jediným cílovým uzlem, že i při porušení této podmínky může dojít k nalezení optimálního řešení. Do prohledávacího grafu vepište jak ceny hran, tak hodnoty heuristiky."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "generují so po slovách v n modelují pravdepodob. funkci: P(w2). P(w2). w2). P(w2/ w2, w2, w2, w1)... počítají s okou pravd. budú sloví v nasledovať po sebe postupným shladaním generovaných slov na vstup NN",
+        "completion": "3",
+        "login": "825b1ce7fb0e1b7007e1df994a9c2f05",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jakým postupem generují výstupní sekvence (např. věty) autoregresivní sequence - to-sequence (Seg2- seg) modely, které se používají například pro překlad jazyka? Vysvětlete jen funkci autoregre- sivního dekodéru. Ideálně napište i to, jakou pravděpodobnostní funkci tyto neuronové sítě modelují. V ideálním případě vysvětle algoritmus generování jen neformálním pseudokódem."
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "logistická regresia, lineárna regresia;externagista pracuje na základe skóre s= w1. x + b. Pomocou nebo potom napr. s použitím signorid. funkcia vypočíta pravdepodobnosť p.;p(y = 1 (x, w, b) = 1+ exp( = ply= 0|x, w|b) = 1 - p(g=1| ...);rozdiel s generat. klasif. modelmi je v tom, že sa diskrim. nesnažía najskór modelovat triedu z kt. boli dáta generované. Namiesto toho klasifikujú priamo zo vstupem.",
+        "completion": "2",
+        "login": "26a9350a320f080e23e865aa5320e0ac",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "6. Uveďte dva příklady diskriminativně trénovaných modelů pro klasifikaci, které umožňují vyhodnocení aposteriorních pravděpodobností tříd pro vstupní (testovaný) vzor. Alespoň pro jeden z těchto dvou příkladů uveďte, jak se tyto aposteriorní pravděpodobnosti konkrétně spočítají. V čem se jejich výpočet liší ve srovnání s generativními klasifikačními modely?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "max;+ See O;no, x;max x3 no, 0;max;Kr. w, O;w,x",
+        "completion": "0",
+        "login": "2999da745d9319388937680319e94ef8",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Nakreslete jednu standardní rekurentní vrstvu nad sekvencí délky 4 jako výpočetní graf (obecně a nezávisle na typu rekurentní sítě). V diagramu pak pro dva libovolné výstupní vektory označte, na jakých všech vstupech dané vrstvy (vstupních vektorech) každý z nich závisí. V odpovědi nesmí být žádný text kromě symbolů „01“, „II“, „02 “, „I2 “ označujících vámi zvolené výstupy (O1 a 02) a k nim všechny náležící vstupy (II a I2)."
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "P(NEGAR) = 0,9 P(ROZ|20R) = 0,1;P(ROZ|NAK) = 0,9;P(poz) = ?;P(POZ, NAK) = P(POZINAK) P(NAK) = 09.0,2=;P(POZ, ZD) = P(pozl 2DR) P(zDŘ) = 0, 1. 9, 8-6;P(ROZ) = P(RUZ, NAX) + P(PRZ, ZDD) = =0,18 + 0,08 = 0,26 = 26 %",
+        "completion": "4",
+        "login": "05bb8bab96cd66903de8541d992ec881",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. 20% procent populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, je šance, že mu test vyjde negativní, také 90%. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní? P(2PR) = 0,8 P(NAKFO, 2)"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "� Generativní Napr. Gausev klasifikátor Otroka � � pravdepodobnost’ vzorku určujeme pomocou apriornej a posteriornej pravdepodobnosti � vieme tímto modelom generovať nové vzorky z rovnakého rozloženia � výhody � dobre funguje na malom datasete, určuje presne onou pravdepodobnost on patrí daný vzorek do triedy � nevýhody � čela parametrov � Diskriminativny určujeme dy � iba na základe dát, nepredpokladáme žíadné rozdělenie. V niektorých prípadech pravdepodobnosť nemodelujeme � logistická regresia alebo sum vóbec. Nemáme pravdepodobnosť s akou nepatrí do žiadnej triedy;k",
+        "completion": "1.5",
+        "login": "4b005bb75b23a34a6289d304ef47be74",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "Dr. D2 D3;xx x XX XXXXxxx O x x x xxx XXX XXX x x COXXXX x XX;Dy = {53 D2 = {13 D3 = 243",
+        "completion": "4",
+        "login": "fd4c95ac222b1b1ce4780a446a0662ff",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "4. Máme CSP úlohu s proměnnými X1, X2, X3 a odpovídajícími doménami D1 = Kl, 2, 3, 4, 53, D2 = D3 = {1, 2, ..., 9, 10}. Proveďte inferenci tak, abyste zajistili konzistenci hran pro omezení 3X2 x 3, X3 XI. a 10"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "gausovský klasifikátor - parametry: stredná hodnota;rozptyl - o;obilna reprezentované jedným reálným číslom;parametry na dátach odhadneme metódou max. větohodnosti (Max Likelihood)",
+        "completion": "0",
+        "login": "05417b2097b772d46de8a5f0353320e1",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "Je lepšie, ak dostával odmeny aj při blížením k splněním úlohy Protože potom vie na základe týchto odmien si vytvořiť cestu k cieľu.",
+        "completion": "3",
+        "login": "5461d6183a165604c103a4923fcab04c",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Je při posilovaném učení vhodné, aby agent dostal odměnu jen při splnění úlohy, nebo i splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění úlohy? Proč? Může to naopak způsobit nějaké problémy?"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "Musí být acyklický;a;výstup;12;max/xpown, oj",
+        "completion": "4",
+        "login": "c7262a745405372830d5c0a21157e71d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad. orientovaný české"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "D, = {1, 2, 3, 4, 5} D2 = {x, 2, 3, 4, 5, 6, 7, 8, 10} D3 = {12, 3, 4, 7, pit, it, h. 103;D1 = {2, 3, 4, 5} D2 = {2, 3, 9, 5, 6, 7, 8, 10} D3 = {1, 2, 3, 4}",
+        "completion": "3",
+        "login": "94474f32d4666fa6a215c2f3c304d86e",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "4. Máme CSP úlohu s proměnnými X1, X2, X3 a odpovídajícími doménami D1 = fl, 2, 3, 4, 57, D2 = D3 = (1, 2, ..., 9, 10). Proveďte inferenci tak, abyste zajistili konzistenci hran pro omezení 3X2 � X3, X3 Ří."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "Diskriminativní klasifikátor - logistická regrese Hledá hranici mezi třídami - Využívá křížovou energii Snadno se přetrénuje Není nachýlený na odlehlé hodnoty;Generativní e;fikátor - modeluje hustotu rozložení pravděpodobnosti dle vstupních dat, vrátí třidu s největší pravděpodobností -značí se podíl - princip maximal like-hood - nachylné na odlehlé dato � nevýhoda Méně snadno se pře",
+        "completion": "1.5",
+        "login": "21506657c66da50152abe1ec8f832181",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "6;86 od V roku A vybírá tak protihráč, a jeho tahem hra končí Můžeme tedy vyhodnotit tak A, a při dalších hrách, pokud máme možnost táhnout do A, už víme, že pokud bychom táhli do AI hra pro nás vždy skončí kladným ohodnocením, bez stolu a nemusíme už usel znovu vyhodnocovat za předpokladu, že si můžeme vybrat tah a zají á výhradně musíme dr budeme mít novinou vybe- Minimax je populární algoritmus pro resen- hráčových hér, kde předpokládáme, že jsou oba hráči nemec racionální, tedy že maximalizují svůj užitek. Přesto hodnot. Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her, pro něž r;oc",
+        "completion": "1",
+        "login": "2999da745d9319388937680319e94ef8",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "1. Při každém prohledávání je možné za cenu paměti urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání v nedeterministickém prostředí je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete 3-uzlový podstrom AND-OR stromu, ve kterém dojde k zapamatování, a 3-uzlový podstrom, ve kterém se zapamatovaná informace zužitkuje. Stručně popište, jak k onomu zužitkování dojde, tedy, v čem bude spočívat úspora. Při kreslení předpokládejte, že prohledávání probíhá zleva doprava."
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "Gradient, je derivace funkce v bodě, při učení neuronových sítí se iterativně počítá gradient, dokud nejsme co nejblíže 0, a zdokonalujeme tak přesnost našeho řešení.",
+        "completion": "1",
+        "login": "368de756a1007b97d767e4d76497ae92",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Co je „gradient“ v kontextu učení neuronových sítí? Jak je při učení využit?"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "520cd07ba31519b54f3f2093e83f1545",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jaká je základní myšlenka attention mechanizmu (pozornosti) v neuronových sítích? Jaké má výhody oproti rekurentním vrstvám? V jakých úlohách se například používají? používá se"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "výhody - nemusí se dehnat příznaky, suma si je přeučit extrahuje - může se jednoduše na jiný úkol pomocí \"Line - tuněny\";seškody - oproti stolku lezningu může být problém když máme málo dát - může dojít k přetrénování",
+        "completion": "4",
+        "login": "e3fcfce792cba2bd9b1f688e09b8636d",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "10. Jaké může mít výhody /nevýhody hlu- příznaky?;ní vůči tzv. shallow lear"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "d47558962966c8b741426336d3ebfe9c",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "13. Když reprezentujeme text pomocí „word embeddings“, jaké chceme, aby tyto vektory měly vlast- nosti? Co znamená pojem „Word Vector aritmetika“?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "495ef79db86e9a0196ac1c8f89e61f67",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": ";;5. Na dvoudimenzionálních datech pro tři třídy jsme natrénovali gausse natrénovali gaussovský klasifikátor. Pro nově příchozí testovaný vzor x nám tento generativní model umožní určit, s jakou aposteriorní pravděpodobností tento vzor patří do každé třídy. Jak tyto pravděpodobnosti vypočteme? Uveďte přesný postup, co a jak konkrétně počítat. Předpokládejte, že již máte k dispozici funkci pro vy- hodnocení hustoty pravděpodobnosti vícerozměrného gaussovského rozložení p (x) = N (x; u, 2). Vyjmenujte všechny parametry, kterými je tento gaussovský klasifikátor popský klasifikátor popsán, a napište, kde se tyto parametry využijí při vypočtu aposteriorních pravděpodobností tříd. Jakodobností tříd. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak jsme tyto parametry na trénovacích datech odhadli?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "Grady search: - pracia 0 h - h* DFS: 1/6 - praxim o;55;Kříž",
+        "completion": "4",
+        "login": "f854b378222faa337e5645aacaecd948",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "3. Máte k dispozici odladěnou implementaci A* a * problem, g, h). Na vstupu očekává problem (umí rozbalovat uzly a ověřovat, zda jsou cílem), g (popisuje cenu uražené cesty, kde cesta je seznam uzlů) a h (popisuje odhad zbývající ceny do cíle); původní funkce jsou a hr. Jaké g a h funkci a x předáte, aby simulovala greedy search a depth-first search (DFS)?"
+    },
+    {
+        "questionNum": 7,
+        "promptRaw": "Logistická regrese;klasifikátor 2D dat - z přednášky spř. Dimání;1;24 K (XIX) = o (wh - x1 třídu) (date) nepřejeme přímo X na nějakou 7; nesnažíme se zde odhadovat nějaké apodmetné pravděpodobnosti, ale přímo odhadujeme apod. Takže model SVM - spart vedou narodino se nesnaží ani o obhod opost. Jurici ale snaží se najít maximálně pozorovat na naše družini třídy SVM a legionářem doktrin. Vzorný klasif. diskriminuje do tříd a proto je neodhodlají se, tu dislokace jako v gaumatice - neděli kterých by se dalo generovat",
+        "completion": "4",
+        "login": "25c648790a6392af3eddc3ded14a7c92",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "(7.) Uveďte dva příklady diskriminativně trénovaných modelů pro klasifikaci, které umožňují vyhodno- cení aposteriorních pravděpodobností tříd pro vstupní (testovaný) vzor. Alespoň pro jeden z těchto dvou příkladů uveďte, jak se tyto aposteriorních pravděpodobnosti konkrétně spočítají pro příchozí testovaný vzor x. Na základě uvedeného výpočtu aposteriorních pravděpodobností vysvětlete, proč se jedná o diskriminativně trénovaný klasifikátor."
+    },
+    {
+        "questionNum": 7,
+        "promptRaw": "logistická regrese. k- Nearest Neishbours) k x;P(c=1|x) = v|x w) p(c=0|x) = 1- p(c=1|x);Diskriminativní: - na základě přichozího data přímo rozhodneme, do které třídy bude dato náležet (zde se rozhodujeme s pomocí funkce sigmoida) patřiť která vypočte aposteriorní pst - nemodelujeme hustotu pravděpodobnosti jako u generativních modelů",
+        "completion": "3",
+        "login": "1069b3fc4fb47f279610ef035bf163d4",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "7. Uveďte dva příklady diskriminativně trénovaných modelů pro klasifikaci, které umožňují vyhodno- cení aposteriorních pravděpodobností tříd pro vstupní (testovaný) vzor. Alespoň pro jeden z těchto dvou příkladů uveďte, jak se tyto aposteriorní pravděpodobnosti konkrétně spočítají pro příchozí testovaný vzor x. Na základě uvedeného výpočtu apoštorních pravděpodobností vysvětlete, proč se jedná o diskriminativně trénovaný klasifikátor."
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "učení s učitelem dopredu pozná odpoveď na základě, ktorého sa učí. Reinforment - dopredu nemě výsledek ale učí sa na základě odměn, které dodává za vylomanie akcií. snaží se maximaliznaž odměny.",
+        "completion": "3",
+        "login": "368727a468c4c2bd143091516e713558",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Jaký je rozdíl mezi učením s učitelem a posilovaným učením (reinforcement learning) v tom, čím definujeme úlohu, kterou se má algoritmus naučit vyřešit?"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "Parametry - VEKŽEM - invariantní matice;středních hodnot;trektor Tektor (zmatice);;27 mi všechny parametry jsou reprezentovány;reálnými čísly.;2 třídy * 3 střední hodnoty * 9 hodnot v matici = 27.;Z každé souřadnice bode dostaneme pravděpodobnosti že se bod náleží do kategorie v určité financi. Jednotlivé pravděpodobnosti vynásobíme a dostaneme celkovou pravděpodobnost že bod patří do třídy. Pokud je pravděpodobnost Z než trochuold tak vyhodnotí mě že bod náleží do třídx. ovektor středních hodnot � střed H3-D oblasti!! ipraviantní matice tvor �'5 -> oblasti �",
+        "completion": "0",
+        "login": "aeef4c7ede8edca955193889aacf551d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy? mobil"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "modeluje funkci sumy největších čtverců.",
+        "completion": "0",
+        "login": "a2ea1b9fdebff19434d6aebe076014c3",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "14. Co modeluje neuronová síť (jakou funkci) při Deep Q-learningu (DQN)? Funkci vysvětlete (co jsou její vstupy, výstupy, jak ji pak agent používá)."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "Stará na stole;1915 Starosta: Starý Kraj",
+        "completion": "0",
+        "login": "7b4dd0c8ba3c575059ffeff8f8f696d5",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "5. Na třídimenzionálních datech pro dvě třídy jsme natrénovali gaussovský klasifikátor. Pomocí Bayesova vzorce můžeme pro nově příchozí testovaný vzor * spočítat, s jakou aposteriorní pravděpo- dobností tento vzor patří do které třídy. Napište tento vzorec a vysvětlete, jak přesně vyhodnotíme jednotlivé výrazy v tomto vzorci (tak, aby podle Vašeho popisu bylo možné tento výpočet imple- mentovat). Předpokládejte, že již máte k dispozici funkci pro vyhodnocení hustoty pravděpodobnosti vícerozměrného gaussovského rozložení p (x) = N (x; u, 2). Vyjmenujte všechny parametry, kterými je tento natrénovaný gaussovský klasifikátor popsán, a řekněte, jak se tyto parametry využijí (do kterých výrazů se dosadí) při výpočtu aposteriorních pravděpodobností tříd. Jakou mají tyto para- metry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak jsme tyto parametry na trénovacích datech odhadli?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "Bon;S;d;BAFS;má v paměti pouze vrstvu d+1;má v paměti všechny předešlé vrstvy + následující;DAFS;má pouze cestu k cíli . 1) 0 (d) 2) O (2 b?) - musí udržet všechny vztahy které prošel - PFS Nepoužívá;Pokud se jedná o necyklický problém, není potřeba množina CLOSED.",
+        "completion": "2.5",
+        "login": "fdd9ca784e674c04aa5436a352eb8651",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "3. Pro prohledávání stavových prostorů obecně platí, že prohledávání do šířky (BFS) má dramaticky větší paměťové nároky než prohledávání do hloubky (DFS). Uvažujte necyklický (tj. jako strom vypadající) prohledávací problém, kde má každý stav 6 potomků, celková hloubka problému je D a řešení se nachází v hloubce dr. Vyjádřete obecně v big- O notaci paměťovou náročnost BFS a DFS (v uzlech) při řešení takového problému, a to v případě, že (1) si algoritmy neudržují žádnou množinu EXXLORED (seznam CLOSED), a naopak, (2) pokud si množinu EXPIORED udržují."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "předchádzajúcimi slovani P(w|P(w2| ) = P(wa). P(w2|w2) ... P(wn) was... wann) Vstup je posunutý o 1 slovo pri generovaní aby model ten neprepisoval slova.;Pravdepodobnosť slová vo vete závisí a je podmienená",
+        "completion": "3",
+        "login": "bf4039f02a2e6a6e0a4ebb98806aaf90",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jakým postupem generují výstupní sekvence (např. věty) autoregresivní sequence - to-sequence (Seg2- seg) modely, které se používají například pro překlad jazyka? Vysvětlete jen funkci autoregre- sivního dekodéru. Ideálně napište i to, jakou pravděpodobnostní funkci tyto neuronové sítě modelují. V ideálním případě vysvětle algoritmus generování jen neformálním pseudokódem."
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "31;n (x n, m y m, m) [2 přestávka n x - váhy KART. - vstupní matice pixelů (jedna barevná jedna barevná složka) složka,;X, ... : XIII KW, w;*n;pixel",
+        "completion": "0",
+        "login": "1101bdc0b19ca8bc615b343a37e69620",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "12. Jaký počet operací násobení je potřeba pro výpočet jednoho výstupního pixelu jednoduché ZD kon- voluční vstvy z přednášek? Napište pouze matematický výraz a heslovitě význam symbolů, které v daném výrazu použijete."
+    },
+    {
+        "questionNum": 2,
+        "promptRaw": "hodnot. Vysvětlete tento rozpor a pojmenujte odpovídající vlastnost her, pro něž minimax lze použít.;valita;v jednom Protože člověk není stroj, který okamžiku si správně uvědomit stav hry nebo držet v hlavě široky a hluboký strom možnosti Někdy stačí vyhrát (ale ne nutně s nejvyšším skóre) Min. hodnoty se vybírají pro protivníka, neboť minimax strom se počítá pro každého hrače a protiv jde proti hračí (pro něj max užitek, pro náš min užitek) - stuhdání hračů jdoucí proti sobě (kavetní hry,",
+        "completion": "3",
+        "login": "00d52da93a2ea09d33d9c34959629374",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "2. Minimax je populární algoritmus pro řešení dvouhráčových her, kde předpokládáme, že jsou oba hráči;racionální, tedy že maximalizují svůj užitek. Přesto polovina algoritmu spočívá v hledání minimálních"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "p(rozkazný) = 0,2 p (pozitivny) (nakazaný) =0, 9 p (rakuzý /pozitivy) =0,9 P(pozitivy) =? p(rakurej / pozitivy) = 0,9 . p(pozitivy) = 0,9;pozitivy / nakerý). P(nakazuj) P(pozitivy) 0,2;p(pozitivy/nakazený). P(nakazuj) => p(pozitivy) = prakazený (pozitivní) Je 20 % pravdepodobnosť, že text více pozitivek.;p (zdravý/pozitivy) = 0,1 a P(nakazý|pozitivy) = 1-P(zdravý/pocitím)",
+        "completion": "4",
+        "login": "16c6668cb781a439cd65dd36354b9847",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "1;P(poz) =;zdr / 0, 1/0, 9;not/0,9 /0,1;p(nah);P(zdr);(x, 4) = P(X|4) P(4);P(40k) = 0, 2 P(nok/poz) = 0,9;(Zár / neg) = 0,9 = ;p(poz) plnej;poznámky;4 (x) P(x);P(x|= P(X|4) P(4);P(4|X);P(poz) =;oz/nak) P(nah);P(wohl poot);o/4 192;0,9;0,2",
+        "completion": "0",
+        "login": "4b005bb75b23a34a6289d304ef47be74",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. 20% procent populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, je šance, že mu test vyjde negativní, také 90%. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "ae04cdd739eceeae85fda0bd00049cd7",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "11. Co jsou „učitelné“ parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "nak-nakazený zda - zdravý neg-negativny poz-pozitivny P(neb) = 0,2 P(por) nak) = 0,9 P(zdr (poz) = 0,1 � Plauk (poz. 0, 9 P(poc) =?;P(x) P(Y|X);P(x|Y) =;P(M);P(Y);P(nak). P(pel mak);P(poz) =;P(nokl poz);P(X) P(Y|X);P(X|Y);P(voz) = 0,2 . 49;0,9;=0,2",
+        "completion": "4",
+        "login": "e3d02a7e3b33f83005dc53baa3b1f72e",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Momentálně schopni nejsme, ale teoreticky bychom toho schopni měli být. Pokud budeme schopni vhodně namodelovat inteligenci tak, jak ji příroda stvořila. Pokud to dokázala ona, proč ne.;",
+        "completion": "3",
+        "login": "1069b3fc4fb47f279610ef035bf163d4",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "9. Myslíte si, že je /není možné vytvořit silnou umělou inteligenci (General AI? Proč? Důležité jsou argumenty a bylo by vhodné, aby vaše argumenty podporovaly vaši odpověď na první část otázky."
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Myslím si, že ano. Již dnes se AI musí brzdit a onezovat aby se zabránilo nežádaným účinkům. Ale již dnes jsem voborí, kteří se chovají jako lidi, mají/trénují emoce, umějí se pohybovat umí mít ambice, učit se z chyb.. Splňují tedy většinu toho, co dělá lidi lidmi. Myslím si, že do budoucna ne jistě potenciál AI ještě posílit tak, že bude součástí společnosti jako plnohodnotný člověk",
+        "completion": "4",
+        "login": "d47558962966c8b741426336d3ebfe9c",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "9. Myslíte si, že je /není možné vytvořit silnou umělou inteligenci (General AI) Proč? Důležité jsou argumenty a bylo by vhodné, aby vaše argumenty podporovaly vaši odpověď na první část otázky."
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "6;nemusíme již vyhodnocovat",
+        "completion": "4",
+        "login": "acdc7ccf1fd0d9dd2873bd437ec92729",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "1. Při každém prohledávání je možné za cenu paměti urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání v nedeterministickém prostředí je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete 3-uzlový podstrom AND-OR stromu, ve kterém dojde k zapamatování, a 3-uzlový podstrom, ve kterém se zapamatovaná informace zužitkuje. Stručně popište, jak k onomu zužitkování dojde, tedy, v čem bude spočívat úspora. Při kreslení předpokládejte, že prohledávání probíhá zleva doprava."
+    },
+    {
+        "questionNum": 7,
+        "promptRaw": "- je možné použiť regresný model - gausovský klasifikátor",
+        "completion": "0",
+        "login": "8310871a91f6396928f7e50acd47c2d3",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "7. Uveďte dva příklady diskriminativně trénovaných modelů pro klasifikaci, které umožňují vyhodno- cení aposteriorních pravděpodobností tříd pro vstupní (testovaný) vzor. Alespoň pro jeden z těchto dvou příkladů uveďte, jak se tyto aposteriorní pravděpodobnosti konkrétně spočítají pro příchozí testovaný vzor x. Na základě uvedeného výpočtu aposteriorních pravděpodobností vysvětlete, proč se jedná o diskriminativně trénovaný klasifikátor."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "jsou potřeba parametry: ja... střední hodnota poradny rozdělení naduto rozdělení, na 1/2 x y = 1-2 (x) = su pravdy jen zprazdním jednu českým číslem pravdy lze odhadnout naučení šerohodnosti: na [py] = E= O je odhadnaný a ono je horkou mezi svojí - popřát pravděpodobnosti, kam nový vzor patří, spoutání - jsou potřeba z probry: jen... střetní hodnota, skupiny sektor z řeckých čísel, že je hodnotící natie 2x2 (4 radšú část), parametry lze odhodnotit netudou nacionální šerohodnosti P(x|c) � � porady použijeme pro výpočet hudby pravděpodobnosti TLA apriorní sociálního rozdělení, kterou pak lze použít v hubičce pot p(x|c) . p(c) s Rogesovým provedlem k výpočtu pravděpodobnosti, kur patří svoj;v;p(c|x) =;P(x) - hustota",
+        "completion": "2",
+        "login": "13a036ceabe98bc5840a382a0558bafc",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi-;;fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?;;"
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "691b3e014c609607f10df53d1d8cfa0b",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "1. Při každém prohledávání je možné urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání s nejistotou je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete (pokud možno malý) AND-OR strom, ve kterém k tomu dojde, a stručně popište, jak to proběhne."
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Agent nemusí splňovat všechny aspekty inteligence, aby byl;požadován za inteligentního. Agenta lze v nějakém prostředí považovat za inteligentního i když nalezne cestu z bodu Adolfu B. Nevykazuje, ale žádné schopnosti kognitivní inteligence.",
+        "completion": "1",
+        "login": "21506657c66da50152abe1ec8f832181",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké jsou různé aspekty inteligence? (jen vyjmenovat) Musí agent vykazovat všechny tyto aspekty, abyste ho považovali za inteligentního?;."
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "P(X|5) = 02 01;nahožen;P(X|S);pozitivní;P(X) =0, 8 P(G|X) = 01 .. P(y|x) = 0,1;PV, S - 02 09;pyk P(xy) + P(R|Y);98;0,8. 09 = 7 (X, 5);P(X|9) - p(y) = p(Y|X) P(X) P(X|Y) I PUD = PY|X) P(X) - PWIx) PLSD = PISIX P(X) 0,9 .002 =0,1. 0,8;P(F|9-8|B) = p(X|7) P(Y) - 99.0,2) = 0,1.98 ply = 0,1.0,8 + 0,9 .02 půj) = 0,08 + 0,18 =0,26 PLYN = 0,26",
+        "completion": "4",
+        "login": "59ff42c707eba1e5ec087a66fb4612ac",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. 20% procent populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, je šance, že mu test vyjde negativní, také 90%. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní? (x) ex"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "jsi chce;Knihy podle § Kdo po domovinách;STARTOVACÍ UDĚL;CENA HRANY;Hodnota henristiky;cílový území;Dne;I v případě porušení podmínky optimistického odhadu si alg. AX vybral optimální řešení (tj. s - c-0-8)",
+        "completion": "2",
+        "login": "c54fb9058a498e5d0a9138a3846352b4",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";3. U heuristiky v A požadujeme, aby dávala optimistický odhad zbývající ceny do cíle. Demonstrujte na vhodném příkladu s jediným cílovým uzlem, že i při porušení této podmínky může dojít k nalezení optimálního řešení. Do prohledávacího grafu vepište jak ceny hran, tak hodnoty heuristiky."
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "to;jednotlivých;XI;X.;konvolučných jadrec;učitelně parametre;x2 x3;moh ac .x;=počet parametrů;žila vyšla počet ; zugsfürste erst nicht am Ende dahin an Heraus genommen werden wird u. erst noch nicht anders das Eine verspachen verschien verseit deien versen Berseichen ven versen den veren zu zu zu zu zich zich zu zu zu zu zu der zu ver zu der zu der der Ba jádra jádra lampion;počet konvoluční",
+        "completion": "4",
+        "login": "0adb677b374a6fe1f51ca0084710d05e",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "II. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo) učitelně parametre představují napríklad konvolučné jadro x"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "Funkci, která vybírá stvy, kde agent dostane největší odměnu Vstup: stav agetu, případně okolí Výstup: stavy/akce, které může agent provést (pro naučivali;Aget na základě předchozích zkušeností vylišná stvy;odměny,",
+        "completion": "1",
+        "login": "e3fcfce792cba2bd9b1f688e09b8636d",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "14. Co modeluje neuronová síť (jakou funkci) při Deep Q-learningu (DQN)? Funkci vysvětlete (co jsou její vstupy, výstupy, jak ji pak agent používá)."
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "x x 8 8 + 12 8 8 9 18 x3 x 8 8 000 0;A 8 3 4 5 8 8 7 00 a z § 6 3 8 DA x BEDNERACE;x c = 33 x s 29 36 - 183",
+        "completion": "4",
+        "login": "e18c2240077c9ff3503cb4cb2669f5c1",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "4. Máme CSP úlohu s proměnnými X1, X2, X3 a odpovídajícími doménami D, = D2 = D3 = (1, 2, ..., 9, 10). Proveďte inferenci tak, abyste zajistili konzistenci hran pro omezení X2 = X2, X3 2X1 + 1, X3 & 22."
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "nesmí obsahovat cykly obsahuje základní stavební bloky (vrstvy) s jejich vstupy a výstupy, které se mohou různě kombinovat (více vstupů, více výstupů, násobení vstupu... za předp. splnění. 1. podmínky;X1, W25;X2II2;x3, W3,;NE! L/XI, wu;TV;OUTE_LIKSIMS",
+        "completion": "4",
+        "login": "ce1e0e61482d8d323c9af9f6dddd0a6b",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "Genesovský klasifikátor předpokladá, že děti majú gaussovské rozdelenie pravdepodobnosti Pre 30 dáta budú parametre: 3x3 matica rozptylu a vektor stredných hodnot. Pre 2 triedy budeme mať 2 gausovská rozdelenia. Parametre sú popísané: 3.3.3. 254 číslami. Parametre odhadneme pomocou maximum likelyhood estimacie. Carametre využijeme na výpočet pravdepodnosti, do kterého rozdelenia dáta patria. Následne vyberieme triedu, ktorá bude mať väčšiu pravdepodobnosť.",
+        "completion": "1.5",
+        "login": "c3c31375a3563d49cfe6448288177c8f",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";;;5. Mějme třídimenzionální data pro dvě třídy. Na těchto datech chceme natrénovat gaussovský klasi- fikátor. Vyjmenujte všechny parametry, kterými je takový klasifikátor popsán a které je potřeba na datech odhadnout. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto pa- rametry reprezentovány? Jak tyto parametry na datech odhadneme? Jak tyto parametry využijeme k výpočtu pravděpodobnosti, že nově příchozí vzor patří do jedné či druhé třídy?"
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "Pri použití príliš velkého hrobu learning rote je možné preskočiť lokálne (a teda aj globálne) minimum, ktoré môže výrazne ovplyvniť učenie modelu.;S - krok learning rata",
+        "completion": "2",
+        "login": "495ef79db86e9a0196ac1c8f89e61f67",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "11. Je možné, že při nějakých hodnotách učící konstanty (learning rate) není možné získat dobře naučený model neuronové sítě při použití algoritmů typu GD a SGD? Vysvětlete, proč to tak není, nebo uveďte, k čemu může dojít."
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "500;43-1) (543-1) = 7;o;Lih pixelov;dobře zní;1. VIII. Tkanice pikolon",
+        "completion": "4",
+        "login": "60e6b9e7b1eb6d3f2de9c8763a64f929",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "XI. 2D konvoluční síť začíná dvěma konvolučními vrstvami. První vrstva má 16 jader o vrstva má 16 jader o velikosti 3x3 a druhá 32 jader o velikosti 5x5. Velikost vstupního obrázku je 64x64 a má 3 kanály. Napište velikost perceptive feld aktivací druhé vrstvy (tedy na jaké oblasti závisí hodnoty v jenom „pixelu“ výstupu druhé vrstvy). Velikost perceptive feld napište jak v pixelech vstupního obrázku, tak výstupní „ak- tivační mapy“ první vrstvy. Odpověď nesmí obsahovat žádný souvislý text delší než dvě slova."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "Azentia mechanizmus počíta v aktuálnj vrstve s hodnotami z celého vstupu, přirodí nim váhu ato vplývajú na dané vlno oproti returerným vrstvám má výtahu - tam že použila ila tento rectanizmus a nič ine, - používajú sa pri prehlede, pri generaní textu na dáchu",
+        "completion": "3",
+        "login": "368727a468c4c2bd143091516e713558",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jaká je základní myšlenka attention mechanizmu (pozornosti) v neuronových sítích? Jaké má výhody oproti rekurentním vrstvám? V jakých úlohách se například používají?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "676057f1a2cb6ed8578579152ec1452a",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Co je to obousměrná (bidirectional) rekurentní vrstva? Jak se liší od „normální\" rekurentní vrstvy? Odpovězte krátce a jen vysvětlte rozdíl, výhody a nevýhody/omezení. Nesmíte vysvětlovat obecně rekurentní vrstvy."
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "ee4b7041a56afa5dba176c9bb60a631d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Nakreslete jednu standardní rekurentní vrstvu nad sekvencí délky 4 jako výpočetní graf (obecně a nezávisle na typu rekurentní sítě). V diagramu pak pro dva libovolné výstupní vektory označte, na jakých všech vstupech dané vrstvy (vstupních vektorech) každý z nich závisí. V odpovědi nesmí být žádný text kromě symbolů „01“, „II“, „024 označujících vámi zvolené výstupy (O1 a 02) a k nim všechny náležící vstupy (II a I2)."
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "G GOAL-C;Po;6;Při prohledávaní stavu UI už nemusím prehľadávat stav � lebo už vím, že vedie k cielu.",
+        "completion": "2",
+        "login": "ffd524f75656215b0379cb7da3820608",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "1. Při každém prohledávání je možné za cenu paměti urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání v nedeterministickém prostředí je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete 3-uzlový podstrom AND-OR stromu, ve kterém dojde k zapamatování, a 3-uzlový podstrom, ve kterém se zapamatovaná informace zužitkuje. Stručně popište, jak k onomu zužitkování dojde, tedy, v čem bude spočívat úspora. Při kreslení předpokládejte, že prohledávání probíhá zleva doprava."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "p(nakaz) = 0,2 � písmo = 1,8 p(pocit (nahra) = 0,9 = p(pit) naho) p(ňater /pozit) = 0,1 p(psit) =? = p(prilis, nakrz p(prix, vaka) kniž Bo = p(pocit|nahor) - p(vzkaz) SEPERALISTIC p(pozit) veker) a p (Maka) 99.012 t 9,8 = 0,18+0,08 = 0,26;pozit.;0,1;=;ke",
+        "completion": "0",
+        "login": "55c36c77f5b1db93efa809d68b0c3ff3",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek stu bude pozitivní kr nahoru"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "p (naložený) = 0,2 p (nenahrazený) = 1 -p (mluvený) = 0,8 p (pocitím / nalezený) = 0,9 p (namluvený) pozitivy) =0,1;p(takové z počítány, vahy) = p(procitivý trénovací). pluhy = 0,9-0,2-0,18;p (paritéry, nemohový) = p(poviding) nemohový) p(neměl 0,11 (0,9 -0,24 +0,10,1.0,8);0,8;0,8;p (pozitivy) �;(x) pozitivy) p(používy);p(x);Výsledná pravdepodobnosť: 0,9. 0,2 + 0,1. (0, 9, 0, 2 + 0, 1. 0, 8) 0,18 + 0,026 = 0,206;ochotníci x = nenaložený = p(neuchvý) pocitný p (pritíng) = p(nenahrnený);0,1. (0,91.0,2 + 0,1.0, 8);0,8",
+        "completion": "0",
+        "login": "d5505c6e738d0a635e0ca6d2d07340a8",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "greedy search:;g=0;h = h*;min;DFS: g = g h=0",
+        "completion": "4",
+        "login": "cefd5c86a5a731b024525b6a26663cc8",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "3. Máte k dispozici odladěnou implementaci A* a x (problem, g, h). Na vstupu očekává problem (umí rozbalovat uzly a ověřovat, zda jsou cílem), g (popisuje cenu uražené cesty, kde cesta je seznam uzlů) a h (popisuje odhad zbývající ceny do cíle); původní funkce jsou a hx. Jaké g a h funkci a x předáte, aby simulovala greedy search a depth-first search (DFS)?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "fdd9ca784e674c04aa5436a352eb8651",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Co je to obousměrná (bidirectional) rekurentní vrstva? Jak se liší od „normální\" rekurentní vrstvy? Odpovězte krátce a jen vysvětlte rozdíl, výhody a nevýhody /omezení. Nesmíte vysvětlovat obecně rekurentní vrstvy."
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "jednotlivé stavy sú označené číslami rovnaký stav = rovnaké číslo uvažujme prohladávanie do hlbký, Postupne rozbalíme stavy 2, 4, 3, zjistíme že 3 je koncový stav a teda 4 uložíme do stavou, které vedú k riešeniu „dáči“ bončový steda ani Rozbalíme stav 6, ktorý nie je nie je koncový, skúmame z stavy 7,1. a 4, kde by je st;tož;INV.;čeniny",
+        "completion": "4",
+        "login": "38fa78e2f7bd7cd06dab384ef7ff8c05",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "1. Při každém prohledávání je možné urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání s nejistotou je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete (pokud možno malý) AND-OR strom, ve kterém k tomu dojde, a stručně popište, jak to proběhne. OR;uvažujme, že"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "-álem Turingova testu je zjistit, zdali inteligentní - zdali vykazuje princip spočívá v tom, že nejsme schopni rozlišit stroj od člověka a vlastnosti člověka kognitivní schopnosti právě na základě těchto schopností � stroj vykazuje vlastnosti člověka a člověk je inteligentní � stroj je inteligentní. problementan bývá čínský pokoj, který je založen na tom, že jednotlivé části stroje inteligentní nejsou, z čehož plno, že ani stroj pak není, že vlastně nechápo co dělá. � tento probíargument však není úplně věcný viz TT-burianů člověk jeho test se mozek a neurony může provádět různě, klasicky byl však prováděn textovou formou. - jeden iteoretických nedostatků jo, že může značně převyšovat schopnosti člověka a na jejich základě může být v rozpoznán - chce to neznamená, že není inteligentní, nicméně testem neprojde dále pokud by stroj zůstal celou dobu potichu (neodpovídal by), pak odhadu. by rozhodnutí o tom, zdali je inteligentní mohlo záviset na náhodném aby stroj prošel musí replikovat chování člověka ten ovšem národná vždy zcela racionálně - stroj by pak muzel záměrně replikovat i byhto lidské",
+        "completion": "4",
+        "login": "4675df389dab25469cf2879db941e2af",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "9. Co je cílem Turingova testu a jaké jsou jeho dva možné závěry? NEPIŠTE, jak se provádí! Vnímáte nějaké zásadní nedostatky tohoto testu? Tedy takové, které například mohou zpochybnit platnost jeho výsledku, nebo které omezují doménu, kdy má vůbec smysl tento test použít vzhledem k jeho účelu?"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "- rozpoznat člověka od AI — 1. závěr - lze rozpoznat člověka o AI = AI není obecná AI je obecná -2. závěr - nelze -II-;Možna nelze rozpoznat zda AI na výsledky přišla a nebo jestli funguje stylem čínské místnosti Má smysl test provádět pokud se domníváme že jsme stvořily obecnou AI",
+        "completion": "3",
+        "login": "2b1500702cc62787245e747cf6e7e907",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "9. Co je cílem Turingova testu a jaké jsou jeho dva možné závěry? NEPIŠTE, jak se provádí! Vnímáte nějaké zásadní nedostatky tohoto testu? Tedy takové, které například mohou zpochybnit platnost jeho výsledku, nebo které omezují doménu, kdy má vůbec smysl tento test použít vzhledem k jeho účelu?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "greedy search: aX (problem, 0, h) DFS: ax (problem, 0,0",
+        "completion": "2",
+        "login": "554f1cfee56cf20c2f51a5331933eb85",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "3. Máte k dispozici odladěnou implementaci A* a * problem, g, h). Na vstupu očekává problem (umí- rozbalovat uzly a ověřovat, zda jsou cílem), g (popisuje cenu uražené cesty, kde cesta je seznam uzlů) a h (popisuje odhad zbývající ceny do cíle); původní funkce jsou gx a hx. Jaké g a h funkci a x předáte, aby simulovala greedy search a depth-first search (DFS)?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "DFS: Zl problem, o, o;guedy: � a* (problem, g, o) greedy: a* (problem) o ih)",
+        "completion": "2",
+        "login": "2999da745d9319388937680319e94ef8",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "3. Máte k dispozici odladěnou implementaci A* a * problem, g, h). Na vstupu očekává problem (umí rozbalovat uzly a ověřovat, zda jsou cílem), g (popisuje cenu uražené cesty, kde cesta je seznam uzlů) a h (popisuje odhad zbývající ceny do cíle); původní funkce jsou a hx. Jaké g a h funkci a x předáte, aby simulovala greedy search a depth-first search (DFS)?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "Není to vhodné pretože ak by bola úloha náročná tak ja extrémne dlhú dobu nic nedostal -> nevedel tu sa věst nevedel by, či to čo vodí je dobré alebo zlé;prípade, že tu dostával odmeny aj počas vykonávania danej úlohy, ideálne, čím bližšie k cieľu, tým väčšiu odměny, tak to sa rýchlo vedel naučiť správný i smer čo má ako vobíť aby doslahol cieľ. - tento prístup ale môže spůsobiť že agent nepresným úplne všethy stavy ktoré sa môžu javiť ako zbytečné ale za nimi sa shrána efektivnej šie viešenie",
+        "completion": "4",
+        "login": "2a75e5d12870ce9323a75192fef31a49",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Je při posilovaném učení vhodné, aby agent dostal odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění úlohy? Proč? Může to naopak způsobit nějaké problémy?"
+    },
+    {
+        "questionNum": 7,
+        "promptRaw": "Z Polynomiální klasifikace 1. Polynomiální / lineární klasifikace 2. (Lonearningues);pohled terý kalhoty.;Stellg;;11;Auf die Angriffe ist es daher das durchgeführte erschienen kann, daß ich eigentlich aus- schießen dann als trotzgemäß jeder Stabschule. Bald Koter war das eintr",
+        "completion": "0",
+        "login": "670bd457fe34808747e5544e5f168fb4",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "7. Uveďte dva příklady diskriminativně trénovaných modelů pro klasifikaci, které umožňují vyhodno- cení aposteriorních pravděpodobností tříd pro vstupní (testovaný) vzor. Alespoň pro jeden z těchto dvou příkladů uveďte, jak se tyto aposteriorní pravděpodobnosti konkrétně spočítají pro příchozí testovaný vzor x. Na základě uvedeného výpočtu aposteriorních pravděpodobností vysvětlete, proč se jedná o diskriminativně trénovaný klasifikátor."
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "grady - smrch: w(problem, 0, R) DFS: a (problem, 9;o)",
+        "completion": "2",
+        "login": "b6d73a834ec5aad1c8b3b05ccf9b43c0",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "3. Máte k dispozici odladěnou implementaci A* a * problem, g, h). Na vstupu očekává problem (umí rozbalovat uzly a ověřovat, zda jsou cílem), g (popisuje cenu uražené cesty, kde cesta je seznam uzlů) a h (popisuje odhad zbývající ceny do cíle); původní funkce jsou gx a hx. Jaké g a h funkci a x předáte, aby simulovala greedy search a depth-first search (DFS)?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "generativní;- může pracovat nad menším voztem dat binární klasifikátor složitější na namodelování;diskriminativní rizika přetrénování při mám počtu dat, prot jich je třeba hodně einearní nebo bogistická vyuze jednodušší princip",
+        "completion": "0",
+        "login": "845c61b8d1361a7636cf773d6064cb46",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "- strojové učenie - počítačové vidence - spracovanie reči, zvuku - zpracovanie textu - spracovanie, klasifikácia a predikcia vzorov a udalostí v EEE predikná počasia - extrakcia znalostí",
+        "completion": "4",
+        "login": "e3d02a7e3b33f83005dc53baa3b1f72e",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké znáte podobory umělé inteligence? (jen vyjmenovat)"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "V ideálním případě vysvětle algoritmus generování jen neformálním pseudokódem.;Na vstupe majú celý vstupný dotaz/vetu a čast velký, ktorú už vygeverovali, teda na to aké ďabžie slovo sa vygeveruje má zásadný vplyn to aké slová sme vygenerovali, pro jarní slovo za dáva na vstup špeciálny taken START � Generujú funkciu pravdepodobnosti nasledujúceho slova, teda ak sme vygenerovali slová Maria ide\", tak zastaví funkciu, která nám pozic akcí je pravdepodobnosť, že slovo u je dalším slovom tejto vety a to pro Fvo z nášho slovníka. � Teda \"poznem za na to, načo mám odpoveduť (čo je moja úloha. vygeverujem prvé slovo a to potom použijem pri generování druhého vela dávala zmysel, to prvé a druhé zase použijem pri generování treticko, 14. Je při posilovaném učení vhodné, aby agent dostal odměnu jen při splnění úlohy, nebo i průběžně podle toho, jak se blíží splnění úlohy? Proč? Nůže to naopak způsobit nějaké problémy?",
+        "completion": "3",
+        "login": "45c6ae61bc1ecb52540c701d0158b3c4",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jakým postupem generují výstupní sekvence (např. věty) autoregresivní sequence - to-sequence (Seg2- seg) modely, které se používají například pro překlad jazyka? Vysvětlete jen funkci autoregre- sivního dekodéru. Ideálně napište i to, jakou pravděpodobnostní funkci tyto neuronové sítě modelují. rovede"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "slovo 2 + Swoboda w soudu Předspisování vzoru dekan - hodin Tyto modely obecně pracují na principu hledání nejpravděpodobnější posloupnosti slov p (slovo), slovo 2, ... slovo m) a počítají ji tak, že nejprve spočítají pravděpodobnost prvního slova, pak druhého pst prvního atd. - vzorec p(x|x) = x) = FI = 664 �2",
+        "completion": "3",
+        "login": "9959b39950406bc66827b12959f783aa",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";13. Jakým postupem generují výstupní sekvence (např. věty) autoregresivní sequence - to-sequence (Seg2- seg) modely, které se používají například pro překlad jazyka? Vysvětlete jen funkci autoregre- sivního dekodéru. Ideálně napište i to, jakou pravděpodobnostní funkci tyto neuronové sítě modelují. - ideálním případě vysvětle algoritmus generování jen neformálním pseudokódem."
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "Oprší;b);2);PBFS;(není;potřeba rozgenerovat potomky);I;ODFS;-;d*;potřebuje si pamatovat akorát aktuální hloubku Zanoření, velká šance že nejdřív narazí na D, než na d*",
+        "completion": "2",
+        "login": "b925207381f4c6854adc87388565073e",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "3. Pro prohledávání stavových prostorů obecně platí, že prohledávání do šířky (BFS) má dramaticky větší paměťové nároky než prohledávání do hloubky (DFS). Uvažujte necyklický (tj. jako strom vypadající) prohledávací problém, kde má každý stav 6 potomků, celková hloubka problému je D a řešení se nachází v hloubce dr. Vyjádřete obecně v big- O notaci paměťovou náročnost BFS a DFS (v uzlech) při řešení takového problému, a to v případě, že (1) si algoritmy neudržují žádnou množinu EXXLORED (seznam CLOSED), a naopak, (2) pokud si množinu EXPIORED udržují."
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "- inteligentní odpovědi (to, co agent říká musí mít hlavu a potu) - schopnost učit se entolie.;uvědomování si sebe sama;Určitě nemusí, stačí když bude vykazovat jenom některé astekty. Tady záleží člověk od člověka, co bude požadovat za důležité a jak moc, Dále bude záviset na typu narození agenta.",
+        "completion": "3",
+        "login": "be96c674bbbb81dd11ef4e2551e7e813",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké jsou různé aspekty inteligence? (jen vyjmenovat) Musí agent vykazovat všechny tyto aspekty, abyste ho považovali za inteligentního?;"
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Ne, je příliš mnoho iformové, které by se muselo vařit a vždy by se mohlo zajít něco co ješte neumí selo umí ale se zcela správně",
+        "completion": "1.5",
+        "login": "e3fcfce792cba2bd9b1f688e09b8636d",
+        "year": "2022",
+        "test": "3",
+        "questionTextRaw": "9. Myslíte si, že je /není možné vytvořit silnou umělou inteligenci (General AI)? Proč? Důležité jsou;argumenty a bylo by vhodné, aby vaše argumenty podporovaly vaši odpověď na první část otázky."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "P(P|elig) P(p(př) + P(písmo) Pepi = P(pri) - pcit + p(plni) . pchy) p(pla 0,2 - 0,09 + 0. 1 p(p) 0. 98 (plaz. 2. s P(plz p. 2,;proprcík = pozitivní test = infikovaní ní = heilifikovaný;P(hilp). P(p)",
+        "completion": "0",
+        "login": "40e971aa0d0f94173372792184d7c18b",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní? P(H|P) = D21 n = hestativní text"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "- musí být acyklický;� nesmí záviset na později spočítaných hodnotách - důležité, aby šlo následně použít chain- rale ke spočítání bach - propagation",
+        "completion": "3",
+        "login": "9107b38aa824dfbf43dc6389416d5d1e",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad."
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "- učení s učitelem;- učení bez učitele — Posilované učení;- Semi-supervised - learning",
+        "completion": "1",
+        "login": "43d4fa03bc9f11129af3e68ceb8890dd",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké znáte podobory umělé inteligence? (jen vyjmenovat)"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "ee4b7041a56afa5dba176c9bb60a631d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad."
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "dvourozměrný vektor;C = 3A B, C3;musíme odhadnout směrodatnou odchylku a rozptyl pro anb pro každou třídu parametry 10",
+        "completion": "0",
+        "login": "0e33e15598be65ed678dd18f9f2bff79",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": ";5. Na dvoudimenzionálních datech pro tři třídy jsme natrénovali gaussovský klasifikátor. Pro nově příchozí testovaný vzor * nám tento generativní model umožní určit, s jakou aposteriorní pravděpodobností tento vzor patří do každé třídy. Jak tyto pravděpodobnosti vypočteme? Uveďte přesný postup, co a jak konkrétně počítat. Předpokládejte, že již máte k dispozici funkci pro vy- hodnocení hustoty pravděpodobnosti vícerozměrného gaussovského rozložení p (x) = N(x; 10, 2). Vyjmenujte všechny parametry, kterými je tento gaussovský klasifikátor popsán, a napište, kde se tyto parametry využijí při vypočtu aposteriorních pravděpodobností tříd. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak jsme tyto parametry na trénovacích datech odhadli?"
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "NS modeluje Q funkci, která pro daný stav ohodnocuje jednotlivé akce, které agent může provádět vstupy: dvojice (stavn, akcem) výstupy: ohodnocení jednotlivých akcí Agent ji používá pro učení se (odměny)",
+        "completion": "3",
+        "login": "0e33e15598be65ed678dd18f9f2bff79",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "14. Co modeluje neuronová síť (jakou funkci) při Deep Q-learningu (DQN)? Fu její vstupy, výstupy, jak ji pak agent používá).;tlete (co jsou"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "Generativní model pozorovanost opakuje Iterativně jsou upravovány parametry modelu tak, aby model dosáh) maximální entropie a odpovídal trénovacím datům. + Přesnější jemnější - Možný overfitting, pomalejší Diskriminativní model Parametry modelu jsou určeny statisticky + Rychlejší;ubší",
+        "completion": "0",
+        "login": "8da82df4606715cb145f7f979908efc1",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 11,
+        "promptRaw": "- filtre (kundy);výška * šírka * 9",
+        "completion": "2",
+        "login": "de9177b9575ef89d4b2f4e2c3a9d3cb0",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "11. Co jsou „učitelné\" parametry konvoluční vrstvy? Odpovězte tak dvěma slovězte tak dvěma slovy. Napište obecný mate- matický výraz pro počet těchto parametrů u standardní konvoluční vrstvy. (parametr = jedno reálné číslo)"
+    },
+    {
+        "questionNum": 5,
+        "promptRaw": "Popisany: Kovariančna maxim. v tvare Vektor sú radnic v tvare;20/6 90",
+        "completion": "0",
+        "login": "fd4c95ac222b1b1ce4780a446a0662ff",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": ";5. Na dvoudimenzionálních datech pro tři třídy jsme natrénovali gaussovský klasifikátor. Pro nově příchozí testovaný vzor x nám tento generativní model umožní určit, s jakou aposteriorní pravděpodobností tento vzor patří do každé třídy. Jak tyto pravděpodobnosti vypočteme? Uveďte přesný postup, co a jak konkrétně počítat. Předpokládejte, že již máte k dispozici funkci pro vy- hodnocení hustoty pravděpodobnosti vícerozměrného gaussovského rozložení p (x) = N (x; u, 2). Vyjmenujte všechny parametry, kterými je tento gaussovský klasifikátor popsán, a napište, kde se tyto parametry využijí při vypočtu aposteriorních pravděpodobností tříd. Jakou mají tyto parametry podobu? Kolika reálnými čísly jsou všechny tyto parametry reprezentovány? Jak jsmezentovány? Jak jsme tyto parametry na trénovacích datech odhadli?"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "„Grodientem“ je pravděpodobně myšleno gradient parciálních derivací nějaké objektivní funkce. Gradient určuje, kterým směrem derivovaná funkce nejstraněji roste pokud tady půjdeme proti jeho směru, nalezneme nejlepší boháku minimum dové funkce. Při učení optimalizujeme hodnoty vah neuronové sítě, což lze právě provést maturity algoritmem gradient descend, který je založen na tomto principu.",
+        "completion": "4",
+        "login": "feef7d1e9a822ca84b2d9340a42f8ede",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Co je „gradient“ v kontextu učení neuronových sítí? Jak je při učení využit?"
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "50568a87cf2aab80a607af9913d3482c",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Co je to obousměrná (bidirectional) rekurentní vrstva? Jak se liší od „normální\" rekurentní vrstvy? Odpovězte krátce a jen vysvětlete rozdíl, výhody a nevýhody/omezení. Nesmíte vysvětlovat obecně rekurentní vrstvy."
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "p (neg / sdravý) = 0,9 ; p(post sdravý) 0,1;p(poz) = p (poz (natažený) x p(poz.) + p (zdravý) x p(sdravý) = = 0,0 -0,2 + 0,1 .0,8 = 0,18 + 0,08 = 0,24",
+        "completion": "0",
+        "login": "0e33e15598be65ed678dd18f9f2bff79",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. 20% procent populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, je šance, že mu test vyjde negativní, také 90%. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní? natřasem p(=0,2, p(sdravý) = 0,8 p (poz (natažený) =0, 9; p (neg /natažený) =0, 1 útvar"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "Start",
+        "completion": "4",
+        "login": "2b1500702cc62787245e747cf6e7e907",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";3. U heuristiky v A požadujeme, aby dávala optimistický odhad zbývající ceny do cíle. Demonstrujte na vhodném příkladu s jediným cílovým uzlem, že i při porušení této podmínky může dojít k nalezení optimálního řešení. Do prohledávacího grafu vepište jak ceny hran, tak hodnoty heuristiky."
+    },
+    {
+        "questionNum": 9,
+        "promptRaw": "Strojové učení Neuronové sítě Prohledávání stavového prostoru Gnozeologie AI (protože kdo by se nebál singularity)",
+        "completion": "4",
+        "login": "d93e16d9eedd00e09bdea8e2562b9e78",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "9. Jaké znáte podobory umělé inteligence? (jen vyjmenovat)"
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "Akce = A, A, A, A, B, x;X;OB",
+        "completion": "4",
+        "login": "bf6d0974fd70a67fada3fb1b1f9d63d2",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "  1. Agent se pohybuje ve znázorněném stavovém prostoru pomocí akcí A, B a X. Jedná se ovšem o částečně pozorované prostředí a to natolik, že agent nemá vůbec žádné senzory. Navrhněte řešení problému ve formě posloupnosti akcí, které vedou k zaručenému dosažení cíle (stav O)."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "v této době je již není u nich potřeba tolik dat a mohou rovnou vydávat výsledky. Naopak pravděpodobností a poté výhodou je u nich;používají spíše diskriminstrativní,;vydávají výsledky menší náchylnost k přeučení.;generativní 1. tvoří rozložení",
+        "completion": "0",
+        "login": "fcf2016bac3730d763f23a8a1ffd10de",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 7,
+        "promptRaw": "N - nakazeny Z - zdravý Poo - pozitivny Teg-negativny;VIPA) ?;KNIKOT =;P(POSIN) - pln p(po);a 0,2;0",
+        "completion": "0",
+        "login": "554f1cfee56cf20c2f51a5331933eb85",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": ";7. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dis- pozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Pokud člověk není nakažen, šance, že mu test vyjde negativní, je 97.5%. Jestliže má u náhodně vybrané osoby test pozitivní výsledek, jaká je pravděpodobnost, že je tato osoba nakažena tímto virem? Výslednou pravděpodobnost nejprve odvoďte obecně pomocí matematických symbolů pro (podmíněné, mar- ginální, sdružené) pravděpodobnosti a teprve poté dosaďte konkrétní hodnoty. Pos/N/ = 0,9 p(N) =0, 2 (7) = 0,8"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "V ideálním případě vysvětle algoritmus generování jen neformálním pseudokódem.;Tyto modely obsahují dvě části kóder a dekódem. Kóder zakóduje co se od modelů eskorý Žádá (například otázky Když) a dekodér sestaví odpověď na tuto otázku a tak, že faktickou odpověď umístí do plné věty.",
+        "completion": "0",
+        "login": "bf6d0974fd70a67fada3fb1b1f9d63d2",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jakým postupem generují výstupní sekvence (např. věty) autoregregresivní sequence - to-sequesivní sequence - to-sequence (Seg2- seg) modely, které se používají například pro překlad jazyka? Vysvětlete jen funkci autoregre- sivního dekodéru. Ideálně napište i to, jakou pravděpodobnostní funkci tyto neuronové sítě modelují."
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "stupce loss funkcia počíta odchylku vypočítaného od reálného. Používa sa pred úpravou parametrov a pomáha zjistit, ako daleko sme od požadovaného výsledku. Má k dispozicii požadovaný výstup pre každý vektor vstupov X1 jej vstup je vypočítaný výstup modelu yn. Výstupem je hodnota (vektor hodnot) vzdílenosti gen od tn.",
+        "completion": "4",
+        "login": "26a9350a320f080e23e865aa5320e0ac",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "10. Jaká je role loss funkce v učení s učitelem? Co je jejím vstupem a výstupem?"
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "opoužití při pŘEKLADU ZE SEKVENCE SLOV NA JINOU SEKORDACE OPROTI REKURENTNÍM VRSTVÁM BERE V POTAZ SLOVA PO PÍSMENECIA opoužití u ručně psaných špatně čitelných SEKVENCÍ",
+        "completion": "1",
+        "login": "e18c2240077c9ff3503cb4cb2669f5c1",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jaká je základní myšlenka attention mechanizmu (pozornosti) v neuronových sítích? Jaké má výhody oproti rekurentním vrstvám? V jakých úlohách se například používají?"
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "Ge nenativní model - Modelujeme hustotu rozložení pravděpodobnosti, takové aby odpovídalo vstupním datům - Gasssovský klasifikátor. - Modelujeme i tam, kde to není potřeba. Ne výhoda Piskni minimativní - snažíme se pouze určit do jaké třídy vstupní data patří, třída 1 nebo u bin. klasifikace. Log. nesnese. vil Gen. Výhody - pro každé vstupní data jsme schopni určiť jakou pst. patří do jednotlivých tříd, menší množství dat. Výhody: Disk. klasifikátor - Quuu 2 třídní znozměnná data (3 parametry) Gos (10) jednodušší. povýhody - neumý quedikovat pst. pro jednotlivé třídy - protmenování potřebuje velké množství dat.",
+        "completion": "1",
+        "login": "565919f2a81ff4e380cfb3cc8f51ae70",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody?"
+    },
+    {
+        "questionNum": 6,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "16c6668cb781a439cd65dd36354b9847",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "6. Ke stavbě klasifikátoru můžeme využít generativní model nebo můžeme použít model trénovaný diskriminativně. V čem se tyto dva přístupy liší? Uveďte konkrétní příklady modelů/klasifikátorů pro oba přístupy. Jaké jsou jejich výhody a nevýhody? generativy rodel - počítame rajskou apriorní pravdepodobnost a pravdepodobnosť P(y|x) P(j) z daných dát a potom podľa bayesovho vzorca počítame P(x|y) = P(ylx). - vhodnější pre new|sie mužstvo dít, ale plytvá parametrami - napr. Gausovský klasifikátor diskriminitativy vodel - snaží sa priamo odhadnúť pravdepodobnosť triedy z dát - nenej plytvá parametrani a nemusíme ich počítať, teď ich nepotřebujeme, potřeba dostatku dát - napr. logistická regresia."
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "X-;A -> B - X",
+        "completion": "4",
+        "login": "495ef79db86e9a0196ac1c8f89e61f67",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "1. Agent se pohybuje ve znázorněném stavovém prostoru pomocí akcí A, B a X. Jedná se ovšem o částečně pozorované prostředí a to natolik, že agent nemá vůbec žádné senzory. Navrhněte řešení problému ve formě posloupnosti akcí, které vedou k zaručenému dosažení cíle (stav O)."
+    },
+    {
+        "questionNum": 13,
+        "promptRaw": "dovoluje se soustředit na konkrétní části vstupu (slova v RNN) - která jsou důležitá pro kontext v dané části velice užitečné v překladu, počet slov ve vítě se přeci nepopuje 1:1, zde je devonstrace překladu EN �02: a big dag was... výhodnou (attention na předchozí slovo a velký nes byl...",
+        "completion": "3",
+        "login": "f6002120d2ae8a2a54c0c5be9cec8ed3",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "13. Jaká je základní myšlenka attention mechanizmu (pozornosti) v neuronových sítích? Jaké má výhody;oproti rekurentním vrstvám? V jakých úlohách se například používají?"
+    },
+    {
+        "questionNum": 4,
+        "promptRaw": "- Agent potřebuje hodnotící funkci stavu Agent potřebuje z prostředí získávat vjemy aby měl co poslat do hodnotící fce",
+        "completion": "1.5",
+        "login": "ab70f7e934170236b880d9ba1b0b162a",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "4. Uvažujte agenta, který je založen na hladovém lokálním prohledávání ve formě hill-climbingu s re- starty. Takový agent umí například řešit problém N dam nebo najít ideální pozici nové budovy v dis- kretizovaném světě. Uveďte, co takový agent obecně potřebuje od prostředí (problému) samotného a následně pak klasifikujte agentovu reprezentaci stavu (atomická /faktorizovaná /strukturovaná). Odpověď strukturujte do odrážek."
+    },
+    {
+        "questionNum": 8,
+        "promptRaw": "nakazen;1919;P(nakazou) = 0,2;zdravý;positivy negativy;P(pozit) = 2;1;(polit. /hakaser) = 0,9 p(zdravý|pozit) = 0,1;P(pozit) = 0,9. 0,2 = 0,18 Pravdepodobnosť, že výsledek bude poztrany je 18 %;p(psát) = 0|pozit / nakazen) p (nakažen) promítání",
+        "completion": "0",
+        "login": "e48e0794dca4b5b891f98b423b16fbe9",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "8. 20% populace se nakazilo určitým blíže nespecifikovaným virem. Pro tento virus máme k dispozici test, který je pozitivní pouze pro 90% lidí nakažených tímto virem. Nicméně, pokud má člověk pozitivní test, je 10% šance, že nakažen není. Jestliže u osoby náhodně vybrané z celé populace provedeme test, jaká je pravděpodobnost, že výsledek testu bude pozitivní? p(x|x) = P(x|x) rexi P(x)"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "Musí to byť orientovaný a acyklický graf;S - pri učení je treba počítať gradienty jedným prechodom od konce na začintok (používa sa chain rule, čiastkové gradienty sa medzi sebou násobia) -> je treba, aby graf nemal cykly (acyklický, a, aby sa dalo isť od koberca na začatek (orientovaný);W2 - minc-",
+        "completion": "4",
+        "login": "916f1b2e1dead796dd18343b179494dc",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Jaké podmínky musí splňovat výpočetní graf u dopředných neuronových sítí (úplně všechny ty, o kterých byly přednášky)? Nepište souvislý text, stačí hesla. Nakreslete příklad."
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "65 to. 9=0, h-h DFS: g = len (death), h = o (neboru o)",
+        "completion": "2",
+        "login": "93f74ef23a742aa725be9a7edf20c3d0",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "3. Máte k dispozici odladěnou implementaci A* a * problem, g, h). Na vstupu očekává problem (umí rozbalovat uzly a ověřovat, zda jsou cílem), g (popisuje cenu uražené cesty, kde cesta je seznam uzlů) a h (popisuje odhad zbývající ceny do cíle); původní funkce jsou a hx. Jaké g a h funkci a x předáte, aby simulovala greedy search a depth-first search (DFS)? (řetuzno)"
+    },
+    {
+        "questionNum": 10,
+        "promptRaw": "Dle gradientů se upravují váhy NS pro dosažení lepších výsledků. Gradient popisuje jak se mají změnit hodnoty při bachpropagaci",
+        "completion": "2",
+        "login": "676057f1a2cb6ed8578579152ec1452a",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "10. Co je „gradient“ v kontextu učení neuronových sítí? Jak je při učení využit?"
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "Pokud hled;, dostávám;UCS, tedy v potaz pouze oddychran;f(h) = g(n) + h(n);skutečná odhad dého cesty;pokud hrdlibko � pak vcs pokud g(n) = 0 = pak Geedy a pokud g(n) a hln) z pak BFS;pokud hln) = 3 - zvíce než",
+        "completion": "1",
+        "login": "1069b3fc4fb47f279610ef035bf163d4",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": ";3. U heuristiky v A požadujeme, aby dávala optimistický odhad zbývající ceny do cíle. Demonstrujte na vhodném příkladu s jediným cílovým uzlem, že i při porušení této podmínky může dojít k nalezení optimálního řešení. Do prohledávacího grafu vepište jak ceny hran, tak hodnoty heuran, tak hodnoty heuristiky."
+    },
+    {
+        "questionNum": 12,
+        "promptRaw": "",
+        "completion": "0",
+        "login": "feef7d1e9a822ca84b2d9340a42f8ede",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "12. Co je to obousměrná (bidirectional) rekurentní vrstva? Jak se liší od „normální\" rekurentní vrstvy? Odpovězte krátce a jen vysvětlte rozdíl, výhody a nevýhody /omezení. Nesmíte v/omezení. Nesmíte vysvětlovat obecně rekurentní vrstvy."
+    },
+    {
+        "questionNum": 14,
+        "promptRaw": "s učitelem - mám známou sadu, dat, na nichž se model trenuje (srovnává výstupy) přesně ví, co klasifikovat a je jednodušší určovat určit loss funkci;o posilované -;mám pouze ohodnocení kroků ve fórmě odměn, ale ne to, čeho konkrétně se má dosáhnout (maximalizace odměn) algoritmus se učí až z celého výsledku, který ale obecně nemusí ani nastat (výhra v 60) a i když nastane, tak je složité odvodit, na základě jakých kroků se tak stalo že",
+        "completion": "4",
+        "login": "2c0ccd57a3f729705c53275a21979d4e",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "14. Jaký je rozdíl mezi učením s učitelem a posilovaným učením (reinforcement learning) v tom, čím;definujeme úlohu, kterou se má algoritmus naučit vyřešit?"
+    },
+    {
+        "questionNum": 1,
+        "promptRaw": "OOR;AND;Z uzlu AND musí všechny poduzly vést k řešení. Je tedy nutné si zapamatovat, zda jeho podvzty k řešení vedou. Pokud výme, že vzel 1 k řešení vede, není nutné ho vyhodnocovat",
+        "completion": "2.5",
+        "login": "a361f97e453d3152ae439fc90420519d",
+        "year": "2022",
+        "test": "1",
+        "questionTextRaw": "1. Při každém prohledávání je možné urychlit výpočet, pokud si zapamatujeme stavy, které nevedou k řešení. Při prohledávání s nejistotou je možné dosáhnout zrychlení i při zapamatování stavů, které k řešení vedou. Nakreslete (pokud možno malý) AND-OR strom, ve kterém k tomu dojde, a stručně popište, jak to proběhne."
+    },
+    {
+        "questionNum": 3,
+        "promptRaw": "BFS;2) BFS: 6;DFS: 8;DFS: Dx6",
+        "completion": "1.25",
+        "login": "495ef79db86e9a0196ac1c8f89e61f67",
+        "year": "2022",
+        "test": "2",
+        "questionTextRaw": "3. Pro prohledávání stavových prostorů obecně platí, že prohledávání do šířky (BFS) má dramaticky větší paměťové nároky než prohledávání do historiky (DFS). Uvažujte necyklický (tj. jako strom vypadající) prohledávací problém, kde má každý pis v 5 potomků, celková hloubka problému je D a řešení se nachází v hloubce dr. Vyjádřete obecně v pig. O notaci paměťovou náročnost BFS a DFS (v uzlech) při řešení takového problému, a to v případě, že (1) si algoritmy neudržují žádnoritmy neudržují žádnou množinu EXPLORED (seznam CLOSED), a naopak, (2) pokud si množinu EXPLORED udržují."
+    }
+]

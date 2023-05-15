@@ -7,11 +7,11 @@ def getRegions(file):
     layout = PageLayout(file=file)
     return layout.regions
 
-def getAnswersAndQuestions(data, file):
-    answers = data[file]['answers']
-    questions = data[file]['questions']
+def getAnswersAndQuestions(data, folder, filename):
+    answers = data[filename]['answers']
+    questions = data[filename]['questions']
 
-    regions = getRegions(os.path.join(sys.argv[2], file))
+    regions = getRegions(os.path.join(folder, filename))
 
     answerText = {}
     questionText = {}
@@ -49,24 +49,27 @@ def getPoints(year, test, annFolder):
         points = {}
         for line in lines:
             line = line.split()
-            points[line[0]] = line[2:]
+            if year == "2022" and test == "1":
+                points[line[0]] = line[2:]
+            else:
+                points[line[0]] = line[1:]
         return points
 
 allPoints = {}
 
-def parseYaml(file):
-    with open(file) as f:
+def parseYaml(datasetFilepath, xmlTranscriptionsFolder, annFolder):
+    with open(datasetFilepath) as f:
         data = yaml.load(f, Loader=yaml.FullLoader)
     
     res = {}
 
     dataIt = iter(data)
     for file in dataIt:
-        answerText, questionText = getAnswersAndQuestions(data, file)
+        answerText, questionText = getAnswersAndQuestions(data, xmlTranscriptionsFolder, file)
         year = data[file]["year"]
         test = data[file]["test"]
         if not year+test in allPoints:
-            allPoints[year+test] = getPoints(year, test, sys.argv[3])
+            allPoints[year+test] = getPoints(year, test, annFolder)
         login = data[file]["login"]
         if login in allPoints[year+test]:
             points = allPoints[year+test][login]
@@ -85,15 +88,19 @@ def parseYaml(file):
 def Merge(dict1, dict2):
     return(dict2.update(dict1))
 
-if __name__ == '__main__':
-    folder = sys.argv[1]
+def extractRegions(yamlFolder, xmlTranscriptionsFolder, annFolder):
     yamlData = {}
-    for file in os.listdir(folder):
-        newDict = parseYaml(os.path.join(folder, file))
+    for file in os.listdir(yamlFolder):
+        if file[:3] != "202":
+            continue
+        newDict = parseYaml(os.path.join(yamlFolder, file), xmlTranscriptionsFolder, annFolder)
         Merge(yamlData, newDict)
         yamlData = newDict
-        yamlOutputName = folder + 'transcripted.yaml'
-    # print(yamlData)
+    return yamlData
+
+if __name__ == '__main__':
+    yamlData = extractRegions(sys.argv[1], sys.argv[2], sys.argv[3])
+    yamlOutputName = sys.argv[1] + 'transcripted.yaml'
     with open(yamlOutputName,'w') as yamlfile:
         yaml.dump(yamlData, yamlfile, default_flow_style=False, allow_unicode=True)
     print("Done")

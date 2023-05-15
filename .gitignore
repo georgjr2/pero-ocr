@@ -124,8 +124,6 @@ ENV/
 
 *.swo
 
-*.pdf
-
 *.pick
 
 *.sel
